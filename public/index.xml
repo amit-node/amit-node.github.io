@@ -1,0 +1,31 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    
+    <title>amit-node</title>
+    <description></description>
+    <link>https://amit-node.github.io/</link>
+    
+    <language>en</language>
+    <copyright>Copyright 2024, Calvin Tran</copyright>
+    <lastBuildDate>Wed, 25 Dec 2024 18:57:26 +0530</lastBuildDate>
+    <generator>Hugo - gohugo.io</generator>
+    <docs>http://cyber.harvard.edu/rss/rss.html</docs>
+    <atom:link href="https://amit-node.github.io//atom.xml" rel="self" type="application/atom+xml"/>
+    
+    
+    <item>
+      <title>My First Post</title>
+      <link>https://amit-node.github.io/posts/my-first-post/</link>
+      <description>&lt;h2 id=&#34;this-is-just-an-experiment&#34;&gt;this is just an experiment.&lt;/h2&gt;
+&lt;p&gt;for experimental server use -D
+other wise use hugo server
+naruto Uzumaki&lt;/p&gt;
+&lt;p&gt;Some chnages&lt;/p&gt;
+</description>
+      <author></author>
+      <guid>https://amit-node.github.io/posts/my-first-post/</guid>
+      <pubDate>Wed, 25 Dec 2024 18:57:26 +0530</pubDate>
+    </item>
+    
+  </channel>
+</rss>

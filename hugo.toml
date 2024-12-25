@@ -1,0 +1,4 @@
+baseURL = 'https://amit-node.github.io/'
+languageCode = 'en-us'
+title = 'amit-node'
+theme = 'maverick'
