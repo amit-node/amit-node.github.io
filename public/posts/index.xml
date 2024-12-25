@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on amit-node</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on amit-node</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Dec 2024 20:14:30 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Amit</title>
+      <link>http://localhost:1313/posts/amit/</link>
+      <pubDate>Wed, 25 Dec 2024 20:14:30 +0530</pubDate>
+      <guid>http://localhost:1313/posts/amit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/new/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/new/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
