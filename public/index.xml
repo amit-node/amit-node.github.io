@@ -7,11 +7,31 @@
     
     <language>en</language>
     <copyright>Copyright 2024, Calvin Tran</copyright>
-    <lastBuildDate>Wed, 25 Dec 2024 20:14:30 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 25 Dec 2024 20:29:44 +0530</lastBuildDate>
     <generator>Hugo - gohugo.io</generator>
     <docs>http://cyber.harvard.edu/rss/rss.html</docs>
     <atom:link href="http://localhost:1313//atom.xml" rel="self" type="application/atom+xml"/>
     
+    
+    <item>
+      <title>Kakashi</title>
+      <link>http://localhost:1313/posts/kakashi/</link>
+      <description>&lt;p&gt;I watch kakashi first time when I was in 8th or 7th. I was impress. only one word Ultra cool&lt;/p&gt;
+</description>
+      <author></author>
+      <guid>http://localhost:1313/posts/kakashi/</guid>
+      <pubDate>Wed, 25 Dec 2024 20:29:44 +0530</pubDate>
+    </item>
+    
+    <item>
+      <title>Second</title>
+      <link>http://localhost:1313/posts/second/</link>
+      <description>&lt;p&gt;This is a second post. thank you&lt;/p&gt;
+</description>
+      <author></author>
+      <guid>http://localhost:1313/posts/second/</guid>
+      <pubDate>Wed, 25 Dec 2024 20:22:36 +0530</pubDate>
+    </item>
     
     <item>
       <title>Amit</title>
@@ -23,12 +43,23 @@
     </item>
     
     <item>
-      <title></title>
+      <title>Amit</title>
+      <link>http://localhost:1313/posts/third/</link>
+      <description>&lt;p&gt;This is a page created by github browser. 🔥🔥🔥&lt;/p&gt;
+</description>
+      <author></author>
+      <guid>http://localhost:1313/posts/third/</guid>
+      <pubDate>Wed, 25 Dec 2024 20:14:30 +0530</pubDate>
+    </item>
+    
+    <item>
+      <title>new file</title>
       <link>http://localhost:1313/posts/new/</link>
-      <description></description>
+      <description>&lt;p&gt;new file for experiment&lt;/p&gt;
+</description>
       <author></author>
       <guid>http://localhost:1313/posts/new/</guid>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 25 Dec 2024 20:14:30 +0530</pubDate>
     </item>
     
   </channel>

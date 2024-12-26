@@ -4,4 +4,4 @@ title = 'Kakashi'
 tag = 'naruto'
 +++
 
-I watch kakashi first time when I was in 8th or 7th. I was impress. only one word Ultra cool
+I added this Kakashi file inside obsidian.

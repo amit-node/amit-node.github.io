@@ -6,8 +6,22 @@
     <description>Recent content in Posts on amit-node</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Dec 2024 20:14:30 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 25 Dec 2024 20:29:44 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kakashi</title>
+      <link>http://localhost:1313/posts/kakashi/</link>
+      <pubDate>Wed, 25 Dec 2024 20:29:44 +0530</pubDate>
+      <guid>http://localhost:1313/posts/kakashi/</guid>
+      <description>&lt;p&gt;I watch kakashi first time when I was in 8th or 7th. I was impress. only one word Ultra cool&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Second</title>
+      <link>http://localhost:1313/posts/second/</link>
+      <pubDate>Wed, 25 Dec 2024 20:22:36 +0530</pubDate>
+      <guid>http://localhost:1313/posts/second/</guid>
+      <description>&lt;p&gt;This is a second post. thank you&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Amit</title>
       <link>http://localhost:1313/posts/amit/</link>
@@ -16,11 +30,18 @@
       <description></description>
     </item>
     <item>
-      <title></title>
+      <title>Amit</title>
+      <link>http://localhost:1313/posts/third/</link>
+      <pubDate>Wed, 25 Dec 2024 20:14:30 +0530</pubDate>
+      <guid>http://localhost:1313/posts/third/</guid>
+      <description>&lt;p&gt;This is a page created by github browser. 🔥🔥🔥&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>new file</title>
       <link>http://localhost:1313/posts/new/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 25 Dec 2024 20:14:30 +0530</pubDate>
       <guid>http://localhost:1313/posts/new/</guid>
-      <description></description>
+      <description>&lt;p&gt;new file for experiment&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
