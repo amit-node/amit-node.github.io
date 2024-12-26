@@ -1,6 +1,12 @@
-+++
-date = '2024-12-25T20:14:30+05:30'
-title = 'new file'
-+++
+
+---
+title: "New"
+date: "2024-11-05"
+tags: 
+- something_new
+- sample
+---
+
 
 new file for experiment
+aaloo ka paratha

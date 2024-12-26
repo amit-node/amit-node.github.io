@@ -1,8 +1,11 @@
-+++
-date = '2024-12-26T16:11:04+05:30'
-title = 'Made_in_obsidian'
-tag = 'obsidian'
-+++
+
+---
+title: "made in Obsidian 🔥🔥🔥"
+date: "2024-10-25"
+tags: 
+- hugo
+- obsidian
+---
 
 This is a file which I made in obsidian. because :
 1. It's easy to edit.

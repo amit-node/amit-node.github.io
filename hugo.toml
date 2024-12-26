@@ -2,3 +2,13 @@ baseURL = 'https://amit-node.github.io/'
 languageCode = 'en-us'
 title = 'amit-node'
 theme = 'maverick'
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+  [[menu.main]]
+    identifier = "speaking"
+    name = "Speaking"
+    url = "/speaking/"

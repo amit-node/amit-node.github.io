@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ob on amit-node</title>
+    <link>http://localhost:1313/tags/ob/</link>
+    <description>Recent content in Ob on amit-node</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 25 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ob/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>kakashi</title>
+      <link>http://localhost:1313/posts/made_in_obsidian/</link>
+      <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/made_in_obsidian/</guid>
+      <description>&lt;p&gt;This is a file which I made in obsidian. because :&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;It&amp;rsquo;s easy to edit.&lt;/li&gt;&#xA;&lt;li&gt;I use obsidian as my primary note taking app&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Obsidian is really good for Markdown editing.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+  </channel>
+</rss>

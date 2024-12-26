@@ -1,4 +1,13 @@
-+++
-date = '2024-12-25T20:14:30+05:30'
-title = 'Amit'
-+++
+
+---
+title: "amit"
+date: "2024-12-26"
+tags: 
+- hugo
+- sample
+---
+
+
+This is just a testing in Hugo and obsidian.
+
+

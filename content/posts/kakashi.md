@@ -1,7 +1,11 @@
-+++
-date = '2024-12-25T20:29:44+05:30'
-title = 'Kakashi'
-tag = 'naruto'
-+++
+
+---
+title: "kakashi"
+date: "2024-11-25"
+tags: 
+- hugo
+- sample
+---
+
 
 I added this Kakashi file inside obsidian.

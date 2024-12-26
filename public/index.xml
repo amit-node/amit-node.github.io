@@ -3,63 +3,76 @@
     
     <title>amit-node</title>
     <description></description>
-    <link>http://localhost:1313/</link>
+    <link>https://amit-node.github.io/</link>
     
     <language>en</language>
     <copyright>Copyright 2024, Calvin Tran</copyright>
-    <lastBuildDate>Wed, 25 Dec 2024 20:29:44 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 26 Dec 2024 00:00:00 +0000</lastBuildDate>
     <generator>Hugo - gohugo.io</generator>
     <docs>http://cyber.harvard.edu/rss/rss.html</docs>
-    <atom:link href="http://localhost:1313//atom.xml" rel="self" type="application/atom+xml"/>
+    <atom:link href="https://amit-node.github.io//atom.xml" rel="self" type="application/atom+xml"/>
     
     
     <item>
-      <title>Kakashi</title>
-      <link>http://localhost:1313/posts/kakashi/</link>
-      <description>&lt;p&gt;I watch kakashi first time when I was in 8th or 7th. I was impress. only one word Ultra cool&lt;/p&gt;
+      <title>amit</title>
+      <link>https://amit-node.github.io/posts/amit/</link>
+      <description>&lt;p&gt;This is just a testing in Hugo and obsidian.&lt;/p&gt;
 </description>
       <author></author>
-      <guid>http://localhost:1313/posts/kakashi/</guid>
-      <pubDate>Wed, 25 Dec 2024 20:29:44 +0530</pubDate>
+      <guid>https://amit-node.github.io/posts/amit/</guid>
+      <pubDate>Thu, 26 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     
     <item>
-      <title>Second</title>
-      <link>http://localhost:1313/posts/second/</link>
-      <description>&lt;p&gt;This is a second post. thank you&lt;/p&gt;
+      <title>kakashi</title>
+      <link>https://amit-node.github.io/posts/kakashi/</link>
+      <description>&lt;p&gt;I added this Kakashi file inside obsidian.&lt;/p&gt;
 </description>
       <author></author>
-      <guid>http://localhost:1313/posts/second/</guid>
-      <pubDate>Wed, 25 Dec 2024 20:22:36 +0530</pubDate>
+      <guid>https://amit-node.github.io/posts/kakashi/</guid>
+      <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
     </item>
     
     <item>
-      <title>Amit</title>
-      <link>http://localhost:1313/posts/amit/</link>
-      <description></description>
+      <title>New</title>
+      <link>https://amit-node.github.io/posts/new/</link>
+      <description>&lt;p&gt;new file for experiment
+aaloo ka paratha&lt;/p&gt;
+</description>
       <author></author>
-      <guid>http://localhost:1313/posts/amit/</guid>
-      <pubDate>Wed, 25 Dec 2024 20:14:30 +0530</pubDate>
+      <guid>https://amit-node.github.io/posts/new/</guid>
+      <pubDate>Tue, 05 Nov 2024 00:00:00 +0000</pubDate>
     </item>
     
     <item>
-      <title>Amit</title>
-      <link>http://localhost:1313/posts/third/</link>
-      <description>&lt;p&gt;This is a page created by github browser. 🔥🔥🔥&lt;/p&gt;
+      <title>made in Obsidian 🔥🔥🔥</title>
+      <link>https://amit-node.github.io/posts/made_in_obsidian/</link>
+      <description>&lt;p&gt;This is a file which I made in obsidian. because :&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;It&amp;rsquo;s easy to edit.&lt;/li&gt;
+&lt;li&gt;I use obsidian as my primary note taking app
+&lt;ul&gt;
+&lt;li&gt;Obsidian is really good for Markdown editing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
 </description>
       <author></author>
-      <guid>http://localhost:1313/posts/third/</guid>
-      <pubDate>Wed, 25 Dec 2024 20:14:30 +0530</pubDate>
+      <guid>https://amit-node.github.io/posts/made_in_obsidian/</guid>
+      <pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
     </item>
     
     <item>
-      <title>new file</title>
-      <link>http://localhost:1313/posts/new/</link>
-      <description>&lt;p&gt;new file for experiment&lt;/p&gt;
+      <title>made in browser</title>
+      <link>https://amit-node.github.io/posts/made-in-browser/</link>
+      <description>&lt;p&gt;This is a file which I made in browser.&lt;/p&gt;
+&lt;h1 id=&#34;h1&#34;&gt;h1&lt;/h1&gt;
+&lt;h2 id=&#34;h2&#34;&gt;h2&lt;/h2&gt;
+&lt;h3 id=&#34;h3&#34;&gt;h3&lt;/h3&gt;
 </description>
       <author></author>
-      <guid>http://localhost:1313/posts/new/</guid>
-      <pubDate>Wed, 25 Dec 2024 20:14:30 +0530</pubDate>
+      <guid>https://amit-node.github.io/posts/made-in-browser/</guid>
+      <pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate>
     </item>
     
   </channel>

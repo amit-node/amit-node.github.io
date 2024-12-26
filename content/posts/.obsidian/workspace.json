@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c678fb6c381f7019",
+            "id": "e85e7e139b71b280",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "kakashi.md",
+                "file": "new.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "49367bf398634fb1",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kakashi.md",
+                "file": "new.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kakashi.md",
+                "file": "new.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kakashi.md"
+                "file": "new.md"
               }
             }
           }
@@ -146,10 +146,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c678fb6c381f7019",
+  "active": "e85e7e139b71b280",
   "lastOpenFiles": [
-    "Amit.md",
+    "third.md",
+    "new.md",
+    "Untitled.md",
+    "second.md",
     "made_in_obsidian.md",
-    "third.md"
+    "made in browser.md",
+    "kakashi.md",
+    "Amit.md"
   ]
 }

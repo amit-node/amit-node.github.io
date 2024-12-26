@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on amit-node</title>
-    <link>https://amit-node.github.io/posts/</link>
-    <description>Recent content in Posts on amit-node</description>
+    <title>Hugo on amit-node</title>
+    <link>https://amit-node.github.io/tags/hugo/</link>
+    <description>Recent content in Hugo on amit-node</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 26 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://amit-node.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://amit-node.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>amit</title>
       <link>https://amit-node.github.io/posts/amit/</link>
@@ -23,25 +23,11 @@
       <description>&lt;p&gt;I added this Kakashi file inside obsidian.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>New</title>
-      <link>https://amit-node.github.io/posts/new/</link>
-      <pubDate>Tue, 05 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://amit-node.github.io/posts/new/</guid>
-      <description>&lt;p&gt;new file for experiment&#xA;aaloo ka paratha&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>made in Obsidian 🔥🔥🔥</title>
       <link>https://amit-node.github.io/posts/made_in_obsidian/</link>
       <pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
       <guid>https://amit-node.github.io/posts/made_in_obsidian/</guid>
       <description>&lt;p&gt;This is a file which I made in obsidian. because :&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;It&amp;rsquo;s easy to edit.&lt;/li&gt;&#xA;&lt;li&gt;I use obsidian as my primary note taking app&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Obsidian is really good for Markdown editing.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
-    </item>
-    <item>
-      <title>made in browser</title>
-      <link>https://amit-node.github.io/posts/made-in-browser/</link>
-      <pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://amit-node.github.io/posts/made-in-browser/</guid>
-      <description>&lt;p&gt;This is a file which I made in browser.&lt;/p&gt;&#xA;&lt;h1 id=&#34;h1&#34;&gt;h1&lt;/h1&gt;&#xA;&lt;h2 id=&#34;h2&#34;&gt;h2&lt;/h2&gt;&#xA;&lt;h3 id=&#34;h3&#34;&gt;h3&lt;/h3&gt;</description>
     </item>
   </channel>
 </rss>
