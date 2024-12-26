@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "d9ed19f53d5f3cdf",
+        "id": "c4a535712fce9634",
         "type": "tabs",
         "children": [
           {
-            "id": "e85e7e139b71b280",
+            "id": "4b66c2de34cdc163",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "new.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -38,7 +34,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               }
             }
           },
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "new.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "new.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "new.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,10 +138,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e85e7e139b71b280",
+  "active": "4b66c2de34cdc163",
   "lastOpenFiles": [
-    "third.md",
+    "paratha.md",
+    "chowmine.md",
+    "chowmine_2.md",
+    "aaloo.md",
     "new.md",
+    "third.md",
     "Untitled.md",
     "second.md",
     "made_in_obsidian.md",
