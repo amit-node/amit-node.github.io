@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on amit-node</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://amit-node.github.io/posts/</link>
     <description>Recent content in Posts on amit-node</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 26 Dec 2024 16:48:20 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://amit-node.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Aaloo</title>
-      <link>http://localhost:1313/posts/aaloo/</link>
+      <link>https://amit-node.github.io/posts/aaloo/</link>
       <pubDate>Thu, 26 Dec 2024 16:48:20 +0530</pubDate>
-      <guid>http://localhost:1313/posts/aaloo/</guid>
-      <description>&lt;p&gt;&lt;img&#xD;&#xA;  src=&#34;http://localhost:1313/naruto_manga.webp&#34;&#xD;&#xA;  alt=&#34;naruto&#34;&#xD;&#xA;  loading=&#34;lazy&#34;&#xD;&#xA;  decoding=&#34;async&#34;&#xD;&#xA;  class=&#34;full-width&#34;&#xD;&#xA;/&gt;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h1 id=&#34;batman-by-kentaro-miyura&#34;&gt;Batman by Kentaro Miyura&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img&#xD;&#xA;  src=&#34;http://localhost:1313/batman_by_kentaro_miura.webp&#34;&#xD;&#xA;  alt=&#34;batman&#34;&#xD;&#xA;  loading=&#34;lazy&#34;&#xD;&#xA;  decoding=&#34;async&#34;&#xD;&#xA;  class=&#34;full-width&#34;&#xD;&#xA;/&gt;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;</description>
+      <guid>https://amit-node.github.io/posts/aaloo/</guid>
+      <description>&lt;p&gt;&lt;img&#xD;&#xA;  src=&#34;https://amit-node.github.io/naruto_manga.webp&#34;&#xD;&#xA;  alt=&#34;naruto&#34;&#xD;&#xA;  loading=&#34;lazy&#34;&#xD;&#xA;  decoding=&#34;async&#34;&#xD;&#xA;  class=&#34;full-width&#34;&#xD;&#xA;/&gt;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h1 id=&#34;batman-by-kentaro-miyura&#34;&gt;Batman by Kentaro Miyura&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img&#xD;&#xA;  src=&#34;https://amit-node.github.io/batman_by_kentaro_miura.webp&#34;&#xD;&#xA;  alt=&#34;batman&#34;&#xD;&#xA;  loading=&#34;lazy&#34;&#xD;&#xA;  decoding=&#34;async&#34;&#xD;&#xA;  class=&#34;full-width&#34;&#xD;&#xA;/&gt;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;</description>
     </item>
     <item>
       <title>amit</title>
-      <link>http://localhost:1313/posts/amit/</link>
+      <link>https://amit-node.github.io/posts/amit/</link>
       <pubDate>Thu, 26 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/amit/</guid>
+      <guid>https://amit-node.github.io/posts/amit/</guid>
       <description>&lt;p&gt;This is just a testing in Hugo and obsidian.&lt;/p&gt;</description>
     </item>
     <item>
       <title>kakashi</title>
-      <link>http://localhost:1313/posts/kakashi/</link>
+      <link>https://amit-node.github.io/posts/kakashi/</link>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/kakashi/</guid>
+      <guid>https://amit-node.github.io/posts/kakashi/</guid>
       <description>&lt;p&gt;I added this Kakashi file inside obsidian.&lt;/p&gt;</description>
     </item>
     <item>
       <title>New</title>
-      <link>http://localhost:1313/posts/new/</link>
+      <link>https://amit-node.github.io/posts/new/</link>
       <pubDate>Tue, 05 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/new/</guid>
+      <guid>https://amit-node.github.io/posts/new/</guid>
       <description>&lt;p&gt;new file for experiment&#xA;aaloo ka paratha&lt;/p&gt;</description>
     </item>
     <item>
       <title>made in Obsidian 🔥🔥🔥</title>
-      <link>http://localhost:1313/posts/made_in_obsidian/</link>
+      <link>https://amit-node.github.io/posts/made_in_obsidian/</link>
       <pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/made_in_obsidian/</guid>
+      <guid>https://amit-node.github.io/posts/made_in_obsidian/</guid>
       <description>&lt;p&gt;This is a file which I made in obsidian. because :&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;It&amp;rsquo;s easy to edit.&lt;/li&gt;&#xA;&lt;li&gt;I use obsidian as my primary note taking app&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Obsidian is really good for Markdown editing.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
     <item>
       <title>made in browser</title>
-      <link>http://localhost:1313/posts/made-in-browser/</link>
+      <link>https://amit-node.github.io/posts/made-in-browser/</link>
       <pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/made-in-browser/</guid>
+      <guid>https://amit-node.github.io/posts/made-in-browser/</guid>
       <description>&lt;p&gt;This is a file which I made in browser.&lt;/p&gt;&#xA;&lt;h1 id=&#34;h1&#34;&gt;h1&lt;/h1&gt;&#xA;&lt;h2 id=&#34;h2&#34;&gt;h2&lt;/h2&gt;&#xA;&lt;h3 id=&#34;h3&#34;&gt;h3&lt;/h3&gt;</description>
     </item>
     <item>
       <title>gautam</title>
-      <link>http://localhost:1313/posts/gautam/</link>
+      <link>https://amit-node.github.io/posts/gautam/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/gautam/</guid>
+      <guid>https://amit-node.github.io/posts/gautam/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;This is list&#xA;&lt;ul&gt;&#xA;&lt;li&gt;this is item 1&lt;/li&gt;&#xA;&lt;li&gt;this is item 2&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;heading&#34;&gt;heading&lt;/h2&gt;&#xA;&lt;h3 id=&#34;small-heading&#34;&gt;small heading&lt;/h3&gt;</description>
     </item>
   </channel>
