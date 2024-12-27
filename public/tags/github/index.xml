@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Github on amit-node</title>
-    <link>http://localhost:1313/tags/github/</link>
+    <link>https://amit-node.github.io/tags/github/</link>
     <description>Recent content in Github on amit-node</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 25 Nov 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://amit-node.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>made in browser</title>
-      <link>http://localhost:1313/posts/made-in-browser/</link>
+      <link>https://amit-node.github.io/posts/made-in-browser/</link>
       <pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/made-in-browser/</guid>
+      <guid>https://amit-node.github.io/posts/made-in-browser/</guid>
       <description>&lt;p&gt;This is a file which I made in browser.&lt;/p&gt;&#xA;&lt;h1 id=&#34;h1&#34;&gt;h1&lt;/h1&gt;&#xA;&lt;h2 id=&#34;h2&#34;&gt;h2&lt;/h2&gt;&#xA;&lt;h3 id=&#34;h3&#34;&gt;h3&lt;/h3&gt;</description>
     </item>
   </channel>

@@ -2,53 +2,53 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://amit-node.github.io/</loc>
     <lastmod>2024-12-26T16:48:20+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/aaloo/</loc>
+    <loc>https://amit-node.github.io/posts/aaloo/</loc>
     <lastmod>2024-12-26T16:48:20+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://amit-node.github.io/posts/</loc>
     <lastmod>2024-12-26T16:48:20+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/amit/</loc>
+    <loc>https://amit-node.github.io/posts/amit/</loc>
     <lastmod>2024-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/hugo/</loc>
+    <loc>https://amit-node.github.io/tags/hugo/</loc>
     <lastmod>2024-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/sample/</loc>
+    <loc>https://amit-node.github.io/tags/sample/</loc>
     <lastmod>2024-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://amit-node.github.io/tags/</loc>
     <lastmod>2024-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/kakashi/</loc>
+    <loc>https://amit-node.github.io/posts/kakashi/</loc>
     <lastmod>2024-11-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/new/</loc>
+    <loc>https://amit-node.github.io/posts/new/</loc>
     <lastmod>2024-11-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/something_new/</loc>
+    <loc>https://amit-node.github.io/tags/something_new/</loc>
     <lastmod>2024-11-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/made_in_obsidian/</loc>
+    <loc>https://amit-node.github.io/posts/made_in_obsidian/</loc>
     <lastmod>2024-10-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/obsidian/</loc>
+    <loc>https://amit-node.github.io/tags/obsidian/</loc>
     <lastmod>2024-10-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/browser/</loc>
+    <loc>https://amit-node.github.io/tags/browser/</loc>
     <lastmod>2023-11-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/github/</loc>
+    <loc>https://amit-node.github.io/tags/github/</loc>
     <lastmod>2023-11-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/made-in-browser/</loc>
+    <loc>https://amit-node.github.io/posts/made-in-browser/</loc>
     <lastmod>2023-11-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://amit-node.github.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/gautam/</loc>
+    <loc>https://amit-node.github.io/posts/gautam/</loc>
   </url>
 </urlset>
