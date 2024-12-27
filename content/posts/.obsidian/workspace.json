@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gautam.md",
+                "file": "Resources to study Deep Learning.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "04c579d739fb4086",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Family tree of Changej, Taimur and Babur.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aff9b063c0ef90f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Site on Pelican and Netily.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Gautam.md",
+                "file": "Site on Pelican and Netily.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Gautam.md",
+                "file": "Site on Pelican and Netily.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Gautam.md"
+                "file": "Site on Pelican and Netily.md"
               }
             }
           }
@@ -146,19 +171,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a2c76170c86ea094",
+  "active": "aff9b063c0ef90f1",
   "lastOpenFiles": [
+    "Family tree of Changej, Taimur and Babur.md",
+    "Site on Pelican and Netily.md",
+    "Resources to study Deep Learning.md",
+    "Amit.md",
+    "kakashi.md",
+    "made in browser.md",
+    "made_in_obsidian.md",
+    "new.md",
+    "aaloo.md",
     "Gautam.md",
     "paratha.md",
     "chowmine.md",
     "chowmine_2.md",
-    "aaloo.md",
-    "new.md",
     "third.md",
-    "second.md",
-    "made_in_obsidian.md",
-    "made in browser.md",
-    "kakashi.md",
-    "Amit.md"
+    "second.md"
   ]
 }

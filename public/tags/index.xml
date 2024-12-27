@@ -6,48 +6,41 @@
     <description>Recent content in Tags on amit-node</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://amit-node.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hugo</title>
-      <link>https://amit-node.github.io/tags/hugo/</link>
-      <pubDate>Thu, 26 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://amit-node.github.io/tags/hugo/</guid>
+      <title>Deep Learning</title>
+      <link>https://amit-node.github.io/tags/deep-learning/</link>
+      <pubDate>Fri, 27 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://amit-node.github.io/tags/deep-learning/</guid>
       <description></description>
     </item>
     <item>
-      <title>Sample</title>
-      <link>https://amit-node.github.io/tags/sample/</link>
-      <pubDate>Thu, 26 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://amit-node.github.io/tags/sample/</guid>
+      <title>History</title>
+      <link>https://amit-node.github.io/tags/history/</link>
+      <pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://amit-node.github.io/tags/history/</guid>
       <description></description>
     </item>
     <item>
-      <title>Something_new</title>
-      <link>https://amit-node.github.io/tags/something_new/</link>
-      <pubDate>Tue, 05 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://amit-node.github.io/tags/something_new/</guid>
+      <title>Random</title>
+      <link>https://amit-node.github.io/tags/random/</link>
+      <pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://amit-node.github.io/tags/random/</guid>
       <description></description>
     </item>
     <item>
-      <title>Obsidian</title>
-      <link>https://amit-node.github.io/tags/obsidian/</link>
-      <pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://amit-node.github.io/tags/obsidian/</guid>
+      <title>Skill</title>
+      <link>https://amit-node.github.io/tags/skill/</link>
+      <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://amit-node.github.io/tags/skill/</guid>
       <description></description>
     </item>
     <item>
-      <title>Browser</title>
-      <link>https://amit-node.github.io/tags/browser/</link>
-      <pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://amit-node.github.io/tags/browser/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Github</title>
-      <link>https://amit-node.github.io/tags/github/</link>
-      <pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://amit-node.github.io/tags/github/</guid>
+      <title>Tech</title>
+      <link>https://amit-node.github.io/tags/tech/</link>
+      <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://amit-node.github.io/tags/tech/</guid>
       <description></description>
     </item>
   </channel>

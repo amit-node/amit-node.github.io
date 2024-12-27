@@ -1,6 +1,17 @@
-This is an intro page.
-# introduction
+amit-node : personal webpage of Amit Kumar Gupta
 
-## contacts
+Currently : Studying data science at IITM online degree
 
-![musashi](/musashi_manga.webp)
+                    Working at HTIC as Project Intern 
+
+I like cycling, reading and sketching.
+
+. . . also I am a Naruto fan.
+
+![naruto](/naruto.png)
+
+---
+
+Contact : [guptamit43@gmail.com](mailto:guptamit43@gmail.com)
+
+

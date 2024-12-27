@@ -7,120 +7,208 @@
     
     <language>en</language>
     <copyright>Copyright 2024, Calvin Tran</copyright>
-    <lastBuildDate>Thu, 26 Dec 2024 16:48:20 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 27 Dec 2024 00:00:00 +0000</lastBuildDate>
     <generator>Hugo - gohugo.io</generator>
     <docs>http://cyber.harvard.edu/rss/rss.html</docs>
     <atom:link href="https://amit-node.github.io//atom.xml" rel="self" type="application/atom+xml"/>
     
     
     <item>
-      <title>Aaloo</title>
-      <link>https://amit-node.github.io/posts/aaloo/</link>
-      <description>&lt;p&gt;&lt;img
-  src=&#34;https://amit-node.github.io/naruto_manga.webp&#34;
-  alt=&#34;naruto&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-&lt;hr&gt;
-&lt;h1 id=&#34;batman-by-kentaro-miyura&#34;&gt;Batman by Kentaro Miyura&lt;/h1&gt;
-&lt;p&gt;&lt;img
-  src=&#34;https://amit-node.github.io/batman_by_kentaro_miura.webp&#34;
-  alt=&#34;batman&#34;
-  loading=&#34;lazy&#34;
-  decoding=&#34;async&#34;
-  class=&#34;full-width&#34;
-/&gt;
-
-&lt;/p&gt;
-</description>
-      <author></author>
-      <guid>https://amit-node.github.io/posts/aaloo/</guid>
-      <pubDate>Thu, 26 Dec 2024 16:48:20 +0530</pubDate>
-    </item>
-    
-    <item>
-      <title>amit</title>
-      <link>https://amit-node.github.io/posts/amit/</link>
-      <description>&lt;p&gt;This is just a testing in Hugo and obsidian.&lt;/p&gt;
-</description>
-      <author></author>
-      <guid>https://amit-node.github.io/posts/amit/</guid>
-      <pubDate>Thu, 26 Dec 2024 00:00:00 +0000</pubDate>
-    </item>
-    
-    <item>
-      <title>kakashi</title>
-      <link>https://amit-node.github.io/posts/kakashi/</link>
-      <description>&lt;p&gt;I added this Kakashi file inside obsidian.&lt;/p&gt;
-</description>
-      <author></author>
-      <guid>https://amit-node.github.io/posts/kakashi/</guid>
-      <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
-    </item>
-    
-    <item>
-      <title>New</title>
-      <link>https://amit-node.github.io/posts/new/</link>
-      <description>&lt;p&gt;new file for experiment
-aaloo ka paratha&lt;/p&gt;
-</description>
-      <author></author>
-      <guid>https://amit-node.github.io/posts/new/</guid>
-      <pubDate>Tue, 05 Nov 2024 00:00:00 +0000</pubDate>
-    </item>
-    
-    <item>
-      <title>made in Obsidian 🔥🔥🔥</title>
-      <link>https://amit-node.github.io/posts/made_in_obsidian/</link>
-      <description>&lt;p&gt;This is a file which I made in obsidian. because :&lt;/p&gt;
+      <title>Resources to study Deep Learning</title>
+      <link>https://amit-node.github.io/posts/resources-to-study-deep-learning/</link>
+      <description>&lt;p&gt;Here are some free resources which will help you to study deep learning.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Pre requisite&lt;/strong&gt; : Basic Linear Algebra, Basic Python&lt;/p&gt;
+&lt;p&gt;NOTE : MUST WATCH THESE VIDEOS IN SEQUENCE&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;It&amp;rsquo;s easy to edit.&lt;/li&gt;
-&lt;li&gt;I use obsidian as my primary note taking app
+&lt;li&gt;
+&lt;p&gt;Neural Network / Perceptron&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Obsidian is really good for Markdown editing.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/i1AqHG4k8mE?feature=shared&#34;&gt;https://youtu.be/i1AqHG4k8mE?feature=shared&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/-KLnurhX-Pg?feature=shared&#34;&gt;https://youtu.be/-KLnurhX-Pg?feature=shared&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/EJRFP3WmS6Q?feature=shared&#34;&gt;https://youtu.be/EJRFP3WmS6Q?feature=shared&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/KKSCmPUyczU?feature=shared&#34;&gt;https://youtu.be/KKSCmPUyczU?feature=shared&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;PyTorch  ( Lecture 1 to 17, remaining lectures do later.)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtube.com/playlist?list=PLqnslRFeH2UrcDBWF5mfPGpqQDSta6VK4&amp;amp;feature=shared&#34;&gt;https://youtube.com/playlist?list=PLqnslRFeH2UrcDBWF5mfPGpqQDSta6VK4&amp;amp;feature=shared&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;DL theory : Andrew NG&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtube.com/playlist?list=PLkDaE6sCZn6Gl29AoE31iwdVwSG-KnDzF&amp;amp;feature=shared&#34;&gt;https://youtube.com/playlist?list=PLkDaE6sCZn6Gl29AoE31iwdVwSG-KnDzF&amp;amp;feature=shared&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;DL practical : Fast.ai&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Fundamental :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtube.com/playlist?list=PLfYUBJiXbdtSvpQjSnJJ_PmDQB_VyT5iU&amp;amp;feature=shared&#34;&gt;https://youtube.com/playlist?list=PLfYUBJiXbdtSvpQjSnJJ_PmDQB_VyT5iU&amp;amp;feature=shared&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Advance : (do it or not, up to you)
+&lt;a href=&#34;https://youtube.com/playlist?list=PLfYUBJiXbdtRUvTUYpLdfHHp9a58nWVXP&amp;amp;feature=shared&#34;&gt;https://youtube.com/playlist?list=PLfYUBJiXbdtRUvTUYpLdfHHp9a58nWVXP&amp;amp;feature=shared&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;More detailed stuff : Mitesh Khapra. BSc level lectures.
+&lt;a href=&#34;https://youtube.com/playlist?list=PLZ2ps__7DhBZVxMrSkTIcG6zZBDKUXCnM&amp;amp;feature=shared&#34;&gt;https://youtube.com/playlist?list=PLZ2ps__7DhBZVxMrSkTIcG6zZBDKUXCnM&amp;amp;feature=shared&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Advance level : Andrej Karpathy
+&lt;a href=&#34;https://youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&amp;amp;feature=shared&#34;&gt;https://youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&amp;amp;feature=shared&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;For extra knowledge : &amp;ldquo;CS 50 : intro to AI &amp;quot;
+&lt;a href=&#34;https://youtube.com/playlist?list=PLhQjrBD2T381PopUTYtMSstgk-hsTGkVm&amp;amp;feature=shared&#34;&gt;https://youtube.com/playlist?list=PLhQjrBD2T381PopUTYtMSstgk-hsTGkVm&amp;amp;feature=shared&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;NPTEL course ML DL for Sci. &amp;amp; Eng. : good for whole revision
+&lt;a href=&#34;https://youtube.com/playlist?list=PLyqSpQzTE6M-SISTunGRBRiZk7opYBf_K&amp;amp;feature=shared&#34;&gt;https://youtube.com/playlist?list=PLyqSpQzTE6M-SISTunGRBRiZk7opYBf_K&amp;amp;feature=shared&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;For working knowledge just study point 1 (all 4 videos), point 2 (video 1 to 17), point 3 (all videos), point 4 (fundamentals). Others are for advance knowledge. Do Mitesh Khapra playlist before entering B.Sc. level&lt;/p&gt;
+&lt;h2 id=&#34;jeremy-howards-courses-&#34;&gt;Jeremy Howards Courses :&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Blog / main site
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.fast.ai&#34;&gt;https://www.fast.ai&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Practical Deep Learning for Coders
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://course.fast.ai&#34;&gt;https://course.fast.ai&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://course17.fast.ai/index.html&#34;&gt;https://course17.fast.ai/index.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Intro to Machine Learning for Coders
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://course18.fast.ai/ml.html&#34;&gt;https://course18.fast.ai/ml.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;First Intro to Natural Language Processing
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLtmWHNX-gukKocXQOkQjuVxglSDYWsSh9&#34;&gt;https://www.youtube.com/playlist?list=PLtmWHNX-gukKocXQOkQjuVxglSDYWsSh9&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <author></author>
+      <guid>https://amit-node.github.io/posts/resources-to-study-deep-learning/</guid>
+      <pubDate>Fri, 27 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    
+    <item>
+      <title>Family tree of Changej, Taimur and Babur</title>
+      <link>https://amit-node.github.io/posts/family-tree-of-changej-taimur-and-babur/</link>
+      <description>&lt;p&gt;I made this family tree based of articles available on internet. I am not an historian, I can&amp;rsquo;t take guarantee of any accuracy.&lt;/p&gt;
+&lt;p&gt;&lt;img
+  src=&#34;https://amit-node.github.io/family_tree.svg&#34;
+  alt=&#34;svg&#34;
+  loading=&#34;lazy&#34;
+  decoding=&#34;async&#34;
+  class=&#34;full-width&#34;
+/&gt;
+
+&lt;/p&gt;
+</description>
+      <author></author>
+      <guid>https://amit-node.github.io/posts/family-tree-of-changej-taimur-and-babur/</guid>
+      <pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    
+    <item>
+      <title>Site on Pelican and Netily</title>
+      <link>https://amit-node.github.io/posts/site-on-pelican-and-netily/</link>
+      <description>&lt;p&gt;helpful blog : &lt;a href=&#34;https://iwanttoreadmore.com/blog/create-minimal-static-website-pelican/&#34;&gt;https://iwanttoreadmore.com/blog/create-minimal-static-website-pelican/&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;open netlify [https://www.netlify.com]&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;make your id on netlify. use free version&lt;/li&gt;
+&lt;li&gt;Add new site &amp;gt; deploy manually&lt;/li&gt;
+&lt;li&gt;it&amp;rsquo;ll ask for drag and drop. leave this tab as it is for now.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;open pelican documentation for reference [https://docs.getpelican.com/en/latest/index.html]&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;go on quick start, read if you want or follow following command.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pip install pelican markdown
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;open file explorer.
+1. create a folder with your project / website name and open that folder
+2. open cmd inside that folder.  run this command  &amp;ldquo;pelican-quickstart&amp;rdquo;
+3. it&amp;rsquo;ll open some dialogues. answer them accordning to follow&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Where do you want to create your new web site? [.] .
+What will be the title of this web site? any name
+Who will be the author of this web site? any name
+What will be the default language of this web site? [en] en
+Do you want to specify a URL prefix? e.g., &lt;a href=&#34;https://example.com&#34;&gt;https://example.com&lt;/a&gt; (Y/n) n
+Do you want to enable article pagination? (Y/n) n
+What is your time zone? [Europe/Paris] Asia/Colombo
+Do you want to generate a tasks.py/Makefile to automate generation and publishing? (Y/n) Y
+Do you want to upload your website using FTP? (y/N) n
+Do you want to upload your website using SSH? (y/N) n
+Do you want to upload your website using Dropbox? (y/N) n
+Do you want to upload your website using S3? (y/N) n
+Do you want to upload your website using Rackspace Cloud Files? (y/N) n
+Do you want to upload your website using GitHub Pages? (y/N) n&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;it&amp;rsquo;ll create some files in your project folder.
+&lt;ol&gt;
+&lt;li&gt;but before moving forward we need to create an article. in markdopwn format.&lt;/li&gt;
+&lt;li&gt;go to content folder and create a file &amp;ldquo;first.md&amp;rdquo;. and write these few lines first&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Title: First Document
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Date: 2024-12-22 13:37
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Category: Home
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;This is the first page I am ceating for test.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;you can skip this step if you want. It&amp;rsquo;s for adding a simple theme.
+create a folder themes. inside it one more folder &amp;ldquo;name of theme&amp;rdquo;, inside it 2 folders static and templates
+inside static : css and images
+inside css you can have your css file which will have style stuff.
+`add some css file link here&lt;/p&gt;
+&lt;p&gt;now go inside templates, create a file base.html
+and add some basic template in it
+`add one example&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;Now you have a page in content folder, output folder is empty, some stuff in themes folder, and 4 other files. ignore them for now.&lt;/li&gt;
+&lt;li&gt;open your cmmd in project folder and &amp;ldquo;if you skipped step 5&amp;rdquo; then run this command. &lt;code&gt;pelican content &lt;/code&gt; now check your output folder and you will find some html pages generated.&lt;/li&gt;
+&lt;li&gt;if you acted on step 5 and created your own theme then you need to run this command &lt;code&gt;pelican content -s pelicanconf.py -t /projects/your-site/themes/your-theme&lt;/code&gt;. check your pages in output folder.&lt;/li&gt;
+&lt;li&gt;Maybe you will not like theme or template. Then you can change it in your Theme folder. as mentioned in step 5.&lt;/li&gt;
+&lt;li&gt;now go back to that netlify tab which we left opened in step 1.3. Now you have created output folder in your local PC, just drag and dropeed it here. after little wait, now you can see preview. It&amp;rsquo;ll give you some random URL, you can change it in &amp;ldquo;Site configration&amp;rdquo;..&lt;/li&gt;
+&lt;li&gt;Congratulations you have completed your first website and hosted it on internet. For adding a new page. use step 4, 7 or 8.&lt;/li&gt;
+&lt;li&gt;now go to netlify &amp;gt; Sites (check right pan) &amp;gt; pick your site &amp;gt; click on Deploys, you will see empty space and &amp;ldquo;drag and drop / upload / browse&amp;rdquo;, just drag and drop your whole output folder here.&lt;/li&gt;
+&lt;li&gt;Done. muhahhahaha 🔥🔥🔥🔥&lt;/li&gt;
 &lt;/ol&gt;
 </description>
       <author></author>
-      <guid>https://amit-node.github.io/posts/made_in_obsidian/</guid>
-      <pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
-    </item>
-    
-    <item>
-      <title>made in browser</title>
-      <link>https://amit-node.github.io/posts/made-in-browser/</link>
-      <description>&lt;p&gt;This is a file which I made in browser.&lt;/p&gt;
-&lt;h1 id=&#34;h1&#34;&gt;h1&lt;/h1&gt;
-&lt;h2 id=&#34;h2&#34;&gt;h2&lt;/h2&gt;
-&lt;h3 id=&#34;h3&#34;&gt;h3&lt;/h3&gt;
-</description>
-      <author></author>
-      <guid>https://amit-node.github.io/posts/made-in-browser/</guid>
-      <pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate>
-    </item>
-    
-    <item>
-      <title>gautam</title>
-      <link>https://amit-node.github.io/posts/gautam/</link>
-      <description>&lt;ul&gt;
-&lt;li&gt;This is list
-&lt;ul&gt;
-&lt;li&gt;this is item 1&lt;/li&gt;
-&lt;li&gt;this is item 2&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;heading&#34;&gt;heading&lt;/h2&gt;
-&lt;h3 id=&#34;small-heading&#34;&gt;small heading&lt;/h3&gt;
-</description>
-      <author></author>
-      <guid>https://amit-node.github.io/posts/gautam/</guid>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://amit-node.github.io/posts/site-on-pelican-and-netily/</guid>
+      <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     
   </channel>

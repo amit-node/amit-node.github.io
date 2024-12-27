@@ -2,32 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sample on amit-node</title>
-    <link>https://amit-node.github.io/tags/sample/</link>
+    <link>http://localhost:1313/tags/sample/</link>
     <description>Recent content in Sample on amit-node</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://amit-node.github.io/tags/sample/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>amit</title>
-      <link>https://amit-node.github.io/posts/amit/</link>
-      <pubDate>Thu, 26 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://amit-node.github.io/posts/amit/</guid>
-      <description>&lt;p&gt;This is just a testing in Hugo and obsidian.&lt;/p&gt;</description>
-    </item>
+    <lastBuildDate>Mon, 25 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/sample/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>kakashi</title>
-      <link>https://amit-node.github.io/posts/kakashi/</link>
+      <link>http://localhost:1313/posts/resources-to-study-deep-learnign/</link>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://amit-node.github.io/posts/kakashi/</guid>
-      <description>&lt;p&gt;I added this Kakashi file inside obsidian.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>New</title>
-      <link>https://amit-node.github.io/posts/new/</link>
-      <pubDate>Tue, 05 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://amit-node.github.io/posts/new/</guid>
-      <description>&lt;p&gt;new file for experiment&#xA;aaloo ka paratha&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/resources-to-study-deep-learnign/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>
