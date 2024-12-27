@@ -13,7 +13,7 @@
       <link>https://amit-node.github.io/posts/aaloo/</link>
       <pubDate>Thu, 26 Dec 2024 16:48:20 +0530</pubDate>
       <guid>https://amit-node.github.io/posts/aaloo/</guid>
-      <description></description>
+      <description>&lt;p&gt;&lt;img&#xD;&#xA;  src=&#34;https://amit-node.github.io/naruto_manga.webp&#34;&#xD;&#xA;  alt=&#34;naruto&#34;&#xD;&#xA;  loading=&#34;lazy&#34;&#xD;&#xA;  decoding=&#34;async&#34;&#xD;&#xA;  class=&#34;full-width&#34;&#xD;&#xA;/&gt;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h1 id=&#34;batman-by-kentaro-miyura&#34;&gt;Batman by Kentaro Miyura&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img&#xD;&#xA;  src=&#34;https://amit-node.github.io/batman_by_kentaro_miura.webp&#34;&#xD;&#xA;  alt=&#34;batman&#34;&#xD;&#xA;  loading=&#34;lazy&#34;&#xD;&#xA;  decoding=&#34;async&#34;&#xD;&#xA;  class=&#34;full-width&#34;&#xD;&#xA;/&gt;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;</description>
     </item>
     <item>
       <title>amit</title>
@@ -49,6 +49,13 @@
       <pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate>
       <guid>https://amit-node.github.io/posts/made-in-browser/</guid>
       <description>&lt;p&gt;This is a file which I made in browser.&lt;/p&gt;&#xA;&lt;h1 id=&#34;h1&#34;&gt;h1&lt;/h1&gt;&#xA;&lt;h2 id=&#34;h2&#34;&gt;h2&lt;/h2&gt;&#xA;&lt;h3 id=&#34;h3&#34;&gt;h3&lt;/h3&gt;</description>
+    </item>
+    <item>
+      <title>gautam</title>
+      <link>https://amit-node.github.io/posts/gautam/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://amit-node.github.io/posts/gautam/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;This is list&#xA;&lt;ul&gt;&#xA;&lt;li&gt;this is item 1&lt;/li&gt;&#xA;&lt;li&gt;this is item 2&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;heading&#34;&gt;heading&lt;/h2&gt;&#xA;&lt;h3 id=&#34;small-heading&#34;&gt;small heading&lt;/h3&gt;</description>
     </item>
   </channel>
 </rss>

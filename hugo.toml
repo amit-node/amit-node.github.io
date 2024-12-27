@@ -9,6 +9,6 @@ theme = 'maverick'
     name = "Posts"
     url = "/posts/"
   [[menu.main]]
-    identifier = "speaking"
-    name = "Speaking"
-    url = "/speaking/"
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
