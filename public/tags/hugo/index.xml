@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on amit-node</title>
-    <link>https://amit-node.github.io/tags/hugo/</link>
+    <link>http://localhost:1313/tags/hugo/</link>
     <description>Recent content in Hugo on amit-node</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 26 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://amit-node.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>amit</title>
-      <link>https://amit-node.github.io/posts/amit/</link>
+      <link>http://localhost:1313/posts/amit/</link>
       <pubDate>Thu, 26 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://amit-node.github.io/posts/amit/</guid>
+      <guid>http://localhost:1313/posts/amit/</guid>
       <description>&lt;p&gt;This is just a testing in Hugo and obsidian.&lt;/p&gt;</description>
     </item>
     <item>
       <title>kakashi</title>
-      <link>https://amit-node.github.io/posts/kakashi/</link>
+      <link>http://localhost:1313/posts/kakashi/</link>
       <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://amit-node.github.io/posts/kakashi/</guid>
+      <guid>http://localhost:1313/posts/kakashi/</guid>
       <description>&lt;p&gt;I added this Kakashi file inside obsidian.&lt;/p&gt;</description>
     </item>
     <item>
       <title>made in Obsidian 🔥🔥🔥</title>
-      <link>https://amit-node.github.io/posts/made_in_obsidian/</link>
+      <link>http://localhost:1313/posts/made_in_obsidian/</link>
       <pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://amit-node.github.io/posts/made_in_obsidian/</guid>
+      <guid>http://localhost:1313/posts/made_in_obsidian/</guid>
       <description>&lt;p&gt;This is a file which I made in obsidian. because :&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;It&amp;rsquo;s easy to edit.&lt;/li&gt;&#xA;&lt;li&gt;I use obsidian as my primary note taking app&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Obsidian is really good for Markdown editing.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
   </channel>
