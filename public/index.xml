@@ -7,11 +7,22 @@
     
     <language>en</language>
     <copyright>Copyright 2024, Calvin Tran</copyright>
-    <lastBuildDate>Fri, 27 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Dec 2024 00:00:00 +0000</lastBuildDate>
     <generator>Hugo - gohugo.io</generator>
     <docs>http://cyber.harvard.edu/rss/rss.html</docs>
     <atom:link href="https://amit-node.github.io//atom.xml" rel="self" type="application/atom+xml"/>
     
+    
+    <item>
+      <title>Sylene</title>
+      <link>https://amit-node.github.io/posts/sylene/</link>
+      <description>&lt;h1 id=&#34;hello&#34;&gt;hello&lt;/h1&gt;
+&lt;p&gt;Hello Sylene How r u ???&lt;/p&gt;
+</description>
+      <author></author>
+      <guid>https://amit-node.github.io/posts/sylene/</guid>
+      <pubDate>Mon, 30 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
     
     <item>
       <title>Resources to study Deep Learning</title>
@@ -209,16 +220,6 @@ and add some basic template in it
       <author></author>
       <guid>https://amit-node.github.io/posts/site-on-pelican-and-netily/</guid>
       <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
-    </item>
-    
-    <item>
-      <title>new</title>
-      <link>https://amit-node.github.io/posts/new-page/</link>
-      <description>&lt;h3 id=&#34;lets-write-anything&#34;&gt;let&amp;rsquo;s write anything&lt;/h3&gt;
-</description>
-      <author></author>
-      <guid>https://amit-node.github.io/posts/new-page/</guid>
-      <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
     </item>
     
   </channel>
