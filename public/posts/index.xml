@@ -2,32 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on amit-node</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://amit-node.github.io/posts/</link>
     <description>Recent content in Posts on amit-node</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 27 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://amit-node.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Resources to study Deep Learning</title>
-      <link>http://localhost:1313/posts/resources-to-study-deep-learning/</link>
+      <link>https://amit-node.github.io/posts/resources-to-study-deep-learning/</link>
       <pubDate>Fri, 27 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/resources-to-study-deep-learning/</guid>
+      <guid>https://amit-node.github.io/posts/resources-to-study-deep-learning/</guid>
       <description>&lt;p&gt;Here are some free resources which will help you to study deep learning.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Pre requisite&lt;/strong&gt; : Basic Linear Algebra, Basic Python&lt;/p&gt;&#xA;&lt;p&gt;NOTE : MUST WATCH THESE VIDEOS IN SEQUENCE&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Neural Network / Perceptron&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://youtu.be/i1AqHG4k8mE?feature=shared&#34;&gt;https://youtu.be/i1AqHG4k8mE?feature=shared&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://youtu.be/-KLnurhX-Pg?feature=shared&#34;&gt;https://youtu.be/-KLnurhX-Pg?feature=shared&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://youtu.be/EJRFP3WmS6Q?feature=shared&#34;&gt;https://youtu.be/EJRFP3WmS6Q?feature=shared&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://youtu.be/KKSCmPUyczU?feature=shared&#34;&gt;https://youtu.be/KKSCmPUyczU?feature=shared&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;PyTorch  ( Lecture 1 to 17, remaining lectures do later.)&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://youtube.com/playlist?list=PLqnslRFeH2UrcDBWF5mfPGpqQDSta6VK4&amp;amp;feature=shared&#34;&gt;https://youtube.com/playlist?list=PLqnslRFeH2UrcDBWF5mfPGpqQDSta6VK4&amp;amp;feature=shared&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;DL theory : Andrew NG&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://youtube.com/playlist?list=PLkDaE6sCZn6Gl29AoE31iwdVwSG-KnDzF&amp;amp;feature=shared&#34;&gt;https://youtube.com/playlist?list=PLkDaE6sCZn6Gl29AoE31iwdVwSG-KnDzF&amp;amp;feature=shared&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;DL practical : Fast.ai&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Fundamental :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://youtube.com/playlist?list=PLfYUBJiXbdtSvpQjSnJJ_PmDQB_VyT5iU&amp;amp;feature=shared&#34;&gt;https://youtube.com/playlist?list=PLfYUBJiXbdtSvpQjSnJJ_PmDQB_VyT5iU&amp;amp;feature=shared&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Advance : (do it or not, up to you)&#xA;&lt;a href=&#34;https://youtube.com/playlist?list=PLfYUBJiXbdtRUvTUYpLdfHHp9a58nWVXP&amp;amp;feature=shared&#34;&gt;https://youtube.com/playlist?list=PLfYUBJiXbdtRUvTUYpLdfHHp9a58nWVXP&amp;amp;feature=shared&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;More detailed stuff : Mitesh Khapra. BSc level lectures.&#xA;&lt;a href=&#34;https://youtube.com/playlist?list=PLZ2ps__7DhBZVxMrSkTIcG6zZBDKUXCnM&amp;amp;feature=shared&#34;&gt;https://youtube.com/playlist?list=PLZ2ps__7DhBZVxMrSkTIcG6zZBDKUXCnM&amp;amp;feature=shared&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Family tree of Changej, Taimur and Babur</title>
-      <link>http://localhost:1313/posts/family-tree-of-changej-taimur-and-babur/</link>
+      <link>https://amit-node.github.io/posts/family-tree-of-changej-taimur-and-babur/</link>
       <pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/family-tree-of-changej-taimur-and-babur/</guid>
-      <description>&lt;p&gt;I made this family tree based of articles available on internet. I am not an historian, I can&amp;rsquo;t take guarantee of any accuracy.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img&#xD;&#xA;  src=&#34;http://localhost:1313/family_tree.svg&#34;&#xD;&#xA;  alt=&#34;svg&#34;&#xD;&#xA;  loading=&#34;lazy&#34;&#xD;&#xA;  decoding=&#34;async&#34;&#xD;&#xA;  class=&#34;full-width&#34;&#xD;&#xA;/&gt;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;</description>
+      <guid>https://amit-node.github.io/posts/family-tree-of-changej-taimur-and-babur/</guid>
+      <description>&lt;p&gt;I made this family tree based of articles available on internet. I am not an historian, I can&amp;rsquo;t take guarantee of any accuracy.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img&#xD;&#xA;  src=&#34;https://amit-node.github.io/family_tree.svg&#34;&#xD;&#xA;  alt=&#34;svg&#34;&#xD;&#xA;  loading=&#34;lazy&#34;&#xD;&#xA;  decoding=&#34;async&#34;&#xD;&#xA;  class=&#34;full-width&#34;&#xD;&#xA;/&gt;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Site on Pelican and Netily</title>
-      <link>http://localhost:1313/posts/site-on-pelican-and-netily/</link>
+      <link>https://amit-node.github.io/posts/site-on-pelican-and-netily/</link>
       <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/site-on-pelican-and-netily/</guid>
+      <guid>https://amit-node.github.io/posts/site-on-pelican-and-netily/</guid>
       <description>&lt;p&gt;helpful blog : &lt;a href=&#34;https://iwanttoreadmore.com/blog/create-minimal-static-website-pelican/&#34;&gt;https://iwanttoreadmore.com/blog/create-minimal-static-website-pelican/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;open netlify [https://www.netlify.com]&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;make your id on netlify. use free version&lt;/li&gt;&#xA;&lt;li&gt;Add new site &amp;gt; deploy manually&lt;/li&gt;&#xA;&lt;li&gt;it&amp;rsquo;ll ask for drag and drop. leave this tab as it is for now.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;open pelican documentation for reference [https://docs.getpelican.com/en/latest/index.html]&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;go on quick start, read if you want or follow following command.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pip install pelican markdown&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;3&#34;&gt;&#xA;&lt;li&gt;open file explorer.&#xA;1. create a folder with your project / website name and open that folder&#xA;2. open cmd inside that folder.  run this command  &amp;ldquo;pelican-quickstart&amp;rdquo;&#xA;3. it&amp;rsquo;ll open some dialogues. answer them accordning to follow&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Where do you want to create your new web site? [.] .&#xA;What will be the title of this web site? any name&#xA;Who will be the author of this web site? any name&#xA;What will be the default language of this web site? [en] en&#xA;Do you want to specify a URL prefix? e.g., &lt;a href=&#34;https://example.com&#34;&gt;https://example.com&lt;/a&gt; (Y/n) n&#xA;Do you want to enable article pagination? (Y/n) n&#xA;What is your time zone? [Europe/Paris] Asia/Colombo&#xA;Do you want to generate a tasks.py/Makefile to automate generation and publishing? (Y/n) Y&#xA;Do you want to upload your website using FTP? (y/N) n&#xA;Do you want to upload your website using SSH? (y/N) n&#xA;Do you want to upload your website using Dropbox? (y/N) n&#xA;Do you want to upload your website using S3? (y/N) n&#xA;Do you want to upload your website using Rackspace Cloud Files? (y/N) n&#xA;Do you want to upload your website using GitHub Pages? (y/N) n&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>new</title>
+      <link>https://amit-node.github.io/posts/new-page/</link>
+      <pubDate>Mon, 25 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://amit-node.github.io/posts/new-page/</guid>
+      <description>&lt;h3 id=&#34;lets-write-anything&#34;&gt;let&amp;rsquo;s write anything&lt;/h3&gt;</description>
     </item>
   </channel>
 </rss>

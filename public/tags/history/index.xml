@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>History on amit-node</title>
-    <link>http://localhost:1313/tags/history/</link>
+    <link>https://amit-node.github.io/tags/history/</link>
     <description>Recent content in History on amit-node</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 24 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/history/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://amit-node.github.io/tags/history/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Family tree of Changej, Taimur and Babur</title>
-      <link>http://localhost:1313/posts/family-tree-of-changej-taimur-and-babur/</link>
+      <link>https://amit-node.github.io/posts/family-tree-of-changej-taimur-and-babur/</link>
       <pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/family-tree-of-changej-taimur-and-babur/</guid>
-      <description>&lt;p&gt;I made this family tree based of articles available on internet. I am not an historian, I can&amp;rsquo;t take guarantee of any accuracy.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img&#xD;&#xA;  src=&#34;http://localhost:1313/family_tree.svg&#34;&#xD;&#xA;  alt=&#34;svg&#34;&#xD;&#xA;  loading=&#34;lazy&#34;&#xD;&#xA;  decoding=&#34;async&#34;&#xD;&#xA;  class=&#34;full-width&#34;&#xD;&#xA;/&gt;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;</description>
+      <guid>https://amit-node.github.io/posts/family-tree-of-changej-taimur-and-babur/</guid>
+      <description>&lt;p&gt;I made this family tree based of articles available on internet. I am not an historian, I can&amp;rsquo;t take guarantee of any accuracy.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img&#xD;&#xA;  src=&#34;https://amit-node.github.io/family_tree.svg&#34;&#xD;&#xA;  alt=&#34;svg&#34;&#xD;&#xA;  loading=&#34;lazy&#34;&#xD;&#xA;  decoding=&#34;async&#34;&#xD;&#xA;  class=&#34;full-width&#34;&#xD;&#xA;/&gt;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
