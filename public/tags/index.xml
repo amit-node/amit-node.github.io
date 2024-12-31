@@ -6,15 +6,8 @@
     <description>Recent content in Tags on amit-node</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://amit-node.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Random</title>
-      <link>https://amit-node.github.io/tags/random/</link>
-      <pubDate>Mon, 30 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://amit-node.github.io/tags/random/</guid>
-      <description></description>
-    </item>
     <item>
       <title>Deep Learning</title>
       <link>https://amit-node.github.io/tags/deep-learning/</link>
@@ -27,6 +20,13 @@
       <link>https://amit-node.github.io/tags/history/</link>
       <pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate>
       <guid>https://amit-node.github.io/tags/history/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Random</title>
+      <link>https://amit-node.github.io/tags/random/</link>
+      <pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://amit-node.github.io/tags/random/</guid>
       <description></description>
     </item>
     <item>
