@@ -28,19 +28,19 @@ NOTE : MUST WATCH THESE VIDEOS IN SEQUENCE
 		- https://youtube.com/playlist?list=PLfYUBJiXbdtSvpQjSnJJ_PmDQB_VyT5iU&feature=shared
 	
 	- Advance : (do it or not, up to you)
-	https://youtube.com/playlist?list=PLfYUBJiXbdtRUvTUYpLdfHHp9a58nWVXP&feature=shared
+		- https://youtube.com/playlist?list=PLfYUBJiXbdtRUvTUYpLdfHHp9a58nWVXP&feature=shared
 	
 5. More detailed stuff : Mitesh Khapra. BSc level lectures.
-	https://youtube.com/playlist?list=PLZ2ps__7DhBZVxMrSkTIcG6zZBDKUXCnM&feature=shared
+	- https://youtube.com/playlist?list=PLZ2ps__7DhBZVxMrSkTIcG6zZBDKUXCnM&feature=shared
 	
 6. Advance level : Andrej Karpathy
-	https://youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&feature=shared
+	- https://youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&feature=shared
 	
 7. For extra knowledge : "CS 50 : intro to AI "
-	https://youtube.com/playlist?list=PLhQjrBD2T381PopUTYtMSstgk-hsTGkVm&feature=shared
+	- https://youtube.com/playlist?list=PLhQjrBD2T381PopUTYtMSstgk-hsTGkVm&feature=shared
 	
 8. NPTEL course ML DL for Sci. & Eng. : good for whole revision
-	https://youtube.com/playlist?list=PLyqSpQzTE6M-SISTunGRBRiZk7opYBf_K&feature=shared
+	 - https://youtube.com/playlist?list=PLyqSpQzTE6M-SISTunGRBRiZk7opYBf_K&feature=shared
 
 For working knowledge just study point 1 (all 4 videos), point 2 (video 1 to 17), point 3 (all videos), point 4 (fundamentals). Others are for advance knowledge. Do Mitesh Khapra playlist before entering B.Sc. level
 ## Jeremy Howards Courses :

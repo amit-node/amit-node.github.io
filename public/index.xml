@@ -51,26 +51,36 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Advance : (do it or not, up to you)
-&lt;a href=&#34;https://youtube.com/playlist?list=PLfYUBJiXbdtRUvTUYpLdfHHp9a58nWVXP&amp;amp;feature=shared&#34;&gt;https://youtube.com/playlist?list=PLfYUBJiXbdtRUvTUYpLdfHHp9a58nWVXP&amp;amp;feature=shared&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Advance : (do it or not, up to you)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtube.com/playlist?list=PLfYUBJiXbdtRUvTUYpLdfHHp9a58nWVXP&amp;amp;feature=shared&#34;&gt;https://youtube.com/playlist?list=PLfYUBJiXbdtRUvTUYpLdfHHp9a58nWVXP&amp;amp;feature=shared&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;More detailed stuff : Mitesh Khapra. BSc level lectures.
-&lt;a href=&#34;https://youtube.com/playlist?list=PLZ2ps__7DhBZVxMrSkTIcG6zZBDKUXCnM&amp;amp;feature=shared&#34;&gt;https://youtube.com/playlist?list=PLZ2ps__7DhBZVxMrSkTIcG6zZBDKUXCnM&amp;amp;feature=shared&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;More detailed stuff : Mitesh Khapra. BSc level lectures.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtube.com/playlist?list=PLZ2ps__7DhBZVxMrSkTIcG6zZBDKUXCnM&amp;amp;feature=shared&#34;&gt;https://youtube.com/playlist?list=PLZ2ps__7DhBZVxMrSkTIcG6zZBDKUXCnM&amp;amp;feature=shared&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Advance level : Andrej Karpathy
-&lt;a href=&#34;https://youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&amp;amp;feature=shared&#34;&gt;https://youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&amp;amp;feature=shared&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Advance level : Andrej Karpathy&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&amp;amp;feature=shared&#34;&gt;https://youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&amp;amp;feature=shared&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;For extra knowledge : &amp;ldquo;CS 50 : intro to AI &amp;quot;
-&lt;a href=&#34;https://youtube.com/playlist?list=PLhQjrBD2T381PopUTYtMSstgk-hsTGkVm&amp;amp;feature=shared&#34;&gt;https://youtube.com/playlist?list=PLhQjrBD2T381PopUTYtMSstgk-hsTGkVm&amp;amp;feature=shared&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;For extra knowledge : &amp;ldquo;CS 50 : intro to AI &amp;quot;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtube.com/playlist?list=PLhQjrBD2T381PopUTYtMSstgk-hsTGkVm&amp;amp;feature=shared&#34;&gt;https://youtube.com/playlist?list=PLhQjrBD2T381PopUTYtMSstgk-hsTGkVm&amp;amp;feature=shared&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;NPTEL course ML DL for Sci. &amp;amp; Eng. : good for whole revision
-&lt;a href=&#34;https://youtube.com/playlist?list=PLyqSpQzTE6M-SISTunGRBRiZk7opYBf_K&amp;amp;feature=shared&#34;&gt;https://youtube.com/playlist?list=PLyqSpQzTE6M-SISTunGRBRiZk7opYBf_K&amp;amp;feature=shared&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;NPTEL course ML DL for Sci. &amp;amp; Eng. : good for whole revision&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtube.com/playlist?list=PLyqSpQzTE6M-SISTunGRBRiZk7opYBf_K&amp;amp;feature=shared&#34;&gt;https://youtube.com/playlist?list=PLyqSpQzTE6M-SISTunGRBRiZk7opYBf_K&amp;amp;feature=shared&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;For working knowledge just study point 1 (all 4 videos), point 2 (video 1 to 17), point 3 (all videos), point 4 (fundamentals). Others are for advance knowledge. Do Mitesh Khapra playlist before entering B.Sc. level&lt;/p&gt;
@@ -132,7 +142,7 @@
       <description>&lt;p&gt;helpful blog : &lt;a href=&#34;https://iwanttoreadmore.com/blog/create-minimal-static-website-pelican/&#34;&gt;https://iwanttoreadmore.com/blog/create-minimal-static-website-pelican/&lt;/a&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;open netlify [https://www.netlify.com]&lt;/p&gt;
+&lt;p&gt;open netlify &lt;a href=&#34;https://www.netlify.com&#34;&gt;https://www.netlify.com&lt;/a&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;make your id on netlify. use free version&lt;/li&gt;
 &lt;li&gt;Add new site &amp;gt; deploy manually&lt;/li&gt;
@@ -140,7 +150,7 @@
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;open pelican documentation for reference [https://docs.getpelican.com/en/latest/index.html]&lt;/p&gt;
+&lt;p&gt;open pelican documentation for reference &lt;a href=&#34;https://docs.getpelican.com/en/latest/index.html&#34;&gt;https://docs.getpelican.com/en/latest/index.html&lt;/a&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;go on quick start, read if you want or follow following command.&lt;/li&gt;
 &lt;/ol&gt;
@@ -149,25 +159,28 @@
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pip install pelican markdown
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;3&#34;&gt;
 &lt;li&gt;open file explorer.
-1. create a folder with your project / website name and open that folder
-2. open cmd inside that folder.  run this command  &amp;ldquo;pelican-quickstart&amp;rdquo;
-3. it&amp;rsquo;ll open some dialogues. answer them accordning to follow&lt;/li&gt;
+&lt;ol&gt;
+&lt;li&gt;create a folder with your project / website name and open that folder&lt;/li&gt;
+&lt;li&gt;open cmd inside that folder.  run this command  &amp;ldquo;pelican-quickstart&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;it&amp;rsquo;ll open some dialogues. answer them accordning to follow&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Where do you want to create your new web site? [.] .
-What will be the title of this web site? any name
-Who will be the author of this web site? any name
-What will be the default language of this web site? [en] en
-Do you want to specify a URL prefix? e.g., &lt;a href=&#34;https://example.com&#34;&gt;https://example.com&lt;/a&gt; (Y/n) n
-Do you want to enable article pagination? (Y/n) n
-What is your time zone? [Europe/Paris] Asia/Colombo
-Do you want to generate a tasks.py/Makefile to automate generation and publishing? (Y/n) Y
-Do you want to upload your website using FTP? (y/N) n
-Do you want to upload your website using SSH? (y/N) n
-Do you want to upload your website using Dropbox? (y/N) n
-Do you want to upload your website using S3? (y/N) n
-Do you want to upload your website using Rackspace Cloud Files? (y/N) n
-Do you want to upload your website using GitHub Pages? (y/N) n&lt;/p&gt;
+&lt;p&gt;Where do you want to create your new web site? [.]&lt;/p&gt;
+&lt;p&gt;What will be the title of this web site? any name&lt;/p&gt;
+&lt;p&gt;Who will be the author of this web site? any name&lt;/p&gt;
+&lt;p&gt;What will be the default language of this web site? [en] en&lt;/p&gt;
+&lt;p&gt;Do you want to specify a URL prefix? e.g., &lt;a href=&#34;https://example.com&#34;&gt;https://example.com&lt;/a&gt; (Y/n) n&lt;/p&gt;
+&lt;p&gt;Do you want to enable article pagination? (Y/n) n&lt;/p&gt;
+&lt;p&gt;What is your time zone? [Europe/Paris] Asia/Colombo&lt;/p&gt;
+&lt;p&gt;Do you want to generate a tasks.py/Makefile to automate generation and publishing? (Y/n) Y&lt;/p&gt;
+&lt;p&gt;Do you want to upload your website using FTP? (y/N) n&lt;/p&gt;
+&lt;p&gt;Do you want to upload your website using SSH? (y/N) n&lt;/p&gt;
+&lt;p&gt;Do you want to upload your website using Dropbox? (y/N) n&lt;/p&gt;
+&lt;p&gt;Do you want to upload your website using S3? (y/N) n&lt;/p&gt;
+&lt;p&gt;Do you want to upload your website using Rackspace Cloud Files? (y/N) n&lt;/p&gt;
+&lt;p&gt;Do you want to upload your website using GitHub Pages? (y/N) n&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;ol start=&#34;4&#34;&gt;
 &lt;li&gt;it&amp;rsquo;ll create some files in your project folder.
@@ -183,27 +196,40 @@ Do you want to upload your website using GitHub Pages? (y/N) n&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;This is the first page I am ceating for test.
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;5&#34;&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;blockquote&gt;
-&lt;p&gt;you can skip this step if you want. It&amp;rsquo;s for adding a simple theme.
-create a folder themes. inside it one more folder &amp;ldquo;name of theme&amp;rdquo;, inside it 2 folders static and templates
-inside static : css and images
-inside css you can have your css file which will have style stuff.
-`add some css file link here&lt;/p&gt;
-&lt;p&gt;now go inside templates, create a file base.html
-and add some basic template in it
-`add one example&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ol start=&#34;6&#34;&gt;
-&lt;li&gt;Now you have a page in content folder, output folder is empty, some stuff in themes folder, and 4 other files. ignore them for now.&lt;/li&gt;
-&lt;li&gt;open your cmmd in project folder and &amp;ldquo;if you skipped step 5&amp;rdquo; then run this command. &lt;code&gt;pelican content &lt;/code&gt; now check your output folder and you will find some html pages generated.&lt;/li&gt;
-&lt;li&gt;if you acted on step 5 and created your own theme then you need to run this command &lt;code&gt;pelican content -s pelicanconf.py -t /projects/your-site/themes/your-theme&lt;/code&gt;. check your pages in output folder.&lt;/li&gt;
-&lt;li&gt;Maybe you will not like theme or template. Then you can change it in your Theme folder. as mentioned in step 5.&lt;/li&gt;
-&lt;li&gt;now go back to that netlify tab which we left opened in step 1.3. Now you have created output folder in your local PC, just drag and dropeed it here. after little wait, now you can see preview. It&amp;rsquo;ll give you some random URL, you can change it in &amp;ldquo;Site configration&amp;rdquo;..&lt;/li&gt;
-&lt;li&gt;Congratulations you have completed your first website and hosted it on internet. For adding a new page. use step 4, 7 or 8.&lt;/li&gt;
-&lt;li&gt;now go to netlify &amp;gt; Sites (check right pan) &amp;gt; pick your site &amp;gt; click on Deploys, you will see empty space and &amp;ldquo;drag and drop / upload / browse&amp;rdquo;, just drag and drop your whole output folder here.&lt;/li&gt;
-&lt;li&gt;Done. muhahhahaha 🔥🔥🔥🔥&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;you can skip this step if you want. It&amp;rsquo;s for adding a simple theme.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;create a folder themes. inside it one more folder &amp;ldquo;name of theme&amp;rdquo;, inside it 2 folders static and templates&lt;/li&gt;
+&lt;li&gt;inside static : css and images&lt;/li&gt;
+&lt;li&gt;inside css you can have your css file which will have style stuff.&lt;/li&gt;
+&lt;li&gt;now go inside templates, create a file base.html&lt;/li&gt;
+&lt;li&gt;and add some basic template in it&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Now you have a page in content folder, output folder is empty, some stuff in themes folder, and 4 other files. ignore them for now.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;open your cmmd in project folder and &amp;ldquo;if you skipped step 5&amp;rdquo; then run this command. &lt;code&gt;pelican content &lt;/code&gt; now check your output folder and you will find some html pages generated.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;if you acted on step 5 and created your own theme then you need to run this command &lt;code&gt;pelican content -s pelicanconf.py -t /projects/your-site/themes/your-theme&lt;/code&gt;. check your pages in output folder.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Maybe you will not like theme or template. Then you can change it in your Theme folder. as mentioned in step 5.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;now go back to that netlify tab which we left opened in step 1.3. Now you have created output folder in your local PC, just drag and dropeed it here. after little wait, now you can see preview. It&amp;rsquo;ll give you some random URL, you can change it in &amp;ldquo;Site configration&amp;rdquo;..&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Congratulations you have completed your first website and hosted it on internet. For adding a new page. use step 4, 7 or 8.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;now go to netlify &amp;gt; Sites (check right pan) &amp;gt; pick your site &amp;gt; click on Deploys, you will see empty space and &amp;ldquo;drag and drop / upload / browse&amp;rdquo;, just drag and drop your whole output folder here.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Done. muhahhahaha 🔥🔥🔥🔥&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
 </description>
       <author></author>

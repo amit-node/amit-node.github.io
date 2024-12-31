@@ -1,8 +1,6 @@
-amit-node : personal webpage of Amit Kumar Gupta
+**amit-node : personal webpage of Amit Kumar Gupta**
 
-Currently : Studying data science at IITM online degree
-
-                    Working at HTIC as Project Intern 
+Currently studying data science at IITM online degree and working at HTIC as Project Intern.
 
 I like cycling, reading and sketching.
 
