@@ -6,8 +6,15 @@
     <description>Recent content in Posts on amit-node</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://amit-node.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Cycling Records (wip)</title>
+      <link>https://amit-node.github.io/posts/my-cycling-records-wip/</link>
+      <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://amit-node.github.io/posts/my-cycling-records-wip/</guid>
+      <description>&lt;p&gt;&lt;img&#xD;&#xA;  src=&#34;https://amit-node.github.io/mahabalipuram_cycling.jpg&#34;&#xD;&#xA;  alt=&#34;mahabalipuram on cycle&#34;&#xD;&#xA;  loading=&#34;lazy&#34;&#xD;&#xA;  decoding=&#34;async&#34;&#xD;&#xA;  class=&#34;full-width&#34;&#xD;&#xA;/&gt;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;5 Jan 2025 : Taramani, Chennai to Mahabalipuram and return&#xA;&lt;ul&gt;&#xA;&lt;li&gt;100 km in 6 hr 24 min. ( moving time 5 hr 26 min.)&lt;/li&gt;&#xA;&lt;li&gt;Avg speed 15.6 kmph, moving avg 18.4 kmph.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
     <item>
       <title>Resources to study Deep Learning</title>
       <link>https://amit-node.github.io/posts/resources-to-study-deep-learning/</link>

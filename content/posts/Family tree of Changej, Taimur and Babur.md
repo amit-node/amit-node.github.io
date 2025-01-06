@@ -3,7 +3,6 @@
 title: "Family tree of Changej, Taimur and Babur"
 date: "2024-12-24"
 tags: 
-- Random
 - History
 ---
 
