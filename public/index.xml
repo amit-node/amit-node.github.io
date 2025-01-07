@@ -7,11 +7,59 @@
     
     <language>en</language>
     <copyright>Copyright 2025, Calvin Tran</copyright>
-    <lastBuildDate>Mon, 06 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jan 2025 00:00:00 +0000</lastBuildDate>
     <generator>Hugo - gohugo.io</generator>
     <docs>http://cyber.harvard.edu/rss/rss.html</docs>
     <atom:link href="https://amit-node.github.io//atom.xml" rel="self" type="application/atom+xml"/>
     
+    
+    <item>
+      <title>MAD-1 Project Resources</title>
+      <link>https://amit-node.github.io/posts/mad-1-project-resources/</link>
+      <description>&lt;p&gt;Making MAD-1 project is not so easy when you are totally new to HTML, CSS and Flask. Here are some resources which will help to build your project. These resources are not some &amp;ldquo;ready made tutorials&amp;rdquo;. They are really good for learning perspective too.  Don&amp;rsquo;t just watch them, code with them.&lt;/p&gt;
+&lt;p&gt;Kindly follow all resources in sequence.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note :&lt;/strong&gt; Some of these resources are in Hindi. But on YouTube you can find respective resources in English too.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;HTML&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;1 hr 10 min video. Self study time 3 hr maximum. &lt;br&gt; &lt;a href=&#34;https://youtu.be/qz0aGYrrlhU?feature=shared&#34;&gt;YouTube video link&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Flask&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;This is the most important part. Here is a playlist and I insist you do watch it on 1x and do coding alongside.  &lt;br&gt; No need to do whole playlist, of course whole playlist is good but for MAD - 1, tutorial 1 - 8 , 11, 15, 16, 19, 20, 22, 23 will be enough.&lt;br&gt;
+&lt;a href=&#34;https://youtube.com/playlist?list=PL2HQEyTmPppGlANLZS0quGmdNc3FTdi-8&amp;amp;feature=shared&#34;&gt;YouTube playlist link&lt;/a&gt; &lt;br&gt;
+self study time 12 hr. (3 days with 4 hr per day)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;End to end application&lt;/strong&gt; : At this point you know all the basics. It&amp;rsquo;s good to have some guided hands-on experience. Do it in sequence.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Free code camp tutorial&lt;br&gt;
+&lt;a href=&#34;https://youtu.be/Z1RJmh_OqeA?feature=shared&#34;&gt;YouTube video link&lt;/a&gt;&lt;br&gt;
+1 video, less than 1 hr,  self study time 3 hr max&lt;/li&gt;
+&lt;li&gt;Flask Authentication tutorial&lt;br&gt;
+&lt;a href=&#34;https://youtu.be/71EU8gnZqZQ?feature=shared&#34;&gt;YouTube video link&lt;/a&gt;&lt;br&gt;
+1 video, less than 1 hr,  self study time 3 hr max&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Bootstrap&lt;/strong&gt; : Okkk folks, nice job reaching this far. Your functional web application is ready, but it&amp;rsquo;s ugly looking. Now let&amp;rsquo;s have some make-up.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Bootstrap 5 tutorial&lt;br&gt;
+&lt;a href=&#34;https://youtube.com/playlist?list=PL4cUxeGkcC9joIM91nLzd_qaH_AimmdAR&amp;amp;feature=shared&#34;&gt;YouTube playlist link&lt;/a&gt;&lt;br&gt;
+Compulsory videos : tutorial 1 - 10. &lt;br&gt;
+Other videos you can watch if you want but not necessary.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+      <author></author>
+      <guid>https://amit-node.github.io/posts/mad-1-project-resources/</guid>
+      <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
     
     <item>
       <title>My Cycling Records (wip)</title>
