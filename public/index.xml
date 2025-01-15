@@ -14,9 +14,9 @@
     
     
     <item>
-      <title>Why I Ride a Bicycle ??</title>
+      <title>Why I Ride a Bicycle ?? (part-1 : Freedom)</title>
       <link>https://amit-node.github.io/posts/why-i-ride-a-bicycle/</link>
-      <description>&lt;h2 id=&#34;part-1--freedom&#34;&gt;Part 1 : Freedom&lt;/h2&gt;
+      <description>&lt;h3 id=&#34;part-1--freedom&#34;&gt;Part 1 : Freedom&lt;/h3&gt;
 &lt;p&gt;Why I Ride a Bicycle ??&lt;/p&gt;
 &lt;p&gt;I encounter this question a lot. And most of the time, I’m not able to give a convincing answer. It’s not that I don’t have an answer; it’s more like I cannot summarize it in a single line.&lt;/p&gt;
 &lt;p&gt;So why do I ride a bicycle? Indeed, why? Do I even need a reason? There are tons of texts available on the benefits of cycling. Are those benefits my reason? I don’t think so. Those &amp;ldquo;beneficial reasons&amp;rdquo; don’t really come to my mind when I ride my bicycle.&lt;/p&gt;
@@ -34,6 +34,73 @@
       <author></author>
       <guid>https://amit-node.github.io/posts/why-i-ride-a-bicycle/</guid>
       <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    
+    <item>
+      <title>PC commands and short cuts</title>
+      <link>https://amit-node.github.io/posts/pc-commands-and-short-cuts/</link>
+      <description>&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Google colab&lt;/strong&gt; short-cuts&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;to move cell up : &lt;code&gt;ctrl + m K&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;to move cell down : &lt;code&gt;ctrl + m J&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;to create a new cell below : &lt;code&gt;ctrl + m b&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;to create a new cell above : &lt;code&gt;ctrl + m a&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;to delete a cell : &lt;code&gt;ctrl + m d&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;to convert a text cell to code cell : &lt;code&gt;ctrl + m + y&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;to convert a code cell to text cell : &lt;code&gt;ctrl + m + m&lt;/code&gt; (double tap m)&lt;/li&gt;
+&lt;li&gt;to replace within cell : &lt;code&gt;ctrl + shift + h&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;to replace within entire notebook : &lt;code&gt;ctrl + h&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;to run all cells : &lt;code&gt;ctrl + F9&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;we can run shell commands by prefixing them with an exclamation mark ( ! )
+&lt;ul&gt;
+&lt;li&gt;or simply open a terminal in &amp;ldquo;new&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Windows&lt;/strong&gt; Short-cuts&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&amp;ldquo;winver&amp;rdquo; in search box to check your windows version.&lt;/li&gt;
+&lt;li&gt;Screen shot : Windows key + Shift + S&lt;/li&gt;
+&lt;li&gt;clip-board :  Windows logo key + V.&lt;/li&gt;
+&lt;li&gt;Windows + R to open &amp;ldquo;Run&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Windows + R then type CMD. to open CMD or bash&lt;/li&gt;
+&lt;li&gt;To check disk partition : &lt;code&gt;Win + R&lt;/code&gt;, type &lt;code&gt;diskmgmt.msc&lt;/code&gt;
+&lt;ol&gt;
+&lt;li&gt;in cmd : check partition, remove them and combine them.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;diskpart
+list disk
+select disk X  (replace X with your SD card number from the list)
+clean
+create partition primary
+format fs=fat32 quick  (or exFAT if needed)
+assign
+exit
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Linux / Bash&lt;/strong&gt;  commands&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;check the number of lines inside a folder &lt;code&gt;ls /path/to/your/folder | wc -l&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;delete all the files which contains specific &amp;ldquo;string&amp;rdquo;  in their name.&lt;code&gt;rm *string*&lt;/code&gt;
+&lt;ol&gt;
+&lt;li&gt;use above command with caution. better first check it by using &lt;code&gt;ls *string*&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+      <author></author>
+      <guid>https://amit-node.github.io/posts/pc-commands-and-short-cuts/</guid>
+      <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>

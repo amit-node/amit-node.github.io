@@ -4,15 +4,14 @@ date: 2025-01-10
 tags:
   - skill
   - tech
-draft: "True"
 ---
 
 1. **Google colab** short-cuts
-	- to move cell up : `ctrl+m K`
-	- to move cell down : `ctrl+m J`
-	- to create a new cell below : `ctrl+m b`
-	- to create a new cell above : `ctrl+m a`
-	- to delete a cell : `ctrl+m d`
+	- to move cell up : `ctrl + m K`
+	- to move cell down : `ctrl + m J`
+	- to create a new cell below : `ctrl + m b`
+	- to create a new cell above : `ctrl + m a`
+	- to delete a cell : `ctrl + m d`
 	- to convert a text cell to code cell : `ctrl + m + y`
 	- to convert a code cell to text cell : `ctrl + m + m` (double tap m)
 	- to replace within cell : `ctrl + shift + h`
