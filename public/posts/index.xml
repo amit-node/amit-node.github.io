@@ -6,21 +6,21 @@
     <description>Recent content in Posts on amit-node</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://amit-node.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PC commands and short cuts (WIP)</title>
+      <link>https://amit-node.github.io/posts/pc-commands-and-short-cuts/</link>
+      <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://amit-node.github.io/posts/pc-commands-and-short-cuts/</guid>
+      <description>&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Google colab&lt;/strong&gt; short-cuts&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;to move cell up : &lt;code&gt;ctrl+m K&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;to move cell down : &lt;code&gt;ctrl+m J&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;to create a new cell below : &lt;code&gt;ctrl+m b&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;to create a new cell above : &lt;code&gt;ctrl+m a&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;to delete a cell : &lt;code&gt;ctrl+m d&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;to convert a text cell to code cell : &lt;code&gt;ctrl + m + y&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;to convert a code cell to text cell : &lt;code&gt;ctrl + m + m&lt;/code&gt; (double tap m)&lt;/li&gt;&#xA;&lt;li&gt;to replace within cell : &lt;code&gt;ctrl + shift + h&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;to replace within entire notebook : &lt;code&gt;ctrl + h&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;to run all cells : &lt;code&gt;ctrl + F9&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;we can run shell commands by prefixing them with an exclamation mark ( ! )&#xA;&lt;ul&gt;&#xA;&lt;li&gt;or simply open a terminal in &amp;ldquo;new&amp;rdquo;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Windows&lt;/strong&gt; Short-cuts&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Why I Ride a Bicycle ?? (part-1 : Freedom)</title>
       <link>https://amit-node.github.io/posts/why-i-ride-a-bicycle/</link>
       <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://amit-node.github.io/posts/why-i-ride-a-bicycle/</guid>
       <description>&lt;h3 id=&#34;part-1--freedom&#34;&gt;Part 1 : Freedom&lt;/h3&gt;&#xA;&lt;p&gt;Why I Ride a Bicycle ??&lt;/p&gt;&#xA;&lt;p&gt;I encounter this question a lot. And most of the time, I’m not able to give a convincing answer. It’s not that I don’t have an answer; it’s more like I cannot summarize it in a single line.&lt;/p&gt;&#xA;&lt;p&gt;So why do I ride a bicycle? Indeed, why? Do I even need a reason? There are tons of texts available on the benefits of cycling. Are those benefits my reason? I don’t think so. Those &amp;ldquo;beneficial reasons&amp;rdquo; don’t really come to my mind when I ride my bicycle.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>PC commands and short cuts</title>
-      <link>https://amit-node.github.io/posts/pc-commands-and-short-cuts/</link>
-      <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://amit-node.github.io/posts/pc-commands-and-short-cuts/</guid>
-      <description>&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Google colab&lt;/strong&gt; short-cuts&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;to move cell up : &lt;code&gt;ctrl + m K&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;to move cell down : &lt;code&gt;ctrl + m J&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;to create a new cell below : &lt;code&gt;ctrl + m b&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;to create a new cell above : &lt;code&gt;ctrl + m a&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;to delete a cell : &lt;code&gt;ctrl + m d&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;to convert a text cell to code cell : &lt;code&gt;ctrl + m + y&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;to convert a code cell to text cell : &lt;code&gt;ctrl + m + m&lt;/code&gt; (double tap m)&lt;/li&gt;&#xA;&lt;li&gt;to replace within cell : &lt;code&gt;ctrl + shift + h&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;to replace within entire notebook : &lt;code&gt;ctrl + h&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;to run all cells : &lt;code&gt;ctrl + F9&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;we can run shell commands by prefixing them with an exclamation mark ( ! )&#xA;&lt;ul&gt;&#xA;&lt;li&gt;or simply open a terminal in &amp;ldquo;new&amp;rdquo;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Windows&lt;/strong&gt; Short-cuts&lt;/p&gt;</description>
     </item>
     <item>
       <title>MAD-1 Project Resources</title>

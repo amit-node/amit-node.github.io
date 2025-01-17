@@ -1,17 +1,17 @@
 ---
-title: PC commands and short cuts
-date: 2025-01-10
+title: PC commands and short cuts (WIP)
+date: 2025-01-17
 tags:
   - skill
   - tech
 ---
 
 1. **Google colab** short-cuts
-	- to move cell up : `ctrl + m K`
-	- to move cell down : `ctrl + m J`
-	- to create a new cell below : `ctrl + m b`
-	- to create a new cell above : `ctrl + m a`
-	- to delete a cell : `ctrl + m d`
+	- to move cell up : `ctrl+m K`
+	- to move cell down : `ctrl+m J`
+	- to create a new cell below : `ctrl+m b`
+	- to create a new cell above : `ctrl+m a`
+	- to delete a cell : `ctrl+m d`
 	- to convert a text cell to code cell : `ctrl + m + y`
 	- to convert a code cell to text cell : `ctrl + m + m` (double tap m)
 	- to replace within cell : `ctrl + shift + h`
@@ -45,4 +45,10 @@ tags:
 	1. check the number of lines inside a folder `ls /path/to/your/folder | wc -l`
 	2. delete all the files which contains specific "string"  in their name.`rm *string*`
 		1. use above command with caution. better first check it by using `ls *string*`
-	3. 
+	3. Checking Disk Usage `df -h`
+		- df : Disk Filesystem
+		- -h : human readable form, MB, GB
+	4. Open some specific folder from bash.
+		- first `cd` to that folder
+		- use `xdg-open .`
+	5. 

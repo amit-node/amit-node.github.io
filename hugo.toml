@@ -2,6 +2,7 @@ baseURL = 'https://amit-node.github.io/'
 languageCode = 'en-us'
 title = 'amit-node'
 theme = 'maverick'
+googleAnalytics = "G-00000000"
 
 [menu]
   [[menu.main]]
