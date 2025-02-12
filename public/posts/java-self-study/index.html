@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Liste - https://amit-node.github.io/">
+    <title>Java self study | amit-node</title>
+    <meta name="description" content="">
+    <meta property="og:url" content="https://amit-node.github.io/posts/java-self-study/">
+  <meta property="og:site_name" content="amit-node">
+  <meta property="og:title" content="Java self study">
+  <meta property="og:description" content="Preface It is still the first and best choice for developing web-based applications. This book following Java SE (JDK 17) This book is divided into 4 parts Part I presents an in-depth tutorial of the Java language. Part II examines key aspects of Java’s standard API library. Part III offers three chapters that introduce Swing. Part IV contains two chapters that show examples of Java in action. Ch 1. The History and Evolution of Java Many features of Java are influenced by C and C&#43;&#43; Invented and first implemented by Dennis Ritchie on a DEC PDP-11 running the UNIX operating system, C was the result of a development process that started with an older language called BCPL, developed by Martin Richards. BCPL influenced a language called B, invented by Ken Thompson, which led to the development of C in the 1970s. C&#43;&#43; was invented by Bjarne Stroustrup in 1979, while he was working at Bell Laboratories in Murray Hill, New Jersey. Stroustrup initially called the new language “C with Classes.” However, in 1983, the name was changed to C&#43;&#43;. C&#43;&#43; extends C by adding object-oriented features. Because C&#43;&#43; is built on the foundation of C, it includes all of C’s features, attributes and benefits Java was conceived by James Gosling, Patrick Naughton, Chris Warth, Ed Frank, and Mike Sheridan at Sun Microsystems, Inc. in 1991. It took 18 months to develop the first working version. This language was initially called “Oak,” but was renamed “Java” in 1995. Computer languages evolve for two reasons: to adapt to changes in environment and to implement advances in the art of programming. JVM : Java Virtual Machine
+JRE : Java Runtime Environment
+The output of a Java compiler is not executable code. Rather, it is bytecode. Bytecode is a highly optimized set of instructions designed to be executed by what is called the Java Virtual Machine (JVM), which is part of the Java Runtime Environment (JRE). In essence, the original JVM was designed as an interpreter for bytecode.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-02-12T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-02-12T00:00:00+00:00">
+    <meta property="article:tag" content="BS_degree">
+    <meta property="article:tag" content="Study">
+
+    
+  <meta itemprop="name" content="Java self study">
+  <meta itemprop="description" content="Preface It is still the first and best choice for developing web-based applications. This book following Java SE (JDK 17) This book is divided into 4 parts Part I presents an in-depth tutorial of the Java language. Part II examines key aspects of Java’s standard API library. Part III offers three chapters that introduce Swing. Part IV contains two chapters that show examples of Java in action. Ch 1. The History and Evolution of Java Many features of Java are influenced by C and C&#43;&#43; Invented and first implemented by Dennis Ritchie on a DEC PDP-11 running the UNIX operating system, C was the result of a development process that started with an older language called BCPL, developed by Martin Richards. BCPL influenced a language called B, invented by Ken Thompson, which led to the development of C in the 1970s. C&#43;&#43; was invented by Bjarne Stroustrup in 1979, while he was working at Bell Laboratories in Murray Hill, New Jersey. Stroustrup initially called the new language “C with Classes.” However, in 1983, the name was changed to C&#43;&#43;. C&#43;&#43; extends C by adding object-oriented features. Because C&#43;&#43; is built on the foundation of C, it includes all of C’s features, attributes and benefits Java was conceived by James Gosling, Patrick Naughton, Chris Warth, Ed Frank, and Mike Sheridan at Sun Microsystems, Inc. in 1991. It took 18 months to develop the first working version. This language was initially called “Oak,” but was renamed “Java” in 1995. Computer languages evolve for two reasons: to adapt to changes in environment and to implement advances in the art of programming. JVM : Java Virtual Machine
+JRE : Java Runtime Environment
+The output of a Java compiler is not executable code. Rather, it is bytecode. Bytecode is a highly optimized set of instructions designed to be executed by what is called the Java Virtual Machine (JVM), which is part of the Java Runtime Environment (JRE). In essence, the original JVM was designed as an interpreter for bytecode.">
+  <meta itemprop="datePublished" content="2025-02-12T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2025-02-12T00:00:00+00:00">
+  <meta itemprop="wordCount" content="1023">
+  <meta itemprop="keywords" content="BS_degree,Study">
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-00000000"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-00000000');
+        }
+      </script>
+	
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	
+    <link rel="canonical" href="https://amit-node.github.io/posts/java-self-study/">
+    <link rel="icon" href="https://amit-node.github.io//assets/favicon.ico">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link href="https://www.google-analytics.com" rel="preconnect" crossorigin>
+    <link rel="alternate" type="application/atom+xml" title="amit-node" href="https://amit-node.github.io//atom.xml" />
+    <link rel="alternate" type="application/json" title="amit-node" href="https://amit-node.github.io//feed.json" />
+    <link rel="shortcut icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bricolage+Grotesque">
+    
+    
+    <style>*,:after,:before{box-sizing:border-box;padding:0}body{font:1rem/1.5 bricolage grotesque,-apple-system,BlinkMacSystemFont,segoe ui,Helvetica,Arial,sans-serif;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;padding:2rem;background:#fffdfa;color:#000}.skip-link{position:absolute;top:-40px;left:0;background:#eee;z-index:100}.skip-link:focus{top:0}header{line-height:2;padding-bottom:1.5rem}.link{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-decoration:none}.time{font-variant-numeric:tabular-nums;white-space:nowrap}blockquote{border-left:5px solid #eee;padding-left:1rem;margin:0}a,a:visited{color:inherit}a:hover,a.heading-link{text-decoration:none}pre{padding:.5rem;overflow:auto;overflow-x:scroll;overflow-wrap:normal}code,pre{font-family:San Francisco Mono,Monaco,consolas,lucida console,dejavu sans mono,bitstream vera sans mono,monospace;font-size:normal;font-size:small;background:#eee}code{margin:.1rem;border:none}ul{list-style-type:square}ul,ol{padding-left:1.2rem}.list{line-height:2;list-style-type:none;padding-left:0}.list li{padding-bottom:.1rem}.meta{color:#777}.content{max-width:70ch;margin:0 auto}header{line-height:2;display:flex;justify-content:space-between;padding-bottom:1rem}header a{text-decoration:none}header ul{list-style-type:none;padding:0}header li,header a{display:inline}h2.post{padding-top:.5rem}header ul a:first-child{padding-left:1rem}.nav{height:1px;background:#000;content:'';max-width:10%}.list li{display:flex;align-items:baseline}.list li time{flex:initial}.hr-list{margin-top:0;margin-bottom:0;margin-right:.5rem;margin-left:.5rem;height:1px;border:0;border-bottom:1px dotted #ccc;flex:1 0 1rem}.m,hr{border:0;margin:3rem 0}img{max-width:100%;height:auto}.post-date{margin:5% 0}.index-date{color:#9a9a9a}.animate-blink{animation:opacity 1s infinite;opacity:1}@keyframes opacity{0%{opacity:1}50%{opacity:.5}100%{opacity:0}}.tags{display:flex;justify-content:space-between}.tags ul{padding:0;margin:0}.tags li{display:inline}.avatar{height:120px;width:120px;position:relative;margin:-10px 0 0 15px;float:right;border-radius:50%}table{width:100%;border-collapse:collapse}th,td{border:1px solid #ddd;text-align:left;padding:8px}th{background-color:#f2f2f2} </style>
+  
+    
+  
+  
+  <script type="application/ld+json">
+  {
+      "@context": "http://schema.org",
+      "@type": "BlogPosting",
+      "articleSection": "posts",
+      "name": "Java self study",
+      "headline": "Java self study",
+      "alternativeHeadline": "",
+      "description": "\u003ch1 id=\u0022preface\u0022\u003ePreface\u003c\/h1\u003e\n\u003cul\u003e\n\u003cli\u003eIt is still the first and best choice for developing web-based applications.\u003c\/li\u003e\n\u003cli\u003eThis book following Java SE (JDK 17)\u003c\/li\u003e\n\u003cli\u003eThis book is divided into 4 parts\n\u003cul\u003e\n\u003cli\u003ePart I presents an in-depth tutorial of the Java language.\u003c\/li\u003e\n\u003cli\u003ePart II examines key aspects of Java’s standard API library.\u003c\/li\u003e\n\u003cli\u003ePart III offers three chapters that introduce Swing.\u003c\/li\u003e\n\u003cli\u003ePart IV contains two chapters that show examples of Java in action.\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003chr\u003e\n\u003cbr\u003e\n\u003ch1 id=\u0022ch-1-the-history-and-evolution-of-java\u0022\u003eCh 1. The History and Evolution of Java\u003c\/h1\u003e\n\u003cul\u003e\n\u003cli\u003eMany features of Java are influenced by C and C\u002b\u002b\u003c\/li\u003e\n\u003cli\u003eInvented and first implemented by Dennis Ritchie on a DEC PDP-11 running the UNIX operating system, C was the result of a development process that started with an older language called BCPL, developed by Martin Richards. BCPL influenced a language called B, invented by Ken Thompson, which led to the development of C in the 1970s.\u003c\/li\u003e\n\u003cli\u003eC\u002b\u002b was invented by Bjarne Stroustrup in 1979, while he was working at Bell Laboratories in Murray Hill, New Jersey. Stroustrup initially called the new language “C with Classes.” However, in 1983, the name was changed to C\u002b\u002b. C\u002b\u002b extends C by adding object-oriented features. Because C\u002b\u002b is built on the foundation of C, it includes all of C’s features, attributes and benefits\u003c\/li\u003e\n\u003cli\u003eJava was conceived by James Gosling, Patrick Naughton, Chris Warth, Ed Frank, and Mike Sheridan at Sun Microsystems, Inc. in 1991. It took 18 months to develop the first working version. This language was initially called “Oak,” but was renamed “Java” in 1995.\u003c\/li\u003e\n\u003cli\u003eComputer languages evolve for two reasons: to adapt to changes in environment and to implement advances in the art of programming.\n\u003cbr\u003e\n\u003cbr\u003e\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003cp\u003eJVM : Java Virtual Machine\u003cbr\u003e\nJRE : Java Runtime Environment\u003cbr\u003e\nThe output of a Java compiler is not executable code. Rather, it is bytecode. Bytecode is a highly optimized set of instructions designed to be executed by what is called the Java Virtual Machine (JVM), which is part of the Java Runtime Environment (JRE). In essence, the original JVM was designed as an interpreter for bytecode.\u003c\/p\u003e",
+      "inLanguage": "en-us",
+      "isFamilyFriendly": "true",
+      "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https:\/\/amit-node.github.io\/posts\/java-self-study\/"
+      },
+      "author" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "creator" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "accountablePerson" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "copyrightHolder" : "amit-node",
+      "copyrightYear" : "2025",
+      "dateCreated": "2025-02-12T00:00:00.00Z",
+      "datePublished": "2025-02-12T00:00:00.00Z",
+      "dateModified": "2025-02-12T00:00:00.00Z",
+      "publisher":{
+          "@type":"Organization",
+          "name": "amit-node",
+          "url": "https://amit-node.github.io/",
+          "logo": {
+              "@type": "ImageObject",
+              "url": "https:\/\/amit-node.github.io\/",
+              "width":"32",
+              "height":"32"
+          }
+      },
+      "image": "https://amit-node.github.io/",
+      "url" : "https:\/\/amit-node.github.io\/posts\/java-self-study\/",
+      "wordCount" : "1023",
+      "genre" : [ "BS_degree" , "Study" ],
+      "keywords" : [ "BS_degree" , "Study" ]
+  }
+  </script>
+  
+  
+  </head>
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java self study</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <style>
+        
+        code {
+            background-color: #E5E4E2;
+            border-radius: 4px;
+            padding: 1px 4px;
+        }
+        
+        code:hover {
+            box-shadow: 2px 2px 6px rgba(50, 50, 150, 0.5);
+        }
+        
+        hr {
+            border: none;
+            height: 4px;  
+            background-color: black;  
+            margin: 20px 0;  
+        }
+
+        
+    
+    </style>
+</head>
+<body>
+</body>
+</html>
+
+<body>
+  <a class="skip-link" href="#main">Skip to main</a>
+  <main id="main">
+  <div class="content">
+    <header>
+<p style="padding: 0;margin: 0;">
+  <a href="https://amit-node.github.io/">
+    <b>amit-node</b>
+    <span class="text-stone-500 animate-blink">▮</span>
+  </a>
+</p>
+<ul style="padding: 0;margin: 0;">
+  
+  
+  <li class="">
+    <a href="/posts/"><span>Posts</span></a>
+    
+  <li class="">
+    <a href="/tags/"><span>Tags</span></a>
+    
+  </li>
+</ul>
+</header>
+<hr class="hr-list" style="padding: 0;margin: 0;">
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3S4LMPEVFV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3S4LMPEVFV');
+</script>
+    <section>
+      <h2 class="post">Java self study</h2>
+      <h1 id="preface">Preface</h1>
+<ul>
+<li>It is still the first and best choice for developing web-based applications.</li>
+<li>This book following Java SE (JDK 17)</li>
+<li>This book is divided into 4 parts
+<ul>
+<li>Part I presents an in-depth tutorial of the Java language.</li>
+<li>Part II examines key aspects of Java’s standard API library.</li>
+<li>Part III offers three chapters that introduce Swing.</li>
+<li>Part IV contains two chapters that show examples of Java in action.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<br>
+<h1 id="ch-1-the-history-and-evolution-of-java">Ch 1. The History and Evolution of Java</h1>
+<ul>
+<li>Many features of Java are influenced by C and C++</li>
+<li>Invented and first implemented by Dennis Ritchie on a DEC PDP-11 running the UNIX operating system, C was the result of a development process that started with an older language called BCPL, developed by Martin Richards. BCPL influenced a language called B, invented by Ken Thompson, which led to the development of C in the 1970s.</li>
+<li>C++ was invented by Bjarne Stroustrup in 1979, while he was working at Bell Laboratories in Murray Hill, New Jersey. Stroustrup initially called the new language “C with Classes.” However, in 1983, the name was changed to C++. C++ extends C by adding object-oriented features. Because C++ is built on the foundation of C, it includes all of C’s features, attributes and benefits</li>
+<li>Java was conceived by James Gosling, Patrick Naughton, Chris Warth, Ed Frank, and Mike Sheridan at Sun Microsystems, Inc. in 1991. It took 18 months to develop the first working version. This language was initially called “Oak,” but was renamed “Java” in 1995.</li>
+<li>Computer languages evolve for two reasons: to adapt to changes in environment and to implement advances in the art of programming.
+<br>
+<br></li>
+</ul>
+<p>JVM : Java Virtual Machine<br>
+JRE : Java Runtime Environment<br>
+The output of a Java compiler is not executable code. Rather, it is bytecode. Bytecode is a highly optimized set of instructions designed to be executed by what is called the Java Virtual Machine (JVM), which is part of the Java Runtime Environment (JRE). In essence, the original JVM was designed as an interpreter for bytecode.</p>
+<blockquote>
+<p>our code &gt; compile &gt; bytecode &gt; run &gt; result</p>
+</blockquote>
+<h3 id="12-main-characteristics-of-java">12 main characteristics of Java</h3>
+<ol>
+<li><strong>Simple</strong> : Simple to learn, based on C++</li>
+<li><strong>Object Oriented</strong> : Everything in java is an object. In object oriented programming, we organize our software as a combination of different types of objects.</li>
+<li><strong>Platform independent</strong> : You can use Java on any platform : mac, Windows, Linux.
+<ul>
+<li>There are two type of platforms : hardware based and software based. Java works on software based platform.</li>
+</ul>
+</li>
+<li><strong>Secured</strong> : java programs run inside a virtual machine sandbox.</li>
+<li><strong>Robust</strong> : Strong memory management.<br>
+Java is a strictly typed language, it checks your code at compile time.</li>
+<li><strong>Architectural - Neutral</strong> : No implementation dependent features.</li>
+<li><strong>Portable</strong> : You can carry Java bytecode to any platform.</li>
+<li><strong>High Performance</strong> : java is faster than many languages. But slower than C++. because Java is an interpreted language, which are slower than compiled languages (C++).
+<ol>
+<li>A <strong>compiler</strong> translates the entire source code into machine code than executes it. Results in faster execution.</li>
+<li><strong>Interpreter</strong> translate code line by line during execution. making it easier to detect errors but slows down program.</li>
+</ol>
+</li>
+<li><strong>Interpreted</strong></li>
+<li><strong>Distributed</strong> : It facilitates users to create distributed applications in Java.</li>
+<li><strong>Multi-threaded</strong> : Java can deal with many tasks at once by defining multiple threads.<br>
+Java also supports Remote Method Invocation (RMI). This feature enables a program to invoke methods across a network.</li>
+<li><strong>Dynamic</strong> : It supports dynamic loading of classes</li>
+</ol>
+<hr>
+<br>
+<h1 id="ch-2-an-overview-of-java">Ch 2. An Overview of Java</h1>
+<p>Object-oriented programming (OOP) is at the core of Java. In fact, all Java programs are to at least some extent object-oriented. OOP is so integral to Java that it is best to understand its basic principles before you begin writing even simple Java programs.</p>
+<h3 id="two-paradigms">Two Paradigms</h3>
+<p>Some programs are written around “what is happening” (process oriented model) and others are written around “who is being affected” (object oriented programming) These are the two paradigms that govern how a program is constructed.</p>
+<h3 id="abstraction">Abstraction</h3>
+<p>An essential element of object-oriented programming is abstraction. Humans manage complexity through abstraction. For example, people do not think of a car as a set of tens of thousands of individual parts. They think of it as a well-defined object with its own unique behavior. This abstraction allows people to use a car to drive to the grocery store without being overwhelmed by the complexity of the individual parts. They can ignore the details of how the engine, transmission, and braking systems work. Instead, they are free to utilize the object as a whole.</p>
+<h3 id="the-three-oop-principles">The Three OOP Principles</h3>
+<h4 id="a-encapsulation">a. Encapsulation</h4>
+<h4 id="b-inheritance">b. Inheritance</h4>
+<h4 id="c-polymorphism">c. Polymorphism</h4>
+<hr>
+<p><strong>Notes</strong>
+Stack memory is a memory usage mechanism that allows the system memory to be used as temporary data storage that behaves as a first-in-last-out buffer.</p>
+<hr>
+<p>println and print</p>
+<p>public static void main&hellip;.
+static public void main(String[] args){ also works</p>
+<p>in terminal : first javac file name. then java file name</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#75715e">/* com
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">this is a multiline coment
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">ments */</span>  
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// this is a single line comment</span>
+</span></span></code></pre></div><p>agar result float he to input bhi as float define karna hoga.</p>
+<p>Notice that the System.out.println( ) statement involves the ‘+’ operator. In this context,
+‘+’ means “string concatenation” and, if necessary, “string conversion.” When the compiler
+sees a String followed by a ‘+’ followed by a non-String, it attempts to convert the non-
+String into a String.</p>
+<p>use of class in java</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Stu</span>{
+</span></span><span style="display:flex;"><span>String name;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> age;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">double</span> ht;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Ab</span> {
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args){
+</span></span><span style="display:flex;"><span>Stu amit <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Stu();
+</span></span><span style="display:flex;"><span>Stu veer <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Stu();
+</span></span><span style="display:flex;"><span>amit.<span style="color:#a6e22e">name</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Amit&#34;</span>;
+</span></span><span style="display:flex;"><span>amit.<span style="color:#a6e22e">age</span> <span style="color:#f92672">=</span> 32;
+</span></span><span style="display:flex;"><span>amit.<span style="color:#a6e22e">ht</span> <span style="color:#f92672">=</span> 5.<span style="color:#a6e22e">10</span>;
+</span></span><span style="display:flex;"><span>veer.<span style="color:#a6e22e">name</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Veer&#34;</span>;
+</span></span><span style="display:flex;"><span>veer.<span style="color:#a6e22e">age</span> <span style="color:#f92672">=</span> 19;
+</span></span><span style="display:flex;"><span>veer.<span style="color:#a6e22e">ht</span> <span style="color:#f92672">=</span> 6.<span style="color:#a6e22e">2</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(veer.<span style="color:#a6e22e">ht</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><blockquote>
+<p>19</p>
+</blockquote>
+<p>addition (+), subtraction (-), division (/), multiplication (*) and modulus (%,
+which produces the remainder from integer division).</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">import</span> java.util.*;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Ac</span>{
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args) {
+</span></span><span style="display:flex;"><span>Random ra <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Random(100);
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> a, b, c;
+</span></span><span style="display:flex;"><span>a <span style="color:#f92672">=</span> ra.<span style="color:#a6e22e">nextInt</span>(40);
+</span></span><span style="display:flex;"><span>b <span style="color:#f92672">=</span> ra.<span style="color:#a6e22e">nextInt</span>(400); <span style="color:#75715e">// 400 is upper bound</span>
+</span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(b);
+</span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(a <span style="color:#f92672">+</span> b);
+</span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(a);
+</span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#f92672">++</span>a);
+</span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#f92672">--</span>a);
+</span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#f92672">--</span>a);
+</span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#f92672">--</span>a);
+</span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(a);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">double</span> x, y, z;
+</span></span><span style="display:flex;"><span>x <span style="color:#f92672">=</span> ra.<span style="color:#a6e22e">nextDouble</span>(5);
+</span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(x);
+</span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#f92672">++</span>x);
+</span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#f92672">++</span>x);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>AND (&amp;&amp;), OR (||) and NOT (!)</p>
+
+      
+      <div class="post-date">
+        <span class="g time">February 12, 2025 </span> &#8729;
+         
+         <a href="https://amit-node.github.io/tags/bs_degree/">bs_degree</a> <a href="https://amit-node.github.io/tags/study/">study</a>
+      </div>
+      
+    </section>
+    
+    
+    
+  </div>
+</main>
+</body>
+</html>

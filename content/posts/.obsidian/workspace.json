@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b2ae3634a2b8c7d8",
+        "id": "f6308404fd3aa77f",
         "type": "tabs",
         "children": [
           {
-            "id": "8508bbd7f66afa99",
+            "id": "d768b99c1cc1f002",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pc commands and short cuts.md",
+                "file": "Java self study.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pc commands and short cuts.md",
+                "file": "Java self study.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pc commands and short cuts.md",
+                "file": "Java self study.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pc commands and short cuts.md"
+                "file": "Java self study.md"
               }
             }
           }
@@ -147,10 +147,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8508bbd7f66afa99",
+  "active": "d768b99c1cc1f002",
   "lastOpenFiles": [
-    "Why I Ride a Bicycle.md",
+    "Java self study.md",
     "pc commands and short cuts.md",
+    "Why I Ride a Bicycle.md",
     "MAD-1 project resources.md",
     "My Cycling Records (wip).md",
     "Resources to study Deep Learning.md",
