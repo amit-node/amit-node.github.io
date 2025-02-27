@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body{
+--h1-color : #086ddd;
+--h2-color : green;
+--h3-color : #086ddd;
+--h4-color : #086ddd;
+--h5-color : #086ddd;
+--h6-color : yellow;
+}
+
+/* Bold font */
+body:not(.default-font-color) strong,
+body:not(.default-font-color) span:not(.cm-highlight).cm-strong {
+  color: orangered;
+}
+      
+/* Italics */
+body:not(.default-font-color) em,
+body:not(.default-font-color) span:not(.cm-highlight).cm-em {
+  color: lawngreen;
+}
+
+
+.markdown-rendered code, /* for preview/reading view */
+.cm-s-obsidian span.cm-inline-code:not(.cm-formatting):not(.cm-hmd-indented-code):not(.obsidian-search-match-highlight) /* for editing view */
+{
+    background-color: #f0f8ff; /* Light blue background */
+    opacity: 0.7;
+    color: #000000;          /* Navy text color */
+    padding: 2px 4px;         /* Padding around the code */
+    border-radius: 6px;       /* Rounded corners */
+    font-family: monospace;   /* Monospace font for code */
+}
+
+hr {
+    border: 2px solid black; /* Removes any existing borders */
+    height: 6px;  /* Sets the thickness of the horizontal line */
+    background-color: white; /* Optional: Set a custom color */
+    
+}

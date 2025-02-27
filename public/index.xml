@@ -7,7 +7,7 @@
     
     <language>en</language>
     <copyright>Copyright 2025, Calvin Tran</copyright>
-    <lastBuildDate>Wed, 12 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Feb 2025 00:00:00 +0000</lastBuildDate>
     <generator>Hugo - gohugo.io</generator>
     <docs>http://cyber.harvard.edu/rss/rss.html</docs>
     <atom:link href="https://amit-node.github.io//atom.xml" rel="self" type="application/atom+xml"/>
@@ -16,49 +16,39 @@
     <item>
       <title>Java self study</title>
       <link>https://amit-node.github.io/posts/java-self-study/</link>
-      <description>&lt;h1 id=&#34;preface&#34;&gt;Preface&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;It is still the first and best choice for developing web-based applications.&lt;/li&gt;
-&lt;li&gt;This book following Java SE (JDK 17)&lt;/li&gt;
-&lt;li&gt;This book is divided into 4 parts
-&lt;ul&gt;
-&lt;li&gt;Part I presents an in-depth tutorial of the Java language.&lt;/li&gt;
-&lt;li&gt;Part II examines key aspects of Java’s standard API library.&lt;/li&gt;
-&lt;li&gt;Part III offers three chapters that introduce Swing.&lt;/li&gt;
-&lt;li&gt;Part IV contains two chapters that show examples of Java in action.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;br&gt;
-&lt;h1 id=&#34;ch-1-the-history-and-evolution-of-java&#34;&gt;Ch 1. The History and Evolution of Java&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;java-quiz-1-study&#34;&gt;Java Quiz 1 study&lt;/h1&gt;
+&lt;h2 id=&#34;the-history-and-evolution-of-java&#34;&gt;The History and Evolution of Java&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Many features of Java are influenced by C and C++&lt;/li&gt;
-&lt;li&gt;Invented and first implemented by Dennis Ritchie on a DEC PDP-11 running the UNIX operating system, C was the result of a development process that started with an older language called BCPL, developed by Martin Richards. BCPL influenced a language called B, invented by Ken Thompson, which led to the development of C in the 1970s.&lt;/li&gt;
+&lt;li&gt;Invented and first implemented by Dennis Ritchie on the UNIX operating system, C was the result of a development process that started with an older language called BCPL, developed by Martin Richards. BCPL influenced a language called B, invented by Ken Thompson, which led to the development of C in the 1970s.&lt;/li&gt;
 &lt;li&gt;C++ was invented by Bjarne Stroustrup in 1979, while he was working at Bell Laboratories in Murray Hill, New Jersey. Stroustrup initially called the new language “C with Classes.” However, in 1983, the name was changed to C++. C++ extends C by adding object-oriented features. Because C++ is built on the foundation of C, it includes all of C’s features, attributes and benefits&lt;/li&gt;
 &lt;li&gt;Java was conceived by James Gosling, Patrick Naughton, Chris Warth, Ed Frank, and Mike Sheridan at Sun Microsystems, Inc. in 1991. It took 18 months to develop the first working version. This language was initially called “Oak,” but was renamed “Java” in 1995.&lt;/li&gt;
-&lt;li&gt;Computer languages evolve for two reasons: to adapt to changes in environment and to implement advances in the art of programming.
-&lt;br&gt;
-&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;Computer languages evolve for two reasons: to adapt to changes in environment and to implement advances in the art of programming.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;JVM : Java Virtual Machine&lt;br&gt;
-JRE : Java Runtime Environment&lt;br&gt;
+&lt;p&gt;&lt;strong&gt;JVM&lt;/strong&gt; : Java Virtual Machine&lt;br&gt;
+&lt;strong&gt;JRE&lt;/strong&gt; : Java Runtime Environment&lt;br&gt;
 The output of a Java compiler is not executable code. Rather, it is bytecode. Bytecode is a highly optimized set of instructions designed to be executed by what is called the Java Virtual Machine (JVM), which is part of the Java Runtime Environment (JRE). In essence, the original JVM was designed as an interpreter for bytecode.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;our code &amp;gt; compile &amp;gt; bytecode &amp;gt; run &amp;gt; result&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;h3 id=&#34;there-are-4-types-of-applications-we-can-create-using-java&#34;&gt;There are 4 types of applications we can create using Java.&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Stand Alone&lt;/strong&gt; : Desktop applications&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Web application&lt;/strong&gt; : runs on server side and create dynamic pages.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Enterprise Application&lt;/strong&gt; : Distributed in nature, banking etc.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mobile Application&lt;/strong&gt; : Mobile games etc.&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h3 id=&#34;12-main-characteristics-of-java&#34;&gt;12 main characteristics of Java&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Simple&lt;/strong&gt; : Simple to learn, based on C++&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Object Oriented&lt;/strong&gt; : Everything in java is an object. In object oriented programming, we organize our software as a combination of different types of objects.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Platform independent&lt;/strong&gt; : You can use Java on any platform : mac, Windows, Linux.
-&lt;ul&gt;
+&lt;ol&gt;
 &lt;li&gt;There are two type of platforms : hardware based and software based. Java works on software based platform.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/ol&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Secured&lt;/strong&gt; : java programs run inside a virtual machine sandbox.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Robust&lt;/strong&gt; : Strong memory management.&lt;br&gt;
-Java is a strictly typed language, it checks your code at compile time.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Robust&lt;/strong&gt; : Strong memory management.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Architectural - Neutral&lt;/strong&gt; : No implementation dependent features.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Portable&lt;/strong&gt; : You can carry Java bytecode to any platform.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;High Performance&lt;/strong&gt; : java is faster than many languages. But slower than C++. because Java is an interpreted language, which are slower than compiled languages (C++).
@@ -69,26 +59,387 @@ Java is a strictly typed language, it checks your code at compile time.&lt;/li&g
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Interpreted&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Distributed&lt;/strong&gt; : It facilitates users to create distributed applications in Java.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Multi-threaded&lt;/strong&gt; : Java can deal with many tasks at once by defining multiple threads.&lt;br&gt;
-Java also supports Remote Method Invocation (RMI). This feature enables a program to invoke methods across a network.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-threaded&lt;/strong&gt; : Java can deal with many tasks at once by defining multiple threads.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Dynamic&lt;/strong&gt; : It supports dynamic loading of classes&lt;/li&gt;
 &lt;/ol&gt;
+&lt;h2 id=&#34;week-1&#34;&gt;week 1&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;High level language&lt;/strong&gt; : Human readable&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Low level language&lt;/strong&gt; : machine readable.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We need Compilers and interpreters to translate High level language to low level language.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Abstractions used in computation thinking
+An essential element of object-oriented programming is abstraction. Humans manage complexity through abstraction. For example, people do not think of a car as a set of tens of thousands of individual parts. They think of it as a well-defined object with its own unique behavior. This abstraction allows people to use a car to drive to the grocery store without being overwhelmed by the complexity of the individual parts. They can ignore the details of how the engine, transmission, and braking systems work. Instead, they are free to utilize the object as a whole.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;compilers, interpreters
+1. A &lt;strong&gt;compiler&lt;/strong&gt; translates the entire source code into machine code than executes it. Results in faster execution.
+2. &lt;strong&gt;Interpreter&lt;/strong&gt; translate code line by line during execution. making it easier to detect errors but slows down program
+- java is faster than many languages. But slower than C++. because Java is an interpreted language, which are slower than compiled languages (C++).  Python is also an interpreted language.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;1-imperative&#34;&gt;1. Imperative&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;How to compute&lt;/li&gt;
+&lt;li&gt;Step by step instructions&lt;/li&gt;
+&lt;li&gt;Intermediate steps are given. whole process is given&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;2-declarative&#34;&gt;2. Declarative&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;What to compute&lt;/li&gt;
+&lt;li&gt;Not much instructions&lt;/li&gt;
+&lt;li&gt;Intermediate steps are not given&lt;/li&gt;
+&lt;li&gt;Combination of small - small functions : Functional programming. Reccursion is also there&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;collections&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;arrays, lists, dictionaries&lt;/li&gt;
+&lt;li&gt;stack : push and pop&lt;/li&gt;
+&lt;li&gt;queue : enqueue, dequeue&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Data Types&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Static vs dynamic typing&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dynamic : you can set x value then you can change x value. you can change data types also. machine judges type on the basis of value. It can be changeable. If I defined x as int first. but then change it in float. it&amp;rsquo;ll be fine.&lt;/li&gt;
+&lt;li&gt;Static : Associate data type with variable in advance, can&amp;rsquo;t assisgn different data type value. With variable declaration  compilers can detect type errors at compile time.&lt;/li&gt;
+&lt;li&gt;It&amp;rsquo;s mandatory in java to define the type of our variable when we initiate our variable.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;something-about-storage-&#34;&gt;Something about storage :&lt;/h3&gt;
+&lt;p&gt;5 different places to store data&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Registers. This is the fastest storage because it exists in a place different from that of
+other storage: inside the processor. However, the number of registers is severely
+limited, so registers are allocated as they are needed. You don’t have direct control,
+nor do you see any evidence in your programs that registers even exist (C &amp;amp; C++, on
+the other hand, allow you to suggest register allocation to the compiler).&lt;/li&gt;
+&lt;li&gt;The stack. This lives in the general random-access memory (RAM) area, but has
+direct support from the processor via its stack pointer. The stack pointer is moved
+down to create new memory and moved up to release that memory. This is an
+extremely fast and efficient way to allocate storage, second only to registers. The Java
+system must know, while it is creating the program, the exact lifetime of all the items
+that are stored on the stack. This constraint places limits on the flexibility of your
+programs, so while some Java storage exists on the stack—in particular, object
+references—Java objects themselves are not placed on the stack.&lt;/li&gt;
+&lt;li&gt;The heap. This is a general-purpose pool of memory (also in the RAM area) where all
+Java objects live. The nice thing about the heap is that, unlike the stack, the compiler
+doesn’t need to know how long that storage must stay on the heap. Thus, there’s a
+great deal of flexibility in using storage on the heap. Whenever you need an object, you
+simply write the code to create it by using new, and the storage is allocated on the
+heap when that code is executed. Of course there’s a price you pay for this flexibility: It
+may take more time to allocate and clean up heap storage than stack storage (if you
+even could create objects on the stack in Java, as you can in C++).&lt;/li&gt;
+&lt;li&gt;Constant storage. Constant values are often placed directly in the program code,
+which is safe since they can never change. Sometimes constants are cordoned off by
+themselves so that they can be optionally placed in read-only memory (ROM), in
+embedded systems.2&lt;/li&gt;
+&lt;li&gt;Non-RAM storage. If data lives completely outside a program, it can exist while the
+program is not running, outside the control of the program. The two primary
+examples of this are streamed objects, in which objects are turned into streams of
+bytes, generally to be sent to another machine, and persistent objects, in which the
+objects are placed on disk so they will hold their state even when the program is
+terminated. The trick with these types of storage is turning the objects into something
+that can exist on the other medium, and yet can be resurrected into a regular RAM-
+based object when necessary. Java provides support for lightweight persistence, and
+mechanisms such as JDBC and Hibernate provide more sophisticated support for
+storing and retrieving object information in databases.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Scope of a variable : Local and global&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;lifetime of a variable&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;How long a variable can stays in memory&lt;/li&gt;
+&lt;li&gt;In case of local variable, scope and lifetime are same.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Memory stack&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;function needs storage for local variable&lt;/li&gt;
+&lt;li&gt;create activation record when function is called
+&lt;ul&gt;
+&lt;li&gt;activation records are stacked,  popped when function exits&lt;/li&gt;
+&lt;li&gt;link points to start of previous record&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;scope of variable&lt;/li&gt;
+&lt;li&gt;lifetime of a variable&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;arguments : formal parameters&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;activation record&lt;/li&gt;
+&lt;li&gt;2 ways to initialize the parameters
+&lt;ul&gt;
+&lt;li&gt;call by value&lt;/li&gt;
+&lt;li&gt;call by reference&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;heap : linked list has some drawbacks&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;separate storage for persistent data : dynamically allocated vs statically declared&lt;/li&gt;
+&lt;li&gt;called Heap : (different from DSA)&lt;/li&gt;
+&lt;li&gt;Heap is at the opposite end of the stack&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Manual memory management&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;request and return heap storage&lt;/li&gt;
+&lt;li&gt;error prone&lt;/li&gt;
+&lt;li&gt;explicit deallocation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Automatics garbage collection&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;mark and sweep&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Stepwise refinement&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;you can divide your problem in many subparts and many people can work on different parts. later you can combine them.&lt;/li&gt;
+&lt;li&gt;Dividing the program and then merging the solution.
+&lt;ul&gt;
+&lt;li&gt;start with a high level, then refine task into subtasks&lt;/li&gt;
+&lt;li&gt;again sub division&lt;/li&gt;
+&lt;li&gt;sub tasks or sub divisons can be coded by different people&lt;/li&gt;
+&lt;li&gt;program refine ment : focus on code not on data structure&lt;/li&gt;
+&lt;li&gt;top down, bottom up&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;modular software developement&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;use refinement to divide the solution into components&lt;/li&gt;
+&lt;li&gt;build prototype for each component&lt;/li&gt;
+&lt;li&gt;components
+&lt;ul&gt;
+&lt;li&gt;interface : what is visible to others components, e.g. function calls&lt;/li&gt;
+&lt;li&gt;specifications : behaviour of component, as visible through interface&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;control abstraction&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Encapsulation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;data abstraction&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;object oriented programming&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;object is like an abstract datatype&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;uniform way to encapsulating different combinations of data and functionality&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;an object can hold single integer or entire databse too&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;features in object oriented programming&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;abstraction&lt;/li&gt;
+&lt;li&gt;subtyping&lt;/li&gt;
+&lt;li&gt;dynamic lookup&lt;/li&gt;
+&lt;li&gt;inheritance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;abstraction&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;objects are similar to abstract datatypes&lt;/li&gt;
+&lt;li&gt;data centric view of programming&lt;/li&gt;
+&lt;li&gt;recall stepwise refinement&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Subtyping&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;recall event queue&lt;/li&gt;
+&lt;li&gt;arrange types in hierarchy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Dynamic lookup&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;type checking&lt;/li&gt;
+&lt;li&gt;how to method act is a dynamic property how the object is implemented&lt;/li&gt;
+&lt;li&gt;different from overloading&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;inheritance&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;re-use of implementations&lt;/li&gt;
+&lt;li&gt;employee objects, manager objects&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;difference between subtyping and inheritance.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;deque is a double ended queue&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;objects&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;class&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;constructor&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;adding method to a class&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;changing the internal implementations&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;abstraction
+how to use above concepts in coding&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;week-2&#34;&gt;week 2&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;print command&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;visibility&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;availablity&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;public class&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;work of JVM and &amp;ldquo;write once run anywhere&amp;rdquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;javac&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;scalar type&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;IN OBJECT ORIENTED, ALL DATA SHOULD BE ENCAPSULATED AS OBJECTS&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;8 primitive scalar types and their size in bytes&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;int	4 bits&lt;/li&gt;
+&lt;li&gt;long	8&lt;/li&gt;
+&lt;li&gt;short	2&lt;/li&gt;
+&lt;li&gt;byte		1&lt;/li&gt;
+&lt;li&gt;float	4 bytes = 32 bits&lt;/li&gt;
+&lt;li&gt;double	8 bytes = 64 bits&lt;/li&gt;
+&lt;li&gt;char		2 for Unicode&lt;/li&gt;
+&lt;li&gt;boolean	1, true false (in small)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Declaration, assigining values&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;initialization, constants&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;airthmatic concepts&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Math.ppow()&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;string in double quotes &amp;ldquo;string&amp;rdquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;method substing in class string&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Array are also objects&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;length&lt;/li&gt;
+&lt;li&gt;indices&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;control flow&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;if else
+&lt;ul&gt;
+&lt;li&gt;but no elif&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;while&lt;/li&gt;
+&lt;li&gt;do, while&lt;/li&gt;
+&lt;li&gt;for : 2 types of for&lt;/li&gt;
+&lt;li&gt;multibranching : switch&lt;/li&gt;
+&lt;li&gt;iteration&lt;/li&gt;
+&lt;li&gt;break&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;java classes&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;defining a class&lt;/li&gt;
+&lt;li&gt;instance variable&lt;/li&gt;
+&lt;li&gt;creating objects&lt;/li&gt;
+&lt;li&gt;new,this,&lt;/li&gt;
+&lt;li&gt;Accessor, Mutator methods&lt;/li&gt;
+&lt;li&gt;constructors&lt;/li&gt;
+&lt;li&gt;copy constructors
+&lt;ul&gt;
+&lt;li&gt;shallow copy vs deep copy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;java input and output&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;console class&lt;/li&gt;
+&lt;li&gt;readline&lt;/li&gt;
+&lt;li&gt;readpassword&lt;/li&gt;
+&lt;li&gt;generating output&lt;/li&gt;
+&lt;li&gt;println, print, printf&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;week-3&#34;&gt;week 3&lt;/h2&gt;
 &lt;hr&gt;
-&lt;br&gt;
-&lt;h1 id=&#34;ch-2-an-overview-of-java&#34;&gt;Ch 2. An Overview of Java&lt;/h1&gt;
-&lt;p&gt;Object-oriented programming (OOP) is at the core of Java. In fact, all Java programs are to at least some extent object-oriented. OOP is so integral to Java that it is best to understand its basic principles before you begin writing even simple Java programs.&lt;/p&gt;
-&lt;h3 id=&#34;two-paradigms&#34;&gt;Two Paradigms&lt;/h3&gt;
-&lt;p&gt;Some programs are written around “what is happening” (process oriented model) and others are written around “who is being affected” (object oriented programming) These are the two paradigms that govern how a program is constructed.&lt;/p&gt;
-&lt;h3 id=&#34;abstraction&#34;&gt;Abstraction&lt;/h3&gt;
-&lt;p&gt;An essential element of object-oriented programming is abstraction. Humans manage complexity through abstraction. For example, people do not think of a car as a set of tens of thousands of individual parts. They think of it as a well-defined object with its own unique behavior. This abstraction allows people to use a car to drive to the grocery store without being overwhelmed by the complexity of the individual parts. They can ignore the details of how the engine, transmission, and braking systems work. Instead, they are free to utilize the object as a whole.&lt;/p&gt;
-&lt;h3 id=&#34;the-three-oop-principles&#34;&gt;The Three OOP Principles&lt;/h3&gt;
-&lt;h4 id=&#34;a-encapsulation&#34;&gt;a. Encapsulation&lt;/h4&gt;
-&lt;h4 id=&#34;b-inheritance&#34;&gt;b. Inheritance&lt;/h4&gt;
-&lt;h4 id=&#34;c-polymorphism&#34;&gt;c. Polymorphism&lt;/h4&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;Notes&lt;/strong&gt;
-Stack memory is a memory usage mechanism that allows the system memory to be used as temporary data storage that behaves as a first-in-last-out buffer.&lt;/p&gt;
-&lt;hr&gt;
+&lt;h1 id=&#34;coding-bits&#34;&gt;coding bits&lt;/h1&gt;
 &lt;p&gt;println and print&lt;/p&gt;
 &lt;p&gt;public static void main&amp;hellip;.
 static public void main(String[] args){ also works&lt;/p&gt;
@@ -127,8 +478,7 @@ String into a String.&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
 &lt;p&gt;19&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;addition (+), subtraction (-), division (/), multiplication (*) and modulus (%,
-which produces the remainder from integer division).&lt;/p&gt;
+&lt;p&gt;addition (+), subtraction (-), division (/), multiplication (*) and modulus (%, which produces the remainder from integer division).&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; java.util.*;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Ac&lt;/span&gt;{
@@ -157,7 +507,7 @@ which produces the remainder from integer division).&lt;/p&gt;
 </description>
       <author></author>
       <guid>https://amit-node.github.io/posts/java-self-study/</guid>
-      <pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
