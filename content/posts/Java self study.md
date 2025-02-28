@@ -304,6 +304,10 @@ ments */
 ```
 
 - agar result float he to input bhi as float define karna hoga.
+- char, single quote, shirf character hoga, hamesha
+- string, hamesha double quote
+- float  ki jagah jyadatar double use karna better hoga. 
+- 
 
 - Notice that the System.out.println( ) statement involves the ‘+’ operator. In this context,
 ‘+’ means “string concatenation” and, if necessary, “string conversion.” When the compiler
@@ -336,7 +340,7 @@ System.out.println(veer.ht);
 >> 19
 ```
 
-- addition (+), subtraction (-), division (/), multiplication (*) and modulus (%, which produces the remainder from integer division).
+- addition (+), subtraction (-), division (/), multiplication (\*) and modulus (%, which produces the remainder from integer division).
 
 ```java
 import java.util.*;
@@ -363,15 +367,27 @@ System.out.println(++x);
 System.out.println(++x);
 }
 }
-```
 
+>> 250
+>> 285
+>> 35
+>> 36
+>> 35
+>> 34
+>> 33
+>> 33
+>> 0.9748802867385259
+>> 1.974880286738526
+>> 2.974880286738526
+```
+- yaha ++a, a me ek value badha dega. but a++ kaam nahi karta. 
 - AND (&&), OR (||) and NOT (!) 
 
 ##### if condition
-
+ structure : " if (condition) statement "
 ```java
 class Example{
-   public static void main(String[] args_) {
+   public static void main(String[] args) {
       int num;
       num = 500;
       if (num < 100)
@@ -384,7 +400,7 @@ class Example{
 
 ```java
 class Example{
-   public static void main(String[] args_) {
+   public static void main(String[] args) {
       int num;
       num = 500;
       if (num < 100)
@@ -522,6 +538,57 @@ System.out.println(Math.sqrt(a));
 - above is an example of Dynamic Initialization.
 - and Math library / class (predefine in Java)
 
+
+- writhing *functions* in java
+```java
+class ZZZ{
+static void myFunction(){
+System.out.println("myFunction is executed.");
+}
+
+public static void main(String[] args){
+myFunction();
+}
+}
+
+>> myFunction is executed.
+```
+
+
+- in java booleans are "true" and "false". small case. not True and False.
+
+##### Array :
+- 1-d array : list of like - typed variables.
+- first define a variable as array : data-type [] variable-name
+- then define it's size (memory allocation) : variable-name = new type [size]
+- then add elements.
+- be careful about the data type. 
+- we can also change any list element dynamically
+
+```java
+class Example{
+   public static void main(String[] args){
+      String [] name_list;
+      name_list = new String[5];
+      name_list[0] = "amit";
+      name_list[1] = "Mathew";
+      name_list[2] = "Sujay";
+      name_list[3] = "Veer";
+      name_list[4] = "Raj";
+      System.out.println(name_list);
+      System.out.println(name_list[1]);
+      System.out.println(name_list[3]);
+      name_list[1] = "Abhijeet";
+      System.out.println(name_list[1]);
+   }
+}
+
+>> [Ljava.lang.String;@24d46ca6
+>> Mathew
+>> Veer
+>> Abhijeet
+```
+
 ```java
 class Example{
 public static void main(String[] args){
@@ -539,4 +606,4 @@ System.out.println(x);
 >> I@24d46ca6  idk some random stuff.
 ```
 
-
+on 9:30

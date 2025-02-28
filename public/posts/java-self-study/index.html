@@ -28,7 +28,7 @@ JRE : Java Runtime Environment
 The output of a Java compiler is not executable code. Rather, it is bytecode. Bytecode is a highly optimized set of instructions designed to be executed by what is called the Java Virtual Machine (JVM), which is part of the Java Runtime Environment (JRE). In essence, the original JVM was designed as an interpreter for bytecode.">
   <meta itemprop="datePublished" content="2025-02-27T00:00:00+00:00">
   <meta itemprop="dateModified" content="2025-02-27T00:00:00+00:00">
-  <meta itemprop="wordCount" content="2571">
+  <meta itemprop="wordCount" content="2769">
   <meta itemprop="keywords" content="BS_degree,Study">
     
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-00000000"></script>
@@ -111,7 +111,7 @@ The output of a Java compiler is not executable code. Rather, it is bytecode. By
       },
       "image": "https://amit-node.github.io/",
       "url" : "https:\/\/amit-node.github.io\/posts\/java-self-study\/",
-      "wordCount" : "2571",
+      "wordCount" : "2769",
       "genre" : [ "BS_degree" , "Study" ],
       "keywords" : [ "BS_degree" , "Study" ]
   }
@@ -643,6 +643,16 @@ how to use above concepts in coding</p>
 <p>agar result float he to input bhi as float define karna hoga.</p>
 </li>
 <li>
+<p>char, single quote, shirf character hoga, hamesha</p>
+</li>
+<li>
+<p>string, hamesha double quote</p>
+</li>
+<li>
+<p>float  ki jagah jyadatar double use karna better hoga.</p>
+</li>
+<li></li>
+<li>
 <p>Notice that the System.out.println( ) statement involves the ‘+’ operator. In this context,
 ‘+’ means “string concatenation” and, if necessary, “string conversion.” When the compiler
 sees a String followed by a ‘+’ followed by a non-String, it attempts to convert the non-
@@ -699,12 +709,26 @@ String into a String.</p>
 </span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#f92672">++</span>x);
 </span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> 250
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> 285
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> 35
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> 36
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> 35
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> 34
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> 33
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> 33
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> 0.<span style="color:#a6e22e">9748802867385259</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> 1.<span style="color:#a6e22e">974880286738526</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> 2.<span style="color:#a6e22e">974880286738526</span>
 </span></span></code></pre></div><ul>
+<li>yaha ++a, a me ek value badha dega. but a++ kaam nahi karta.</li>
 <li>AND (&amp;&amp;), OR (||) and NOT (!)</li>
 </ul>
 <h5 id="if-condition">if condition</h5>
+<p>structure : &quot; if (condition) statement &quot;</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Example</span>{
-</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args_) {
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args) {
 </span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">int</span> num;
 </span></span><span style="display:flex;"><span>      num <span style="color:#f92672">=</span> 500;
 </span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">if</span> (num <span style="color:#f92672">&lt;</span> 100)
@@ -714,7 +738,7 @@ String into a String.</p>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> (empty, nothing in output)
 </span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Example</span>{
-</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args_) {
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args) {
 </span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">int</span> num;
 </span></span><span style="display:flex;"><span>      num <span style="color:#f92672">=</span> 500;
 </span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">if</span> (num <span style="color:#f92672">&lt;</span> 100)
@@ -836,10 +860,61 @@ String into a String.</p>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> value of a and b and c 10330
 </span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> 3.<span style="color:#a6e22e">1622776601683795</span>
 </span></span></code></pre></div><ul>
-<li>above is an example of Dynamic Initialization.</li>
-<li>and Math library / class (predefine in Java)</li>
+<li>
+<p>above is an example of Dynamic Initialization.</p>
+</li>
+<li>
+<p>and Math library / class (predefine in Java)</p>
+</li>
+<li>
+<p>writhing <em>functions</em> in java</p>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">ZZZ</span>{
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">myFunction</span>(){
+</span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;myFunction is executed.&#34;</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args){
+</span></span><span style="display:flex;"><span>myFunction();
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> myFunction is executed.
+</span></span></code></pre></div><ul>
+<li>in java booleans are &ldquo;true&rdquo; and &ldquo;false&rdquo;. small case. not True and False.</li>
+</ul>
+<h5 id="array-">Array :</h5>
+<ul>
+<li>1-d array : list of like - typed variables.</li>
+<li>first define a variable as array : data-type [] variable-name</li>
+<li>then define it&rsquo;s size (memory allocation) : variable-name = new type [size]</li>
+<li>then add elements.</li>
+<li>be careful about the data type.</li>
+<li>we can also change any list element dynamically</li>
 </ul>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Example</span>{
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args){
+</span></span><span style="display:flex;"><span>      String <span style="color:#f92672">[]</span> name_list;
+</span></span><span style="display:flex;"><span>      name_list <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> String<span style="color:#f92672">[</span>5<span style="color:#f92672">]</span>;
+</span></span><span style="display:flex;"><span>      name_list<span style="color:#f92672">[</span>0<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;amit&#34;</span>;
+</span></span><span style="display:flex;"><span>      name_list<span style="color:#f92672">[</span>1<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Mathew&#34;</span>;
+</span></span><span style="display:flex;"><span>      name_list<span style="color:#f92672">[</span>2<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Sujay&#34;</span>;
+</span></span><span style="display:flex;"><span>      name_list<span style="color:#f92672">[</span>3<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Veer&#34;</span>;
+</span></span><span style="display:flex;"><span>      name_list<span style="color:#f92672">[</span>4<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Raj&#34;</span>;
+</span></span><span style="display:flex;"><span>      System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(name_list);
+</span></span><span style="display:flex;"><span>      System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(name_list<span style="color:#f92672">[</span>1<span style="color:#f92672">]</span>);
+</span></span><span style="display:flex;"><span>      System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(name_list<span style="color:#f92672">[</span>3<span style="color:#f92672">]</span>);
+</span></span><span style="display:flex;"><span>      name_list<span style="color:#f92672">[</span>1<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Abhijeet&#34;</span>;
+</span></span><span style="display:flex;"><span>      System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(name_list<span style="color:#f92672">[</span>1<span style="color:#f92672">]</span>);
+</span></span><span style="display:flex;"><span>   }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> <span style="color:#f92672">[</span>Ljava.<span style="color:#a6e22e">lang</span>.<span style="color:#a6e22e">String</span>;<span style="color:#a6e22e">@24d46ca6</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> Mathew
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> Veer
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> Abhijeet
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Example</span>{
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args){
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span><span style="color:#f92672">[]</span> x;
 </span></span><span style="display:flex;"><span>x <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#66d9ef">int</span><span style="color:#f92672">[</span>4<span style="color:#f92672">]</span>;
@@ -853,7 +928,8 @@ String into a String.</p>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> 34
 </span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> I<span style="color:#a6e22e">@24d46ca6</span>  idk some random stuff.
-</span></span></code></pre></div>
+</span></span></code></pre></div><p>on 9:30</p>
+
       
       <div class="post-date">
         <span class="g time">February 27, 2025 </span> &#8729;
