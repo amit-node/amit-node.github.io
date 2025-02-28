@@ -255,6 +255,9 @@ how to use above concepts in coding
 	
 ## week 3
 
+	.  
+	.  
+	.  
 	
 
 
@@ -284,13 +287,14 @@ how to use above concepts in coding
 
 # coding bits
 
-println and print
+- println and print
 
-public static void main....
-static public void main(String[] args){ also works
+- public static void main....
+	- static public void main(String[] args){ also works
 
-in terminal : first javac file name. then java file name
+- in terminal : first javac file name. then java file name
 
+comment out
 ```java
 /* com
 this is a multiline coment
@@ -299,9 +303,9 @@ ments */
 // this is a single line comment
 ```
 
-agar result float he to input bhi as float define karna hoga.
+- agar result float he to input bhi as float define karna hoga.
 
-Notice that the System.out.println( ) statement involves the ‘+’ operator. In this context,
+- Notice that the System.out.println( ) statement involves the ‘+’ operator. In this context,
 ‘+’ means “string concatenation” and, if necessary, “string conversion.” When the compiler
 sees a String followed by a ‘+’ followed by a non-String, it attempts to convert the non-
 String into a String. 
@@ -328,10 +332,11 @@ veer.ht = 6.2;
 System.out.println(veer.ht);
 }
 }
-```
-> 19
 
-addition (+), subtraction (-), division (/), multiplication (*) and modulus (%, which produces the remainder from integer division).
+>> 19
+```
+
+- addition (+), subtraction (-), division (/), multiplication (*) and modulus (%, which produces the remainder from integer division).
 
 ```java
 import java.util.*;
@@ -360,7 +365,178 @@ System.out.println(++x);
 }
 ```
 
-AND (&&), OR (||) and NOT (!) 
+- AND (&&), OR (||) and NOT (!) 
 
+##### if condition
+
+```java
+class Example{
+   public static void main(String[] args_) {
+      int num;
+      num = 500;
+      if (num < 100)
+         System.out.println("lesser");
+   }
+}
+
+>> (empty, nothing in output)
+```
+
+```java
+class Example{
+   public static void main(String[] args_) {
+      int num;
+      num = 500;
+      if (num < 100)
+         System.out.println("lesser");
+   }
+}
+
+>> lesser
+```
+
+```java
+class Example{
+   public static void main(String[] args){
+      int x, y;
+      x = 20;
+      y = 20;
+      if (x < y){
+         System.out.println("X is lesser than Y");
+      }
+      if (x > y){
+         System.out.println("Y is lesser than X.");
+      }
+      if (x == y){
+         System.out.println("they are equal.");
+      }
+   }
+}
+
+>> they are equal.
+```
+you can use { or not after if statement.
+
+```java
+class Example{
+   public static void main(String[] args){
+      int x, y;
+      x = 20;
+      y = 20;
+      if (x < y){
+         System.out.println("X is lesser than Y");
+      }
+      else
+         System.out.println("somehting else but not lesser.");
+   }
+}
+
+>> somehting else but not lesser.
+```
+
+- same for else also you can use  { } or not.
+
+- there is no **elif** in java. you need to use *else if* .
+
+```java
+class Example{
+   public static void main(String[] args){
+   int x = 1000;
+   System.out.println("Code start");
+   if (x < 10) System.out.println("Small");
+   else if (x < 30) System.out.println("mid");
+   else System.out.println("huge");
+   }}
+
+>> Code start
+>> huge
+```
+
+**Simplest for loop structure.**
+- for(initialization; condition; iteration) statement;
+- above sequence is really important.
+
+```java
+class Example{
+   public static void main(String[] args){
+   int x ;
+   for(x = 0; x < 10; x = x+1)
+   System.out.println(x);
+   }}
+
+>> 0 to 9
+```
+
+```java
+class Example{
+   public static void main(String[] args){
+   int x ;
+   for(x = 0; x = x+1; x < 10)
+   System.out.println(x);
+   }}
+
+>> error
+```
+
+- x++ : increase 1 value
+- x-- : decrease 1 value
+
+```java
+class Example{
+public static void main(String[] args){
+int x, y;
+y = 20;
+for(x = 0; x <= 10; x++){
+System.out.println("This is x"+x);
+System.out.println("This is y"+y);
+y = y - 2;
+}}}
+```
+- above is an example of multiblock code. here we have more than 1 output block.
+
+- while declaring / initializing any variable you need to choose data type very carefully.  If data type is not correct then your code will give wrong answer. 
+
+finding data type in java
+```java
+class Example{
+public static void main(String[] args){
+Integer x = 100;
+System.out.println(x.getClass().getName());
+}}
+
+>> java.lang.Integer
+```
+
+```java
+class Example{
+public static void main(String[] args){
+int a = 10, b = 3;
+int c = a*3;
+System.out.println("value of a and b and c "+a + b + c);
+System.out.println(Math.sqrt(a));
+}}
+
+>> value of a and b and c 10330
+>> 3.1622776601683795
+```
+- above is an example of Dynamic Initialization.
+- and Math library / class (predefine in Java)
+
+```java
+class Example{
+public static void main(String[] args){
+int[] x;
+x = new int[4];
+x[0] = 10;
+x[1] = 123;
+x[2] = 34;
+x[3] = 26;
+System.out.println(x[2]);
+System.out.println(x);
+}}
+
+>> 34
+>> I@24d46ca6  idk some random stuff.
+```
 
 
