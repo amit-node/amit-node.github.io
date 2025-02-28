@@ -450,7 +450,7 @@ class Example{
 >> somehting else but not lesser.
 ```
 
-- same for else also you can use  { } or not.
+- same for else also you can use  { } or not. but use {} all the time. it really prevent errors.
 
 - there is no **elif** in java. you need to use *else if* .
 
@@ -468,7 +468,7 @@ class Example{
 >> huge
 ```
 
-**Simplest for loop structure.**
+##### **Simplest for loop structure.**
 - for(initialization; condition; iteration) statement;
 - above sequence is really important.
 
@@ -606,4 +606,46 @@ System.out.println(x);
 >> I@24d46ca6  idk some random stuff.
 ```
 
-on 9:30
+##### User input
+- import Scanner class in java.util to get user input. java.util inbuilt library he. 
+- make a placeholder of type scanner, call new scanner with System.in.
+- initialize and define our variable and read placeholder.
+- 
+
+```java
+import java.util.*;
+
+class Example{
+public static void main(String[] args){
+Scanner tumharaVariable = new Scanner(System.in);
+String tumharaVariable_2 = tumharaVariable.nextLine();
+
+System.out.println(tumharaVariable_2);
+}}
+
+>> input : HTIC
+>> HTIC
+```
+
+
+>Write a Java program that asks the user to enter **5 numbers** (integers).
+>- The program should count how many numbers are **even** and how many are **odd**.
+>- After all numbers are entered, print the count of **even** and **odd** numbers.
+
+```java
+import java.util.*;
+
+class Example{
+public static void main(String[] args){
+int x;
+Scanner obj = new Scanner(System.in);
+
+for (x = 0; x < 5; x++) {
+   System.out.println("input de int :");
+   int num = obj.nextInt();
+   if (num % 2 == 0) System.out.println(num +" Even ");
+   else System.out.println(num + " Odd ");
+   }
+}}
+```
+

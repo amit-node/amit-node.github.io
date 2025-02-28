@@ -28,7 +28,7 @@ JRE : Java Runtime Environment
 The output of a Java compiler is not executable code. Rather, it is bytecode. Bytecode is a highly optimized set of instructions designed to be executed by what is called the Java Virtual Machine (JVM), which is part of the Java Runtime Environment (JRE). In essence, the original JVM was designed as an interpreter for bytecode.">
   <meta itemprop="datePublished" content="2025-02-27T00:00:00+00:00">
   <meta itemprop="dateModified" content="2025-02-27T00:00:00+00:00">
-  <meta itemprop="wordCount" content="2769">
+  <meta itemprop="wordCount" content="2928">
   <meta itemprop="keywords" content="BS_degree,Study">
     
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-00000000"></script>
@@ -111,7 +111,7 @@ The output of a Java compiler is not executable code. Rather, it is bytecode. By
       },
       "image": "https://amit-node.github.io/",
       "url" : "https:\/\/amit-node.github.io\/posts\/java-self-study\/",
-      "wordCount" : "2769",
+      "wordCount" : "2928",
       "genre" : [ "BS_degree" , "Study" ],
       "keywords" : [ "BS_degree" , "Study" ]
   }
@@ -782,7 +782,7 @@ String into a String.</p>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> somehting <span style="color:#66d9ef">else</span> but not lesser.
 </span></span></code></pre></div><ul>
 <li>
-<p>same for else also you can use  { } or not.</p>
+<p>same for else also you can use  { } or not. but use {} all the time. it really prevent errors.</p>
 </li>
 <li>
 <p>there is no <strong>elif</strong> in java. you need to use <em>else if</em> .</p>
@@ -799,7 +799,7 @@ String into a String.</p>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> Code start
 </span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> huge
-</span></span></code></pre></div><p><strong>Simplest for loop structure.</strong></p>
+</span></span></code></pre></div><h5 id="simplest-for-loop-structure"><strong>Simplest for loop structure.</strong></h5>
 <ul>
 <li>for(initialization; condition; iteration) statement;</li>
 <li>above sequence is really important.</li>
@@ -928,8 +928,47 @@ String into a String.</p>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> 34
 </span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> I<span style="color:#a6e22e">@24d46ca6</span>  idk some random stuff.
-</span></span></code></pre></div><p>on 9:30</p>
-
+</span></span></code></pre></div><h5 id="user-input">User input</h5>
+<ul>
+<li>import Scanner class in java.util to get user input. java.util inbuilt library he.</li>
+<li>make a placeholder of type scanner, call new scanner with System.in.</li>
+<li>initialize and define our variable and read placeholder.</li>
+<li></li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">import</span> java.util.*;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Example</span>{
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args){
+</span></span><span style="display:flex;"><span>Scanner tumharaVariable <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Scanner(System.<span style="color:#a6e22e">in</span>);
+</span></span><span style="display:flex;"><span>String tumharaVariable_2 <span style="color:#f92672">=</span> tumharaVariable.<span style="color:#a6e22e">nextLine</span>();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(tumharaVariable_2);
+</span></span><span style="display:flex;"><span>}}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> input : HTIC
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> HTIC
+</span></span></code></pre></div><blockquote>
+<p>Write a Java program that asks the user to enter <strong>5 numbers</strong> (integers).</p>
+<ul>
+<li>The program should count how many numbers are <strong>even</strong> and how many are <strong>odd</strong>.</li>
+<li>After all numbers are entered, print the count of <strong>even</strong> and <strong>odd</strong> numbers.</li>
+</ul>
+</blockquote>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">import</span> java.util.*;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Example</span>{
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args){
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> x;
+</span></span><span style="display:flex;"><span>Scanner obj <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Scanner(System.<span style="color:#a6e22e">in</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> (x <span style="color:#f92672">=</span> 0; x <span style="color:#f92672">&lt;</span> 5; x<span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>   System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;input de int :&#34;</span>);
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">int</span> num <span style="color:#f92672">=</span> obj.<span style="color:#a6e22e">nextInt</span>();
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">if</span> (num <span style="color:#f92672">%</span> 2 <span style="color:#f92672">==</span> 0) System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(num <span style="color:#f92672">+</span><span style="color:#e6db74">&#34; Even &#34;</span>);
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">else</span> System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(num <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; Odd &#34;</span>);
+</span></span><span style="display:flex;"><span>   }
+</span></span><span style="display:flex;"><span>}}
+</span></span></code></pre></div>
       
       <div class="post-date">
         <span class="g time">February 27, 2025 </span> &#8729;
