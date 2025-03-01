@@ -539,7 +539,7 @@ System.out.println(Math.sqrt(a));
 - and Math library / class (predefine in Java)
 
 
-- writhing *functions* in java
+##### writhing *functions* in java
 ```java
 class ZZZ{
 static void myFunction(){
@@ -648,4 +648,7 @@ for (x = 0; x < 5; x++) {
    }
 }}
 ```
+
+##### Constructor
+A constructor in Java is a special method that is used to initialize objects when they are created. It has the same name as the class and does not have a return type (not even void).
 
