@@ -93,7 +93,7 @@ There is a path you are on, and you should either follow it exactly or toss it a
 
 ---
 ## If
-**Rudyard Kipling**
+**Rudyard Kipling**  
 If you can keep your head when all about you  
 Are losing theirs and blaming it on you,  
 If you can trust yourself when all men doubt you,  
@@ -135,7 +135,7 @@ And—which is more—you’ll be a Man, my son!
 
 ---
 ## Ozymandias
-**Percy Bysshe Shelley**
+**Percy Bysshe Shelley**  
 I met a traveller from an antique land,  
 Who said—“Two vast and trunkless legs of stone  
 Stand in the desert. . . . Near them, on the sand,  
@@ -153,7 +153,7 @@ The lone and level sands stretch far away.”
 
 ---
 ## Good Timber 
-**Douglas Malloch**
+**Douglas Malloch**  
 The tree that never had to fight  
 For sun and sky and air and light,  
 But stood out in the open plain  
@@ -187,7 +187,7 @@ This is the common law of life.
 
 ---
 ## Invictus
-**William Ernest Henley**
+**William Ernest Henley**  
 Out of the night that covers me,  
 Black as the pit from pole to pole,  
 I thank whatever gods may be  
