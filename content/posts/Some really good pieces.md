@@ -6,7 +6,7 @@ tags:
 ---
 Some great pieces from internet, which gives me inspiration.
 
-### Colin Powell's 13 Rules of Leadership
+## Colin Powell's 13 Rules of Leadership
 1. It isn’t as bad as you think. It will look better in the morning.
 2. Get mad, then get over it.
 3. Avoid having your ego so close to your position that when your position falls, your ego goes with it.
@@ -23,7 +23,8 @@ Some great pieces from internet, which gives me inspiration.
 
 Success is the result of perfection, hard work, learning from failure, loyalty, and persistence. A dream doesn't become reality through magic; it takes sweat, determination and hard work. There are no secrets to success.
 
-### Dokkodo
+---
+## Dokkodo
 Miyamoto Musashi (1584 - 1645) is one of the most killed swordsmen in history. Musashi began his career as a fighter early in life at the age of 13, he killed a man in single combat. In time he set out on a personal quest to develop perfect sword technique. He invented the nitō ichi-ryū, the style of fencing with two swords, and he is often referred today as kensai (‘‘sword saint’’). Musashi claimed to have fought in more than 60 individual sword fights, many of which were to the death and all of which he won.    
 His teachings have been immortalized in his book, “Go Rin No Sho”, also known as “The Book of Five Rings”. While “Go Rin No Sho” is the most acclaimed, he also wrote another short book a week before he died in 1645. This book consisted of only 21 precepts or commands for living life. It was written in preparation of his own passing, during a time he was giving away all his possessions, he also wished to give away his knowledge.  
 
@@ -90,8 +91,9 @@ Your time on this world is short, but your legacy will far outlast you. Be sure 
 21. **Never stray from The Way.**
 There is a path you are on, and you should either follow it exactly or toss it aside and find a new one. Either way, you choose a path and follow it with all you have, for it is a symbol of the choices you have made and the beliefs you have accepted.
 
-
-## If - Rudyard Kipling
+---
+## If
+**Rudyard Kipling**
 If you can keep your head when all about you  
 Are losing theirs and blaming it on you,  
 If you can trust yourself when all men doubt you,  
@@ -131,7 +133,9 @@ With sixty seconds’ worth of distance run,
 Yours is the Earth and everything that’s in it,  
 And—which is more—you’ll be a Man, my son!  
 
-## Ozymandias - Percy Bysshe Shelley
+---
+## Ozymandias
+**Percy Bysshe Shelley**
 I met a traveller from an antique land,  
 Who said—“Two vast and trunkless legs of stone  
 Stand in the desert. . . . Near them, on the sand,  
@@ -146,8 +150,10 @@ Look on my Works, ye Mighty, and despair!
 Nothing beside remains. Round the decay  
 Of that colossal Wreck, boundless and bare  
 The lone and level sands stretch far away.”  
-  
-## Good Timber - Douglas Malloch
+
+---
+## Good Timber 
+**Douglas Malloch**
 The tree that never had to fight  
 For sun and sky and air and light,  
 But stood out in the open plain  
@@ -178,8 +184,10 @@ And they hold counsel with the stars
 Whose broken branches show the scars  
 Of many winds and much of strife.  
 This is the common law of life.  
-  
-## Invictus - William Ernest Henley
+
+---
+## Invictus
+**William Ernest Henley**
 Out of the night that covers me,  
 Black as the pit from pole to pole,  
 I thank whatever gods may be  
