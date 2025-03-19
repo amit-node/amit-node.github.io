@@ -24,7 +24,7 @@ Some great pieces from internet, which gives me inspiration.
 Success is the result of perfection, hard work, learning from failure, loyalty, and persistence. A dream doesn't become reality through magic; it takes sweat, determination and hard work. There are no secrets to success.
 
 ### Dokkodo
-Miyamoto Musashi (1584 - 1645) is one of the most killed swordsmen in history. Musashi began his career as a fighter early in life at the age of 13, he killed a man in single combat. In time he set out on a personal quest to develop perfect sword technique. He invented the nitō ichi-ryū, the style of fencing with two swords, and he is often referred today as kensai (‘‘sword saint’’). Musashi claimed to have fought in more than 60 individual sword fights, many of which were to the death and all of which he won.  
+Miyamoto Musashi (1584 - 1645) is one of the most killed swordsmen in history. Musashi began his career as a fighter early in life at the age of 13, he killed a man in single combat. In time he set out on a personal quest to develop perfect sword technique. He invented the nitō ichi-ryū, the style of fencing with two swords, and he is often referred today as kensai (‘‘sword saint’’). Musashi claimed to have fought in more than 60 individual sword fights, many of which were to the death and all of which he won.    
 His teachings have been immortalized in his book, “Go Rin No Sho”, also known as “The Book of Five Rings”. While “Go Rin No Sho” is the most acclaimed, he also wrote another short book a week before he died in 1645. This book consisted of only 21 precepts or commands for living life. It was written in preparation of his own passing, during a time he was giving away all his possessions, he also wished to give away his knowledge.  
 
 1. **Accept everything just the way it is.**
@@ -91,7 +91,7 @@ Your time on this world is short, but your legacy will far outlast you. Be sure 
 There is a path you are on, and you should either follow it exactly or toss it aside and find a new one. Either way, you choose a path and follow it with all you have, for it is a symbol of the choices you have made and the beliefs you have accepted.
 
 
-### If - Rudyard Kipling
+## If - Rudyard Kipling
 If you can keep your head when all about you  
 Are losing theirs and blaming it on you,  
 If you can trust yourself when all men doubt you,  
@@ -100,6 +100,8 @@ If you can wait and not be tired by waiting,
 Or being lied about, don’t deal in lies,  
 Or being hated, don’t give way to hating,  
 And yet don’t look too good, nor talk too wise:  
+
+
 If you can dream—and not make dreams your master;  
 If you can think—and not make thoughts your aim;  
 If you can meet with Triumph and Disaster  
@@ -108,6 +110,8 @@ If you can bear to hear the truth you’ve spoken
 Twisted by knaves to make a trap for fools,  
 Or watch the things you gave your life to, broken,  
 And stoop and build ’em up with worn-out tools:  
+
+
 If you can make one heap of all your winnings  
 And risk it on one turn of pitch-and-toss,  
 And lose, and start again at your beginnings  
@@ -116,6 +120,8 @@ If you can force your heart and nerve and sinew
 To serve your turn long after they are gone,  
 And so hold on when there is nothing in you  
 Except the Will which says to them: ‘Hold on!’  
+
+
 If you can talk with crowds and keep your virtue,  
 Or walk with Kings—nor lose the common touch,  
 If neither foes nor loving friends can hurt you,  
@@ -125,7 +131,7 @@ With sixty seconds’ worth of distance run,
 Yours is the Earth and everything that’s in it,  
 And—which is more—you’ll be a Man, my son!  
 
-### Ozymandias - Percy Bysshe Shelley
+## Ozymandias - Percy Bysshe Shelley
 I met a traveller from an antique land,  
 Who said—“Two vast and trunkless legs of stone  
 Stand in the desert. . . . Near them, on the sand,  
@@ -141,25 +147,31 @@ Nothing beside remains. Round the decay
 Of that colossal Wreck, boundless and bare  
 The lone and level sands stretch far away.”  
   
-### Good Timber - Douglas Malloch
+## Good Timber - Douglas Malloch
 The tree that never had to fight  
 For sun and sky and air and light,  
 But stood out in the open plain  
 And always got its share of rain,  
 Never became a forest king  
 But lived and died a scrubby thing.  
+
+
 The man who never had to toil  
 To gain and farm his patch of soil,  
 Who never had to win his share  
 Of sun and sky and light and air,  
 Never became a manly man  
 But lived and died as he began.  
+
+
 Good timber does not grow with ease,  
 The stronger wind, the stronger trees,  
 The further sky, the greater length,  
 The more the storm, the more the strength.  
 By sun and cold, by rain and snow,  
 In trees and men good timbers grow.  
+
+
 Where thickest lies the forest growth  
 We find the patriarchs of both.  
 And they hold counsel with the stars  
@@ -167,23 +179,29 @@ Whose broken branches show the scars
 Of many winds and much of strife.  
 This is the common law of life.  
   
-### Invictus - William Ernest Henley
+## Invictus - William Ernest Henley
 Out of the night that covers me,  
 Black as the pit from pole to pole,  
 I thank whatever gods may be  
 For my unconquerable soul.  
+
+
 In the fell clutch of circumstance  
 I have not winced nor cried aloud.  
 Under the bludgeonings of chance  
 My head is bloody, but unbowed.  
+
+
 Beyond this place of wrath and tears  
 Looms but the Horror of the shade,  
 And yet the menace of the years  
 Finds and shall find me unafraid.  
+
+
 It matters not how strait the gate,  
 How charged with punishments the scroll,  
 I am the master of my fate,  
 I am the captain of my soul.  
 
-We all face challenges in our lives. What separates men of character from spineless wieners is the way they face those challenges. In the poem “Invictus,” British poet William Ernest Henley describes how a man should respond to challenges. “Invictus” is Latin for “unconquerable.” Every man should have an unconquerable spirit. When life kicks you in the gut, get back up and kick life’s butt.
+We all face challenges in our lives. What separates men of character from spineless wieners is the way they face those challenges. In the poem “Invictus,” British poet William Ernest Henley describes how a man should respond to challenges. “Invictus” is Latin for “unconquerable.” Every man should have an unconquerable spirit. When life kicks you in the gut, get back up and kick life’s butt.  
 The poet himself had the unconquerable spirit which he wrote about. When he was 12, Henley developed tuberculous in the bone. He had to have his leg amputated to the knee and doctors told him he would have to have the other one amputated if he were to survive. Henley told the docs that they were full of hogwash and let them amputate just one leg. He ended up keeping the other. He led an active life with one leg and had a  successful career as a poet and literary critic. Henley was truly the captain of his soul.
