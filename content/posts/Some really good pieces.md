@@ -93,7 +93,6 @@ There is a path you are on, and you should either follow it exactly or toss it a
 
 ---
 ## If
-**Rudyard Kipling**  
 If you can keep your head when all about you  
 Are losing theirs and blaming it on you,  
 If you can trust yourself when all men doubt you,  
@@ -133,9 +132,10 @@ With sixty seconds’ worth of distance run,
 Yours is the Earth and everything that’s in it,  
 And—which is more—you’ll be a Man, my son!  
 
+**Rudyard Kipling**  
+
 ---
 ## Ozymandias
-**Percy Bysshe Shelley**  
 I met a traveller from an antique land,  
 Who said—“Two vast and trunkless legs of stone  
 Stand in the desert. . . . Near them, on the sand,  
@@ -151,9 +151,11 @@ Nothing beside remains. Round the decay
 Of that colossal Wreck, boundless and bare  
 The lone and level sands stretch far away.”  
 
+
+**Percy Bysshe Shelley**  
+
 ---
 ## Good Timber 
-**Douglas Malloch**  
 The tree that never had to fight  
 For sun and sky and air and light,  
 But stood out in the open plain  
@@ -185,9 +187,11 @@ Whose broken branches show the scars
 Of many winds and much of strife.  
 This is the common law of life.  
 
+
+**Douglas Malloch**  
+
 ---
 ## Invictus
-**William Ernest Henley**  
 Out of the night that covers me,  
 Black as the pit from pole to pole,  
 I thank whatever gods may be  
@@ -210,6 +214,8 @@ It matters not how strait the gate,
 How charged with punishments the scroll,  
 I am the master of my fate,  
 I am the captain of my soul.  
+
+**William Ernest Henley**  
 
 We all face challenges in our lives. What separates men of character from spineless wieners is the way they face those challenges. In the poem “Invictus,” British poet William Ernest Henley describes how a man should respond to challenges. “Invictus” is Latin for “unconquerable.” Every man should have an unconquerable spirit. When life kicks you in the gut, get back up and kick life’s butt.  
 The poet himself had the unconquerable spirit which he wrote about. When he was 12, Henley developed tuberculous in the bone. He had to have his leg amputated to the knee and doctors told him he would have to have the other one amputated if he were to survive. Henley told the docs that they were full of hogwash and let them amputate just one leg. He ended up keeping the other. He led an active life with one leg and had a  successful career as a poet and literary critic. Henley was truly the captain of his soul.
