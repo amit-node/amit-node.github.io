@@ -22,5 +22,5 @@ tags:
 
 
 
-[Chart](https://docs.google.com/spreadsheets/d/e/2PACX-1vTpi5DTHYDyi_PXObIO_AzVpLvHDRJbTlLpYSRy2jJV3tbA4AXbq17k6wWIEPrgDkbOI4hGj2-sCsFL/pubchart?oid=772623022&amp;format=interactive)
+[Comparison Chart](https://docs.google.com/spreadsheets/d/e/2PACX-1vTpi5DTHYDyi_PXObIO_AzVpLvHDRJbTlLpYSRy2jJV3tbA4AXbq17k6wWIEPrgDkbOI4hGj2-sCsFL/pubchart?oid=772623022&amp;format=interactive)
 
