@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a8afb787caa07bb3",
+        "id": "197417a320cf72f3",
         "type": "tabs",
         "children": [
           {
-            "id": "7af5c949e4132d77",
+            "id": "d8b0d59fd157a6f9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "My Cycling Records (wip).md",
+                "file": "Java self study.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My Cycling Records (wip).md",
+                "file": "Java self study.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "My Cycling Records (wip).md",
+                "file": "Java self study.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "My Cycling Records (wip).md"
+                "file": "Java self study.md"
               }
             }
           }
@@ -148,8 +148,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7af5c949e4132d77",
+  "active": "d8b0d59fd157a6f9",
   "lastOpenFiles": [
+    "My Cycling Records (wip).md",
     "Java self study.md",
     "pc commands and short cuts.md",
     "Why I Ride a Bicycle.md",
@@ -157,7 +158,6 @@
     "Family tree of Changej, Taimur and Babur.md",
     "Site on Pelican and Netily.md",
     "Resources to study Deep Learning.md",
-    "My Cycling Records (wip).md",
     "Some really good pieces.md",
     "Amit new.md",
     "Sylene.md",

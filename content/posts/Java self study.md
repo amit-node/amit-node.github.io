@@ -1,6 +1,6 @@
 ---
 title: Java self study
-date: 2025-02-27
+date: 2025-03-24
 tags:
   - BS_degree
   - Study
@@ -651,4 +651,66 @@ for (x = 0; x < 5; x++) {
 
 ##### Constructor
 A constructor in Java is a special method that is used to initialize objects when they are created. It has the same name as the class and does not have a return type (not even void).
+
+# Study for OPPE 2
+
+### Week 2 ppa 1
+ht and wd is given. find area of the rectangle
+```java
+class Rectangle{
+public static void main(String[] args){
+int w = 10;
+int h = 20;
+int area = w * h;
+System.out.println(area);
+}
+}
+
+>> 200
+```
+
+Now ask w and h as input.
+```java
+import java.util.*;                             //new line
+
+class Rectangle{
+public static void main(String[] args){
+Scanner sc = new Scanner(System.in);                   //new line
+int w = Integer.parseInt(sc.nextLine());        // changed line
+int h = Integer.parseInt(sc.nextLine());          // changed line
+int area = w*h;
+System.out.println(area);
+}
+}
+```
+
+Now make  a function, which initiate height and width and return area.  
+And a piece of code which ask for input and return area.  
+```java
+import java.util.*;
+
+class RecFunc{
+int w, h;
+public void setw(int w_input){             // setw is a function
+w = w_input; }
+public void seth(int h_input){             // seth is a function
+h = h_input; }
+public int area(){                    // area is a functiomn
+return w*h; }
+}                              // don't forget to close RecFun class
+
+public class Rectangle{
+public static void main(String[] args){
+Scanner sc = new Scanner(System.in);
+int w_input = Integer.parseInt(sc.nextLine());
+int h_input = Integer.parseInt(sc.nextLine());
+int area_of_rectangle;
+
+RecFunc r = new RecFunc();            // calling new class is necessary
+r.setw(w_input);
+r.seth(h_input);
+area_of_rectangle = r.area();
+System.out.println(area_of_rectangle);
+}}
+```
 
