@@ -5,7 +5,6 @@ title: "Site on Pelican and Netily"
 date: "2024-12-18"
 tags: 
 - Tech
-- Skill
 ---
 
 helpful blog : https://iwanttoreadmore.com/blog/create-minimal-static-website-pelican/

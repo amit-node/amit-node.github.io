@@ -5,7 +5,6 @@ title: "My Cycling Records (wip)"
 date: "2025-03-22"
 tags: 
 - Cycling
-- Personal
 ---
 
 ![mahabalipuram on cycle](/mahabalipuram_cycling.jpg)

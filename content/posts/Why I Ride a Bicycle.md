@@ -3,7 +3,6 @@ title: "Why I Ride a Bicycle ?? (part-1 : Freedom)"
 date: 2025-01-15
 tags:
   - Cycling
-  - Personal
 ---
 ### Part 1 : Freedom
 

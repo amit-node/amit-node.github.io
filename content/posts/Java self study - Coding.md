@@ -2,8 +2,7 @@
 title: Java self study - Coding
 date: 2025-03-27
 tags:
-  - BS_degree
-  - Study
+  - java
 ---
 - println and print
 

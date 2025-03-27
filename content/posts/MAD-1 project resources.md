@@ -2,9 +2,7 @@
 title: MAD-1 Project Resources
 date: 2025-01-07
 tags:
-
-- BS_degree
-
+  - mad_1_bs_degree
 ---
 
 Making MAD-1 project is not so easy when you are totally new to HTML, CSS and Flask. Here are some resources which will help to build your project. These resources are not some "ready made tutorials". They are really good for learning perspective too.  Don't just watch them, code with them.

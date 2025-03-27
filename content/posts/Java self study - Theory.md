@@ -2,8 +2,7 @@
 title: Java self study - Theory
 date: 2025-03-24
 tags:
-  - BS_degree
-  - Study
+  - java
 ---
 # Java Quiz 1 study
 

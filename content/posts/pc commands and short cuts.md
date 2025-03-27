@@ -2,7 +2,6 @@
 title: PC commands and short cuts (WIP)
 date: 2025-01-17
 tags:
-  - skill
   - tech
 ---
 
