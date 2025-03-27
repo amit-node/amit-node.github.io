@@ -6,8 +6,15 @@
     <description>Recent content in Tech on amit-node</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://amit-node.github.io/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>For Demo</title>
+      <link>https://amit-node.github.io/posts/for-demo/</link>
+      <pubDate>Thu, 27 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://amit-node.github.io/posts/for-demo/</guid>
+      <description>&lt;h1 id=&#34;this-is-a-file-for-demo&#34;&gt;this is a file for demo&lt;/h1&gt;&#xA;&lt;p&gt;Here I am writing loren ipsum for demo.&lt;/p&gt;&#xA;&lt;h1 id=&#34;lorem-ipsum&#34;&gt;Lorem Ipsum&lt;/h1&gt;&#xA;&lt;h4 id=&#34;neque-porro-quisquam-est-qui-dolorem-ipsum-quia-dolor-sit-amet-consectetur-adipisci-velit&#34;&gt;&amp;ldquo;Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit&amp;hellip;&amp;rdquo;&lt;/h4&gt;&#xA;&lt;h5 id=&#34;there-is-no-one-who-loves-pain-itself-who-seeks-after-it-and-wants-to-have-it-simply-because-it-is-pain&#34;&gt;&amp;ldquo;There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain&amp;hellip;&amp;rdquo;&lt;/h5&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac varius nunc, vestibulum porta tortor. Nam ac elit erat. Fusce in dolor non libero elementum congue. Ut turpis velit, molestie ac odio ac, dignissim fringilla augue. Aliquam accumsan bibendum tellus, in gravida mauris malesuada eu. Integer id risus sit amet ipsum elementum imperdiet a ut dui. Donec eleifend facilisis rutrum. Etiam nec nulla eget justo pretium interdum ut quis mi. Integer orci nisl, scelerisque sit amet luctus in, vulputate non arcu. Proin maximus, neque ut viverra ultricies, magna ligula tincidunt ante, eget ullamcorper ligula nisl quis augue. Morbi ac erat neque. Suspendisse potenti. Vestibulum eu dapibus tellus, nec pretium metus. Cras non nisl ac orci tincidunt sollicitudin. Pellentesque et rutrum nisi, ac faucibus ligula.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>PC commands and short cuts (WIP)</title>
       <link>https://amit-node.github.io/posts/pc-commands-and-short-cuts/</link>

@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c38c1da6211b8b9f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "For Demo.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java self study.md",
+                "file": "For Demo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java self study.md",
+                "file": "For Demo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java self study.md"
+                "file": "For Demo.md"
               }
             }
           }
@@ -148,10 +161,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d8b0d59fd157a6f9",
+  "active": "c38c1da6211b8b9f",
   "lastOpenFiles": [
-    "My Cycling Records (wip).md",
     "Java self study.md",
+    "For Demo.md",
+    "My Cycling Records (wip).md",
     "pc commands and short cuts.md",
     "Why I Ride a Bicycle.md",
     "MAD-1 project resources.md",
