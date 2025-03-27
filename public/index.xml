@@ -7,15 +7,422 @@
     
     <language>en</language>
     <copyright>Copyright 2025, Calvin Tran</copyright>
-    <lastBuildDate>Mon, 24 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Mar 2025 00:00:00 +0000</lastBuildDate>
     <generator>Hugo - gohugo.io</generator>
     <docs>http://cyber.harvard.edu/rss/rss.html</docs>
     <atom:link href="https://amit-node.github.io//atom.xml" rel="self" type="application/atom+xml"/>
     
     
     <item>
-      <title>Java self study</title>
-      <link>https://amit-node.github.io/posts/java-self-study/</link>
+      <title>Java self study - Coding</title>
+      <link>https://amit-node.github.io/posts/java-self-study---coding/</link>
+      <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;println and print&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;public static void main&amp;hellip;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;static public void main(String[] args){ also works&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;in terminal : first javac file name. then java file name&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;comment out&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;/* com
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;this is a multiline coment
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;ments */&lt;/span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// this is a single line comment&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;agar result float he to input bhi as float define karna hoga.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;char, single quote, shirf character hoga, hamesha&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;string, hamesha double quote&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;float  ki jagah jyadatar double use karna better hoga.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Notice that the System.out.println( ) statement involves the ‘+’ operator. In this context,
+‘+’ means “string concatenation” and, if necessary, “string conversion.” When the compiler
+sees a String followed by a ‘+’ followed by a non-String, it attempts to convert the non-
+String into a String.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;use of class in java&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Stu&lt;/span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;String name;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; age;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;double&lt;/span&gt; ht;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Ab&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args){
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Stu amit &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; Stu();
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Stu veer &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; Stu();
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;amit.&lt;span style=&#34;color:#a6e22e&#34;&gt;name&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Amit&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;amit.&lt;span style=&#34;color:#a6e22e&#34;&gt;age&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 32;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;amit.&lt;span style=&#34;color:#a6e22e&#34;&gt;ht&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 5.&lt;span style=&#34;color:#a6e22e&#34;&gt;10&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;veer.&lt;span style=&#34;color:#a6e22e&#34;&gt;name&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Veer&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;veer.&lt;span style=&#34;color:#a6e22e&#34;&gt;age&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 19;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;veer.&lt;span style=&#34;color:#a6e22e&#34;&gt;ht&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 6.&lt;span style=&#34;color:#a6e22e&#34;&gt;2&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(veer.&lt;span style=&#34;color:#a6e22e&#34;&gt;ht&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; 19
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;addition (+), subtraction (-), division (/), multiplication (*) and modulus (%, which produces the remainder from integer division).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; java.util.*;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Ac&lt;/span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Random ra &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; Random(100);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; a, b, c;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;a &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; ra.&lt;span style=&#34;color:#a6e22e&#34;&gt;nextInt&lt;/span&gt;(40);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;b &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; ra.&lt;span style=&#34;color:#a6e22e&#34;&gt;nextInt&lt;/span&gt;(400); &lt;span style=&#34;color:#75715e&#34;&gt;// 400 is upper bound&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(b);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(a &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; b);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(a);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#f92672&#34;&gt;++&lt;/span&gt;a);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#f92672&#34;&gt;--&lt;/span&gt;a);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#f92672&#34;&gt;--&lt;/span&gt;a);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#f92672&#34;&gt;--&lt;/span&gt;a);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(a);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;double&lt;/span&gt; x, y, z;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;x &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; ra.&lt;span style=&#34;color:#a6e22e&#34;&gt;nextDouble&lt;/span&gt;(5);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(x);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#f92672&#34;&gt;++&lt;/span&gt;x);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#f92672&#34;&gt;++&lt;/span&gt;x);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; 250
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; 285
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; 35
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; 36
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; 35
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; 34
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; 33
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; 33
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; 0.&lt;span style=&#34;color:#a6e22e&#34;&gt;9748802867385259&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; 1.&lt;span style=&#34;color:#a6e22e&#34;&gt;974880286738526&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; 2.&lt;span style=&#34;color:#a6e22e&#34;&gt;974880286738526&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;yaha ++a, a me ek value badha dega. but a++ kaam nahi karta.&lt;/li&gt;
+&lt;li&gt;AND (&amp;amp;&amp;amp;), OR (||) and NOT (!)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;if-condition&#34;&gt;if condition&lt;/h5&gt;
+&lt;p&gt;structure : &amp;quot; if (condition) statement &amp;quot;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Example&lt;/span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; num;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      num &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 500;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (num &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; 100)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;         System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;lesser&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; (empty, nothing in output)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Example&lt;/span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; num;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      num &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 500;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (num &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; 100)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;         System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;lesser&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; lesser
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Example&lt;/span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args){
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; x, y;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      x &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 20;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      y &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 20;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (x &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; y){
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;         System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;X is lesser than Y&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (x &lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; y){
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;         System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Y is lesser than X.&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (x &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; y){
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;         System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;they are equal.&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; they are equal.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;you can use { or not after if statement.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Example&lt;/span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args){
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; x, y;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      x &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 20;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      y &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 20;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (x &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; y){
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;         System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;X is lesser than Y&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;         System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;somehting else but not lesser.&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; somehting &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt; but not lesser.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;same for else also you can use  { } or not. but use {} all the time. it really prevent errors.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;there is no &lt;strong&gt;elif&lt;/strong&gt; in java. you need to use &lt;em&gt;else if&lt;/em&gt; .&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Example&lt;/span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args){
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; x &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 1000;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Code start&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (x &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; 10) System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Small&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (x &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; 30) System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;mid&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt; System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;huge&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   }}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; Code start
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; huge
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h5 id=&#34;simplest-for-loop-structure&#34;&gt;&lt;strong&gt;Simplest for loop structure.&lt;/strong&gt;&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;for(initialization; condition; iteration) statement;&lt;/li&gt;
+&lt;li&gt;above sequence is really important.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Example&lt;/span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args){
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; x ;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt;(x &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 0; x &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; 10; x &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; x&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;1)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(x);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   }}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; 0 to 9
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Example&lt;/span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args){
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; x ;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt;(x &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 0; x &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; x&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;1; x &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; 10)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(x);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   }}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; error
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;x++ : increase 1 value&lt;/li&gt;
+&lt;li&gt;x&amp;ndash; : decrease 1 value&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Example&lt;/span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args){
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; x, y;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;y &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 20;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt;(x &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 0; x &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;=&lt;/span&gt; 10; x&lt;span style=&#34;color:#f92672&#34;&gt;++&lt;/span&gt;){
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;This is x&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;x);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;This is y&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;y);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;y &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; y &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; 2;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;above is an example of multiblock code. here we have more than 1 output block.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;while declaring / initializing any variable you need to choose data type very carefully.  If data type is not correct then your code will give wrong answer.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;finding data type in java&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Example&lt;/span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args){
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Integer x &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 100;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(x.&lt;span style=&#34;color:#a6e22e&#34;&gt;getClass&lt;/span&gt;().&lt;span style=&#34;color:#a6e22e&#34;&gt;getName&lt;/span&gt;());
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; java.&lt;span style=&#34;color:#a6e22e&#34;&gt;lang&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Integer&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Example&lt;/span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args){
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; a &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 10, b &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 3;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; c &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; a&lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;3;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;value of a and b and c &amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;a &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; b &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; c);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(Math.&lt;span style=&#34;color:#a6e22e&#34;&gt;sqrt&lt;/span&gt;(a));
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; value of a and b and c 10330
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; 3.&lt;span style=&#34;color:#a6e22e&#34;&gt;1622776601683795&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;above is an example of Dynamic Initialization.&lt;/li&gt;
+&lt;li&gt;and Math library / class (predefine in Java)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;writhing-functions-in-java&#34;&gt;writhing &lt;em&gt;functions&lt;/em&gt; in java&lt;/h5&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;ZZZ&lt;/span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;myFunction&lt;/span&gt;(){
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;myFunction is executed.&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args){
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;myFunction();
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; myFunction is executed.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;in java booleans are &amp;ldquo;true&amp;rdquo; and &amp;ldquo;false&amp;rdquo;. small case. not True and False.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;array-&#34;&gt;Array :&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;1-d array : list of like - typed variables.&lt;/li&gt;
+&lt;li&gt;first define a variable as array : data-type [] variable-name&lt;/li&gt;
+&lt;li&gt;then define it&amp;rsquo;s size (memory allocation) : variable-name = new type [size]&lt;/li&gt;
+&lt;li&gt;then add elements.&lt;/li&gt;
+&lt;li&gt;be careful about the data type.&lt;/li&gt;
+&lt;li&gt;we can also change any list element dynamically&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Example&lt;/span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args){
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      String &lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; name_list;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      name_list &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; String&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;5&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      name_list&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;0&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;amit&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      name_list&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;1&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Mathew&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      name_list&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;2&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Sujay&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      name_list&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;3&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Veer&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      name_list&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;4&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Raj&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(name_list);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(name_list&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;1&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(name_list&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;3&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      name_list&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;1&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Abhijeet&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(name_list&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;1&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;Ljava.&lt;span style=&#34;color:#a6e22e&#34;&gt;lang&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;String&lt;/span&gt;;&lt;span style=&#34;color:#a6e22e&#34;&gt;@24d46ca6&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; Mathew
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; Veer
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; Abhijeet
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Example&lt;/span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args){
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; x;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;x &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;4&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;x&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;0&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 10;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;x&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;1&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 123;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;x&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;2&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;x&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;3&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 26;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(x&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;2&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(x);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; 34
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; I&lt;span style=&#34;color:#a6e22e&#34;&gt;@24d46ca6&lt;/span&gt;  idk some random stuff.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h5 id=&#34;user-input&#34;&gt;User input&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;import Scanner class in java.util to get user input. java.util inbuilt library he.&lt;/li&gt;
+&lt;li&gt;make a placeholder of type scanner, call new scanner with System.in.&lt;/li&gt;
+&lt;li&gt;initialize and define our variable and read placeholder.&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; java.util.*;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Example&lt;/span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args){
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Scanner tumharaVariable &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; Scanner(System.&lt;span style=&#34;color:#a6e22e&#34;&gt;in&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;String tumharaVariable_2 &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; tumharaVariable.&lt;span style=&#34;color:#a6e22e&#34;&gt;nextLine&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(tumharaVariable_2);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; input : HTIC
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; HTIC
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
+&lt;p&gt;Write a Java program that asks the user to enter &lt;strong&gt;5 numbers&lt;/strong&gt; (integers).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The program should count how many numbers are &lt;strong&gt;even&lt;/strong&gt; and how many are &lt;strong&gt;odd&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;After all numbers are entered, print the count of &lt;strong&gt;even&lt;/strong&gt; and &lt;strong&gt;odd&lt;/strong&gt; numbers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; java.util.*;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Example&lt;/span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args){
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; x;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Scanner obj &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; Scanner(System.&lt;span style=&#34;color:#a6e22e&#34;&gt;in&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; (x &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 0; x &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; 5; x&lt;span style=&#34;color:#f92672&#34;&gt;++&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;input de int :&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; num &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; obj.&lt;span style=&#34;color:#a6e22e&#34;&gt;nextInt&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (num &lt;span style=&#34;color:#f92672&#34;&gt;%&lt;/span&gt; 2 &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; 0) System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(num &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34; Even &amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt; System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(num &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34; Odd &amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h5 id=&#34;constructor&#34;&gt;Constructor&lt;/h5&gt;
+&lt;p&gt;A constructor in Java is a special method that is used to initialize objects when they are created. It has the same name as the class and does not have a return type (not even void).&lt;/p&gt;
+&lt;h1 id=&#34;study-for-oppe-2&#34;&gt;Study for OPPE 2&lt;/h1&gt;
+&lt;h3 id=&#34;week-2-ppa-1&#34;&gt;Week 2 ppa 1&lt;/h3&gt;
+&lt;p&gt;ht and wd is given. find area of the rectangle&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Rectangle&lt;/span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args){
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; w &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 10;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; h &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 20;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; area &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; w &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt; h;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(area);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; 200
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now ask w and h as input.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; java.util.*;                             &lt;span style=&#34;color:#75715e&#34;&gt;//new line&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Rectangle&lt;/span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args){
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Scanner sc &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; Scanner(System.&lt;span style=&#34;color:#a6e22e&#34;&gt;in&lt;/span&gt;);                   &lt;span style=&#34;color:#75715e&#34;&gt;//new line&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; w &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; Integer.&lt;span style=&#34;color:#a6e22e&#34;&gt;parseInt&lt;/span&gt;(sc.&lt;span style=&#34;color:#a6e22e&#34;&gt;nextLine&lt;/span&gt;());        &lt;span style=&#34;color:#75715e&#34;&gt;// changed line&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; h &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; Integer.&lt;span style=&#34;color:#a6e22e&#34;&gt;parseInt&lt;/span&gt;(sc.&lt;span style=&#34;color:#a6e22e&#34;&gt;nextLine&lt;/span&gt;());          &lt;span style=&#34;color:#75715e&#34;&gt;// changed line&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; area &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; w&lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;h;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(area);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now make  a function, which initiate height and width and return area.&lt;br&gt;
+And a piece of code which ask for input and return area.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; java.util.*;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;RecFunc&lt;/span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; w, h;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;setw&lt;/span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; w_input){             &lt;span style=&#34;color:#75715e&#34;&gt;// setw is a function&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;w &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; w_input; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;seth&lt;/span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; h_input){             &lt;span style=&#34;color:#75715e&#34;&gt;// seth is a function&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;h &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; h_input; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;area&lt;/span&gt;(){                    &lt;span style=&#34;color:#75715e&#34;&gt;// area is a functiomn&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; w&lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;h; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}                              &lt;span style=&#34;color:#75715e&#34;&gt;// don&amp;#39;t forget to close RecFun class&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Rectangle&lt;/span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args){
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Scanner sc &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; Scanner(System.&lt;span style=&#34;color:#a6e22e&#34;&gt;in&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; w_input &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; Integer.&lt;span style=&#34;color:#a6e22e&#34;&gt;parseInt&lt;/span&gt;(sc.&lt;span style=&#34;color:#a6e22e&#34;&gt;nextLine&lt;/span&gt;());
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; h_input &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; Integer.&lt;span style=&#34;color:#a6e22e&#34;&gt;parseInt&lt;/span&gt;(sc.&lt;span style=&#34;color:#a6e22e&#34;&gt;nextLine&lt;/span&gt;());
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; area_of_rectangle;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;RecFunc r &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; RecFunc();            &lt;span style=&#34;color:#75715e&#34;&gt;// calling new class is necessary&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;r.&lt;span style=&#34;color:#a6e22e&#34;&gt;setw&lt;/span&gt;(w_input);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;r.&lt;span style=&#34;color:#a6e22e&#34;&gt;seth&lt;/span&gt;(h_input);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;area_of_rectangle &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; r.&lt;span style=&#34;color:#a6e22e&#34;&gt;area&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(area_of_rectangle);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+      <author></author>
+      <guid>https://amit-node.github.io/posts/java-self-study---coding/</guid>
+      <pubDate>Thu, 27 Mar 2025 00:00:00 +0000</pubDate>
+    </item>
+    
+    <item>
+      <title>Java self study - Theory</title>
+      <link>https://amit-node.github.io/posts/java-self-study---theory/</link>
       <description>&lt;h1 id=&#34;java-quiz-1-study&#34;&gt;Java Quiz 1 study&lt;/h1&gt;
 &lt;h2 id=&#34;the-history-and-evolution-of-java&#34;&gt;The History and Evolution of Java&lt;/h2&gt;
 &lt;ul&gt;
@@ -443,408 +850,9 @@ how to use above concepts in coding&lt;/p&gt;
 .  
 &lt;/code&gt;&lt;/pre&gt;
 &lt;hr&gt;
-&lt;h1 id=&#34;coding-bits&#34;&gt;coding bits&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;println and print&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;public static void main&amp;hellip;.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;static public void main(String[] args){ also works&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;in terminal : first javac file name. then java file name&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;comment out&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;/* com
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;this is a multiline coment
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;ments */&lt;/span&gt;  
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// this is a single line comment&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;agar result float he to input bhi as float define karna hoga.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;char, single quote, shirf character hoga, hamesha&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;string, hamesha double quote&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;float  ki jagah jyadatar double use karna better hoga.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Notice that the System.out.println( ) statement involves the ‘+’ operator. In this context,
-‘+’ means “string concatenation” and, if necessary, “string conversion.” When the compiler
-sees a String followed by a ‘+’ followed by a non-String, it attempts to convert the non-
-String into a String.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;use of class in java&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Stu&lt;/span&gt;{
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;String name;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; age;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;double&lt;/span&gt; ht;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Ab&lt;/span&gt; {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args){
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Stu amit &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; Stu();
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Stu veer &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; Stu();
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;amit.&lt;span style=&#34;color:#a6e22e&#34;&gt;name&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Amit&amp;#34;&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;amit.&lt;span style=&#34;color:#a6e22e&#34;&gt;age&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 32;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;amit.&lt;span style=&#34;color:#a6e22e&#34;&gt;ht&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 5.&lt;span style=&#34;color:#a6e22e&#34;&gt;10&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;veer.&lt;span style=&#34;color:#a6e22e&#34;&gt;name&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Veer&amp;#34;&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;veer.&lt;span style=&#34;color:#a6e22e&#34;&gt;age&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 19;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;veer.&lt;span style=&#34;color:#a6e22e&#34;&gt;ht&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 6.&lt;span style=&#34;color:#a6e22e&#34;&gt;2&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(veer.&lt;span style=&#34;color:#a6e22e&#34;&gt;ht&lt;/span&gt;);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; 19
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;addition (+), subtraction (-), division (/), multiplication (*) and modulus (%, which produces the remainder from integer division).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; java.util.*;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Ac&lt;/span&gt;{
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args) {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Random ra &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; Random(100);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; a, b, c;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;a &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; ra.&lt;span style=&#34;color:#a6e22e&#34;&gt;nextInt&lt;/span&gt;(40);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;b &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; ra.&lt;span style=&#34;color:#a6e22e&#34;&gt;nextInt&lt;/span&gt;(400); &lt;span style=&#34;color:#75715e&#34;&gt;// 400 is upper bound&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(b);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(a &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; b);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(a);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#f92672&#34;&gt;++&lt;/span&gt;a);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#f92672&#34;&gt;--&lt;/span&gt;a);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#f92672&#34;&gt;--&lt;/span&gt;a);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#f92672&#34;&gt;--&lt;/span&gt;a);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(a);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;double&lt;/span&gt; x, y, z;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;x &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; ra.&lt;span style=&#34;color:#a6e22e&#34;&gt;nextDouble&lt;/span&gt;(5);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(x);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#f92672&#34;&gt;++&lt;/span&gt;x);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#f92672&#34;&gt;++&lt;/span&gt;x);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; 250
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; 285
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; 35
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; 36
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; 35
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; 34
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; 33
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; 33
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; 0.&lt;span style=&#34;color:#a6e22e&#34;&gt;9748802867385259&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; 1.&lt;span style=&#34;color:#a6e22e&#34;&gt;974880286738526&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; 2.&lt;span style=&#34;color:#a6e22e&#34;&gt;974880286738526&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;yaha ++a, a me ek value badha dega. but a++ kaam nahi karta.&lt;/li&gt;
-&lt;li&gt;AND (&amp;amp;&amp;amp;), OR (||) and NOT (!)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h5 id=&#34;if-condition&#34;&gt;if condition&lt;/h5&gt;
-&lt;p&gt;structure : &amp;quot; if (condition) statement &amp;quot;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Example&lt;/span&gt;{
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args) {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; num;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      num &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 500;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (num &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; 100)
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;         System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;lesser&amp;#34;&lt;/span&gt;);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   }
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; (empty, nothing in output)
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Example&lt;/span&gt;{
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args) {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; num;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      num &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 500;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (num &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; 100)
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;         System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;lesser&amp;#34;&lt;/span&gt;);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   }
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; lesser
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Example&lt;/span&gt;{
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args){
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; x, y;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      x &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 20;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      y &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 20;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (x &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; y){
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;         System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;X is lesser than Y&amp;#34;&lt;/span&gt;);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      }
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (x &lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; y){
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;         System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Y is lesser than X.&amp;#34;&lt;/span&gt;);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      }
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (x &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; y){
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;         System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;they are equal.&amp;#34;&lt;/span&gt;);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      }
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   }
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; they are equal.
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;you can use { or not after if statement.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Example&lt;/span&gt;{
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args){
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; x, y;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      x &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 20;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      y &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 20;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (x &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; y){
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;         System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;X is lesser than Y&amp;#34;&lt;/span&gt;);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      }
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;         System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;somehting else but not lesser.&amp;#34;&lt;/span&gt;);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   }
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; somehting &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt; but not lesser.
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;same for else also you can use  { } or not. but use {} all the time. it really prevent errors.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;there is no &lt;strong&gt;elif&lt;/strong&gt; in java. you need to use &lt;em&gt;else if&lt;/em&gt; .&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Example&lt;/span&gt;{
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args){
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; x &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 1000;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Code start&amp;#34;&lt;/span&gt;);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (x &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; 10) System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Small&amp;#34;&lt;/span&gt;);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (x &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; 30) System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;mid&amp;#34;&lt;/span&gt;);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt; System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;huge&amp;#34;&lt;/span&gt;);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   }}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; Code start
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; huge
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h5 id=&#34;simplest-for-loop-structure&#34;&gt;&lt;strong&gt;Simplest for loop structure.&lt;/strong&gt;&lt;/h5&gt;
-&lt;ul&gt;
-&lt;li&gt;for(initialization; condition; iteration) statement;&lt;/li&gt;
-&lt;li&gt;above sequence is really important.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Example&lt;/span&gt;{
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args){
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; x ;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt;(x &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 0; x &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; 10; x &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; x&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;1)
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(x);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   }}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; 0 to 9
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Example&lt;/span&gt;{
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args){
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; x ;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt;(x &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 0; x &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; x&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;1; x &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; 10)
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(x);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   }}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; error
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;x++ : increase 1 value&lt;/li&gt;
-&lt;li&gt;x&amp;ndash; : decrease 1 value&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Example&lt;/span&gt;{
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args){
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; x, y;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;y &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 20;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt;(x &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 0; x &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;=&lt;/span&gt; 10; x&lt;span style=&#34;color:#f92672&#34;&gt;++&lt;/span&gt;){
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;This is x&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;x);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;This is y&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;y);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;y &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; y &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; 2;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}}}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;above is an example of multiblock code. here we have more than 1 output block.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;while declaring / initializing any variable you need to choose data type very carefully.  If data type is not correct then your code will give wrong answer.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;finding data type in java&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Example&lt;/span&gt;{
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args){
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Integer x &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 100;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(x.&lt;span style=&#34;color:#a6e22e&#34;&gt;getClass&lt;/span&gt;().&lt;span style=&#34;color:#a6e22e&#34;&gt;getName&lt;/span&gt;());
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; java.&lt;span style=&#34;color:#a6e22e&#34;&gt;lang&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Integer&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Example&lt;/span&gt;{
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args){
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; a &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 10, b &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 3;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; c &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; a&lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;3;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;value of a and b and c &amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;a &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; b &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; c);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(Math.&lt;span style=&#34;color:#a6e22e&#34;&gt;sqrt&lt;/span&gt;(a));
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; value of a and b and c 10330
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; 3.&lt;span style=&#34;color:#a6e22e&#34;&gt;1622776601683795&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;above is an example of Dynamic Initialization.&lt;/li&gt;
-&lt;li&gt;and Math library / class (predefine in Java)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h5 id=&#34;writhing-functions-in-java&#34;&gt;writhing &lt;em&gt;functions&lt;/em&gt; in java&lt;/h5&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;ZZZ&lt;/span&gt;{
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;myFunction&lt;/span&gt;(){
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;myFunction is executed.&amp;#34;&lt;/span&gt;);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args){
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;myFunction();
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; myFunction is executed.
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
-&lt;li&gt;in java booleans are &amp;ldquo;true&amp;rdquo; and &amp;ldquo;false&amp;rdquo;. small case. not True and False.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h5 id=&#34;array-&#34;&gt;Array :&lt;/h5&gt;
-&lt;ul&gt;
-&lt;li&gt;1-d array : list of like - typed variables.&lt;/li&gt;
-&lt;li&gt;first define a variable as array : data-type [] variable-name&lt;/li&gt;
-&lt;li&gt;then define it&amp;rsquo;s size (memory allocation) : variable-name = new type [size]&lt;/li&gt;
-&lt;li&gt;then add elements.&lt;/li&gt;
-&lt;li&gt;be careful about the data type.&lt;/li&gt;
-&lt;li&gt;we can also change any list element dynamically&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Example&lt;/span&gt;{
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args){
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      String &lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; name_list;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      name_list &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; String&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;5&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      name_list&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;0&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;amit&amp;#34;&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      name_list&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;1&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Mathew&amp;#34;&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      name_list&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;2&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Sujay&amp;#34;&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      name_list&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;3&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Veer&amp;#34;&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      name_list&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;4&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Raj&amp;#34;&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(name_list);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(name_list&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;1&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(name_list&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;3&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      name_list&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;1&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Abhijeet&amp;#34;&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(name_list&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;1&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   }
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;Ljava.&lt;span style=&#34;color:#a6e22e&#34;&gt;lang&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;String&lt;/span&gt;;&lt;span style=&#34;color:#a6e22e&#34;&gt;@24d46ca6&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; Mathew
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; Veer
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; Abhijeet
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Example&lt;/span&gt;{
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args){
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; x;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;x &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;4&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;x&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;0&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 10;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;x&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;1&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 123;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;x&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;2&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 34;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;x&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;3&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 26;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(x&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;2&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(x);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; 34
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; I&lt;span style=&#34;color:#a6e22e&#34;&gt;@24d46ca6&lt;/span&gt;  idk some random stuff.
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h5 id=&#34;user-input&#34;&gt;User input&lt;/h5&gt;
-&lt;ul&gt;
-&lt;li&gt;import Scanner class in java.util to get user input. java.util inbuilt library he.&lt;/li&gt;
-&lt;li&gt;make a placeholder of type scanner, call new scanner with System.in.&lt;/li&gt;
-&lt;li&gt;initialize and define our variable and read placeholder.&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; java.util.*;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Example&lt;/span&gt;{
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args){
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Scanner tumharaVariable &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; Scanner(System.&lt;span style=&#34;color:#a6e22e&#34;&gt;in&lt;/span&gt;);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;String tumharaVariable_2 &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; tumharaVariable.&lt;span style=&#34;color:#a6e22e&#34;&gt;nextLine&lt;/span&gt;();
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(tumharaVariable_2);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; input : HTIC
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; HTIC
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
-&lt;p&gt;Write a Java program that asks the user to enter &lt;strong&gt;5 numbers&lt;/strong&gt; (integers).&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;The program should count how many numbers are &lt;strong&gt;even&lt;/strong&gt; and how many are &lt;strong&gt;odd&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;After all numbers are entered, print the count of &lt;strong&gt;even&lt;/strong&gt; and &lt;strong&gt;odd&lt;/strong&gt; numbers.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; java.util.*;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Example&lt;/span&gt;{
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args){
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; x;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Scanner obj &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; Scanner(System.&lt;span style=&#34;color:#a6e22e&#34;&gt;in&lt;/span&gt;);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; (x &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 0; x &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; 5; x&lt;span style=&#34;color:#f92672&#34;&gt;++&lt;/span&gt;) {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;input de int :&amp;#34;&lt;/span&gt;);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; num &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; obj.&lt;span style=&#34;color:#a6e22e&#34;&gt;nextInt&lt;/span&gt;();
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (num &lt;span style=&#34;color:#f92672&#34;&gt;%&lt;/span&gt; 2 &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; 0) System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(num &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34; Even &amp;#34;&lt;/span&gt;);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt; System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(num &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34; Odd &amp;#34;&lt;/span&gt;);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   }
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h5 id=&#34;constructor&#34;&gt;Constructor&lt;/h5&gt;
-&lt;p&gt;A constructor in Java is a special method that is used to initialize objects when they are created. It has the same name as the class and does not have a return type (not even void).&lt;/p&gt;
-&lt;h1 id=&#34;study-for-oppe-2&#34;&gt;Study for OPPE 2&lt;/h1&gt;
-&lt;h3 id=&#34;week-2-ppa-1&#34;&gt;Week 2 ppa 1&lt;/h3&gt;
-&lt;p&gt;ht and wd is given. find area of the rectangle&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Rectangle&lt;/span&gt;{
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args){
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; w &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 10;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; h &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 20;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; area &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; w &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt; h;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(area);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt; 200
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now ask w and h as input.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; java.util.*;                             &lt;span style=&#34;color:#75715e&#34;&gt;//new line&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Rectangle&lt;/span&gt;{
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args){
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Scanner sc &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; Scanner(System.&lt;span style=&#34;color:#a6e22e&#34;&gt;in&lt;/span&gt;);                   &lt;span style=&#34;color:#75715e&#34;&gt;//new line&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; w &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; Integer.&lt;span style=&#34;color:#a6e22e&#34;&gt;parseInt&lt;/span&gt;(sc.&lt;span style=&#34;color:#a6e22e&#34;&gt;nextLine&lt;/span&gt;());        &lt;span style=&#34;color:#75715e&#34;&gt;// changed line&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; h &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; Integer.&lt;span style=&#34;color:#a6e22e&#34;&gt;parseInt&lt;/span&gt;(sc.&lt;span style=&#34;color:#a6e22e&#34;&gt;nextLine&lt;/span&gt;());          &lt;span style=&#34;color:#75715e&#34;&gt;// changed line&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; area &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; w&lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;h;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(area);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now make  a function, which initiate height and width and return area.&lt;br&gt;
-And a piece of code which ask for input and return area.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; java.util.*;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;RecFunc&lt;/span&gt;{
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; w, h;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;setw&lt;/span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; w_input){             &lt;span style=&#34;color:#75715e&#34;&gt;// setw is a function&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;w &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; w_input; }
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;seth&lt;/span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; h_input){             &lt;span style=&#34;color:#75715e&#34;&gt;// seth is a function&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;h &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; h_input; }
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;area&lt;/span&gt;(){                    &lt;span style=&#34;color:#75715e&#34;&gt;// area is a functiomn&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; w&lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;h; }
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}                              &lt;span style=&#34;color:#75715e&#34;&gt;// don&amp;#39;t forget to close RecFun class&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Rectangle&lt;/span&gt;{
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;(String&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; args){
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Scanner sc &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; Scanner(System.&lt;span style=&#34;color:#a6e22e&#34;&gt;in&lt;/span&gt;);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; w_input &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; Integer.&lt;span style=&#34;color:#a6e22e&#34;&gt;parseInt&lt;/span&gt;(sc.&lt;span style=&#34;color:#a6e22e&#34;&gt;nextLine&lt;/span&gt;());
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; h_input &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; Integer.&lt;span style=&#34;color:#a6e22e&#34;&gt;parseInt&lt;/span&gt;(sc.&lt;span style=&#34;color:#a6e22e&#34;&gt;nextLine&lt;/span&gt;());
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; area_of_rectangle;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;RecFunc r &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; RecFunc();            &lt;span style=&#34;color:#75715e&#34;&gt;// calling new class is necessary&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;r.&lt;span style=&#34;color:#a6e22e&#34;&gt;setw&lt;/span&gt;(w_input);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;r.&lt;span style=&#34;color:#a6e22e&#34;&gt;seth&lt;/span&gt;(h_input);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;area_of_rectangle &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; r.&lt;span style=&#34;color:#a6e22e&#34;&gt;area&lt;/span&gt;();
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;System.&lt;span style=&#34;color:#a6e22e&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;println&lt;/span&gt;(area_of_rectangle);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+</description>
       <author></author>
-      <guid>https://amit-node.github.io/posts/java-self-study/</guid>
+      <guid>https://amit-node.github.io/posts/java-self-study---theory/</guid>
       <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
     </item>
     

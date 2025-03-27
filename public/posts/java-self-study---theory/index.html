@@ -1,0 +1,635 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Liste - https://amit-node.github.io/">
+    <title>Java self study - Theory | amit-node</title>
+    <meta name="description" content="">
+    <meta property="og:url" content="https://amit-node.github.io/posts/java-self-study---theory/">
+  <meta property="og:site_name" content="amit-node">
+  <meta property="og:title" content="Java self study - Theory">
+  <meta property="og:description" content="Java Quiz 1 study The History and Evolution of Java Many features of Java are influenced by C and C&#43;&#43; Invented and first implemented by Dennis Ritchie on the UNIX operating system, C was the result of a development process that started with an older language called BCPL, developed by Martin Richards. BCPL influenced a language called B, invented by Ken Thompson, which led to the development of C in the 1970s. C&#43;&#43; was invented by Bjarne Stroustrup in 1979, while he was working at Bell Laboratories in Murray Hill, New Jersey. Stroustrup initially called the new language “C with Classes.” However, in 1983, the name was changed to C&#43;&#43;. C&#43;&#43; extends C by adding object-oriented features. Because C&#43;&#43; is built on the foundation of C, it includes all of C’s features, attributes and benefits Java was conceived by James Gosling, Patrick Naughton, Chris Warth, Ed Frank, and Mike Sheridan at Sun Microsystems, Inc. in 1991. It took 18 months to develop the first working version. This language was initially called “Oak,” but was renamed “Java” in 1995. Computer languages evolve for two reasons: to adapt to changes in environment and to implement advances in the art of programming. JVM : Java Virtual Machine
+JRE : Java Runtime Environment
+The output of a Java compiler is not executable code. Rather, it is bytecode. Bytecode is a highly optimized set of instructions designed to be executed by what is called the Java Virtual Machine (JVM), which is part of the Java Runtime Environment (JRE). In essence, the original JVM was designed as an interpreter for bytecode.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-03-24T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-03-24T00:00:00+00:00">
+    <meta property="article:tag" content="BS_degree">
+    <meta property="article:tag" content="Study">
+
+    
+  <meta itemprop="name" content="Java self study - Theory">
+  <meta itemprop="description" content="Java Quiz 1 study The History and Evolution of Java Many features of Java are influenced by C and C&#43;&#43; Invented and first implemented by Dennis Ritchie on the UNIX operating system, C was the result of a development process that started with an older language called BCPL, developed by Martin Richards. BCPL influenced a language called B, invented by Ken Thompson, which led to the development of C in the 1970s. C&#43;&#43; was invented by Bjarne Stroustrup in 1979, while he was working at Bell Laboratories in Murray Hill, New Jersey. Stroustrup initially called the new language “C with Classes.” However, in 1983, the name was changed to C&#43;&#43;. C&#43;&#43; extends C by adding object-oriented features. Because C&#43;&#43; is built on the foundation of C, it includes all of C’s features, attributes and benefits Java was conceived by James Gosling, Patrick Naughton, Chris Warth, Ed Frank, and Mike Sheridan at Sun Microsystems, Inc. in 1991. It took 18 months to develop the first working version. This language was initially called “Oak,” but was renamed “Java” in 1995. Computer languages evolve for two reasons: to adapt to changes in environment and to implement advances in the art of programming. JVM : Java Virtual Machine
+JRE : Java Runtime Environment
+The output of a Java compiler is not executable code. Rather, it is bytecode. Bytecode is a highly optimized set of instructions designed to be executed by what is called the Java Virtual Machine (JVM), which is part of the Java Runtime Environment (JRE). In essence, the original JVM was designed as an interpreter for bytecode.">
+  <meta itemprop="datePublished" content="2025-03-24T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2025-03-24T00:00:00+00:00">
+  <meta itemprop="wordCount" content="1871">
+  <meta itemprop="keywords" content="BS_degree,Study">
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-00000000"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-00000000');
+        }
+      </script>
+	
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	
+    <link rel="canonical" href="https://amit-node.github.io/posts/java-self-study---theory/">
+    <link rel="icon" href="https://amit-node.github.io//assets/favicon.ico">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link href="https://www.google-analytics.com" rel="preconnect" crossorigin>
+    <link rel="alternate" type="application/atom+xml" title="amit-node" href="https://amit-node.github.io//atom.xml" />
+    <link rel="alternate" type="application/json" title="amit-node" href="https://amit-node.github.io//feed.json" />
+    <link rel="shortcut icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bricolage+Grotesque">
+    
+    
+    <style>*,:after,:before{box-sizing:border-box;padding:0}body{font:1rem/1.5 bricolage grotesque,-apple-system,BlinkMacSystemFont,segoe ui,Helvetica,Arial,sans-serif;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;padding:2rem;background:#fffdfa;color:#000}.skip-link{position:absolute;top:-40px;left:0;background:#eee;z-index:100}.skip-link:focus{top:0}header{line-height:2;padding-bottom:1.5rem}.link{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-decoration:none}.time{font-variant-numeric:tabular-nums;white-space:nowrap}blockquote{border-left:5px solid #eee;padding-left:1rem;margin:0}a,a:visited{color:inherit}a:hover,a.heading-link{text-decoration:none}pre{padding:.5rem;overflow:auto;overflow-x:scroll;overflow-wrap:normal}code,pre{font-family:San Francisco Mono,Monaco,consolas,lucida console,dejavu sans mono,bitstream vera sans mono,monospace;font-size:normal;font-size:small;background:#eee}code{margin:.1rem;border:none}ul{list-style-type:square}ul,ol{padding-left:1.2rem}.list{line-height:2;list-style-type:none;padding-left:0}.list li{padding-bottom:.1rem}.meta{color:#777}.content{max-width:70ch;margin:0 auto}header{line-height:2;display:flex;justify-content:space-between;padding-bottom:1rem}header a{text-decoration:none}header ul{list-style-type:none;padding:0}header li,header a{display:inline}h2.post{padding-top:.5rem}header ul a:first-child{padding-left:1rem}.nav{height:1px;background:#000;content:'';max-width:10%}.list li{display:flex;align-items:baseline}.list li time{flex:initial}.hr-list{margin-top:0;margin-bottom:0;margin-right:.5rem;margin-left:.5rem;height:1px;border:0;border-bottom:1px dotted #ccc;flex:1 0 1rem}.m,hr{border:0;margin:3rem 0}img{max-width:100%;height:auto}.post-date{margin:5% 0}.index-date{color:#9a9a9a}.animate-blink{animation:opacity 1s infinite;opacity:1}@keyframes opacity{0%{opacity:1}50%{opacity:.5}100%{opacity:0}}.tags{display:flex;justify-content:space-between}.tags ul{padding:0;margin:0}.tags li{display:inline}.avatar{height:120px;width:120px;position:relative;margin:-10px 0 0 15px;float:right;border-radius:50%}table{width:100%;border-collapse:collapse}th,td{border:1px solid #ddd;text-align:left;padding:8px}th{background-color:#f2f2f2} </style>
+  
+    
+  
+  
+  <script type="application/ld+json">
+  {
+      "@context": "http://schema.org",
+      "@type": "BlogPosting",
+      "articleSection": "posts",
+      "name": "Java self study - Theory",
+      "headline": "Java self study - Theory",
+      "alternativeHeadline": "",
+      "description": "\u003ch1 id=\u0022java-quiz-1-study\u0022\u003eJava Quiz 1 study\u003c\/h1\u003e\n\u003ch2 id=\u0022the-history-and-evolution-of-java\u0022\u003eThe History and Evolution of Java\u003c\/h2\u003e\n\u003cul\u003e\n\u003cli\u003eMany features of Java are influenced by C and C\u002b\u002b\u003c\/li\u003e\n\u003cli\u003eInvented and first implemented by Dennis Ritchie on the UNIX operating system, C was the result of a development process that started with an older language called BCPL, developed by Martin Richards. BCPL influenced a language called B, invented by Ken Thompson, which led to the development of C in the 1970s.\u003c\/li\u003e\n\u003cli\u003eC\u002b\u002b was invented by Bjarne Stroustrup in 1979, while he was working at Bell Laboratories in Murray Hill, New Jersey. Stroustrup initially called the new language “C with Classes.” However, in 1983, the name was changed to C\u002b\u002b. C\u002b\u002b extends C by adding object-oriented features. Because C\u002b\u002b is built on the foundation of C, it includes all of C’s features, attributes and benefits\u003c\/li\u003e\n\u003cli\u003eJava was conceived by James Gosling, Patrick Naughton, Chris Warth, Ed Frank, and Mike Sheridan at Sun Microsystems, Inc. in 1991. It took 18 months to develop the first working version. This language was initially called “Oak,” but was renamed “Java” in 1995.\u003c\/li\u003e\n\u003cli\u003eComputer languages evolve for two reasons: to adapt to changes in environment and to implement advances in the art of programming.\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003cp\u003e\u003cstrong\u003eJVM\u003c\/strong\u003e : Java Virtual Machine\u003cbr\u003e\n\u003cstrong\u003eJRE\u003c\/strong\u003e : Java Runtime Environment\u003cbr\u003e\nThe output of a Java compiler is not executable code. Rather, it is bytecode. Bytecode is a highly optimized set of instructions designed to be executed by what is called the Java Virtual Machine (JVM), which is part of the Java Runtime Environment (JRE). In essence, the original JVM was designed as an interpreter for bytecode.\u003c\/p\u003e",
+      "inLanguage": "en-us",
+      "isFamilyFriendly": "true",
+      "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https:\/\/amit-node.github.io\/posts\/java-self-study---theory\/"
+      },
+      "author" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "creator" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "accountablePerson" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "copyrightHolder" : "amit-node",
+      "copyrightYear" : "2025",
+      "dateCreated": "2025-03-24T00:00:00.00Z",
+      "datePublished": "2025-03-24T00:00:00.00Z",
+      "dateModified": "2025-03-24T00:00:00.00Z",
+      "publisher":{
+          "@type":"Organization",
+          "name": "amit-node",
+          "url": "https://amit-node.github.io/",
+          "logo": {
+              "@type": "ImageObject",
+              "url": "https:\/\/amit-node.github.io\/",
+              "width":"32",
+              "height":"32"
+          }
+      },
+      "image": "https://amit-node.github.io/",
+      "url" : "https:\/\/amit-node.github.io\/posts\/java-self-study---theory\/",
+      "wordCount" : "1871",
+      "genre" : [ "BS_degree" , "Study" ],
+      "keywords" : [ "BS_degree" , "Study" ]
+  }
+  </script>
+  
+  
+  </head>
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java self study - Theory</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <style>
+        
+        code {
+            background-color: #E5E4E2;
+            border-radius: 4px;
+            padding: 1px 4px;
+        }
+        
+        code:hover {
+            box-shadow: 2px 2px 6px rgba(50, 50, 150, 0.5);
+        }
+        
+        hr {
+            border: none;
+            height: 4px;  
+            background-color: black;  
+            margin: 20px 0;  
+        }
+
+        
+    
+    </style>
+</head>
+<body>
+</body>
+</html>
+
+<body>
+  <a class="skip-link" href="#main">Skip to main</a>
+  <main id="main">
+  <div class="content">
+    <header>
+<p style="padding: 0;margin: 0;">
+  <a href="https://amit-node.github.io/">
+    <b>amit-node</b>
+    <span class="text-stone-500 animate-blink">▮</span>
+  </a>
+</p>
+<ul style="padding: 0;margin: 0;">
+  
+  
+  <li class="">
+    <a href="/posts/"><span>Posts</span></a>
+    
+  <li class="">
+    <a href="/tags/"><span>Tags</span></a>
+    
+  </li>
+</ul>
+</header>
+<hr class="hr-list" style="padding: 0;margin: 0;">
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3S4LMPEVFV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3S4LMPEVFV');
+</script>
+    <section>
+      <h2 class="post">Java self study - Theory</h2>
+      <h1 id="java-quiz-1-study">Java Quiz 1 study</h1>
+<h2 id="the-history-and-evolution-of-java">The History and Evolution of Java</h2>
+<ul>
+<li>Many features of Java are influenced by C and C++</li>
+<li>Invented and first implemented by Dennis Ritchie on the UNIX operating system, C was the result of a development process that started with an older language called BCPL, developed by Martin Richards. BCPL influenced a language called B, invented by Ken Thompson, which led to the development of C in the 1970s.</li>
+<li>C++ was invented by Bjarne Stroustrup in 1979, while he was working at Bell Laboratories in Murray Hill, New Jersey. Stroustrup initially called the new language “C with Classes.” However, in 1983, the name was changed to C++. C++ extends C by adding object-oriented features. Because C++ is built on the foundation of C, it includes all of C’s features, attributes and benefits</li>
+<li>Java was conceived by James Gosling, Patrick Naughton, Chris Warth, Ed Frank, and Mike Sheridan at Sun Microsystems, Inc. in 1991. It took 18 months to develop the first working version. This language was initially called “Oak,” but was renamed “Java” in 1995.</li>
+<li>Computer languages evolve for two reasons: to adapt to changes in environment and to implement advances in the art of programming.</li>
+</ul>
+<p><strong>JVM</strong> : Java Virtual Machine<br>
+<strong>JRE</strong> : Java Runtime Environment<br>
+The output of a Java compiler is not executable code. Rather, it is bytecode. Bytecode is a highly optimized set of instructions designed to be executed by what is called the Java Virtual Machine (JVM), which is part of the Java Runtime Environment (JRE). In essence, the original JVM was designed as an interpreter for bytecode.</p>
+<blockquote>
+<p>our code &gt; compile &gt; bytecode &gt; run &gt; result</p>
+</blockquote>
+<h3 id="there-are-4-types-of-applications-we-can-create-using-java">There are 4 types of applications we can create using Java.</h3>
+<ol>
+<li><strong>Stand Alone</strong> : Desktop applications</li>
+<li><strong>Web application</strong> : runs on server side and create dynamic pages.</li>
+<li><strong>Enterprise Application</strong> : Distributed in nature, banking etc.</li>
+<li><strong>Mobile Application</strong> : Mobile games etc.</li>
+</ol>
+<h3 id="12-main-characteristics-of-java">12 main characteristics of Java</h3>
+<ol>
+<li><strong>Simple</strong> : Simple to learn, based on C++</li>
+<li><strong>Object Oriented</strong> : Everything in java is an object. In object oriented programming, we organize our software as a combination of different types of objects.</li>
+<li><strong>Platform independent</strong> : You can use Java on any platform : mac, Windows, Linux.
+<ol>
+<li>There are two type of platforms : hardware based and software based. Java works on software based platform.</li>
+</ol>
+</li>
+<li><strong>Secured</strong> : java programs run inside a virtual machine sandbox.</li>
+<li><strong>Robust</strong> : Strong memory management.</li>
+<li><strong>Architectural - Neutral</strong> : No implementation dependent features.</li>
+<li><strong>Portable</strong> : You can carry Java bytecode to any platform.</li>
+<li><strong>High Performance</strong> : java is faster than many languages. But slower than C++. because Java is an interpreted language, which are slower than compiled languages (C++).
+<ol>
+<li>A <strong>compiler</strong> translates the entire source code into machine code than executes it. Results in faster execution.</li>
+<li><strong>Interpreter</strong> translate code line by line during execution. making it easier to detect errors but slows down program.</li>
+</ol>
+</li>
+<li><strong>Interpreted</strong></li>
+<li><strong>Distributed</strong> : It facilitates users to create distributed applications in Java.</li>
+<li><strong>Multi-threaded</strong> : Java can deal with many tasks at once by defining multiple threads.</li>
+<li><strong>Dynamic</strong> : It supports dynamic loading of classes</li>
+</ol>
+<h2 id="week-1">week 1</h2>
+<ul>
+<li>
+<p><strong>High level language</strong> : Human readable</p>
+</li>
+<li>
+<p><strong>Low level language</strong> : machine readable.</p>
+<ul>
+<li>We need Compilers and interpreters to translate High level language to low level language.</li>
+</ul>
+</li>
+<li>
+<p>Abstractions used in computation thinking
+An essential element of object-oriented programming is abstraction. Humans manage complexity through abstraction. For example, people do not think of a car as a set of tens of thousands of individual parts. They think of it as a well-defined object with its own unique behavior. This abstraction allows people to use a car to drive to the grocery store without being overwhelmed by the complexity of the individual parts. They can ignore the details of how the engine, transmission, and braking systems work. Instead, they are free to utilize the object as a whole.</p>
+</li>
+<li>
+<p>compilers, interpreters
+1. A <strong>compiler</strong> translates the entire source code into machine code than executes it. Results in faster execution.
+2. <strong>Interpreter</strong> translate code line by line during execution. making it easier to detect errors but slows down program
+- java is faster than many languages. But slower than C++. because Java is an interpreted language, which are slower than compiled languages (C++).  Python is also an interpreted language.</p>
+</li>
+</ul>
+<h3 id="1-imperative">1. Imperative</h3>
+<ol>
+<li>How to compute</li>
+<li>Step by step instructions</li>
+<li>Intermediate steps are given. whole process is given</li>
+</ol>
+<h3 id="2-declarative">2. Declarative</h3>
+<ol>
+<li>What to compute</li>
+<li>Not much instructions</li>
+<li>Intermediate steps are not given</li>
+<li>Combination of small - small functions : Functional programming. Reccursion is also there</li>
+</ol>
+<ul>
+<li>
+<p>collections</p>
+<ul>
+<li>arrays, lists, dictionaries</li>
+<li>stack : push and pop</li>
+<li>queue : enqueue, dequeue</li>
+</ul>
+</li>
+<li>
+<p>Data Types</p>
+</li>
+<li>
+<p>Static vs dynamic typing</p>
+<ul>
+<li>Dynamic : you can set x value then you can change x value. you can change data types also. machine judges type on the basis of value. It can be changeable. If I defined x as int first. but then change it in float. it&rsquo;ll be fine.</li>
+<li>Static : Associate data type with variable in advance, can&rsquo;t assisgn different data type value. With variable declaration  compilers can detect type errors at compile time.</li>
+<li>It&rsquo;s mandatory in java to define the type of our variable when we initiate our variable.</li>
+</ul>
+</li>
+</ul>
+<h3 id="something-about-storage-">Something about storage :</h3>
+<p>5 different places to store data</p>
+<ol>
+<li>Registers. This is the fastest storage because it exists in a place different from that of
+other storage: inside the processor. However, the number of registers is severely
+limited, so registers are allocated as they are needed. You don’t have direct control,
+nor do you see any evidence in your programs that registers even exist (C &amp; C++, on
+the other hand, allow you to suggest register allocation to the compiler).</li>
+<li>The stack. This lives in the general random-access memory (RAM) area, but has
+direct support from the processor via its stack pointer. The stack pointer is moved
+down to create new memory and moved up to release that memory. This is an
+extremely fast and efficient way to allocate storage, second only to registers. The Java
+system must know, while it is creating the program, the exact lifetime of all the items
+that are stored on the stack. This constraint places limits on the flexibility of your
+programs, so while some Java storage exists on the stack—in particular, object
+references—Java objects themselves are not placed on the stack.</li>
+<li>The heap. This is a general-purpose pool of memory (also in the RAM area) where all
+Java objects live. The nice thing about the heap is that, unlike the stack, the compiler
+doesn’t need to know how long that storage must stay on the heap. Thus, there’s a
+great deal of flexibility in using storage on the heap. Whenever you need an object, you
+simply write the code to create it by using new, and the storage is allocated on the
+heap when that code is executed. Of course there’s a price you pay for this flexibility: It
+may take more time to allocate and clean up heap storage than stack storage (if you
+even could create objects on the stack in Java, as you can in C++).</li>
+<li>Constant storage. Constant values are often placed directly in the program code,
+which is safe since they can never change. Sometimes constants are cordoned off by
+themselves so that they can be optionally placed in read-only memory (ROM), in
+embedded systems.2</li>
+<li>Non-RAM storage. If data lives completely outside a program, it can exist while the
+program is not running, outside the control of the program. The two primary
+examples of this are streamed objects, in which objects are turned into streams of
+bytes, generally to be sent to another machine, and persistent objects, in which the
+objects are placed on disk so they will hold their state even when the program is
+terminated. The trick with these types of storage is turning the objects into something
+that can exist on the other medium, and yet can be resurrected into a regular RAM-
+based object when necessary. Java provides support for lightweight persistence, and
+mechanisms such as JDBC and Hibernate provide more sophisticated support for
+storing and retrieving object information in databases.</li>
+</ol>
+<ul>
+<li>
+<p>Scope of a variable : Local and global</p>
+</li>
+<li>
+<p>lifetime of a variable</p>
+<ul>
+<li>How long a variable can stays in memory</li>
+<li>In case of local variable, scope and lifetime are same.</li>
+</ul>
+</li>
+<li>
+<p>Memory stack</p>
+<ul>
+<li>function needs storage for local variable</li>
+<li>create activation record when function is called
+<ul>
+<li>activation records are stacked,  popped when function exits</li>
+<li>link points to start of previous record</li>
+</ul>
+</li>
+<li>scope of variable</li>
+<li>lifetime of a variable</li>
+</ul>
+</li>
+<li>
+<p>arguments : formal parameters</p>
+<ul>
+<li>activation record</li>
+<li>2 ways to initialize the parameters
+<ul>
+<li>call by value</li>
+<li>call by reference</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>heap : linked list has some drawbacks</p>
+<ul>
+<li>separate storage for persistent data : dynamically allocated vs statically declared</li>
+<li>called Heap : (different from DSA)</li>
+<li>Heap is at the opposite end of the stack</li>
+</ul>
+</li>
+<li>
+<p>Manual memory management</p>
+<ul>
+<li>request and return heap storage</li>
+<li>error prone</li>
+<li>explicit deallocation</li>
+</ul>
+</li>
+<li>
+<p>Automatics garbage collection</p>
+<ul>
+<li>mark and sweep</li>
+</ul>
+</li>
+<li>
+<p>Stepwise refinement</p>
+<ul>
+<li>you can divide your problem in many subparts and many people can work on different parts. later you can combine them.</li>
+<li>Dividing the program and then merging the solution.
+<ul>
+<li>start with a high level, then refine task into subtasks</li>
+<li>again sub division</li>
+<li>sub tasks or sub divisons can be coded by different people</li>
+<li>program refine ment : focus on code not on data structure</li>
+<li>top down, bottom up</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>modular software developement</p>
+<ul>
+<li>use refinement to divide the solution into components</li>
+<li>build prototype for each component</li>
+<li>components
+<ul>
+<li>interface : what is visible to others components, e.g. function calls</li>
+<li>specifications : behaviour of component, as visible through interface</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>control abstraction</p>
+<ul>
+<li>Encapsulation</li>
+</ul>
+</li>
+<li>
+<p>data abstraction</p>
+</li>
+<li>
+<p>object oriented programming</p>
+</li>
+<li>
+<p>object is like an abstract datatype</p>
+</li>
+<li>
+<p>uniform way to encapsulating different combinations of data and functionality</p>
+<ul>
+<li>an object can hold single integer or entire databse too</li>
+</ul>
+</li>
+<li>
+<p>features in object oriented programming</p>
+<ul>
+<li>abstraction</li>
+<li>subtyping</li>
+<li>dynamic lookup</li>
+<li>inheritance</li>
+</ul>
+</li>
+<li>
+<p>abstraction</p>
+<ul>
+<li>objects are similar to abstract datatypes</li>
+<li>data centric view of programming</li>
+<li>recall stepwise refinement</li>
+</ul>
+</li>
+<li>
+<p>Subtyping</p>
+<ul>
+<li>recall event queue</li>
+<li>arrange types in hierarchy</li>
+</ul>
+</li>
+<li>
+<p>Dynamic lookup</p>
+<ul>
+<li>type checking</li>
+<li>how to method act is a dynamic property how the object is implemented</li>
+<li>different from overloading</li>
+</ul>
+</li>
+<li>
+<p>inheritance</p>
+<ul>
+<li>re-use of implementations</li>
+<li>employee objects, manager objects</li>
+</ul>
+</li>
+<li>
+<p>difference between subtyping and inheritance.</p>
+</li>
+<li>
+<p>deque is a double ended queue</p>
+</li>
+<li>
+<p>objects</p>
+</li>
+<li>
+<p>class</p>
+</li>
+<li>
+<p>constructor</p>
+</li>
+<li>
+<p>adding method to a class</p>
+</li>
+<li>
+<p>changing the internal implementations</p>
+</li>
+<li>
+<p>abstraction
+how to use above concepts in coding</p>
+</li>
+</ul>
+<h2 id="week-2">week 2</h2>
+<ul>
+<li>
+<p>print command</p>
+</li>
+<li>
+<p>visibility</p>
+</li>
+<li>
+<p>availablity</p>
+</li>
+<li>
+<p>public class</p>
+</li>
+<li>
+<p>work of JVM and &ldquo;write once run anywhere&rdquo;</p>
+</li>
+<li>
+<p>javac</p>
+</li>
+<li>
+<p>scalar type</p>
+</li>
+<li>
+<p>IN OBJECT ORIENTED, ALL DATA SHOULD BE ENCAPSULATED AS OBJECTS</p>
+</li>
+<li>
+<p>8 primitive scalar types and their size in bytes</p>
+<ul>
+<li>int	4 bits</li>
+<li>long	8</li>
+<li>short	2</li>
+<li>byte		1</li>
+<li>float	4 bytes = 32 bits</li>
+<li>double	8 bytes = 64 bits</li>
+<li>char		2 for Unicode</li>
+<li>boolean	1, true false (in small)</li>
+</ul>
+</li>
+<li>
+<p>Declaration, assigining values</p>
+</li>
+<li>
+<p>initialization, constants</p>
+</li>
+<li>
+<p>airthmatic concepts</p>
+</li>
+<li>
+<p>Math.ppow()</p>
+</li>
+<li>
+<p>string in double quotes &ldquo;string&rdquo;</p>
+</li>
+<li>
+<p>method substing in class string</p>
+</li>
+<li>
+<p>Array are also objects</p>
+<ul>
+<li>length</li>
+<li>indices</li>
+</ul>
+</li>
+<li>
+<p>control flow</p>
+<ul>
+<li>if else
+<ul>
+<li>but no elif</li>
+</ul>
+</li>
+<li>while</li>
+<li>do, while</li>
+<li>for : 2 types of for</li>
+<li>multibranching : switch</li>
+<li>iteration</li>
+<li>break</li>
+</ul>
+</li>
+<li>
+<p>java classes</p>
+<ul>
+<li>defining a class</li>
+<li>instance variable</li>
+<li>creating objects</li>
+<li>new,this,</li>
+<li>Accessor, Mutator methods</li>
+<li>constructors</li>
+<li>copy constructors
+<ul>
+<li>shallow copy vs deep copy</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>java input and output</p>
+<ul>
+<li>console class</li>
+<li>readline</li>
+<li>readpassword</li>
+<li>generating output</li>
+<li>println, print, printf</li>
+</ul>
+</li>
+</ul>
+<h2 id="week-3">week 3</h2>
+<pre><code>.  
+.  
+.  
+</code></pre>
+<hr>
+
+      
+      <div class="post-date">
+        <span class="g time">March 24, 2025 </span> &#8729;
+         
+         <a href="https://amit-node.github.io/tags/bs_degree/">bs_degree</a> <a href="https://amit-node.github.io/tags/study/">study</a>
+      </div>
+      
+    </section>
+    
+    
+    
+  </div>
+</main>
+</body>
+</html>

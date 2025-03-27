@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java self study.md",
+                "file": "Java self study - Theory.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7747a6bc1b9bb980",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java self study - Coding.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Java self study - Coding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Java self study - Coding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "For Demo.md"
+                "file": "Java self study - Coding.md"
               }
             }
           }
@@ -145,9 +160,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e87dbf4d60926b1d",
+  "active": "7747a6bc1b9bb980",
   "lastOpenFiles": [
-    "Java self study.md",
+    "Java self study - Theory.md",
+    "Java self study - Coding.md",
     "For Demo.md",
     "My Cycling Records (wip).md",
     "pc commands and short cuts.md",

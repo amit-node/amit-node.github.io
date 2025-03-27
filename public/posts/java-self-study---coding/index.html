@@ -1,0 +1,616 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Liste - https://amit-node.github.io/">
+    <title>Java self study - Coding | amit-node</title>
+    <meta name="description" content="">
+    <meta property="og:url" content="https://amit-node.github.io/posts/java-self-study---coding/">
+  <meta property="og:site_name" content="amit-node">
+  <meta property="og:title" content="Java self study - Coding">
+  <meta property="og:description" content="println and print
+public static void main….
+static public void main(String[] args){ also works in terminal : first javac file name. then java file name
+comment out
+/* com this is a multiline coment ments */ // this is a single line comment agar result float he to input bhi as float define karna hoga.
+char, single quote, shirf character hoga, hamesha
+string, hamesha double quote
+float ki jagah jyadatar double use karna better hoga.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-03-27T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-03-27T00:00:00+00:00">
+    <meta property="article:tag" content="BS_degree">
+    <meta property="article:tag" content="Study">
+
+    
+  <meta itemprop="name" content="Java self study - Coding">
+  <meta itemprop="description" content="println and print
+public static void main….
+static public void main(String[] args){ also works in terminal : first javac file name. then java file name
+comment out
+/* com this is a multiline coment ments */ // this is a single line comment agar result float he to input bhi as float define karna hoga.
+char, single quote, shirf character hoga, hamesha
+string, hamesha double quote
+float ki jagah jyadatar double use karna better hoga.">
+  <meta itemprop="datePublished" content="2025-03-27T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2025-03-27T00:00:00+00:00">
+  <meta itemprop="wordCount" content="1299">
+  <meta itemprop="keywords" content="BS_degree,Study">
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-00000000"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-00000000');
+        }
+      </script>
+	
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	
+    <link rel="canonical" href="https://amit-node.github.io/posts/java-self-study---coding/">
+    <link rel="icon" href="https://amit-node.github.io//assets/favicon.ico">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link href="https://www.google-analytics.com" rel="preconnect" crossorigin>
+    <link rel="alternate" type="application/atom+xml" title="amit-node" href="https://amit-node.github.io//atom.xml" />
+    <link rel="alternate" type="application/json" title="amit-node" href="https://amit-node.github.io//feed.json" />
+    <link rel="shortcut icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bricolage+Grotesque">
+    
+    
+    <style>*,:after,:before{box-sizing:border-box;padding:0}body{font:1rem/1.5 bricolage grotesque,-apple-system,BlinkMacSystemFont,segoe ui,Helvetica,Arial,sans-serif;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;padding:2rem;background:#fffdfa;color:#000}.skip-link{position:absolute;top:-40px;left:0;background:#eee;z-index:100}.skip-link:focus{top:0}header{line-height:2;padding-bottom:1.5rem}.link{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-decoration:none}.time{font-variant-numeric:tabular-nums;white-space:nowrap}blockquote{border-left:5px solid #eee;padding-left:1rem;margin:0}a,a:visited{color:inherit}a:hover,a.heading-link{text-decoration:none}pre{padding:.5rem;overflow:auto;overflow-x:scroll;overflow-wrap:normal}code,pre{font-family:San Francisco Mono,Monaco,consolas,lucida console,dejavu sans mono,bitstream vera sans mono,monospace;font-size:normal;font-size:small;background:#eee}code{margin:.1rem;border:none}ul{list-style-type:square}ul,ol{padding-left:1.2rem}.list{line-height:2;list-style-type:none;padding-left:0}.list li{padding-bottom:.1rem}.meta{color:#777}.content{max-width:70ch;margin:0 auto}header{line-height:2;display:flex;justify-content:space-between;padding-bottom:1rem}header a{text-decoration:none}header ul{list-style-type:none;padding:0}header li,header a{display:inline}h2.post{padding-top:.5rem}header ul a:first-child{padding-left:1rem}.nav{height:1px;background:#000;content:'';max-width:10%}.list li{display:flex;align-items:baseline}.list li time{flex:initial}.hr-list{margin-top:0;margin-bottom:0;margin-right:.5rem;margin-left:.5rem;height:1px;border:0;border-bottom:1px dotted #ccc;flex:1 0 1rem}.m,hr{border:0;margin:3rem 0}img{max-width:100%;height:auto}.post-date{margin:5% 0}.index-date{color:#9a9a9a}.animate-blink{animation:opacity 1s infinite;opacity:1}@keyframes opacity{0%{opacity:1}50%{opacity:.5}100%{opacity:0}}.tags{display:flex;justify-content:space-between}.tags ul{padding:0;margin:0}.tags li{display:inline}.avatar{height:120px;width:120px;position:relative;margin:-10px 0 0 15px;float:right;border-radius:50%}table{width:100%;border-collapse:collapse}th,td{border:1px solid #ddd;text-align:left;padding:8px}th{background-color:#f2f2f2} </style>
+  
+    
+  
+  
+  <script type="application/ld+json">
+  {
+      "@context": "http://schema.org",
+      "@type": "BlogPosting",
+      "articleSection": "posts",
+      "name": "Java self study - Coding",
+      "headline": "Java self study - Coding",
+      "alternativeHeadline": "",
+      "description": "\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003eprintln and print\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003epublic static void main\u0026hellip;.\u003c\/p\u003e\n\u003cul\u003e\n\u003cli\u003estatic public void main(String[] args){ also works\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003ein terminal : first javac file name. then java file name\u003c\/p\u003e\n\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003cp\u003ecomment out\u003c\/p\u003e\n\u003cdiv class=\u0022highlight\u0022\u003e\u003cpre tabindex=\u00220\u0022 style=\u0022color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;\u0022\u003e\u003ccode class=\u0022language-java\u0022 data-lang=\u0022java\u0022\u003e\u003cspan style=\u0022display:flex;\u0022\u003e\u003cspan\u003e\u003cspan style=\u0022color:#75715e\u0022\u003e\/* com\n\u003c\/span\u003e\u003c\/span\u003e\u003c\/span\u003e\u003cspan style=\u0022display:flex;\u0022\u003e\u003cspan\u003e\u003cspan style=\u0022color:#75715e\u0022\u003ethis is a multiline coment\n\u003c\/span\u003e\u003c\/span\u003e\u003c\/span\u003e\u003cspan style=\u0022display:flex;\u0022\u003e\u003cspan\u003e\u003cspan style=\u0022color:#75715e\u0022\u003ements *\/\u003c\/span\u003e  \n\u003c\/span\u003e\u003c\/span\u003e\u003cspan style=\u0022display:flex;\u0022\u003e\u003cspan\u003e\n\u003c\/span\u003e\u003c\/span\u003e\u003cspan style=\u0022display:flex;\u0022\u003e\u003cspan\u003e\u003cspan style=\u0022color:#75715e\u0022\u003e\/\/ this is a single line comment\u003c\/span\u003e\n\u003c\/span\u003e\u003c\/span\u003e\u003c\/code\u003e\u003c\/pre\u003e\u003c\/div\u003e\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003eagar result float he to input bhi as float define karna hoga.\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003echar, single quote, shirf character hoga, hamesha\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003estring, hamesha double quote\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003efloat  ki jagah jyadatar double use karna better hoga.\u003c\/p\u003e",
+      "inLanguage": "en-us",
+      "isFamilyFriendly": "true",
+      "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https:\/\/amit-node.github.io\/posts\/java-self-study---coding\/"
+      },
+      "author" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "creator" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "accountablePerson" : {
+          "@type": "Person",
+          "name": ""
+      },
+      "copyrightHolder" : "amit-node",
+      "copyrightYear" : "2025",
+      "dateCreated": "2025-03-27T00:00:00.00Z",
+      "datePublished": "2025-03-27T00:00:00.00Z",
+      "dateModified": "2025-03-27T00:00:00.00Z",
+      "publisher":{
+          "@type":"Organization",
+          "name": "amit-node",
+          "url": "https://amit-node.github.io/",
+          "logo": {
+              "@type": "ImageObject",
+              "url": "https:\/\/amit-node.github.io\/",
+              "width":"32",
+              "height":"32"
+          }
+      },
+      "image": "https://amit-node.github.io/",
+      "url" : "https:\/\/amit-node.github.io\/posts\/java-self-study---coding\/",
+      "wordCount" : "1299",
+      "genre" : [ "BS_degree" , "Study" ],
+      "keywords" : [ "BS_degree" , "Study" ]
+  }
+  </script>
+  
+  
+  </head>
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java self study - Coding</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <style>
+        
+        code {
+            background-color: #E5E4E2;
+            border-radius: 4px;
+            padding: 1px 4px;
+        }
+        
+        code:hover {
+            box-shadow: 2px 2px 6px rgba(50, 50, 150, 0.5);
+        }
+        
+        hr {
+            border: none;
+            height: 4px;  
+            background-color: black;  
+            margin: 20px 0;  
+        }
+
+        
+    
+    </style>
+</head>
+<body>
+</body>
+</html>
+
+<body>
+  <a class="skip-link" href="#main">Skip to main</a>
+  <main id="main">
+  <div class="content">
+    <header>
+<p style="padding: 0;margin: 0;">
+  <a href="https://amit-node.github.io/">
+    <b>amit-node</b>
+    <span class="text-stone-500 animate-blink">▮</span>
+  </a>
+</p>
+<ul style="padding: 0;margin: 0;">
+  
+  
+  <li class="">
+    <a href="/posts/"><span>Posts</span></a>
+    
+  <li class="">
+    <a href="/tags/"><span>Tags</span></a>
+    
+  </li>
+</ul>
+</header>
+<hr class="hr-list" style="padding: 0;margin: 0;">
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3S4LMPEVFV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3S4LMPEVFV');
+</script>
+    <section>
+      <h2 class="post">Java self study - Coding</h2>
+      <ul>
+<li>
+<p>println and print</p>
+</li>
+<li>
+<p>public static void main&hellip;.</p>
+<ul>
+<li>static public void main(String[] args){ also works</li>
+</ul>
+</li>
+<li>
+<p>in terminal : first javac file name. then java file name</p>
+</li>
+</ul>
+<p>comment out</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#75715e">/* com
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">this is a multiline coment
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">ments */</span>  
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// this is a single line comment</span>
+</span></span></code></pre></div><ul>
+<li>
+<p>agar result float he to input bhi as float define karna hoga.</p>
+</li>
+<li>
+<p>char, single quote, shirf character hoga, hamesha</p>
+</li>
+<li>
+<p>string, hamesha double quote</p>
+</li>
+<li>
+<p>float  ki jagah jyadatar double use karna better hoga.</p>
+</li>
+<li></li>
+<li>
+<p>Notice that the System.out.println( ) statement involves the ‘+’ operator. In this context,
+‘+’ means “string concatenation” and, if necessary, “string conversion.” When the compiler
+sees a String followed by a ‘+’ followed by a non-String, it attempts to convert the non-
+String into a String.</p>
+</li>
+</ul>
+<p>use of class in java</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Stu</span>{
+</span></span><span style="display:flex;"><span>String name;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> age;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">double</span> ht;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Ab</span> {
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args){
+</span></span><span style="display:flex;"><span>Stu amit <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Stu();
+</span></span><span style="display:flex;"><span>Stu veer <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Stu();
+</span></span><span style="display:flex;"><span>amit.<span style="color:#a6e22e">name</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Amit&#34;</span>;
+</span></span><span style="display:flex;"><span>amit.<span style="color:#a6e22e">age</span> <span style="color:#f92672">=</span> 32;
+</span></span><span style="display:flex;"><span>amit.<span style="color:#a6e22e">ht</span> <span style="color:#f92672">=</span> 5.<span style="color:#a6e22e">10</span>;
+</span></span><span style="display:flex;"><span>veer.<span style="color:#a6e22e">name</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Veer&#34;</span>;
+</span></span><span style="display:flex;"><span>veer.<span style="color:#a6e22e">age</span> <span style="color:#f92672">=</span> 19;
+</span></span><span style="display:flex;"><span>veer.<span style="color:#a6e22e">ht</span> <span style="color:#f92672">=</span> 6.<span style="color:#a6e22e">2</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(veer.<span style="color:#a6e22e">ht</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> 19
+</span></span></code></pre></div><ul>
+<li>addition (+), subtraction (-), division (/), multiplication (*) and modulus (%, which produces the remainder from integer division).</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">import</span> java.util.*;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Ac</span>{
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args) {
+</span></span><span style="display:flex;"><span>Random ra <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Random(100);
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> a, b, c;
+</span></span><span style="display:flex;"><span>a <span style="color:#f92672">=</span> ra.<span style="color:#a6e22e">nextInt</span>(40);
+</span></span><span style="display:flex;"><span>b <span style="color:#f92672">=</span> ra.<span style="color:#a6e22e">nextInt</span>(400); <span style="color:#75715e">// 400 is upper bound</span>
+</span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(b);
+</span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(a <span style="color:#f92672">+</span> b);
+</span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(a);
+</span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#f92672">++</span>a);
+</span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#f92672">--</span>a);
+</span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#f92672">--</span>a);
+</span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#f92672">--</span>a);
+</span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(a);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">double</span> x, y, z;
+</span></span><span style="display:flex;"><span>x <span style="color:#f92672">=</span> ra.<span style="color:#a6e22e">nextDouble</span>(5);
+</span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(x);
+</span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#f92672">++</span>x);
+</span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#f92672">++</span>x);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> 250
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> 285
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> 35
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> 36
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> 35
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> 34
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> 33
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> 33
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> 0.<span style="color:#a6e22e">9748802867385259</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> 1.<span style="color:#a6e22e">974880286738526</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> 2.<span style="color:#a6e22e">974880286738526</span>
+</span></span></code></pre></div><ul>
+<li>yaha ++a, a me ek value badha dega. but a++ kaam nahi karta.</li>
+<li>AND (&amp;&amp;), OR (||) and NOT (!)</li>
+</ul>
+<h5 id="if-condition">if condition</h5>
+<p>structure : &quot; if (condition) statement &quot;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Example</span>{
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args) {
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">int</span> num;
+</span></span><span style="display:flex;"><span>      num <span style="color:#f92672">=</span> 500;
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">if</span> (num <span style="color:#f92672">&lt;</span> 100)
+</span></span><span style="display:flex;"><span>         System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;lesser&#34;</span>);
+</span></span><span style="display:flex;"><span>   }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> (empty, nothing in output)
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Example</span>{
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args) {
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">int</span> num;
+</span></span><span style="display:flex;"><span>      num <span style="color:#f92672">=</span> 500;
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">if</span> (num <span style="color:#f92672">&lt;</span> 100)
+</span></span><span style="display:flex;"><span>         System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;lesser&#34;</span>);
+</span></span><span style="display:flex;"><span>   }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> lesser
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Example</span>{
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args){
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">int</span> x, y;
+</span></span><span style="display:flex;"><span>      x <span style="color:#f92672">=</span> 20;
+</span></span><span style="display:flex;"><span>      y <span style="color:#f92672">=</span> 20;
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">if</span> (x <span style="color:#f92672">&lt;</span> y){
+</span></span><span style="display:flex;"><span>         System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;X is lesser than Y&#34;</span>);
+</span></span><span style="display:flex;"><span>      }
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">if</span> (x <span style="color:#f92672">&gt;</span> y){
+</span></span><span style="display:flex;"><span>         System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Y is lesser than X.&#34;</span>);
+</span></span><span style="display:flex;"><span>      }
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">if</span> (x <span style="color:#f92672">==</span> y){
+</span></span><span style="display:flex;"><span>         System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;they are equal.&#34;</span>);
+</span></span><span style="display:flex;"><span>      }
+</span></span><span style="display:flex;"><span>   }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> they are equal.
+</span></span></code></pre></div><p>you can use { or not after if statement.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Example</span>{
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args){
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">int</span> x, y;
+</span></span><span style="display:flex;"><span>      x <span style="color:#f92672">=</span> 20;
+</span></span><span style="display:flex;"><span>      y <span style="color:#f92672">=</span> 20;
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">if</span> (x <span style="color:#f92672">&lt;</span> y){
+</span></span><span style="display:flex;"><span>         System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;X is lesser than Y&#34;</span>);
+</span></span><span style="display:flex;"><span>      }
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">else</span>
+</span></span><span style="display:flex;"><span>         System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;somehting else but not lesser.&#34;</span>);
+</span></span><span style="display:flex;"><span>   }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> somehting <span style="color:#66d9ef">else</span> but not lesser.
+</span></span></code></pre></div><ul>
+<li>
+<p>same for else also you can use  { } or not. but use {} all the time. it really prevent errors.</p>
+</li>
+<li>
+<p>there is no <strong>elif</strong> in java. you need to use <em>else if</em> .</p>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Example</span>{
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args){
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">int</span> x <span style="color:#f92672">=</span> 1000;
+</span></span><span style="display:flex;"><span>   System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Code start&#34;</span>);
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">if</span> (x <span style="color:#f92672">&lt;</span> 10) System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Small&#34;</span>);
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span> (x <span style="color:#f92672">&lt;</span> 30) System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;mid&#34;</span>);
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">else</span> System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;huge&#34;</span>);
+</span></span><span style="display:flex;"><span>   }}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> Code start
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> huge
+</span></span></code></pre></div><h5 id="simplest-for-loop-structure"><strong>Simplest for loop structure.</strong></h5>
+<ul>
+<li>for(initialization; condition; iteration) statement;</li>
+<li>above sequence is really important.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Example</span>{
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args){
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">int</span> x ;
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">for</span>(x <span style="color:#f92672">=</span> 0; x <span style="color:#f92672">&lt;</span> 10; x <span style="color:#f92672">=</span> x<span style="color:#f92672">+</span>1)
+</span></span><span style="display:flex;"><span>   System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(x);
+</span></span><span style="display:flex;"><span>   }}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> 0 to 9
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Example</span>{
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args){
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">int</span> x ;
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">for</span>(x <span style="color:#f92672">=</span> 0; x <span style="color:#f92672">=</span> x<span style="color:#f92672">+</span>1; x <span style="color:#f92672">&lt;</span> 10)
+</span></span><span style="display:flex;"><span>   System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(x);
+</span></span><span style="display:flex;"><span>   }}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> error
+</span></span></code></pre></div><ul>
+<li>x++ : increase 1 value</li>
+<li>x&ndash; : decrease 1 value</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Example</span>{
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args){
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> x, y;
+</span></span><span style="display:flex;"><span>y <span style="color:#f92672">=</span> 20;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span>(x <span style="color:#f92672">=</span> 0; x <span style="color:#f92672">&lt;=</span> 10; x<span style="color:#f92672">++</span>){
+</span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;This is x&#34;</span><span style="color:#f92672">+</span>x);
+</span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;This is y&#34;</span><span style="color:#f92672">+</span>y);
+</span></span><span style="display:flex;"><span>y <span style="color:#f92672">=</span> y <span style="color:#f92672">-</span> 2;
+</span></span><span style="display:flex;"><span>}}}
+</span></span></code></pre></div><ul>
+<li>
+<p>above is an example of multiblock code. here we have more than 1 output block.</p>
+</li>
+<li>
+<p>while declaring / initializing any variable you need to choose data type very carefully.  If data type is not correct then your code will give wrong answer.</p>
+</li>
+</ul>
+<p>finding data type in java</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Example</span>{
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args){
+</span></span><span style="display:flex;"><span>Integer x <span style="color:#f92672">=</span> 100;
+</span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(x.<span style="color:#a6e22e">getClass</span>().<span style="color:#a6e22e">getName</span>());
+</span></span><span style="display:flex;"><span>}}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> java.<span style="color:#a6e22e">lang</span>.<span style="color:#a6e22e">Integer</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Example</span>{
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args){
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> a <span style="color:#f92672">=</span> 10, b <span style="color:#f92672">=</span> 3;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> c <span style="color:#f92672">=</span> a<span style="color:#f92672">*</span>3;
+</span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;value of a and b and c &#34;</span><span style="color:#f92672">+</span>a <span style="color:#f92672">+</span> b <span style="color:#f92672">+</span> c);
+</span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(Math.<span style="color:#a6e22e">sqrt</span>(a));
+</span></span><span style="display:flex;"><span>}}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> value of a and b and c 10330
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> 3.<span style="color:#a6e22e">1622776601683795</span>
+</span></span></code></pre></div><ul>
+<li>above is an example of Dynamic Initialization.</li>
+<li>and Math library / class (predefine in Java)</li>
+</ul>
+<h5 id="writhing-functions-in-java">writhing <em>functions</em> in java</h5>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">ZZZ</span>{
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">myFunction</span>(){
+</span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;myFunction is executed.&#34;</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args){
+</span></span><span style="display:flex;"><span>myFunction();
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> myFunction is executed.
+</span></span></code></pre></div><ul>
+<li>in java booleans are &ldquo;true&rdquo; and &ldquo;false&rdquo;. small case. not True and False.</li>
+</ul>
+<h5 id="array-">Array :</h5>
+<ul>
+<li>1-d array : list of like - typed variables.</li>
+<li>first define a variable as array : data-type [] variable-name</li>
+<li>then define it&rsquo;s size (memory allocation) : variable-name = new type [size]</li>
+<li>then add elements.</li>
+<li>be careful about the data type.</li>
+<li>we can also change any list element dynamically</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Example</span>{
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args){
+</span></span><span style="display:flex;"><span>      String <span style="color:#f92672">[]</span> name_list;
+</span></span><span style="display:flex;"><span>      name_list <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> String<span style="color:#f92672">[</span>5<span style="color:#f92672">]</span>;
+</span></span><span style="display:flex;"><span>      name_list<span style="color:#f92672">[</span>0<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;amit&#34;</span>;
+</span></span><span style="display:flex;"><span>      name_list<span style="color:#f92672">[</span>1<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Mathew&#34;</span>;
+</span></span><span style="display:flex;"><span>      name_list<span style="color:#f92672">[</span>2<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Sujay&#34;</span>;
+</span></span><span style="display:flex;"><span>      name_list<span style="color:#f92672">[</span>3<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Veer&#34;</span>;
+</span></span><span style="display:flex;"><span>      name_list<span style="color:#f92672">[</span>4<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Raj&#34;</span>;
+</span></span><span style="display:flex;"><span>      System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(name_list);
+</span></span><span style="display:flex;"><span>      System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(name_list<span style="color:#f92672">[</span>1<span style="color:#f92672">]</span>);
+</span></span><span style="display:flex;"><span>      System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(name_list<span style="color:#f92672">[</span>3<span style="color:#f92672">]</span>);
+</span></span><span style="display:flex;"><span>      name_list<span style="color:#f92672">[</span>1<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Abhijeet&#34;</span>;
+</span></span><span style="display:flex;"><span>      System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(name_list<span style="color:#f92672">[</span>1<span style="color:#f92672">]</span>);
+</span></span><span style="display:flex;"><span>   }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> <span style="color:#f92672">[</span>Ljava.<span style="color:#a6e22e">lang</span>.<span style="color:#a6e22e">String</span>;<span style="color:#a6e22e">@24d46ca6</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> Mathew
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> Veer
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> Abhijeet
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Example</span>{
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args){
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span><span style="color:#f92672">[]</span> x;
+</span></span><span style="display:flex;"><span>x <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#66d9ef">int</span><span style="color:#f92672">[</span>4<span style="color:#f92672">]</span>;
+</span></span><span style="display:flex;"><span>x<span style="color:#f92672">[</span>0<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> 10;
+</span></span><span style="display:flex;"><span>x<span style="color:#f92672">[</span>1<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> 123;
+</span></span><span style="display:flex;"><span>x<span style="color:#f92672">[</span>2<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> 34;
+</span></span><span style="display:flex;"><span>x<span style="color:#f92672">[</span>3<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> 26;
+</span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(x<span style="color:#f92672">[</span>2<span style="color:#f92672">]</span>);
+</span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(x);
+</span></span><span style="display:flex;"><span>}}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> 34
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> I<span style="color:#a6e22e">@24d46ca6</span>  idk some random stuff.
+</span></span></code></pre></div><h5 id="user-input">User input</h5>
+<ul>
+<li>import Scanner class in java.util to get user input. java.util inbuilt library he.</li>
+<li>make a placeholder of type scanner, call new scanner with System.in.</li>
+<li>initialize and define our variable and read placeholder.</li>
+<li></li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">import</span> java.util.*;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Example</span>{
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args){
+</span></span><span style="display:flex;"><span>Scanner tumharaVariable <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Scanner(System.<span style="color:#a6e22e">in</span>);
+</span></span><span style="display:flex;"><span>String tumharaVariable_2 <span style="color:#f92672">=</span> tumharaVariable.<span style="color:#a6e22e">nextLine</span>();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(tumharaVariable_2);
+</span></span><span style="display:flex;"><span>}}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> input : HTIC
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> HTIC
+</span></span></code></pre></div><blockquote>
+<p>Write a Java program that asks the user to enter <strong>5 numbers</strong> (integers).</p>
+<ul>
+<li>The program should count how many numbers are <strong>even</strong> and how many are <strong>odd</strong>.</li>
+<li>After all numbers are entered, print the count of <strong>even</strong> and <strong>odd</strong> numbers.</li>
+</ul>
+</blockquote>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">import</span> java.util.*;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Example</span>{
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args){
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> x;
+</span></span><span style="display:flex;"><span>Scanner obj <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Scanner(System.<span style="color:#a6e22e">in</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> (x <span style="color:#f92672">=</span> 0; x <span style="color:#f92672">&lt;</span> 5; x<span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>   System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;input de int :&#34;</span>);
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">int</span> num <span style="color:#f92672">=</span> obj.<span style="color:#a6e22e">nextInt</span>();
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">if</span> (num <span style="color:#f92672">%</span> 2 <span style="color:#f92672">==</span> 0) System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(num <span style="color:#f92672">+</span><span style="color:#e6db74">&#34; Even &#34;</span>);
+</span></span><span style="display:flex;"><span>   <span style="color:#66d9ef">else</span> System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(num <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; Odd &#34;</span>);
+</span></span><span style="display:flex;"><span>   }
+</span></span><span style="display:flex;"><span>}}
+</span></span></code></pre></div><h5 id="constructor">Constructor</h5>
+<p>A constructor in Java is a special method that is used to initialize objects when they are created. It has the same name as the class and does not have a return type (not even void).</p>
+<h1 id="study-for-oppe-2">Study for OPPE 2</h1>
+<h3 id="week-2-ppa-1">Week 2 ppa 1</h3>
+<p>ht and wd is given. find area of the rectangle</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Rectangle</span>{
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args){
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> w <span style="color:#f92672">=</span> 10;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> h <span style="color:#f92672">=</span> 20;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> area <span style="color:#f92672">=</span> w <span style="color:#f92672">*</span> h;
+</span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(area);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&gt;&gt;</span> 200
+</span></span></code></pre></div><p>Now ask w and h as input.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">import</span> java.util.*;                             <span style="color:#75715e">//new line</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Rectangle</span>{
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args){
+</span></span><span style="display:flex;"><span>Scanner sc <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Scanner(System.<span style="color:#a6e22e">in</span>);                   <span style="color:#75715e">//new line</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> w <span style="color:#f92672">=</span> Integer.<span style="color:#a6e22e">parseInt</span>(sc.<span style="color:#a6e22e">nextLine</span>());        <span style="color:#75715e">// changed line</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> h <span style="color:#f92672">=</span> Integer.<span style="color:#a6e22e">parseInt</span>(sc.<span style="color:#a6e22e">nextLine</span>());          <span style="color:#75715e">// changed line</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> area <span style="color:#f92672">=</span> w<span style="color:#f92672">*</span>h;
+</span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(area);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Now make  a function, which initiate height and width and return area.<br>
+And a piece of code which ask for input and return area.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f92672">import</span> java.util.*;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">RecFunc</span>{
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> w, h;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">setw</span>(<span style="color:#66d9ef">int</span> w_input){             <span style="color:#75715e">// setw is a function</span>
+</span></span><span style="display:flex;"><span>w <span style="color:#f92672">=</span> w_input; }
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">seth</span>(<span style="color:#66d9ef">int</span> h_input){             <span style="color:#75715e">// seth is a function</span>
+</span></span><span style="display:flex;"><span>h <span style="color:#f92672">=</span> h_input; }
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">area</span>(){                    <span style="color:#75715e">// area is a functiomn</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">return</span> w<span style="color:#f92672">*</span>h; }
+</span></span><span style="display:flex;"><span>}                              <span style="color:#75715e">// don&#39;t forget to close RecFun class</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Rectangle</span>{
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String<span style="color:#f92672">[]</span> args){
+</span></span><span style="display:flex;"><span>Scanner sc <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Scanner(System.<span style="color:#a6e22e">in</span>);
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> w_input <span style="color:#f92672">=</span> Integer.<span style="color:#a6e22e">parseInt</span>(sc.<span style="color:#a6e22e">nextLine</span>());
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> h_input <span style="color:#f92672">=</span> Integer.<span style="color:#a6e22e">parseInt</span>(sc.<span style="color:#a6e22e">nextLine</span>());
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> area_of_rectangle;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>RecFunc r <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> RecFunc();            <span style="color:#75715e">// calling new class is necessary</span>
+</span></span><span style="display:flex;"><span>r.<span style="color:#a6e22e">setw</span>(w_input);
+</span></span><span style="display:flex;"><span>r.<span style="color:#a6e22e">seth</span>(h_input);
+</span></span><span style="display:flex;"><span>area_of_rectangle <span style="color:#f92672">=</span> r.<span style="color:#a6e22e">area</span>();
+</span></span><span style="display:flex;"><span>System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(area_of_rectangle);
+</span></span><span style="display:flex;"><span>}}
+</span></span></code></pre></div>
+      
+      <div class="post-date">
+        <span class="g time">March 27, 2025 </span> &#8729;
+         
+         <a href="https://amit-node.github.io/tags/bs_degree/">bs_degree</a> <a href="https://amit-node.github.io/tags/study/">study</a>
+      </div>
+      
+    </section>
+    
+    
+    
+  </div>
+</main>
+</body>
+</html>
