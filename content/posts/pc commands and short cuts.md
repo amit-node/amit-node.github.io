@@ -38,16 +38,3 @@ tags:
 		assign
 		exit
 		```
-		
-
-3. **Linux / Bash**  commands
-	1. check the number of lines inside a folder `ls /path/to/your/folder | wc -l`
-	2. delete all the files which contains specific "string"  in their name.`rm *string*`
-		1. use above command with caution. better first check it by using `ls *string*`
-	3. Checking Disk Usage `df -h`
-		- df : Disk Filesystem
-		- -h : human readable form, MB, GB
-	4. Open some specific folder from bash.
-		- first `cd` to that folder
-		- use `xdg-open .`
-	5. 

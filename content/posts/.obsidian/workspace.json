@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "197417a320cf72f3",
+        "id": "0d4325505ba71b32",
         "type": "tabs",
         "children": [
           {
-            "id": "d8b0d59fd157a6f9",
+            "id": "e3b5574932c90b14",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java self study - Theory.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7747a6bc1b9bb980",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Why I Ride a Bicycle.md",
+                "file": "AI Top Down.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -51,7 +38,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               }
             }
           },
@@ -82,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "49367bf398634fb1",
@@ -98,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Why I Ride a Bicycle.md",
+                "file": "AI Top Down.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Why I Ride a Bicycle.md",
+                "file": "AI Top Down.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Why I Ride a Bicycle.md"
+                "file": "AI Top Down.md"
               }
             }
           }
@@ -160,19 +148,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7747a6bc1b9bb980",
+  "active": "e3b5574932c90b14",
   "lastOpenFiles": [
+    "Bash commands.md",
+    "AI Top Down.md",
+    "pc commands and short cuts.md",
+    "Java self study - Coding.md",
+    "Java self study - Theory.md",
+    "Resources to study Deep Learning.md",
+    "Handwritten Digit Recognition.md",
+    "Why I Ride a Bicycle.md",
     "Some really good pieces.md",
     "Site on Pelican and Netily.md",
-    "Resources to study Deep Learning.md",
-    "pc commands and short cuts.md",
     "My Cycling Records (wip).md",
     "MAD-1 project resources.md",
-    "Java self study - Theory.md",
-    "Java self study - Coding.md",
     "Family tree of Changej, Taimur and Babur.md",
     "For Demo.md",
-    "Why I Ride a Bicycle.md",
     "Amit new.md",
     "Sylene.md",
     "New page.md",
@@ -184,9 +175,6 @@
     "aaloo.md",
     "Gautam.md",
     "paratha.md",
-    "chowmine.md",
-    "chowmine_2.md",
-    "third.md",
-    "second.md"
+    "chowmine.md"
   ]
 }
