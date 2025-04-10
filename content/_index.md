@@ -6,6 +6,7 @@ I like cycling, reading and sketching.
 
 . . . also I am a Naruto fan.
 
-![naruto](/naruto.png)
+![naruto](/naruto.webp)
 ---
+
 Contact : [guptamit43@gmail.com](mailto:guptamit43@gmail.com)
