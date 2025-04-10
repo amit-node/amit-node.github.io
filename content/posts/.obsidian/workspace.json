@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0d4325505ba71b32",
+        "id": "3d806d7c69d0253e",
         "type": "tabs",
         "children": [
           {
-            "id": "e3b5574932c90b14",
+            "id": "5473f7ca671c46c5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -148,10 +148,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e3b5574932c90b14",
+  "active": "5473f7ca671c46c5",
   "lastOpenFiles": [
-    "Bash commands.md",
+    "WVD images.md",
     "AI Top Down.md",
+    "Bash commands.md",
     "pc commands and short cuts.md",
     "Java self study - Coding.md",
     "Java self study - Theory.md",
@@ -174,7 +175,6 @@
     "new.md",
     "aaloo.md",
     "Gautam.md",
-    "paratha.md",
-    "chowmine.md"
+    "paratha.md"
   ]
 }

@@ -7,11 +7,20 @@
     
     <language>en</language>
     <copyright>Copyright 2025, Calvin Tran</copyright>
-    <lastBuildDate>Wed, 09 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Apr 2025 00:00:00 +0000</lastBuildDate>
     <generator>Hugo - gohugo.io</generator>
     <docs>http://cyber.harvard.edu/rss/rss.html</docs>
     <atom:link href="https://amit-node.github.io//atom.xml" rel="self" type="application/atom+xml"/>
     
+    
+    <item>
+      <title>WVD Images</title>
+      <link>https://amit-node.github.io/posts/wvd-images/</link>
+      <description></description>
+      <author></author>
+      <guid>https://amit-node.github.io/posts/wvd-images/</guid>
+      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
     
     <item>
       <title>AI Top Down</title>

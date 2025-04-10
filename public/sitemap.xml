@@ -3,18 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://amit-node.github.io/</loc>
-    <lastmod>2025-04-09T00:00:00+00:00</lastmod>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://amit-node.github.io/posts/</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://amit-node.github.io/tags/signal_processing/</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://amit-node.github.io/tags/</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://amit-node.github.io/posts/wvd-images/</loc>
+    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://amit-node.github.io/posts/ai-top-down/</loc>
     <lastmod>2025-04-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://amit-node.github.io/tags/ai_dl/</loc>
-    <lastmod>2025-04-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://amit-node.github.io/posts/</loc>
-    <lastmod>2025-04-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://amit-node.github.io/tags/</loc>
     <lastmod>2025-04-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://amit-node.github.io/posts/bash-commands/</loc>
