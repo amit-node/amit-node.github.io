@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "bba27840be3115aa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Saransh_demo.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Saransh_demo.md",
+                "file": "pc commands and short cuts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Saransh_demo.md",
+                "file": "pc commands and short cuts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Saransh_demo.md"
+                "file": "pc commands and short cuts.md"
               }
             }
           }
@@ -160,10 +147,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bba27840be3115aa",
+  "active": "5473f7ca671c46c5",
   "lastOpenFiles": [
-    "pc commands and short cuts.md",
     "Saransh_demo.md",
+    "pc commands and short cuts.md",
     "AI Top Down.md",
     "WVD images.md",
     "Bash commands.md",
