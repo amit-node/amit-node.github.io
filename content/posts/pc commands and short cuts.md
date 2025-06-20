@@ -38,3 +38,4 @@ tags:
 		assign
 		exit
 		```
+	7. Shutdown laptop : windows + X then U U

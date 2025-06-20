@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI Top Down.md",
+                "file": "pc commands and short cuts.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bba27840be3115aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Saransh_demo.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 321.5110321044922
   },
   "right": {
     "id": "49367bf398634fb1",
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI Top Down.md",
+                "file": "Saransh_demo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI Top Down.md",
+                "file": "Saransh_demo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI Top Down.md"
+                "file": "Saransh_demo.md"
               }
             }
           }
@@ -147,12 +160,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5473f7ca671c46c5",
+  "active": "bba27840be3115aa",
   "lastOpenFiles": [
-    "WVD images.md",
-    "AI Top Down.md",
-    "Bash commands.md",
     "pc commands and short cuts.md",
+    "Saransh_demo.md",
+    "AI Top Down.md",
+    "WVD images.md",
+    "Bash commands.md",
     "Java self study - Coding.md",
     "Java self study - Theory.md",
     "Resources to study Deep Learning.md",
@@ -173,7 +187,6 @@
     "made_in_obsidian.md",
     "new.md",
     "aaloo.md",
-    "Gautam.md",
-    "paratha.md"
+    "Gautam.md"
   ]
 }

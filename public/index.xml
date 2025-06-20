@@ -1369,6 +1369,7 @@ format fs=fat32 quick  (or exFAT if needed)
 assign
 exit
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;Shutdown laptop : windows + X then U U&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
@@ -1671,6 +1672,17 @@ Other videos you can watch if you want but not necessary.&lt;/li&gt;
       <author></author>
       <guid>https://amit-node.github.io/posts/site-on-pelican-and-netily/</guid>
       <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://amit-node.github.io/posts/saransh_demo/</link>
+      <description>&lt;h1 id=&#34;hi&#34;&gt;hi&lt;/h1&gt;
+&lt;p&gt;hello I am Saransh.&lt;/p&gt;
+</description>
+      <author></author>
+      <guid>https://amit-node.github.io/posts/saransh_demo/</guid>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
     </item>
     
   </channel>
