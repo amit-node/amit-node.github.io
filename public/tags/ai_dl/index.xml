@@ -20,7 +20,7 @@
       <link>https://amit-node.github.io/posts/raptor-rag-theory/</link>
       <pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate>
       <guid>https://amit-node.github.io/posts/raptor-rag-theory/</guid>
-      <description>&lt;p&gt;hello&lt;/p&gt;</description>
+      <description>&lt;p&gt;Source : &lt;a href=&#34;https://youtu.be/jbGchdTL7d0&#34;&gt;Building long context RAG with RAPTOR from scratch&lt;/a&gt;&#xA;YouTube video&lt;br&gt;&#xA;&lt;a href=&#34;https://arxiv.org/pdf/2401.18059&#34;&gt;Raptor RAG paper&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Long Context LLMs :&lt;/strong&gt; Where you can send a lots of tokens at once. Good thing, nothing to do, send your documents to LLM, ask questions and get answers automatically.&lt;/p&gt;&#xA;&lt;p&gt;But, there are some problems:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;P50, P99 latencies&lt;/li&gt;&#xA;&lt;li&gt;Cost&lt;/li&gt;&#xA;&lt;li&gt;What if document is bigger than than the context window.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Solution idea : Embed each document and build a document tree (RAPTOR)&lt;/p&gt;</description>
     </item>
     <item>
       <title>Resources to study Deep Learning</title>

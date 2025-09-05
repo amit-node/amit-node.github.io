@@ -35,7 +35,18 @@
     <item>
       <title>Raptor RAG theory</title>
       <link>https://amit-node.github.io/posts/raptor-rag-theory/</link>
-      <description>&lt;p&gt;hello&lt;/p&gt;
+      <description>&lt;p&gt;Source : &lt;a href=&#34;https://youtu.be/jbGchdTL7d0&#34;&gt;Building long context RAG with RAPTOR from scratch&lt;/a&gt;
+YouTube video&lt;br&gt;
+&lt;a href=&#34;https://arxiv.org/pdf/2401.18059&#34;&gt;Raptor RAG paper&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Long Context LLMs :&lt;/strong&gt; Where you can send a lots of tokens at once. Good thing, nothing to do, send your documents to LLM, ask questions and get answers automatically.&lt;/p&gt;
+&lt;p&gt;But, there are some problems:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;P50, P99 latencies&lt;/li&gt;
+&lt;li&gt;Cost&lt;/li&gt;
+&lt;li&gt;What if document is bigger than than the context window.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Solution idea : Embed each document and build a document tree (RAPTOR)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;RAPTOR :&lt;/strong&gt; Recursive Abstractive Processing for Tree Organized Retrieval&lt;/p&gt;
 </description>
       <author></author>
       <guid>https://amit-node.github.io/posts/raptor-rag-theory/</guid>
@@ -787,63 +798,6 @@ This is a tentative plan.&lt;/p&gt;
       <author></author>
       <guid>https://amit-node.github.io/posts/site-on-pelican-and-netily/</guid>
       <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
-    </item>
-    
-    <item>
-      <title>Link to headings by name</title>
-      <link>https://amit-node.github.io/posts/demo/</link>
-      <description>&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#alpha-101&#34;&gt;Alpha 101&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;!-- raw HTML omitted --&gt;1&lt;!-- raw HTML omitted --&gt; &lt;a href=&#34;#beta-102&#34;&gt;Beta 102&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;!-- raw HTML omitted --&gt;1.1&lt;!-- raw HTML omitted --&gt; &lt;a href=&#34;#gamma-102-dot-1&#34;&gt;Gamma 102.1&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;!-- raw HTML omitted --&gt;1.1.1&lt;!-- raw HTML omitted --&gt; &lt;a href=&#34;#delta-102-dot-1-dot-1&#34;&gt;Delta 102.1.1&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;!-- raw HTML omitted --&gt;1.1.2&lt;!-- raw HTML omitted --&gt; &lt;a href=&#34;#epsilon-102-dot-1-dot-2&#34;&gt;Epsilon 102.1.2&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#zeta-103-which-has-some-markup&#34;&gt;Zeta 103 which has &lt;strong&gt;some&lt;/strong&gt; &lt;em&gt;markup&lt;/em&gt;&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#links--no-descriptions--to-headings-with-section-numbers&#34;&gt;Links (no descriptions) to headings with section numbers&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;h2 id=&#34;alpha-101&#34;&gt;Alpha 101&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Link (with description) to a heading with section number: &lt;a href=&#34;#beta-102&#34;&gt;Link to
-&lt;em&gt;Beta 102&lt;/em&gt; heading&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Link (no description) to a heading without section number: &lt;a href=&#34;#zeta-103-which-has-some-markup&#34;&gt;Zeta 103 which has &lt;strong&gt;some&lt;/strong&gt; &lt;em&gt;markup&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The space after that &lt;code&gt;*&lt;/code&gt; in the link is optional.. so this also
-works: &lt;a href=&#34;#zeta-103-which-has-some-markup&#34;&gt;Zeta 103 which has &lt;strong&gt;some&lt;/strong&gt; &lt;em&gt;markup&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;beta-102&#34;&gt;&lt;!-- raw HTML omitted --&gt;1&lt;!-- raw HTML omitted --&gt; Beta 102&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Link (with description) to a heading without section number: &lt;a href=&#34;#alpha-101&#34;&gt;Link to
-&lt;em&gt;Alpha 101&lt;/em&gt; heading&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;gamma-102-dot-1&#34;&gt;&lt;!-- raw HTML omitted --&gt;1.1&lt;!-- raw HTML omitted --&gt; Gamma 102.1&lt;/h3&gt;
-&lt;h4 id=&#34;delta-102-dot-1-dot-1&#34;&gt;&lt;!-- raw HTML omitted --&gt;1.1.1&lt;!-- raw HTML omitted --&gt; Delta 102.1.1&lt;/h4&gt;
-&lt;h4 id=&#34;epsilon-102-dot-1-dot-2&#34;&gt;&lt;!-- raw HTML omitted --&gt;1.1.2&lt;!-- raw HTML omitted --&gt; Epsilon 102.1.2&lt;/h4&gt;
-&lt;h2 id=&#34;zeta-103-which-has-some-markup&#34;&gt;Zeta 103 which has &lt;strong&gt;some&lt;/strong&gt; &lt;em&gt;markup&lt;/em&gt;&lt;/h2&gt;
-&lt;h3 id=&#34;links--no-descriptions--to-headings-with-section-numbers&#34;&gt;Links (no descriptions) to headings with section numbers&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Section &lt;a href=&#34;#gamma-102-dot-1&#34;&gt;1.1&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Section &lt;a href=&#34;#delta-102-dot-1-dot-1&#34;&gt;1.1.1&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Section &lt;a href=&#34;#epsilon-102-dot-1-dot-2&#34;&gt;1.1.2&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-      <author></author>
-      <guid>https://amit-node.github.io/posts/demo/</guid>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
     </item>
     
   </channel>
