@@ -3,15 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-04-02T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/bash-commands/</loc>
-    <lastmod>2025-04-02T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/ai_dl/</loc>
+    <lastmod>2025-09-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/deep-learning-mitesh-khapra-sir-playlist/</loc>
+    <lastmod>2025-09-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/marcus-aurelius-meditations-by-prof.-michael-sugrue/</loc>
+    <lastmod>2025-09-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/philosophy/</loc>
+    <lastmod>2025-09-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-04-02T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/raptor-rag-theory/</loc>
+    <lastmod>2025-09-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-09-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/bash-commands/</loc>
     <lastmod>2025-04-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/tech/</loc>
@@ -40,9 +55,6 @@
   </url><url>
     <loc>http://localhost:1313/posts/mad-1-project-resources/</loc>
     <lastmod>2025-01-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/ai_dl/</loc>
-    <lastmod>2024-12-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/resources-to-study-deep-learning/</loc>
     <lastmod>2024-12-27T00:00:00+00:00</lastmod>

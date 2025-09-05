@@ -7,11 +7,41 @@
     
     <language>en</language>
     <copyright>Copyright 2025, Calvin Tran</copyright>
-    <lastBuildDate>Wed, 02 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Sep 2025 00:00:00 +0000</lastBuildDate>
     <generator>Hugo - gohugo.io</generator>
     <docs>http://cyber.harvard.edu/rss/rss.html</docs>
     <atom:link href="http://localhost:1313//atom.xml" rel="self" type="application/atom+xml"/>
     
+    
+    <item>
+      <title>Deep Learning Mitesh Khapra Sir playlist</title>
+      <link>http://localhost:1313/posts/deep-learning-mitesh-khapra-sir-playlist/</link>
+      <description>&lt;p&gt;Hello&lt;/p&gt;
+</description>
+      <author></author>
+      <guid>http://localhost:1313/posts/deep-learning-mitesh-khapra-sir-playlist/</guid>
+      <pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    
+    <item>
+      <title>Marcus Aurelius Meditations by Prof. Michael Sugrue</title>
+      <link>http://localhost:1313/posts/marcus-aurelius-meditations-by-prof.-michael-sugrue/</link>
+      <description>&lt;p&gt;hello&lt;/p&gt;
+</description>
+      <author></author>
+      <guid>http://localhost:1313/posts/marcus-aurelius-meditations-by-prof.-michael-sugrue/</guid>
+      <pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    
+    <item>
+      <title>Raptor RAG theory</title>
+      <link>http://localhost:1313/posts/raptor-rag-theory/</link>
+      <description>&lt;p&gt;hello&lt;/p&gt;
+</description>
+      <author></author>
+      <guid>http://localhost:1313/posts/raptor-rag-theory/</guid>
+      <pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
     
     <item>
       <title>Bash Commands</title>

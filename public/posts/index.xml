@@ -6,8 +6,29 @@
     <description>Recent content in Posts on amit-node</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deep Learning Mitesh Khapra Sir playlist</title>
+      <link>http://localhost:1313/posts/deep-learning-mitesh-khapra-sir-playlist/</link>
+      <pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/deep-learning-mitesh-khapra-sir-playlist/</guid>
+      <description>&lt;p&gt;Hello&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Marcus Aurelius Meditations by Prof. Michael Sugrue</title>
+      <link>http://localhost:1313/posts/marcus-aurelius-meditations-by-prof.-michael-sugrue/</link>
+      <pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/marcus-aurelius-meditations-by-prof.-michael-sugrue/</guid>
+      <description>&lt;p&gt;hello&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Raptor RAG theory</title>
+      <link>http://localhost:1313/posts/raptor-rag-theory/</link>
+      <pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/raptor-rag-theory/</guid>
+      <description>&lt;p&gt;hello&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Bash Commands</title>
       <link>http://localhost:1313/posts/bash-commands/</link>

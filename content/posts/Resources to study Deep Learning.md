@@ -1,10 +1,10 @@
+---
+title: Resources to study Deep Learning
+date: 2024-12-27
+tags:
+  - AI_DL
+---
 
----
-title: "Resources to study Deep Learning"
-date: "2024-12-27"
-tags: 
-- AI_DL
----
 Here are some free resources which will help you to study deep learning.  
 This is a tentative plan.
 
