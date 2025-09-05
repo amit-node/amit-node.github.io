@@ -2,81 +2,60 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://amit-node.github.io/</loc>
-    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://amit-node.github.io/posts/</loc>
-    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://amit-node.github.io/tags/signal_processing/</loc>
-    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://amit-node.github.io/tags/</loc>
-    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://amit-node.github.io/posts/wvd-images/</loc>
-    <lastmod>2025-04-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://amit-node.github.io/posts/ai-top-down/</loc>
-    <lastmod>2025-04-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://amit-node.github.io/tags/ai_dl/</loc>
-    <lastmod>2025-04-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://amit-node.github.io/posts/bash-commands/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2025-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://amit-node.github.io/tags/tech/</loc>
+    <loc>http://localhost:1313/posts/bash-commands/</loc>
     <lastmod>2025-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://amit-node.github.io/posts/handwritten-digit-recognition/</loc>
-    <lastmod>2025-03-27T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://amit-node.github.io/tags/java/</loc>
-    <lastmod>2025-03-27T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://amit-node.github.io/posts/java-self-study---coding/</loc>
-    <lastmod>2025-03-27T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/tech/</loc>
+    <lastmod>2025-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://amit-node.github.io/posts/java-self-study---theory/</loc>
-    <lastmod>2025-03-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://amit-node.github.io/tags/cycling/</loc>
+    <loc>http://localhost:1313/tags/cycling/</loc>
     <lastmod>2025-03-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://amit-node.github.io/posts/my-cycling-records-wip/</loc>
+    <loc>http://localhost:1313/posts/my-cycling-records-wip/</loc>
     <lastmod>2025-03-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://amit-node.github.io/tags/good_pieces/</loc>
+    <loc>http://localhost:1313/tags/good_pieces/</loc>
     <lastmod>2025-03-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://amit-node.github.io/posts/some-really-good-pieces/</loc>
+    <loc>http://localhost:1313/posts/some-really-good-pieces/</loc>
     <lastmod>2025-03-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://amit-node.github.io/posts/pc-commands-and-short-cuts/</loc>
+    <loc>http://localhost:1313/posts/pc-commands-and-short-cuts/</loc>
     <lastmod>2025-01-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://amit-node.github.io/posts/why-i-ride-a-bicycle/</loc>
+    <loc>http://localhost:1313/posts/why-i-ride-a-bicycle/</loc>
     <lastmod>2025-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://amit-node.github.io/tags/mad_1_bs_degree/</loc>
+    <loc>http://localhost:1313/tags/bs_degree/</loc>
     <lastmod>2025-01-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://amit-node.github.io/posts/mad-1-project-resources/</loc>
+    <loc>http://localhost:1313/posts/mad-1-project-resources/</loc>
     <lastmod>2025-01-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://amit-node.github.io/posts/resources-to-study-deep-learning/</loc>
+    <loc>http://localhost:1313/tags/ai_dl/</loc>
     <lastmod>2024-12-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://amit-node.github.io/posts/family-tree-of-changej-taimur-and-babur/</loc>
+    <loc>http://localhost:1313/posts/resources-to-study-deep-learning/</loc>
+    <lastmod>2024-12-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/family-tree-of-changej-taimur-and-babur/</loc>
     <lastmod>2024-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://amit-node.github.io/tags/history/</loc>
+    <loc>http://localhost:1313/tags/history/</loc>
     <lastmod>2024-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://amit-node.github.io/posts/site-on-pelican-and-netily/</loc>
+    <loc>http://localhost:1313/posts/site-on-pelican-and-netily/</loc>
     <lastmod>2024-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://amit-node.github.io/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url>
 </urlset>

@@ -2,66 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on amit-node</title>
-    <link>https://amit-node.github.io/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on amit-node</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 10 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://amit-node.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Signal_processing</title>
-      <link>https://amit-node.github.io/tags/signal_processing/</link>
-      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://amit-node.github.io/tags/signal_processing/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AI_DL</title>
-      <link>https://amit-node.github.io/tags/ai_dl/</link>
-      <pubDate>Wed, 09 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://amit-node.github.io/tags/ai_dl/</guid>
-      <description></description>
-    </item>
+    <lastBuildDate>Wed, 02 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tech</title>
-      <link>https://amit-node.github.io/tags/tech/</link>
+      <link>http://localhost:1313/tags/tech/</link>
       <pubDate>Wed, 02 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://amit-node.github.io/tags/tech/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Java</title>
-      <link>https://amit-node.github.io/tags/java/</link>
-      <pubDate>Thu, 27 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://amit-node.github.io/tags/java/</guid>
+      <guid>http://localhost:1313/tags/tech/</guid>
       <description></description>
     </item>
     <item>
       <title>Cycling</title>
-      <link>https://amit-node.github.io/tags/cycling/</link>
+      <link>http://localhost:1313/tags/cycling/</link>
       <pubDate>Sat, 22 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://amit-node.github.io/tags/cycling/</guid>
+      <guid>http://localhost:1313/tags/cycling/</guid>
       <description></description>
     </item>
     <item>
       <title>Good_pieces</title>
-      <link>https://amit-node.github.io/tags/good_pieces/</link>
+      <link>http://localhost:1313/tags/good_pieces/</link>
       <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://amit-node.github.io/tags/good_pieces/</guid>
+      <guid>http://localhost:1313/tags/good_pieces/</guid>
       <description></description>
     </item>
     <item>
-      <title>Mad_1_bs_degree</title>
-      <link>https://amit-node.github.io/tags/mad_1_bs_degree/</link>
+      <title>Bs_degree</title>
+      <link>http://localhost:1313/tags/bs_degree/</link>
       <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://amit-node.github.io/tags/mad_1_bs_degree/</guid>
+      <guid>http://localhost:1313/tags/bs_degree/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI_DL</title>
+      <link>http://localhost:1313/tags/ai_dl/</link>
+      <pubDate>Fri, 27 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ai_dl/</guid>
       <description></description>
     </item>
     <item>
       <title>History</title>
-      <link>https://amit-node.github.io/tags/history/</link>
+      <link>http://localhost:1313/tags/history/</link>
       <pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://amit-node.github.io/tags/history/</guid>
+      <guid>http://localhost:1313/tags/history/</guid>
       <description></description>
     </item>
   </channel>

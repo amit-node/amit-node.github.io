@@ -2,32 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AI_DL on amit-node</title>
-    <link>https://amit-node.github.io/tags/ai_dl/</link>
+    <link>http://localhost:1313/tags/ai_dl/</link>
     <description>Recent content in AI_DL on amit-node</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://amit-node.github.io/tags/ai_dl/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>AI Top Down</title>
-      <link>https://amit-node.github.io/posts/ai-top-down/</link>
-      <pubDate>Wed, 09 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://amit-node.github.io/posts/ai-top-down/</guid>
-      <description>&lt;h3 id=&#34;611-one-stage-detectrons--fast-and-light-weight&#34;&gt;6.1.1) One stage detectrons : fast and light weight&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.jeremyjordan.me/object-detection-one-stage/&#34;&gt;An overview of object detection: one-stage methods.&lt;/a&gt;&#xA;A deep learning technique for object detection using CNN.&lt;/p&gt;&#xA;&lt;p&gt;In general, there&amp;rsquo;s two different approaches for object detection – we can either make a fixed number of predictions on grid (one stage) or leverage a proposal network to find objects and then use a second network to fine-tune these proposals and output a final prediction (two stage).&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Handwritten Digit Recognition</title>
-      <link>https://amit-node.github.io/posts/handwritten-digit-recognition/</link>
-      <pubDate>Thu, 27 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://amit-node.github.io/posts/handwritten-digit-recognition/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Source&lt;/strong&gt; : &lt;a href=&#34;https://www.youtube.com/watch?v=vBlO87ZAiiw&#34;&gt;https://www.youtube.com/watch?v=vBlO87ZAiiw&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
+    <lastBuildDate>Fri, 27 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ai_dl/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Resources to study Deep Learning</title>
-      <link>https://amit-node.github.io/posts/resources-to-study-deep-learning/</link>
+      <link>http://localhost:1313/posts/resources-to-study-deep-learning/</link>
       <pubDate>Fri, 27 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://amit-node.github.io/posts/resources-to-study-deep-learning/</guid>
-      <description>&lt;p&gt;Here are some free resources which will help you to study deep learning.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Pre requisite&lt;/strong&gt; : Basic Linear Algebra, Basic Python&lt;/p&gt;&#xA;&lt;p&gt;NOTE : MUST WATCH THESE VIDEOS IN SEQUENCE&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Neural Network / Perceptron&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://youtu.be/i1AqHG4k8mE?feature=shared&#34;&gt;https://youtu.be/i1AqHG4k8mE?feature=shared&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://youtu.be/-KLnurhX-Pg?feature=shared&#34;&gt;https://youtu.be/-KLnurhX-Pg?feature=shared&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://youtu.be/EJRFP3WmS6Q?feature=shared&#34;&gt;https://youtu.be/EJRFP3WmS6Q?feature=shared&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://youtu.be/KKSCmPUyczU?feature=shared&#34;&gt;https://youtu.be/KKSCmPUyczU?feature=shared&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;PyTorch  ( Lecture 1 to 17, remaining lectures do later.)&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://youtube.com/playlist?list=PLqnslRFeH2UrcDBWF5mfPGpqQDSta6VK4&amp;amp;feature=shared&#34;&gt;https://youtube.com/playlist?list=PLqnslRFeH2UrcDBWF5mfPGpqQDSta6VK4&amp;amp;feature=shared&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;DL theory : Andrew NG&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://youtube.com/playlist?list=PLkDaE6sCZn6Gl29AoE31iwdVwSG-KnDzF&amp;amp;feature=shared&#34;&gt;https://youtube.com/playlist?list=PLkDaE6sCZn6Gl29AoE31iwdVwSG-KnDzF&amp;amp;feature=shared&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;DL practical : Fast.ai&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Fundamental :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://youtube.com/playlist?list=PLfYUBJiXbdtSvpQjSnJJ_PmDQB_VyT5iU&amp;amp;feature=shared&#34;&gt;https://youtube.com/playlist?list=PLfYUBJiXbdtSvpQjSnJJ_PmDQB_VyT5iU&amp;amp;feature=shared&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Advance : (do it or not, up to you)&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://youtube.com/playlist?list=PLfYUBJiXbdtRUvTUYpLdfHHp9a58nWVXP&amp;amp;feature=shared&#34;&gt;https://youtube.com/playlist?list=PLfYUBJiXbdtRUvTUYpLdfHHp9a58nWVXP&amp;amp;feature=shared&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;More detailed stuff : Mitesh Khapra. BSc level lectures.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/resources-to-study-deep-learning/</guid>
+      <description>&lt;p&gt;Here are some free resources which will help you to study deep learning.&lt;br&gt;&#xA;This is a tentative plan.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Pre requisite&lt;/strong&gt; : Basic Linear Algebra, Basic Python&lt;/p&gt;&#xA;&lt;p&gt;NOTE : MUST WATCH THESE VIDEOS IN SEQUENCE&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Neural Network / Perceptron&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://youtu.be/i1AqHG4k8mE?feature=shared&#34;&gt;https://youtu.be/i1AqHG4k8mE?feature=shared&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://youtu.be/-KLnurhX-Pg?feature=shared&#34;&gt;https://youtu.be/-KLnurhX-Pg?feature=shared&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://youtu.be/EJRFP3WmS6Q?feature=shared&#34;&gt;https://youtu.be/EJRFP3WmS6Q?feature=shared&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://youtu.be/KKSCmPUyczU?feature=shared&#34;&gt;https://youtu.be/KKSCmPUyczU?feature=shared&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;PyTorch  ( Lecture 1 to 17, remaining lectures do later.)&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://youtube.com/playlist?list=PLqnslRFeH2UrcDBWF5mfPGpqQDSta6VK4&amp;amp;feature=shared&#34;&gt;https://youtube.com/playlist?list=PLqnslRFeH2UrcDBWF5mfPGpqQDSta6VK4&amp;amp;feature=shared&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;DL theory : Andrew NG&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://youtube.com/playlist?list=PLkDaE6sCZn6Gl29AoE31iwdVwSG-KnDzF&amp;amp;feature=shared&#34;&gt;https://youtube.com/playlist?list=PLkDaE6sCZn6Gl29AoE31iwdVwSG-KnDzF&amp;amp;feature=shared&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;DL practical : Fast.ai&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Fundamental :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://youtube.com/playlist?list=PLfYUBJiXbdtSvpQjSnJJ_PmDQB_VyT5iU&amp;amp;feature=shared&#34;&gt;https://youtube.com/playlist?list=PLfYUBJiXbdtSvpQjSnJJ_PmDQB_VyT5iU&amp;amp;feature=shared&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Advance : (do it or not, up to you)&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

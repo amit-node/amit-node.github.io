@@ -5,7 +5,6 @@ tags:
   - Good_pieces
 ---
 Some great pieces from internet, which gives me inspiration.
-
 ## Colin Powell's 13 Rules of Leadership
 1. It isn’t as bad as you think. It will look better in the morning.
 2. Get mad, then get over it.

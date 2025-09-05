@@ -1,32 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>BS_degree on amit-node</title>
-    <link>https://amit-node.github.io/tags/bs_degree/</link>
-    <description>Recent content in BS_degree on amit-node</description>
+    <title>Bs_degree on amit-node</title>
+    <link>http://localhost:1313/tags/bs_degree/</link>
+    <description>Recent content in Bs_degree on amit-node</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 27 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://amit-node.github.io/tags/bs_degree/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Java self study - Coding</title>
-      <link>https://amit-node.github.io/posts/java-self-study---coding/</link>
-      <pubDate>Thu, 27 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://amit-node.github.io/posts/java-self-study---coding/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;println and print&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;public static void main&amp;hellip;.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;static public void main(String[] args){ also works&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;in terminal : first javac file name. then java file name&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;comment out&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;/* com&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;this is a multiline coment&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;ments */&lt;/span&gt;  &#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;// this is a single line comment&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;agar result float he to input bhi as float define karna hoga.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;char, single quote, shirf character hoga, hamesha&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;string, hamesha double quote&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;float  ki jagah jyadatar double use karna better hoga.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Java self study - Theory</title>
-      <link>https://amit-node.github.io/posts/java-self-study---theory/</link>
-      <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://amit-node.github.io/posts/java-self-study---theory/</guid>
-      <description>&lt;h1 id=&#34;java-quiz-1-study&#34;&gt;Java Quiz 1 study&lt;/h1&gt;&#xA;&lt;h2 id=&#34;the-history-and-evolution-of-java&#34;&gt;The History and Evolution of Java&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Many features of Java are influenced by C and C++&lt;/li&gt;&#xA;&lt;li&gt;Invented and first implemented by Dennis Ritchie on the UNIX operating system, C was the result of a development process that started with an older language called BCPL, developed by Martin Richards. BCPL influenced a language called B, invented by Ken Thompson, which led to the development of C in the 1970s.&lt;/li&gt;&#xA;&lt;li&gt;C++ was invented by Bjarne Stroustrup in 1979, while he was working at Bell Laboratories in Murray Hill, New Jersey. Stroustrup initially called the new language “C with Classes.” However, in 1983, the name was changed to C++. C++ extends C by adding object-oriented features. Because C++ is built on the foundation of C, it includes all of C’s features, attributes and benefits&lt;/li&gt;&#xA;&lt;li&gt;Java was conceived by James Gosling, Patrick Naughton, Chris Warth, Ed Frank, and Mike Sheridan at Sun Microsystems, Inc. in 1991. It took 18 months to develop the first working version. This language was initially called “Oak,” but was renamed “Java” in 1995.&lt;/li&gt;&#xA;&lt;li&gt;Computer languages evolve for two reasons: to adapt to changes in environment and to implement advances in the art of programming.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;JVM&lt;/strong&gt; : Java Virtual Machine&lt;br&gt;&#xA;&lt;strong&gt;JRE&lt;/strong&gt; : Java Runtime Environment&lt;br&gt;&#xA;The output of a Java compiler is not executable code. Rather, it is bytecode. Bytecode is a highly optimized set of instructions designed to be executed by what is called the Java Virtual Machine (JVM), which is part of the Java Runtime Environment (JRE). In essence, the original JVM was designed as an interpreter for bytecode.&lt;/p&gt;</description>
-    </item>
+    <lastBuildDate>Tue, 07 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/bs_degree/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MAD-1 Project Resources</title>
-      <link>https://amit-node.github.io/posts/mad-1-project-resources/</link>
+      <link>http://localhost:1313/posts/mad-1-project-resources/</link>
       <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://amit-node.github.io/posts/mad-1-project-resources/</guid>
+      <guid>http://localhost:1313/posts/mad-1-project-resources/</guid>
       <description>&lt;p&gt;Making MAD-1 project is not so easy when you are totally new to HTML, CSS and Flask. Here are some resources which will help to build your project. These resources are not some &amp;ldquo;ready made tutorials&amp;rdquo;. They are really good for learning perspective too.  Don&amp;rsquo;t just watch them, code with them.&lt;/p&gt;&#xA;&lt;p&gt;Kindly follow all resources in sequence.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Note :&lt;/strong&gt; Some of these resources are in Hindi. But on YouTube you can find respective resources in English too.&lt;/p&gt;</description>
     </item>
   </channel>

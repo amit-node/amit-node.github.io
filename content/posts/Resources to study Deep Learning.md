@@ -5,7 +5,8 @@ date: "2024-12-27"
 tags: 
 - AI_DL
 ---
-Here are some free resources which will help you to study deep learning.
+Here are some free resources which will help you to study deep learning.  
+This is a tentative plan.
 
 **Pre requisite** : Basic Linear Algebra, Basic Python
 	
