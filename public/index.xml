@@ -3,49 +3,48 @@
     
     <title>amit-node</title>
     <description></description>
-    <link>http://localhost:1313/</link>
+    <link>https://amit-node.github.io/</link>
     
     <language>en</language>
     <copyright>Copyright 2025, Calvin Tran</copyright>
     <lastBuildDate>Fri, 05 Sep 2025 00:00:00 +0000</lastBuildDate>
     <generator>Hugo - gohugo.io</generator>
     <docs>http://cyber.harvard.edu/rss/rss.html</docs>
-    <atom:link href="http://localhost:1313//atom.xml" rel="self" type="application/atom+xml"/>
+    <atom:link href="https://amit-node.github.io//atom.xml" rel="self" type="application/atom+xml"/>
     
     
     <item>
       <title>Deep Learning Mitesh Khapra Sir playlist</title>
-      <link>http://localhost:1313/posts/deep-learning-mitesh-khapra-sir-playlist/</link>
+      <link>https://amit-node.github.io/posts/deep-learning-mitesh-khapra-sir-playlist/</link>
       <description>&lt;p&gt;Hello&lt;/p&gt;
 </description>
       <author></author>
-      <guid>http://localhost:1313/posts/deep-learning-mitesh-khapra-sir-playlist/</guid>
+      <guid>https://amit-node.github.io/posts/deep-learning-mitesh-khapra-sir-playlist/</guid>
       <pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>Marcus Aurelius Meditations by Prof. Michael Sugrue</title>
-      <link>http://localhost:1313/posts/marcus-aurelius-meditations-by-prof.-michael-sugrue/</link>
-      <description>&lt;p&gt;hello&lt;/p&gt;
-</description>
+      <link>https://amit-node.github.io/posts/marcus-aurelius-meditations-by-prof.-michael-sugrue/</link>
+      <description></description>
       <author></author>
-      <guid>http://localhost:1313/posts/marcus-aurelius-meditations-by-prof.-michael-sugrue/</guid>
+      <guid>https://amit-node.github.io/posts/marcus-aurelius-meditations-by-prof.-michael-sugrue/</guid>
       <pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>Raptor RAG theory</title>
-      <link>http://localhost:1313/posts/raptor-rag-theory/</link>
+      <link>https://amit-node.github.io/posts/raptor-rag-theory/</link>
       <description>&lt;p&gt;hello&lt;/p&gt;
 </description>
       <author></author>
-      <guid>http://localhost:1313/posts/raptor-rag-theory/</guid>
+      <guid>https://amit-node.github.io/posts/raptor-rag-theory/</guid>
       <pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>Bash Commands</title>
-      <link>http://localhost:1313/posts/bash-commands/</link>
+      <link>https://amit-node.github.io/posts/bash-commands/</link>
       <description>&lt;ol&gt;
 &lt;li&gt;&lt;code&gt;echo&lt;/code&gt; is like print command in python&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;cd&lt;/code&gt; change directory.
@@ -178,15 +177,15 @@
 &lt;/blockquote&gt;
 </description>
       <author></author>
-      <guid>http://localhost:1313/posts/bash-commands/</guid>
+      <guid>https://amit-node.github.io/posts/bash-commands/</guid>
       <pubDate>Wed, 02 Apr 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>My Cycling Records (wip)</title>
-      <link>http://localhost:1313/posts/my-cycling-records-wip/</link>
+      <link>https://amit-node.github.io/posts/my-cycling-records-wip/</link>
       <description>&lt;p&gt;&lt;img
-  src=&#34;http://localhost:1313/mahabalipuram_cycling.jpg&#34;
+  src=&#34;https://amit-node.github.io/mahabalipuram_cycling.jpg&#34;
   alt=&#34;mahabalipuram on cycle&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -209,15 +208,23 @@
 &lt;p&gt;&lt;a href=&#34;https://docs.google.com/spreadsheets/d/e/2PACX-1vTpi5DTHYDyi_PXObIO_AzVpLvHDRJbTlLpYSRy2jJV3tbA4AXbq17k6wWIEPrgDkbOI4hGj2-sCsFL/pubchart?oid=772623022&amp;amp;format=interactive&#34;&gt;Comparison Chart&lt;/a&gt;&lt;/p&gt;
 </description>
       <author></author>
-      <guid>http://localhost:1313/posts/my-cycling-records-wip/</guid>
+      <guid>https://amit-node.github.io/posts/my-cycling-records-wip/</guid>
       <pubDate>Sat, 22 Mar 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>Some Really Good Pieces</title>
-      <link>http://localhost:1313/posts/some-really-good-pieces/</link>
+      <link>https://amit-node.github.io/posts/some-really-good-pieces/</link>
       <description>&lt;p&gt;Some great pieces from internet, which gives me inspiration.&lt;/p&gt;
-&lt;h2 id=&#34;colin-powells-13-rules-of-leadership&#34;&gt;Colin Powell&amp;rsquo;s 13 Rules of Leadership&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#Colin&#34;&gt;Colin Powell&amp;rsquo;s 13 Rules of Leadership&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#Dokkodo&#34;&gt;Dokkodo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#if&#34;&gt;If&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#Ozymandias&#34;&gt;Ozymandias&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#good_timber&#34;&gt;Good Timber&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#invictus&#34;&gt;Invictus&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;Colin&#34;&gt;Colin Powell&amp;rsquo;s 13 Rules of Leadership&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;It isn’t as bad as you think. It will look better in the morning.&lt;/li&gt;
 &lt;li&gt;Get mad, then get over it.&lt;/li&gt;
@@ -235,7 +242,7 @@
 &lt;/ol&gt;
 &lt;p&gt;Success is the result of perfection, hard work, learning from failure, loyalty, and persistence. A dream doesn&amp;rsquo;t become reality through magic; it takes sweat, determination and hard work. There are no secrets to success.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;dokkodo&#34;&gt;Dokkodo&lt;/h2&gt;
+&lt;h2 id=&#34;Dokkodo&#34;&gt;Dokkodo&lt;/h2&gt;
 &lt;p&gt;Miyamoto Musashi (1584 - 1645) is one of the most killed swordsmen in history. Musashi began his career as a fighter early in life at the age of 13, he killed a man in single combat. In time he set out on a personal quest to develop perfect sword technique. He invented the nitō ichi-ryū, the style of fencing with two swords, and he is often referred today as kensai (‘‘sword saint’’). Musashi claimed to have fought in more than 60 individual sword fights, many of which were to the death and all of which he won. &lt;br&gt;
 His teachings have been immortalized in his book, “Go Rin No Sho”, also known as “The Book of Five Rings”. While “Go Rin No Sho” is the most acclaimed, he also wrote another short book a week before he died in 1645. This book consisted of only 21 precepts or commands for living life. It was written in preparation of his own passing, during a time he was giving away all his possessions, he also wished to give away his knowledge.&lt;/p&gt;
 &lt;ol&gt;
@@ -360,7 +367,7 @@ Yours is the Earth and everything that’s in it,&lt;br&gt;
 And—which is more—you’ll be a Man, my son!&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Rudyard Kipling&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;ozymandias&#34;&gt;Ozymandias&lt;/h2&gt;
+&lt;h2 id=&#34;Ozymandias&#34;&gt;Ozymandias&lt;/h2&gt;
 &lt;p&gt;I met a traveller from an antique land,&lt;br&gt;
 Who said—“Two vast and trunkless legs of stone&lt;br&gt;
 Stand in the desert. . . . Near them, on the sand,&lt;br&gt;
@@ -377,7 +384,7 @@ Of that colossal Wreck, boundless and bare&lt;br&gt;
 The lone and level sands stretch far away.”&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Percy Bysshe Shelley&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&#34;good-timber&#34;&gt;Good Timber&lt;/h2&gt;
+&lt;h2 id=&#34;good_timber&#34;&gt;Good Timber&lt;/h2&gt;
 &lt;p&gt;The tree that never had to fight&lt;br&gt;
 For sun and sky and air and light,&lt;br&gt;
 But stood out in the open plain&lt;br&gt;
@@ -426,13 +433,13 @@ I am the captain of my soul.&lt;/p&gt;
 The poet himself had the unconquerable spirit which he wrote about. When he was 12, Henley developed tuberculous in the bone. He had to have his leg amputated to the knee and doctors told him he would have to have the other one amputated if he were to survive. Henley told the docs that they were full of hogwash and let them amputate just one leg. He ended up keeping the other. He led an active life with one leg and had a  successful career as a poet and literary critic. Henley was truly the captain of his soul.&lt;/p&gt;
 </description>
       <author></author>
-      <guid>http://localhost:1313/posts/some-really-good-pieces/</guid>
+      <guid>https://amit-node.github.io/posts/some-really-good-pieces/</guid>
       <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>PC commands and short cuts (WIP)</title>
-      <link>http://localhost:1313/posts/pc-commands-and-short-cuts/</link>
+      <link>https://amit-node.github.io/posts/pc-commands-and-short-cuts/</link>
       <description>&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Google colab&lt;/strong&gt; short-cuts&lt;/p&gt;
@@ -482,13 +489,13 @@ exit
 &lt;/ol&gt;
 </description>
       <author></author>
-      <guid>http://localhost:1313/posts/pc-commands-and-short-cuts/</guid>
+      <guid>https://amit-node.github.io/posts/pc-commands-and-short-cuts/</guid>
       <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>Why I Ride a Bicycle ?? (part-1 : Freedom)</title>
-      <link>http://localhost:1313/posts/why-i-ride-a-bicycle/</link>
+      <link>https://amit-node.github.io/posts/why-i-ride-a-bicycle/</link>
       <description>&lt;h3 id=&#34;part-1--freedom&#34;&gt;Part 1 : Freedom&lt;/h3&gt;
 &lt;p&gt;Why I Ride a Bicycle ??&lt;/p&gt;
 &lt;p&gt;I encounter this question a lot. And most of the time, I’m not able to give a convincing answer. It’s not that I don’t have an answer; it’s more like I cannot summarize it in a single line.&lt;/p&gt;
@@ -505,13 +512,13 @@ exit
 &lt;h6 id=&#34;cont&#34;&gt;Cont&amp;hellip;&lt;/h6&gt;
 </description>
       <author></author>
-      <guid>http://localhost:1313/posts/why-i-ride-a-bicycle/</guid>
+      <guid>https://amit-node.github.io/posts/why-i-ride-a-bicycle/</guid>
       <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>MAD-1 Project Resources</title>
-      <link>http://localhost:1313/posts/mad-1-project-resources/</link>
+      <link>https://amit-node.github.io/posts/mad-1-project-resources/</link>
       <description>&lt;p&gt;Making MAD-1 project is not so easy when you are totally new to HTML, CSS and Flask. Here are some resources which will help to build your project. These resources are not some &amp;ldquo;ready made tutorials&amp;rdquo;. They are really good for learning perspective too.  Don&amp;rsquo;t just watch them, code with them.&lt;/p&gt;
 &lt;p&gt;Kindly follow all resources in sequence.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Note :&lt;/strong&gt; Some of these resources are in Hindi. But on YouTube you can find respective resources in English too.&lt;/p&gt;
@@ -553,13 +560,13 @@ Other videos you can watch if you want but not necessary.&lt;/li&gt;
 &lt;/ol&gt;
 </description>
       <author></author>
-      <guid>http://localhost:1313/posts/mad-1-project-resources/</guid>
+      <guid>https://amit-node.github.io/posts/mad-1-project-resources/</guid>
       <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>Resources to study Deep Learning</title>
-      <link>http://localhost:1313/posts/resources-to-study-deep-learning/</link>
+      <link>https://amit-node.github.io/posts/resources-to-study-deep-learning/</link>
       <description>&lt;p&gt;Here are some free resources which will help you to study deep learning.&lt;br&gt;
 This is a tentative plan.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Pre requisite&lt;/strong&gt; : Basic Linear Algebra, Basic Python&lt;/p&gt;
@@ -658,16 +665,16 @@ This is a tentative plan.&lt;/p&gt;
 &lt;/ul&gt;
 </description>
       <author></author>
-      <guid>http://localhost:1313/posts/resources-to-study-deep-learning/</guid>
+      <guid>https://amit-node.github.io/posts/resources-to-study-deep-learning/</guid>
       <pubDate>Fri, 27 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>Family tree of Changej, Taimur and Babur</title>
-      <link>http://localhost:1313/posts/family-tree-of-changej-taimur-and-babur/</link>
+      <link>https://amit-node.github.io/posts/family-tree-of-changej-taimur-and-babur/</link>
       <description>&lt;p&gt;I made this family tree based of articles available on internet. I am not an historian, I can&amp;rsquo;t take guarantee of any accuracy.&lt;/p&gt;
 &lt;p&gt;&lt;img
-  src=&#34;http://localhost:1313/family_tree.svg&#34;
+  src=&#34;https://amit-node.github.io/family_tree.svg&#34;
   alt=&#34;svg&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -677,13 +684,13 @@ This is a tentative plan.&lt;/p&gt;
 &lt;/p&gt;
 </description>
       <author></author>
-      <guid>http://localhost:1313/posts/family-tree-of-changej-taimur-and-babur/</guid>
+      <guid>https://amit-node.github.io/posts/family-tree-of-changej-taimur-and-babur/</guid>
       <pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>Site on Pelican and Netily</title>
-      <link>http://localhost:1313/posts/site-on-pelican-and-netily/</link>
+      <link>https://amit-node.github.io/posts/site-on-pelican-and-netily/</link>
       <description>&lt;p&gt;helpful blog : &lt;a href=&#34;https://iwanttoreadmore.com/blog/create-minimal-static-website-pelican/&#34;&gt;https://iwanttoreadmore.com/blog/create-minimal-static-website-pelican/&lt;/a&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -778,8 +785,65 @@ This is a tentative plan.&lt;/p&gt;
 &lt;/ol&gt;
 </description>
       <author></author>
-      <guid>http://localhost:1313/posts/site-on-pelican-and-netily/</guid>
+      <guid>https://amit-node.github.io/posts/site-on-pelican-and-netily/</guid>
       <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
+    
+    <item>
+      <title>Link to headings by name</title>
+      <link>https://amit-node.github.io/posts/demo/</link>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#alpha-101&#34;&gt;Alpha 101&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;!-- raw HTML omitted --&gt;1&lt;!-- raw HTML omitted --&gt; &lt;a href=&#34;#beta-102&#34;&gt;Beta 102&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;!-- raw HTML omitted --&gt;1.1&lt;!-- raw HTML omitted --&gt; &lt;a href=&#34;#gamma-102-dot-1&#34;&gt;Gamma 102.1&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;!-- raw HTML omitted --&gt;1.1.1&lt;!-- raw HTML omitted --&gt; &lt;a href=&#34;#delta-102-dot-1-dot-1&#34;&gt;Delta 102.1.1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;!-- raw HTML omitted --&gt;1.1.2&lt;!-- raw HTML omitted --&gt; &lt;a href=&#34;#epsilon-102-dot-1-dot-2&#34;&gt;Epsilon 102.1.2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#zeta-103-which-has-some-markup&#34;&gt;Zeta 103 which has &lt;strong&gt;some&lt;/strong&gt; &lt;em&gt;markup&lt;/em&gt;&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#links--no-descriptions--to-headings-with-section-numbers&#34;&gt;Links (no descriptions) to headings with section numbers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;alpha-101&#34;&gt;Alpha 101&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Link (with description) to a heading with section number: &lt;a href=&#34;#beta-102&#34;&gt;Link to
+&lt;em&gt;Beta 102&lt;/em&gt; heading&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Link (no description) to a heading without section number: &lt;a href=&#34;#zeta-103-which-has-some-markup&#34;&gt;Zeta 103 which has &lt;strong&gt;some&lt;/strong&gt; &lt;em&gt;markup&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The space after that &lt;code&gt;*&lt;/code&gt; in the link is optional.. so this also
+works: &lt;a href=&#34;#zeta-103-which-has-some-markup&#34;&gt;Zeta 103 which has &lt;strong&gt;some&lt;/strong&gt; &lt;em&gt;markup&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;beta-102&#34;&gt;&lt;!-- raw HTML omitted --&gt;1&lt;!-- raw HTML omitted --&gt; Beta 102&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Link (with description) to a heading without section number: &lt;a href=&#34;#alpha-101&#34;&gt;Link to
+&lt;em&gt;Alpha 101&lt;/em&gt; heading&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;gamma-102-dot-1&#34;&gt;&lt;!-- raw HTML omitted --&gt;1.1&lt;!-- raw HTML omitted --&gt; Gamma 102.1&lt;/h3&gt;
+&lt;h4 id=&#34;delta-102-dot-1-dot-1&#34;&gt;&lt;!-- raw HTML omitted --&gt;1.1.1&lt;!-- raw HTML omitted --&gt; Delta 102.1.1&lt;/h4&gt;
+&lt;h4 id=&#34;epsilon-102-dot-1-dot-2&#34;&gt;&lt;!-- raw HTML omitted --&gt;1.1.2&lt;!-- raw HTML omitted --&gt; Epsilon 102.1.2&lt;/h4&gt;
+&lt;h2 id=&#34;zeta-103-which-has-some-markup&#34;&gt;Zeta 103 which has &lt;strong&gt;some&lt;/strong&gt; &lt;em&gt;markup&lt;/em&gt;&lt;/h2&gt;
+&lt;h3 id=&#34;links--no-descriptions--to-headings-with-section-numbers&#34;&gt;Links (no descriptions) to headings with section numbers&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Section &lt;a href=&#34;#gamma-102-dot-1&#34;&gt;1.1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Section &lt;a href=&#34;#delta-102-dot-1-dot-1&#34;&gt;1.1.1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Section &lt;a href=&#34;#epsilon-102-dot-1-dot-2&#34;&gt;1.1.2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <author></author>
+      <guid>https://amit-node.github.io/posts/demo/</guid>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
     </item>
     
   </channel>

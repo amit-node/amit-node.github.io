@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AI_DL on amit-node</title>
-    <link>http://localhost:1313/tags/ai_dl/</link>
+    <link>https://amit-node.github.io/tags/ai_dl/</link>
     <description>Recent content in AI_DL on amit-node</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 05 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/ai_dl/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://amit-node.github.io/tags/ai_dl/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Deep Learning Mitesh Khapra Sir playlist</title>
-      <link>http://localhost:1313/posts/deep-learning-mitesh-khapra-sir-playlist/</link>
+      <link>https://amit-node.github.io/posts/deep-learning-mitesh-khapra-sir-playlist/</link>
       <pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/deep-learning-mitesh-khapra-sir-playlist/</guid>
+      <guid>https://amit-node.github.io/posts/deep-learning-mitesh-khapra-sir-playlist/</guid>
       <description>&lt;p&gt;Hello&lt;/p&gt;</description>
     </item>
     <item>
       <title>Raptor RAG theory</title>
-      <link>http://localhost:1313/posts/raptor-rag-theory/</link>
+      <link>https://amit-node.github.io/posts/raptor-rag-theory/</link>
       <pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/raptor-rag-theory/</guid>
+      <guid>https://amit-node.github.io/posts/raptor-rag-theory/</guid>
       <description>&lt;p&gt;hello&lt;/p&gt;</description>
     </item>
     <item>
       <title>Resources to study Deep Learning</title>
-      <link>http://localhost:1313/posts/resources-to-study-deep-learning/</link>
+      <link>https://amit-node.github.io/posts/resources-to-study-deep-learning/</link>
       <pubDate>Fri, 27 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/resources-to-study-deep-learning/</guid>
+      <guid>https://amit-node.github.io/posts/resources-to-study-deep-learning/</guid>
       <description>&lt;p&gt;Here are some free resources which will help you to study deep learning.&lt;br&gt;&#xA;This is a tentative plan.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Pre requisite&lt;/strong&gt; : Basic Linear Algebra, Basic Python&lt;/p&gt;&#xA;&lt;p&gt;NOTE : MUST WATCH THESE VIDEOS IN SEQUENCE&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Neural Network / Perceptron&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://youtu.be/i1AqHG4k8mE?feature=shared&#34;&gt;https://youtu.be/i1AqHG4k8mE?feature=shared&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://youtu.be/-KLnurhX-Pg?feature=shared&#34;&gt;https://youtu.be/-KLnurhX-Pg?feature=shared&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://youtu.be/EJRFP3WmS6Q?feature=shared&#34;&gt;https://youtu.be/EJRFP3WmS6Q?feature=shared&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://youtu.be/KKSCmPUyczU?feature=shared&#34;&gt;https://youtu.be/KKSCmPUyczU?feature=shared&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;PyTorch  ( Lecture 1 to 17, remaining lectures do later.)&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://youtube.com/playlist?list=PLqnslRFeH2UrcDBWF5mfPGpqQDSta6VK4&amp;amp;feature=shared&#34;&gt;https://youtube.com/playlist?list=PLqnslRFeH2UrcDBWF5mfPGpqQDSta6VK4&amp;amp;feature=shared&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;DL theory : Andrew NG&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://youtube.com/playlist?list=PLkDaE6sCZn6Gl29AoE31iwdVwSG-KnDzF&amp;amp;feature=shared&#34;&gt;https://youtube.com/playlist?list=PLkDaE6sCZn6Gl29AoE31iwdVwSG-KnDzF&amp;amp;feature=shared&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;DL practical : Fast.ai&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Fundamental :&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://youtube.com/playlist?list=PLfYUBJiXbdtSvpQjSnJJ_PmDQB_VyT5iU&amp;amp;feature=shared&#34;&gt;https://youtube.com/playlist?list=PLfYUBJiXbdtSvpQjSnJJ_PmDQB_VyT5iU&amp;amp;feature=shared&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Advance : (do it or not, up to you)&lt;/p&gt;</description>
     </item>
   </channel>
