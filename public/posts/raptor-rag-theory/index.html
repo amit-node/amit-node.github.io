@@ -1,18 +1,18 @@
 <!doctype html>
 <html lang="en">
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Liste - https://amit-node.github.io/">
+    <meta name="author" content="Liste - http://localhost:1313/">
     <title>Raptor RAG theory | amit-node</title>
     <meta name="description" content="">
-    <meta property="og:url" content="https://amit-node.github.io/posts/raptor-rag-theory/">
+    <meta property="og:url" content="http://localhost:1313/posts/raptor-rag-theory/">
   <meta property="og:site_name" content="amit-node">
   <meta property="og:title" content="Raptor RAG theory">
-  <meta property="og:description" content="Source : Building long context RAG with RAPTOR from scratch YouTube video
-Raptor RAG paper
-Long Context LLMs : Where you can send a lots of tokens at once. Good thing, nothing to do, send your documents to LLM, ask questions and get answers automatically.
+  <meta property="og:description" content="Source :
+Building long context RAG with RAPTOR from scratch YouTube video Raptor RAG paper Long Context LLMs :
+Where you can send a lots of tokens at once. Good thing, nothing to do, send your documents to LLM, ask questions and get answers automatically.
 But, there are some problems:
 P50, P99 latencies Cost What if document is bigger than than the context window. Solution idea : Embed each document and build a document tree (RAPTOR)">
   <meta property="og:locale" content="en_us">
@@ -24,14 +24,14 @@ P50, P99 latencies Cost What if document is bigger than than the context window.
 
     
   <meta itemprop="name" content="Raptor RAG theory">
-  <meta itemprop="description" content="Source : Building long context RAG with RAPTOR from scratch YouTube video
-Raptor RAG paper
-Long Context LLMs : Where you can send a lots of tokens at once. Good thing, nothing to do, send your documents to LLM, ask questions and get answers automatically.
+  <meta itemprop="description" content="Source :
+Building long context RAG with RAPTOR from scratch YouTube video Raptor RAG paper Long Context LLMs :
+Where you can send a lots of tokens at once. Good thing, nothing to do, send your documents to LLM, ask questions and get answers automatically.
 But, there are some problems:
 P50, P99 latencies Cost What if document is bigger than than the context window. Solution idea : Embed each document and build a document tree (RAPTOR)">
   <meta itemprop="datePublished" content="2025-09-05T00:00:00+00:00">
   <meta itemprop="dateModified" content="2025-09-05T00:00:00+00:00">
-  <meta itemprop="wordCount" content="85">
+  <meta itemprop="wordCount" content="283">
   <meta itemprop="keywords" content="AI_DL">
     
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-00000000"></script>
@@ -54,12 +54,12 @@ P50, P99 latencies Cost What if document is bigger than than the context window.
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 	<link rel="manifest" href="/site.webmanifest">
 	
-    <link rel="canonical" href="https://amit-node.github.io/posts/raptor-rag-theory/">
-    <link rel="icon" href="https://amit-node.github.io//assets/favicon.ico">
+    <link rel="canonical" href="http://localhost:1313/posts/raptor-rag-theory/">
+    <link rel="icon" href="http://localhost:1313//assets/favicon.ico">
     <link rel="dns-prefetch" href="https://www.google-analytics.com">
     <link href="https://www.google-analytics.com" rel="preconnect" crossorigin>
-    <link rel="alternate" type="application/atom+xml" title="amit-node" href="https://amit-node.github.io//atom.xml" />
-    <link rel="alternate" type="application/json" title="amit-node" href="https://amit-node.github.io//feed.json" />
+    <link rel="alternate" type="application/atom+xml" title="amit-node" href="http://localhost:1313//atom.xml" />
+    <link rel="alternate" type="application/json" title="amit-node" href="http://localhost:1313//feed.json" />
     <link rel="shortcut icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bricolage+Grotesque">
     
@@ -77,12 +77,12 @@ P50, P99 latencies Cost What if document is bigger than than the context window.
       "name": "Raptor RAG theory",
       "headline": "Raptor RAG theory",
       "alternativeHeadline": "",
-      "description": "\u003cp\u003eSource : \u003ca href=\u0022https:\/\/youtu.be\/jbGchdTL7d0\u0022\u003eBuilding long context RAG with RAPTOR from scratch\u003c\/a\u003e\nYouTube video\u003cbr\u003e\n\u003ca href=\u0022https:\/\/arxiv.org\/pdf\/2401.18059\u0022\u003eRaptor RAG paper\u003c\/a\u003e\u003c\/p\u003e\n\u003cp\u003e\u003cstrong\u003eLong Context LLMs :\u003c\/strong\u003e Where you can send a lots of tokens at once. Good thing, nothing to do, send your documents to LLM, ask questions and get answers automatically.\u003c\/p\u003e\n\u003cp\u003eBut, there are some problems:\u003c\/p\u003e\n\u003col\u003e\n\u003cli\u003eP50, P99 latencies\u003c\/li\u003e\n\u003cli\u003eCost\u003c\/li\u003e\n\u003cli\u003eWhat if document is bigger than than the context window.\u003c\/li\u003e\n\u003c\/ol\u003e\n\u003cp\u003eSolution idea : Embed each document and build a document tree (RAPTOR)\u003c\/p\u003e",
+      "description": "\u003cp\u003e\u003cstrong\u003eSource\u003c\/strong\u003e :\u003c\/p\u003e\n\u003col\u003e\n\u003cli\u003e\u003ca href=\u0022https:\/\/youtu.be\/jbGchdTL7d0\u0022\u003eBuilding long context RAG with RAPTOR from scratch\u003c\/a\u003e  YouTube video\u003c\/li\u003e\n\u003cli\u003e\u003ca href=\u0022https:\/\/arxiv.org\/pdf\/2401.18059\u0022\u003eRaptor RAG paper\u003c\/a\u003e\u003c\/li\u003e\n\u003c\/ol\u003e\n\u003cp\u003e\u003cstrong\u003eLong Context LLMs :\u003c\/strong\u003e\u003cbr\u003e\nWhere you can send a lots of tokens at once. Good thing, nothing to do, send your documents to LLM, ask questions and get answers automatically.\u003c\/p\u003e\n\u003cp\u003eBut, there are some problems:\u003c\/p\u003e\n\u003col\u003e\n\u003cli\u003eP50, P99 latencies\u003c\/li\u003e\n\u003cli\u003eCost\u003c\/li\u003e\n\u003cli\u003eWhat if document is bigger than than the context window.\u003c\/li\u003e\n\u003c\/ol\u003e\n\u003cp\u003eSolution idea : Embed each document and build a document tree (RAPTOR)\u003c\/p\u003e",
       "inLanguage": "en-us",
       "isFamilyFriendly": "true",
       "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "https:\/\/amit-node.github.io\/posts\/raptor-rag-theory\/"
+          "@id": "http:\/\/localhost:1313\/posts\/raptor-rag-theory\/"
       },
       "author" : {
           "@type": "Person",
@@ -104,17 +104,17 @@ P50, P99 latencies Cost What if document is bigger than than the context window.
       "publisher":{
           "@type":"Organization",
           "name": "amit-node",
-          "url": "https://amit-node.github.io/",
+          "url": "http://localhost:1313/",
           "logo": {
               "@type": "ImageObject",
-              "url": "https:\/\/amit-node.github.io\/",
+              "url": "http:\/\/localhost:1313\/",
               "width":"32",
               "height":"32"
           }
       },
-      "image": "https://amit-node.github.io/",
-      "url" : "https:\/\/amit-node.github.io\/posts\/raptor-rag-theory\/",
-      "wordCount" : "85",
+      "image": "http://localhost:1313/",
+      "url" : "http:\/\/localhost:1313\/posts\/raptor-rag-theory\/",
+      "wordCount" : "283",
       "genre" : [ "AI_DL" ],
       "keywords" : [ "AI_DL" ]
   }
@@ -163,7 +163,7 @@ P50, P99 latencies Cost What if document is bigger than than the context window.
   <div class="content">
     <header>
 <p style="padding: 0;margin: 0;">
-  <a href="https://amit-node.github.io/">
+  <a href="http://localhost:1313/">
     <b>amit-node</b>
     <span class="text-stone-500 animate-blink">▮</span>
   </a>
@@ -193,10 +193,13 @@ P50, P99 latencies Cost What if document is bigger than than the context window.
 </script>
     <section>
       <h2 class="post">Raptor RAG theory</h2>
-      <p>Source : <a href="https://youtu.be/jbGchdTL7d0">Building long context RAG with RAPTOR from scratch</a>
-YouTube video<br>
-<a href="https://arxiv.org/pdf/2401.18059">Raptor RAG paper</a></p>
-<p><strong>Long Context LLMs :</strong> Where you can send a lots of tokens at once. Good thing, nothing to do, send your documents to LLM, ask questions and get answers automatically.</p>
+      <p><strong>Source</strong> :</p>
+<ol>
+<li><a href="https://youtu.be/jbGchdTL7d0">Building long context RAG with RAPTOR from scratch</a>  YouTube video</li>
+<li><a href="https://arxiv.org/pdf/2401.18059">Raptor RAG paper</a></li>
+</ol>
+<p><strong>Long Context LLMs :</strong><br>
+Where you can send a lots of tokens at once. Good thing, nothing to do, send your documents to LLM, ask questions and get answers automatically.</p>
 <p>But, there are some problems:</p>
 <ol>
 <li>P50, P99 latencies</li>
@@ -205,12 +208,36 @@ YouTube video<br>
 </ol>
 <p>Solution idea : Embed each document and build a document tree (RAPTOR)</p>
 <p><strong>RAPTOR :</strong> Recursive Abstractive Processing for Tree Organized Retrieval</p>
+<p><strong>Intuition :</strong></p>
+<ol>
+<li>Documents of any size</li>
+<li>Chunks (token counts)</li>
+<li>embed them</li>
+<li>cluster them, grouped together like documents</li>
+<li>summarize those clusters</li>
+<li>more higher level of clustering, more abstract</li>
+<li>do clustering recursively till either we have only one cluster remain or we set a limit on the recurring clusters.</li>
+</ol>
+<blockquote>
+<p>In tree structure, documents are leaf. It can be chunks or full documents.<br>
+then come middle level summaries, then high level summaries<br>
+then at root, highest level summary (mostly only one summary)</p>
+</blockquote>
+<p>All documents, summaries of all levels and root summary got embedded and stored in Vector database. Indexed and ready to retrieve.</p>
+<p>GMM : Gaussian Mixture Model<br>
+To model the distribution of data points across different clusters. You don&rsquo;t need to give number of clusters. they find optimally number of clusters by evaluating the model&rsquo;s Bayesian Information Criterion (BIC).</p>
+<p>UMAP : Uniform Manifold Approximation and Projection<br>
+Kind of dimensionality reduction approach to improve the clustering process.</p>
+<p>Local and Global clustering :
+it tries to analysing the data at two different scales : local and global.<br>
+looking at patterns in smaller group and then full dataset. and try to improve. How to group these documents together.<br>
+fine grain and broader patterns.</p>
 
       
       <div class="post-date">
         <span class="g time">September 5, 2025 </span> &#8729;
          
-         <a href="https://amit-node.github.io/tags/ai_dl/">ai_dl</a>
+         <a href="http://localhost:1313/tags/ai_dl/">ai_dl</a>
       </div>
       
     </section>
