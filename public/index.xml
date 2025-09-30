@@ -16,8 +16,7 @@
     <item>
       <title>Intro to DL and Gen AI</title>
       <link>https://amit-node.github.io/posts/intro-to-dl-and-gen-ai/</link>
-      <description>&lt;h1 id=&#34;intro-to-dl-and-gen-ai&#34;&gt;Intro to DL and Gen AI&lt;/h1&gt;
-&lt;blockquote&gt;
+      <description>&lt;blockquote&gt;
 &lt;p&gt;These are my class notes during online lectures.
 You can find playlist here : &lt;a href=&#34;&#34;&gt;link of YT playlist&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -143,15 +142,6 @@ reputation, to some extent deserved, of being kind of harsh, cold.&lt;/p&gt;
       <author></author>
       <guid>https://amit-node.github.io/posts/marcus-aurelius-meditations-by-prof.-michael-sugrue/</guid>
       <pubDate>Sat, 06 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    
-    <item>
-      <title>Deep Learning Mitesh Khapra Sir playlist</title>
-      <link>https://amit-node.github.io/posts/deep-learning-mitesh-khapra-sir-playlist/</link>
-      <description></description>
-      <author></author>
-      <guid>https://amit-node.github.io/posts/deep-learning-mitesh-khapra-sir-playlist/</guid>
-      <pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
@@ -682,7 +672,9 @@ Other videos you can watch if you want but not necessary.&lt;/li&gt;
       <description>&lt;p&gt;Here are some free resources which will help you to study deep learning.&lt;br&gt;
 This is a tentative plan.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Pre requisite&lt;/strong&gt; : Basic Linear Algebra, Basic Python&lt;/p&gt;
-&lt;p&gt;NOTE : MUST WATCH THESE VIDEOS IN SEQUENCE&lt;/p&gt;
+&lt;p&gt;NOTE : MUST WATCH THESE VIDEOS IN SEQUENCE
+0. If you are new to DL and Gen AI and want to start working ASAP then watch this playlist. It covers most of the topics but not in detail. Good hands on experience.
+You can find playlist here : &lt;a href=&#34;&#34;&gt;link of YT playlist&lt;/a&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;Neural Network / Perceptron&lt;/p&gt;
@@ -774,6 +766,11 @@ This is a tentative plan.&lt;/p&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLtmWHNX-gukKocXQOkQjuVxglSDYWsSh9&#34;&gt;https://www.youtube.com/playlist?list=PLtmWHNX-gukKocXQOkQjuVxglSDYWsSh9&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;others&#34;&gt;Others&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;If you are interested in NLP, which is a very important topic then you must check playlist by Prof. Christopher Manning.&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
       <author></author>

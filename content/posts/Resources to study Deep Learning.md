@@ -11,6 +11,8 @@ This is a tentative plan.
 **Pre requisite** : Basic Linear Algebra, Basic Python
 	
 NOTE : MUST WATCH THESE VIDEOS IN SEQUENCE
+0. If you are new to DL and Gen AI and want to start working ASAP then watch this playlist. It covers most of the topics but not in detail. Good hands on experience.
+	You can find playlist here : [link of YT playlist]()
 
 1. Neural Network / Perceptron
 	- https://youtu.be/i1AqHG4k8mE?feature=shared
@@ -24,7 +26,7 @@ NOTE : MUST WATCH THESE VIDEOS IN SEQUENCE
 3. DL theory : Andrew NG
 	- https://youtube.com/playlist?list=PLkDaE6sCZn6Gl29AoE31iwdVwSG-KnDzF&feature=shared
 	
-1. DL practical : Fast.ai
+4. DL practical : Fast.ai
 	- Fundamental :
 		- https://youtube.com/playlist?list=PLfYUBJiXbdtSvpQjSnJJ_PmDQB_VyT5iU&feature=shared
 	
@@ -54,3 +56,7 @@ For working knowledge just study point 1 (all 4 videos), point 2 (video 1 to 17)
 	- https://course18.fast.ai/ml.html
 - First Intro to Natural Language Processing 
 	- https://www.youtube.com/playlist?list=PLtmWHNX-gukKocXQOkQjuVxglSDYWsSh9
+
+## Others
+- If you are interested in NLP, which is a very important topic then you must check playlist by Prof. Christopher Manning.
+- 

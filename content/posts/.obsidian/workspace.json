@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Raptor RAG theory.md",
+                "file": "Deep Learning Mitesh Khapra Sir playlist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Raptor RAG theory.md",
+                "file": "Deep Learning Mitesh Khapra Sir playlist.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Raptor RAG theory.md"
+                "file": "Deep Learning Mitesh Khapra Sir playlist.md"
               }
             }
           }
@@ -185,15 +185,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "406eb361d1fea81a",
+  "active": "809a62317f551450",
   "lastOpenFiles": [
-    "Bash commands.md",
-    "Some really good pieces.md",
+    "Resources to study Deep Learning.md",
     "Intro to DL and Gen AI.md",
     "Deep Learning Mitesh Khapra Sir playlist.md",
-    "Marcus Aurelius Meditations by Prof. Michael Sugrue.md",
     "Raptor RAG theory.md",
-    "Resources to study Deep Learning.md",
+    "Bash commands.md",
+    "Some really good pieces.md",
+    "Marcus Aurelius Meditations by Prof. Michael Sugrue.md",
     "demo.md",
     "MAD-1 project resources.md",
     "pc commands and short cuts.md",
