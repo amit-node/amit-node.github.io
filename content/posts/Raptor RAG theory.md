@@ -3,6 +3,7 @@ title: Raptor RAG theory
 date: 2025-09-05
 tags:
   - AI_DL
+draft: "True"
 ---
 **Source** : 
 1. [Building long context RAG with RAPTOR from scratch](https://youtu.be/jbGchdTL7d0)  YouTube video  

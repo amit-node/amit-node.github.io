@@ -5,12 +5,12 @@ tags:
   - Good_pieces
 ---
 Some great pieces from internet, which gives me inspiration.  
-- [Colin Powell's 13 Rules of Leadership](#Colin)
-- [Dokkodo](#Dokkodo)
-- [If](#if)
-- [Ozymandias](#Ozymandias)
-- [Good Timber](#good_timber)
-- [Invictus](#invictus)
+1. [Colin Powell's 13 Rules of Leadership](#Colin)
+2. [Dokkodo](#Dokkodo)
+3. [If](#if)
+4. [Ozymandias](#Ozymandias)
+5. [Good Timber](#good_timber)
+6. [Invictus](#invictus)
 ## Colin Powell's 13 Rules of Leadership {#Colin}
 1. It isn’t as bad as you think. It will look better in the morning.
 2. Get mad, then get over it.
