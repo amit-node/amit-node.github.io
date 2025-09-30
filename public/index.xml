@@ -7,7 +7,7 @@
     
     <language>en</language>
     <copyright>Copyright 2025, Calvin Tran</copyright>
-    <lastBuildDate>Sat, 27 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Sep 2025 00:00:00 +0000</lastBuildDate>
     <generator>Hugo - gohugo.io</generator>
     <docs>http://cyber.harvard.edu/rss/rss.html</docs>
     <atom:link href="https://amit-node.github.io//atom.xml" rel="self" type="application/atom+xml"/>
@@ -18,12 +18,126 @@
       <link>https://amit-node.github.io/posts/intro-to-dl-and-gen-ai/</link>
       <description>&lt;blockquote&gt;
 &lt;p&gt;These are my class notes during online lectures.
-You can find playlist here : &lt;a href=&#34;&#34;&gt;link of YT playlist&lt;/a&gt;&lt;/p&gt;
+You can find playlist here : &lt;a href=&#34;https://youtube.com/playlist?list=PLZ2ps__7DhBa9hqi20allqocTSUUt3nWX&amp;amp;feature=shared&#34;&gt;link of YT playlist&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
       <author></author>
       <guid>https://amit-node.github.io/posts/intro-to-dl-and-gen-ai/</guid>
-      <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    
+    <item>
+      <title>Resources to study Deep Learning</title>
+      <link>https://amit-node.github.io/posts/resources-to-study-deep-learning/</link>
+      <description>&lt;p&gt;Here are some free resources which will help you to study deep learning.&lt;br&gt;
+This is a tentative plan.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Pre requisite&lt;/strong&gt; : Basic Linear Algebra, Basic Python&lt;/p&gt;
+&lt;p&gt;NOTE : MUST WATCH THESE VIDEOS IN SEQUENCE&lt;/p&gt;
+&lt;ol start=&#34;0&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;If you are new to DL and Gen AI and want to start working ASAP then watch this playlist. It covers most of the topics but not in detail. Good hands on experience.
+You can find playlist here : &lt;a href=&#34;https://youtube.com/playlist?list=PLZ2ps__7DhBa9hqi20allqocTSUUt3nWX&amp;amp;feature=shared&#34;&gt;link of YT playlist&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Neural Network / Perceptron&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/i1AqHG4k8mE?feature=shared&#34;&gt;https://youtu.be/i1AqHG4k8mE?feature=shared&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/-KLnurhX-Pg?feature=shared&#34;&gt;https://youtu.be/-KLnurhX-Pg?feature=shared&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/EJRFP3WmS6Q?feature=shared&#34;&gt;https://youtu.be/EJRFP3WmS6Q?feature=shared&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/KKSCmPUyczU?feature=shared&#34;&gt;https://youtu.be/KKSCmPUyczU?feature=shared&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;PyTorch  ( Lecture 1 to 17, remaining lectures do later.)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtube.com/playlist?list=PLqnslRFeH2UrcDBWF5mfPGpqQDSta6VK4&amp;amp;feature=shared&#34;&gt;https://youtube.com/playlist?list=PLqnslRFeH2UrcDBWF5mfPGpqQDSta6VK4&amp;amp;feature=shared&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;DL theory : Andrew NG&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtube.com/playlist?list=PLkDaE6sCZn6Gl29AoE31iwdVwSG-KnDzF&amp;amp;feature=shared&#34;&gt;https://youtube.com/playlist?list=PLkDaE6sCZn6Gl29AoE31iwdVwSG-KnDzF&amp;amp;feature=shared&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;DL practical : Fast.ai&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Fundamental :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtube.com/playlist?list=PLfYUBJiXbdtSvpQjSnJJ_PmDQB_VyT5iU&amp;amp;feature=shared&#34;&gt;https://youtube.com/playlist?list=PLfYUBJiXbdtSvpQjSnJJ_PmDQB_VyT5iU&amp;amp;feature=shared&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Advance : (do it or not, up to you)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtube.com/playlist?list=PLfYUBJiXbdtRUvTUYpLdfHHp9a58nWVXP&amp;amp;feature=shared&#34;&gt;https://youtube.com/playlist?list=PLfYUBJiXbdtRUvTUYpLdfHHp9a58nWVXP&amp;amp;feature=shared&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;More detailed stuff : Mitesh Khapra. BSc level lectures.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtube.com/playlist?list=PLZ2ps__7DhBZVxMrSkTIcG6zZBDKUXCnM&amp;amp;feature=shared&#34;&gt;https://youtube.com/playlist?list=PLZ2ps__7DhBZVxMrSkTIcG6zZBDKUXCnM&amp;amp;feature=shared&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Advance level : Andrej Karpathy&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&amp;amp;feature=shared&#34;&gt;https://youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&amp;amp;feature=shared&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;For extra knowledge : &amp;ldquo;CS 50 : intro to AI &amp;quot;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtube.com/playlist?list=PLhQjrBD2T381PopUTYtMSstgk-hsTGkVm&amp;amp;feature=shared&#34;&gt;https://youtube.com/playlist?list=PLhQjrBD2T381PopUTYtMSstgk-hsTGkVm&amp;amp;feature=shared&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;NPTEL course ML DL for Sci. &amp;amp; Eng. : good for whole revision&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtube.com/playlist?list=PLyqSpQzTE6M-SISTunGRBRiZk7opYBf_K&amp;amp;feature=shared&#34;&gt;https://youtube.com/playlist?list=PLyqSpQzTE6M-SISTunGRBRiZk7opYBf_K&amp;amp;feature=shared&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;For working knowledge just study point 1 (all 4 videos), point 2 (video 1 to 17), point 3 (all videos), point 4 (fundamentals). Others are for advance knowledge. Do Mitesh Khapra playlist before entering B.Sc. level&lt;/p&gt;
+&lt;h2 id=&#34;jeremy-howards-courses-&#34;&gt;Jeremy Howards Courses :&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Blog / main site
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.fast.ai&#34;&gt;https://www.fast.ai&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Practical Deep Learning for Coders
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://course.fast.ai&#34;&gt;https://course.fast.ai&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://course17.fast.ai/index.html&#34;&gt;https://course17.fast.ai/index.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Intro to Machine Learning for Coders
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://course18.fast.ai/ml.html&#34;&gt;https://course18.fast.ai/ml.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;First Intro to Natural Language Processing
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLtmWHNX-gukKocXQOkQjuVxglSDYWsSh9&#34;&gt;https://www.youtube.com/playlist?list=PLtmWHNX-gukKocXQOkQjuVxglSDYWsSh9&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;others&#34;&gt;Others&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;If you are interested in NLP, which is a very important topic then you must check playlist by Prof. Christopher Manning.&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <author></author>
+      <guid>https://amit-node.github.io/posts/resources-to-study-deep-learning/</guid>
+      <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
@@ -664,120 +778,6 @@ Other videos you can watch if you want but not necessary.&lt;/li&gt;
       <author></author>
       <guid>https://amit-node.github.io/posts/mad-1-project-resources/</guid>
       <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
-    </item>
-    
-    <item>
-      <title>Resources to study Deep Learning</title>
-      <link>https://amit-node.github.io/posts/resources-to-study-deep-learning/</link>
-      <description>&lt;p&gt;Here are some free resources which will help you to study deep learning.&lt;br&gt;
-This is a tentative plan.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Pre requisite&lt;/strong&gt; : Basic Linear Algebra, Basic Python&lt;/p&gt;
-&lt;p&gt;NOTE : MUST WATCH THESE VIDEOS IN SEQUENCE&lt;/p&gt;
-&lt;ol start=&#34;0&#34;&gt;
-&lt;li&gt;
-&lt;p&gt;If you are new to DL and Gen AI and want to start working ASAP then watch this playlist. It covers most of the topics but not in detail. Good hands on experience.
-You can find playlist here : &lt;a href=&#34;&#34;&gt;link of YT playlist&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Neural Network / Perceptron&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://youtu.be/i1AqHG4k8mE?feature=shared&#34;&gt;https://youtu.be/i1AqHG4k8mE?feature=shared&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://youtu.be/-KLnurhX-Pg?feature=shared&#34;&gt;https://youtu.be/-KLnurhX-Pg?feature=shared&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://youtu.be/EJRFP3WmS6Q?feature=shared&#34;&gt;https://youtu.be/EJRFP3WmS6Q?feature=shared&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://youtu.be/KKSCmPUyczU?feature=shared&#34;&gt;https://youtu.be/KKSCmPUyczU?feature=shared&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;PyTorch  ( Lecture 1 to 17, remaining lectures do later.)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://youtube.com/playlist?list=PLqnslRFeH2UrcDBWF5mfPGpqQDSta6VK4&amp;amp;feature=shared&#34;&gt;https://youtube.com/playlist?list=PLqnslRFeH2UrcDBWF5mfPGpqQDSta6VK4&amp;amp;feature=shared&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;DL theory : Andrew NG&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://youtube.com/playlist?list=PLkDaE6sCZn6Gl29AoE31iwdVwSG-KnDzF&amp;amp;feature=shared&#34;&gt;https://youtube.com/playlist?list=PLkDaE6sCZn6Gl29AoE31iwdVwSG-KnDzF&amp;amp;feature=shared&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;DL practical : Fast.ai&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Fundamental :&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://youtube.com/playlist?list=PLfYUBJiXbdtSvpQjSnJJ_PmDQB_VyT5iU&amp;amp;feature=shared&#34;&gt;https://youtube.com/playlist?list=PLfYUBJiXbdtSvpQjSnJJ_PmDQB_VyT5iU&amp;amp;feature=shared&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Advance : (do it or not, up to you)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://youtube.com/playlist?list=PLfYUBJiXbdtRUvTUYpLdfHHp9a58nWVXP&amp;amp;feature=shared&#34;&gt;https://youtube.com/playlist?list=PLfYUBJiXbdtRUvTUYpLdfHHp9a58nWVXP&amp;amp;feature=shared&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;More detailed stuff : Mitesh Khapra. BSc level lectures.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://youtube.com/playlist?list=PLZ2ps__7DhBZVxMrSkTIcG6zZBDKUXCnM&amp;amp;feature=shared&#34;&gt;https://youtube.com/playlist?list=PLZ2ps__7DhBZVxMrSkTIcG6zZBDKUXCnM&amp;amp;feature=shared&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Advance level : Andrej Karpathy&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&amp;amp;feature=shared&#34;&gt;https://youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&amp;amp;feature=shared&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;For extra knowledge : &amp;ldquo;CS 50 : intro to AI &amp;quot;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://youtube.com/playlist?list=PLhQjrBD2T381PopUTYtMSstgk-hsTGkVm&amp;amp;feature=shared&#34;&gt;https://youtube.com/playlist?list=PLhQjrBD2T381PopUTYtMSstgk-hsTGkVm&amp;amp;feature=shared&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;NPTEL course ML DL for Sci. &amp;amp; Eng. : good for whole revision&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://youtube.com/playlist?list=PLyqSpQzTE6M-SISTunGRBRiZk7opYBf_K&amp;amp;feature=shared&#34;&gt;https://youtube.com/playlist?list=PLyqSpQzTE6M-SISTunGRBRiZk7opYBf_K&amp;amp;feature=shared&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;For working knowledge just study point 1 (all 4 videos), point 2 (video 1 to 17), point 3 (all videos), point 4 (fundamentals). Others are for advance knowledge. Do Mitesh Khapra playlist before entering B.Sc. level&lt;/p&gt;
-&lt;h2 id=&#34;jeremy-howards-courses-&#34;&gt;Jeremy Howards Courses :&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Blog / main site
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.fast.ai&#34;&gt;https://www.fast.ai&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Practical Deep Learning for Coders
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://course.fast.ai&#34;&gt;https://course.fast.ai&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://course17.fast.ai/index.html&#34;&gt;https://course17.fast.ai/index.html&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Intro to Machine Learning for Coders
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://course18.fast.ai/ml.html&#34;&gt;https://course18.fast.ai/ml.html&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;First Intro to Natural Language Processing
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLtmWHNX-gukKocXQOkQjuVxglSDYWsSh9&#34;&gt;https://www.youtube.com/playlist?list=PLtmWHNX-gukKocXQOkQjuVxglSDYWsSh9&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;others&#34;&gt;Others&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;If you are interested in NLP, which is a very important topic then you must check playlist by Prof. Christopher Manning.&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-      <author></author>
-      <guid>https://amit-node.github.io/posts/resources-to-study-deep-learning/</guid>
-      <pubDate>Fri, 27 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     
     <item>

@@ -1,6 +1,6 @@
 ---
 title: Resources to study Deep Learning
-date: 2024-12-27
+date: 2025-09-30
 tags:
   - AI_DL
 ---
@@ -13,7 +13,7 @@ This is a tentative plan.
 NOTE : MUST WATCH THESE VIDEOS IN SEQUENCE  
   
 0. If you are new to DL and Gen AI and want to start working ASAP then watch this playlist. It covers most of the topics but not in detail. Good hands on experience.
-	You can find playlist here : [link of YT playlist]()
+	You can find playlist here : [link of YT playlist](https://youtube.com/playlist?list=PLZ2ps__7DhBa9hqi20allqocTSUUt3nWX&feature=shared)
 
 1. Neural Network / Perceptron
 	- https://youtu.be/i1AqHG4k8mE?feature=shared

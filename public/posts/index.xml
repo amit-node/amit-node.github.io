@@ -6,14 +6,21 @@
     <description>Recent content in Posts on amit-node</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 27 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://amit-node.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Intro to DL and Gen AI</title>
       <link>https://amit-node.github.io/posts/intro-to-dl-and-gen-ai/</link>
-      <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
       <guid>https://amit-node.github.io/posts/intro-to-dl-and-gen-ai/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;These are my class notes during online lectures.&#xA;You can find playlist here : &lt;a href=&#34;&#34;&gt;link of YT playlist&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;These are my class notes during online lectures.&#xA;You can find playlist here : &lt;a href=&#34;https://youtube.com/playlist?list=PLZ2ps__7DhBa9hqi20allqocTSUUt3nWX&amp;amp;feature=shared&#34;&gt;link of YT playlist&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>Resources to study Deep Learning</title>
+      <link>https://amit-node.github.io/posts/resources-to-study-deep-learning/</link>
+      <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://amit-node.github.io/posts/resources-to-study-deep-learning/</guid>
+      <description>&lt;p&gt;Here are some free resources which will help you to study deep learning.&lt;br&gt;&#xA;This is a tentative plan.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Pre requisite&lt;/strong&gt; : Basic Linear Algebra, Basic Python&lt;/p&gt;&#xA;&lt;p&gt;NOTE : MUST WATCH THESE VIDEOS IN SEQUENCE&lt;/p&gt;&#xA;&lt;ol start=&#34;0&#34;&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;If you are new to DL and Gen AI and want to start working ASAP then watch this playlist. It covers most of the topics but not in detail. Good hands on experience.&#xA;You can find playlist here : &lt;a href=&#34;https://youtube.com/playlist?list=PLZ2ps__7DhBa9hqi20allqocTSUUt3nWX&amp;amp;feature=shared&#34;&gt;link of YT playlist&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Marcus Aurelius Meditations by Prof. Michael Sugrue</title>
@@ -63,13 +70,6 @@
       <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://amit-node.github.io/posts/mad-1-project-resources/</guid>
       <description>&lt;p&gt;Making MAD-1 project is not so easy when you are totally new to HTML, CSS and Flask. Here are some resources which will help to build your project. These resources are not some &amp;ldquo;ready made tutorials&amp;rdquo;. They are really good for learning perspective too.  Don&amp;rsquo;t just watch them, code with them.&lt;/p&gt;&#xA;&lt;p&gt;Kindly follow all resources in sequence.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Note :&lt;/strong&gt; Some of these resources are in Hindi. But on YouTube you can find respective resources in English too.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Resources to study Deep Learning</title>
-      <link>https://amit-node.github.io/posts/resources-to-study-deep-learning/</link>
-      <pubDate>Fri, 27 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://amit-node.github.io/posts/resources-to-study-deep-learning/</guid>
-      <description>&lt;p&gt;Here are some free resources which will help you to study deep learning.&lt;br&gt;&#xA;This is a tentative plan.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Pre requisite&lt;/strong&gt; : Basic Linear Algebra, Basic Python&lt;/p&gt;&#xA;&lt;p&gt;NOTE : MUST WATCH THESE VIDEOS IN SEQUENCE&lt;/p&gt;&#xA;&lt;ol start=&#34;0&#34;&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;If you are new to DL and Gen AI and want to start working ASAP then watch this playlist. It covers most of the topics but not in detail. Good hands on experience.&#xA;You can find playlist here : &lt;a href=&#34;&#34;&gt;link of YT playlist&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Family tree of Changej, Taimur and Babur</title>
