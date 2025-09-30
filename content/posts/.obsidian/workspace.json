@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c303114420208a1c",
+        "id": "78c6dd156b45c642",
         "type": "tabs",
         "children": [
           {
-            "id": "23b703d3179edd6b",
+            "id": "fa6b3cf1675a4a06",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "809a62317f551450",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Intro to DL and Gen AI.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 309.5124969482422
+    "width": 309.5124969482422,
+    "collapsed": true
   },
   "right": {
     "id": "49367bf398634fb1",
@@ -98,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Intro to DL and Gen AI.md",
+                "file": "Marcus Aurelius Meditations by Prof. Michael Sugrue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Intro to DL and Gen AI.md",
+                "file": "Marcus Aurelius Meditations by Prof. Michael Sugrue.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Intro to DL and Gen AI.md"
+                "file": "Marcus Aurelius Meditations by Prof. Michael Sugrue.md"
               }
             }
           }
@@ -160,15 +148,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "809a62317f551450",
+  "active": "fa6b3cf1675a4a06",
   "lastOpenFiles": [
-    "Resources to study Deep Learning.md",
+    "Marcus Aurelius Meditations by Prof. Michael Sugrue.md",
     "Intro to DL and Gen AI.md",
+    "Resources to study Deep Learning.md",
     "Deep Learning Mitesh Khapra Sir playlist.md",
     "Raptor RAG theory.md",
     "Bash commands.md",
     "Some really good pieces.md",
-    "Marcus Aurelius Meditations by Prof. Michael Sugrue.md",
     "demo.md",
     "MAD-1 project resources.md",
     "pc commands and short cuts.md",
