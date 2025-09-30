@@ -672,10 +672,12 @@ Other videos you can watch if you want but not necessary.&lt;/li&gt;
       <description>&lt;p&gt;Here are some free resources which will help you to study deep learning.&lt;br&gt;
 This is a tentative plan.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Pre requisite&lt;/strong&gt; : Basic Linear Algebra, Basic Python&lt;/p&gt;
-&lt;p&gt;NOTE : MUST WATCH THESE VIDEOS IN SEQUENCE
-0. If you are new to DL and Gen AI and want to start working ASAP then watch this playlist. It covers most of the topics but not in detail. Good hands on experience.
+&lt;p&gt;NOTE : MUST WATCH THESE VIDEOS IN SEQUENCE&lt;/p&gt;
+&lt;ol start=&#34;0&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;If you are new to DL and Gen AI and want to start working ASAP then watch this playlist. It covers most of the topics but not in detail. Good hands on experience.
 You can find playlist here : &lt;a href=&#34;&#34;&gt;link of YT playlist&lt;/a&gt;&lt;/p&gt;
-&lt;ol&gt;
+&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Neural Network / Perceptron&lt;/p&gt;
 &lt;ul&gt;

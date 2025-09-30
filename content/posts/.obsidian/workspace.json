@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deep Learning Mitesh Khapra Sir playlist.md",
+                "file": "Resources to study Deep Learning.md",
                 "mode": "source",
                 "source": false
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Deep Learning Mitesh Khapra Sir playlist.md",
+                "file": "Resources to study Deep Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Deep Learning Mitesh Khapra Sir playlist.md",
+                "file": "Resources to study Deep Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deep Learning Mitesh Khapra Sir playlist.md"
+                "file": "Resources to study Deep Learning.md"
               }
             }
           }
@@ -187,9 +187,9 @@
   },
   "active": "809a62317f551450",
   "lastOpenFiles": [
+    "Deep Learning Mitesh Khapra Sir playlist.md",
     "Resources to study Deep Learning.md",
     "Intro to DL and Gen AI.md",
-    "Deep Learning Mitesh Khapra Sir playlist.md",
     "Raptor RAG theory.md",
     "Bash commands.md",
     "Some really good pieces.md",

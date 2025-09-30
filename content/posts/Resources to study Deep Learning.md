@@ -10,7 +10,8 @@ This is a tentative plan.
 
 **Pre requisite** : Basic Linear Algebra, Basic Python
 	
-NOTE : MUST WATCH THESE VIDEOS IN SEQUENCE
+NOTE : MUST WATCH THESE VIDEOS IN SEQUENCE  
+  
 0. If you are new to DL and Gen AI and want to start working ASAP then watch this playlist. It covers most of the topics but not in detail. Good hands on experience.
 	You can find playlist here : [link of YT playlist]()
 
