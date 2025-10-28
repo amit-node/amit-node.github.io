@@ -7,19 +7,237 @@
     
     <language>en</language>
     <copyright>Copyright 2025, Calvin Tran</copyright>
-    <lastBuildDate>Tue, 30 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Oct 2025 00:00:00 +0000</lastBuildDate>
     <generator>Hugo - gohugo.io</generator>
     <docs>http://cyber.harvard.edu/rss/rss.html</docs>
     <atom:link href="https://amit-node.github.io//atom.xml" rel="self" type="application/atom+xml"/>
     
     
     <item>
+      <title>Python Turtle</title>
+      <link>https://amit-node.github.io/posts/python-turtle/</link>
+      <description>&lt;p&gt;Turtle is a python library which used in making graphics (line art and drawings).&lt;br&gt;
+Official documentation about turtle. &lt;a href=&#34;https://docs.python.org/3/library/turtle.html&#34;&gt;link&lt;/a&gt;&lt;br&gt;
+w3school tutorial &lt;a href=&#34;https://www.w3schools.com/python/ref_module_turtle.asp&#34;&gt;link&lt;/a&gt;. GeeksforGeeks is better &lt;a href=&#34;https://www.geeksforgeeks.org/python/turtle-programming-python&#34;&gt;link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I am using turtle in thonny. Simple and easy. Thonny is a very light weight Python IDE for beginners, it&amp;rsquo;s free, easy to use and very light and fast. &lt;a href=&#34;https://thonny.org&#34;&gt;More about Thonny&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; turtle &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;speed(&lt;span style=&#34;color:#ae81ff&#34;&gt;10&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;forward(&lt;span style=&#34;color:#ae81ff&#34;&gt;100&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;right(&lt;span style=&#34;color:#ae81ff&#34;&gt;90&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;forward(&lt;span style=&#34;color:#ae81ff&#34;&gt;100&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;left(&lt;span style=&#34;color:#ae81ff&#34;&gt;45&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;back(&lt;span style=&#34;color:#ae81ff&#34;&gt;50&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;turtle&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;done()
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;square&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; turtle &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; range(&lt;span style=&#34;color:#ae81ff&#34;&gt;4&lt;/span&gt;):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    forward(&lt;span style=&#34;color:#ae81ff&#34;&gt;100&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    right(&lt;span style=&#34;color:#ae81ff&#34;&gt;90&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;turtle&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;done()
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;think&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; turtle &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; range(&lt;span style=&#34;color:#ae81ff&#34;&gt;10&lt;/span&gt;):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    forward(&lt;span style=&#34;color:#ae81ff&#34;&gt;100&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    right(&lt;span style=&#34;color:#ae81ff&#34;&gt;60&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;turtle&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;done()
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;think more&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; turtle &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;speed(&lt;span style=&#34;color:#ae81ff&#34;&gt;10&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; range(&lt;span style=&#34;color:#ae81ff&#34;&gt;100&lt;/span&gt;):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    forward(&lt;span style=&#34;color:#ae81ff&#34;&gt;200&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    right(&lt;span style=&#34;color:#ae81ff&#34;&gt;137.5&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;turtle&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;done()
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;playing with Golden angle&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; turtle
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;t1 &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; turtle&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;Turtle()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;t1&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;speed(&lt;span style=&#34;color:#ae81ff&#34;&gt;10&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; range(&lt;span style=&#34;color:#ae81ff&#34;&gt;500&lt;/span&gt;):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    t1&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;forward(&lt;span style=&#34;color:#ae81ff&#34;&gt;200&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    t1&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;right(&lt;span style=&#34;color:#ae81ff&#34;&gt;137.5&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;t2 &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; turtle&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;Turtle()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;t2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;setposition(&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;200&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;200&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;t2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;color(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;blue&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;t2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;speed(&lt;span style=&#34;color:#ae81ff&#34;&gt;10&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; range(&lt;span style=&#34;color:#ae81ff&#34;&gt;500&lt;/span&gt;):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    t2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;forward(&lt;span style=&#34;color:#ae81ff&#34;&gt;200&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    t2&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;right(&lt;span style=&#34;color:#ae81ff&#34;&gt;137&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;turtle&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;done()
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;just change angle&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; turtle &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;speed(&lt;span style=&#34;color:#ae81ff&#34;&gt;10&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;angle &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;100&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; range(&lt;span style=&#34;color:#ae81ff&#34;&gt;10&lt;/span&gt;):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    forward(&lt;span style=&#34;color:#ae81ff&#34;&gt;100&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    right(angle)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    forward(&lt;span style=&#34;color:#ae81ff&#34;&gt;100&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    right(angle)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    forward(&lt;span style=&#34;color:#ae81ff&#34;&gt;50&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    right(angle)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    forward(&lt;span style=&#34;color:#ae81ff&#34;&gt;50&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    right(angle)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    forward(&lt;span style=&#34;color:#ae81ff&#34;&gt;100&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    right(angle)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    forward(&lt;span style=&#34;color:#ae81ff&#34;&gt;25&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    right(angle)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    forward(&lt;span style=&#34;color:#ae81ff&#34;&gt;25&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    right(angle)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;done()
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; turtle &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;speed(&lt;span style=&#34;color:#ae81ff&#34;&gt;10&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;circle(&lt;span style=&#34;color:#ae81ff&#34;&gt;100&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;circle(&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;50&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;done()
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; turtle &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;speed(&lt;span style=&#34;color:#ae81ff&#34;&gt;10&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;circle(&lt;span style=&#34;color:#ae81ff&#34;&gt;100&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;180&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;circle(&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;50&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;done()
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; turtle &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;speed(&lt;span style=&#34;color:#ae81ff&#34;&gt;10&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; range(&lt;span style=&#34;color:#ae81ff&#34;&gt;10&lt;/span&gt;):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    circle(&lt;span style=&#34;color:#ae81ff&#34;&gt;50&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;120&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    left(&lt;span style=&#34;color:#ae81ff&#34;&gt;105&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;done()
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;p&gt;something really beautiful. Though I haven&amp;rsquo;t understood it yet.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; turtle
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;radius &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;100&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;angular_speed &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;window &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; turtle&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;Screen()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;window&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;tracer(&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;window&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;bgcolor(&lt;span style=&#34;color:#ae81ff&#34;&gt;50&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;255&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;50&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;255&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;50&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;255&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;main_dot &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; turtle&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;Turtle()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;main_dot&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;pensize(&lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;main_dot&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;shape(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;circle&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;main_dot&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;color(&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;160&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;255&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;193&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;255&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;main_dot&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;penup()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;main_dot&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;setposition(&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;, &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;radius)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;main_dot&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;pendown()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;vertical_dot &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; turtle&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;Turtle()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;vertical_dot&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;shape(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;circle&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;vertical_dot&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;color(&lt;span style=&#34;color:#ae81ff&#34;&gt;248&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;255&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;237&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;255&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;49&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;255&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;vertical_dot&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;penup()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;vertical_dot&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;setposition(
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    main_dot&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;xcor() &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt; radius,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    main_dot&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;ycor(),
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;vertical_plot &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; vertical_dot&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;clone()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;vertical_plot&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;hideturtle()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;start_x &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; int(vertical_plot&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;xcor())
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Get range of x-values from position of dot to edge of screen&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;x_range &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; range(start_x, window&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;window_width() &lt;span style=&#34;color:#f92672&#34;&gt;//&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Create a list to store the y-values to draw at each&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# point in x_range.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;vertical_values &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; [&lt;span style=&#34;color:#66d9ef&#34;&gt;None&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; _ &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; x_range]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# You can populate the first item in this list&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# with the dot&amp;#39;s starting height&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;vertical_values[&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;] &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; vertical_plot&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;ycor()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;horizontal_dot &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; turtle&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;Turtle()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;horizontal_dot&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;shape(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;circle&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;horizontal_dot&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;color(&lt;span style=&#34;color:#ae81ff&#34;&gt;242&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;255&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;114&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;255&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;124&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;255&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;horizontal_dot&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;penup()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;horizontal_dot&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;setposition(
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    main_dot&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;xcor(),
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    main_dot&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;ycor() &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; radius,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;while&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;True&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    main_dot&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;circle(radius, angular_speed)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    vertical_dot&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;sety(main_dot&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;ycor())
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    vertical_plot&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;clear()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;# Shift all values one place to the right&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    vertical_values[&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;:] &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; vertical_values[
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        : len(vertical_values) &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    ]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;# Record the current y-value as the first item&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;# in the list&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    vertical_values[&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;] &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; vertical_dot&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;ycor()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;# Plot all the y-values&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; x, y &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; zip(x_range, vertical_values):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; y &lt;span style=&#34;color:#f92672&#34;&gt;is&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;not&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;None&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            vertical_plot&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;setposition(x, y)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            vertical_plot&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;dot(&lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    horizontal_dot&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;setx(main_dot&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;xcor())
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    window&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;update()
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;source : &lt;a href=&#34;https://thepythoncodingbook.com/2022/05/08/do-you-really-know-what-sines-and-cosines-are-visualising-maths-using-python-and-turtle&#34;&gt;python coding book&lt;/a&gt;&lt;/p&gt;
+</description>
+      <author></author>
+      <guid>https://amit-node.github.io/posts/python-turtle/</guid>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    
+    <item>
       <title>Intro to DL and Gen AI</title>
       <link>https://amit-node.github.io/posts/intro-to-dl-and-gen-ai/</link>
       <description>&lt;blockquote&gt;
-&lt;p&gt;These are my class notes during online lectures.
-You can find playlist here : &lt;a href=&#34;https://youtube.com/playlist?list=PLZ2ps__7DhBa9hqi20allqocTSUUt3nWX&amp;amp;feature=shared&#34;&gt;link of YT playlist&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;IITM BS degree, Intro to DL and Gen AI (&lt;a href=&#34;https://youtube.com/playlist?list=PLZ2ps__7DhBa9hqi20allqocTSUUt3nWX&amp;amp;feature=shared&#34;&gt;link of YT playlist&lt;/a&gt;)&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;h3 id=&#34;index-&#34;&gt;Index :&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;#week1&#34;&gt;Week 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#week2&#34;&gt;Week 2&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;week1&#34;&gt;Week 1&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Overview : Lectures 1, 17, 18, 19, 20, 21 are about theory. And lectures 2-16 are about tensors and pytorch.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Arthur Samuel (1959) gave definition of Machine learning, &amp;ldquo;Machine Learning is the field of study that gives computers the ability to learn without being
+explicitly programmed.&amp;rdquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Data input -&amp;gt; ML model parameters -&amp;gt; Predict output -&amp;gt; feedback loop to ML model to update parameters&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Common ML Applications :&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Housing price Prediction&lt;/li&gt;
+&lt;li&gt;Self driving cars (lane following)&lt;/li&gt;
+&lt;li&gt;Message sentiment analysis / spam detection&lt;/li&gt;
+&lt;li&gt;Recommendation engine&lt;/li&gt;
+&lt;li&gt;Image recognition&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Machine Learning Key Concepts :&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The Data : Structured Data : features and targets&lt;/li&gt;
+&lt;li&gt;Method : Manual Feature Engineering
+1.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;week2&#34;&gt;Week 2&lt;/h1&gt;
 </description>
       <author></author>
       <guid>https://amit-node.github.io/posts/intro-to-dl-and-gen-ai/</guid>
