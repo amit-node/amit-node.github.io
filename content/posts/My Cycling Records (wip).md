@@ -2,7 +2,7 @@
 
 ---
 title: "My Cycling Records (wip)"
-date: "2025-03-22"
+date: "2026-01-01"
 tags: 
 - Cycling
 ---
@@ -18,6 +18,11 @@ tags:
 - Taramani to Kovalam and return
 - 53.3 km in 2 hr 45 min. (moving time 2 hr 33 min)
 - Avg speed 19.4 kmph, moving avg 20.8 kmph.
+
+**1 Jan 2026 :**
+- Taramani to Pulicat Lagoon and return
+- 133 km in 9 hr 01 minute. (moving time 7 hr 03 minutes)
+- Avg speed 14.7 km/h, moving average was 18.8 km/hr.
 
 
 
