@@ -4,49 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "9c7e575b56871887",
+        "id": "194356f84cab898f",
         "type": "tabs",
         "children": [
           {
-            "id": "320628200063c763",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Intro to DL and Gen AI.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "75dd574d8db509a0",
+            "id": "24a61ed43a84fa2b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Some really good pieces.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2f6ceaa33248d083",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "My Cycling Records (wip).md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -112,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My Cycling Records (wip).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "My Cycling Records (wip).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "My Cycling Records (wip).md"
-              }
+              "state": {}
             }
           }
         ],
@@ -174,22 +139,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2f6ceaa33248d083",
+  "active": "24a61ed43a84fa2b",
   "lastOpenFiles": [
-    "Family tree of Changej, Taimur and Babur.md",
+    "Intro to DL and Gen AI.md",
+    "Some really good pieces.md",
     "My Cycling Records (wip).md",
+    "Family tree of Changej, Taimur and Babur.md",
     "Python Turtle.md",
     "Site on Pelican and Netily.md",
     "Why I Ride a Bicycle.md",
     "pc commands and short cuts.md",
     "MAD-1 project resources.md",
-    "Some really good pieces.md",
     "Bash commands.md",
     "Raptor RAG theory.md",
     "Deep Learning Mitesh Khapra Sir playlist.md",
     "Resources to study Deep Learning.md",
     "Marcus Aurelius Meditations by Prof. Michael Sugrue.md",
-    "Intro to DL and Gen AI.md",
     "demo.md",
     "Java self study - Theory.md",
     "Java self study - Coding.md",
