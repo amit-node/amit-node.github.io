@@ -11,8 +11,12 @@
             "id": "24a61ed43a84fa2b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "My Cycling Records (wip).md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "My Cycling Records (wip).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "My Cycling Records (wip).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "My Cycling Records (wip).md"
+              }
             }
           }
         ],
@@ -142,19 +150,19 @@
   "active": "24a61ed43a84fa2b",
   "lastOpenFiles": [
     "Intro to DL and Gen AI.md",
+    "Marcus Aurelius Meditations by Prof. Michael Sugrue.md",
+    "Resources to study Deep Learning.md",
+    "Deep Learning Mitesh Khapra Sir playlist.md",
+    "Raptor RAG theory.md",
+    "Bash commands.md",
     "Some really good pieces.md",
-    "My Cycling Records (wip).md",
+    "MAD-1 project resources.md",
+    "pc commands and short cuts.md",
+    "Why I Ride a Bicycle.md",
+    "Site on Pelican and Netily.md",
     "Family tree of Changej, Taimur and Babur.md",
     "Python Turtle.md",
-    "Site on Pelican and Netily.md",
-    "Why I Ride a Bicycle.md",
-    "pc commands and short cuts.md",
-    "MAD-1 project resources.md",
-    "Bash commands.md",
-    "Raptor RAG theory.md",
-    "Deep Learning Mitesh Khapra Sir playlist.md",
-    "Resources to study Deep Learning.md",
-    "Marcus Aurelius Meditations by Prof. Michael Sugrue.md",
+    "My Cycling Records (wip).md",
     "demo.md",
     "Java self study - Theory.md",
     "Java self study - Coding.md",
