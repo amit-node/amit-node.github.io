@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bs_degree on amit-node</title>
-    <link>https://amit-node.github.io/tags/bs_degree/</link>
+    <link>http://localhost:1313/tags/bs_degree/</link>
     <description>Recent content in Bs_degree on amit-node</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 30 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://amit-node.github.io/tags/bs_degree/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/bs_degree/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Intro to DL and Gen AI</title>
-      <link>https://amit-node.github.io/posts/intro-to-dl-and-gen-ai/</link>
+      <link>http://localhost:1313/posts/intro-to-dl-and-gen-ai/</link>
       <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://amit-node.github.io/posts/intro-to-dl-and-gen-ai/</guid>
+      <guid>http://localhost:1313/posts/intro-to-dl-and-gen-ai/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;IITM BS degree, Intro to DL and Gen AI (&lt;a href=&#34;https://youtube.com/playlist?list=PLZ2ps__7DhBa9hqi20allqocTSUUt3nWX&amp;amp;feature=shared&#34;&gt;link of YT playlist&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;index-&#34;&gt;Index :&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#week1&#34;&gt;Week 1&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#week2&#34;&gt;Week 2&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h1 id=&#34;week1&#34;&gt;Week 1&lt;/h1&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Overview : Lectures 1, 17, 18, 19, 20, 21 are about theory. And lectures 2-16 are about tensors and pytorch.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Arthur Samuel (1959) gave definition of Machine learning, &amp;ldquo;Machine Learning is the field of study that gives computers the ability to learn without being&#xA;explicitly programmed.&amp;rdquo;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Data input -&amp;gt; ML model parameters -&amp;gt; Predict output -&amp;gt; feedback loop to ML model to update parameters&lt;/p&gt;</description>
     </item>
     <item>
       <title>MAD-1 Project Resources</title>
-      <link>https://amit-node.github.io/posts/mad-1-project-resources/</link>
+      <link>http://localhost:1313/posts/mad-1-project-resources/</link>
       <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://amit-node.github.io/posts/mad-1-project-resources/</guid>
+      <guid>http://localhost:1313/posts/mad-1-project-resources/</guid>
       <description>&lt;p&gt;Making MAD-1 project is not so easy when you are totally new to HTML, CSS and Flask. Here are some resources which will help to build your project. These resources are not some &amp;ldquo;ready made tutorials&amp;rdquo;. They are really good for learning perspective too.  Don&amp;rsquo;t just watch them, code with them.&lt;/p&gt;&#xA;&lt;p&gt;Kindly follow all resources in sequence.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Note :&lt;/strong&gt; Some of these resources are in Hindi. But on YouTube you can find respective resources in English too.&lt;/p&gt;</description>
     </item>
   </channel>

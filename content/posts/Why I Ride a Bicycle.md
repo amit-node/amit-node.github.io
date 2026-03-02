@@ -31,3 +31,4 @@ Sometimes, you hear a strange bird call and stop to find its source. Sometimes, 
 When you’re away from the city, you feel like part of nature. When you’re in the city, you become part of its culture. You are a silent observer, absorbing everything around you, riding forward, toward your destination.
 
 ###### Cont...
+part 2 : Strength (work in progress)

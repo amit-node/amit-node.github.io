@@ -3,21 +3,21 @@
     
     <title>amit-node</title>
     <description></description>
-    <link>https://amit-node.github.io/</link>
+    <link>http://localhost:1313/</link>
     
     <language>en</language>
     <copyright>Copyright 2026, Calvin Tran</copyright>
     <lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate>
     <generator>Hugo - gohugo.io</generator>
     <docs>http://cyber.harvard.edu/rss/rss.html</docs>
-    <atom:link href="https://amit-node.github.io//atom.xml" rel="self" type="application/atom+xml"/>
+    <atom:link href="http://localhost:1313//atom.xml" rel="self" type="application/atom+xml"/>
     
     
     <item>
       <title>My Cycling Records (wip)</title>
-      <link>https://amit-node.github.io/posts/my-cycling-records-wip/</link>
+      <link>http://localhost:1313/posts/my-cycling-records-wip/</link>
       <description>&lt;p&gt;&lt;img
-  src=&#34;https://amit-node.github.io/mahabalipuram_cycling.jpg&#34;
+  src=&#34;http://localhost:1313/mahabalipuram_cycling.jpg&#34;
   alt=&#34;mahabalipuram on cycle&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -46,13 +46,13 @@
 &lt;p&gt;&lt;a href=&#34;https://docs.google.com/spreadsheets/d/e/2PACX-1vTpi5DTHYDyi_PXObIO_AzVpLvHDRJbTlLpYSRy2jJV3tbA4AXbq17k6wWIEPrgDkbOI4hGj2-sCsFL/pubchart?oid=772623022&amp;amp;format=interactive&#34;&gt;Comparison Chart&lt;/a&gt;&lt;/p&gt;
 </description>
       <author></author>
-      <guid>https://amit-node.github.io/posts/my-cycling-records-wip/</guid>
+      <guid>http://localhost:1313/posts/my-cycling-records-wip/</guid>
       <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>Python Turtle</title>
-      <link>https://amit-node.github.io/posts/python-turtle/</link>
+      <link>http://localhost:1313/posts/python-turtle/</link>
       <description>&lt;p&gt;Turtle is a python library which used in making graphics (line art and drawings).&lt;br&gt;
 Official documentation about turtle. &lt;a href=&#34;https://docs.python.org/3/library/turtle.html&#34;&gt;link&lt;/a&gt;&lt;br&gt;
 w3school tutorial &lt;a href=&#34;https://www.w3schools.com/python/ref_module_turtle.asp&#34;&gt;link&lt;/a&gt;. GeeksforGeeks is better &lt;a href=&#34;https://www.geeksforgeeks.org/python/turtle-programming-python&#34;&gt;link&lt;/a&gt;&lt;/p&gt;
@@ -231,13 +231,13 @@ w3school tutorial &lt;a href=&#34;https://www.w3schools.com/python/ref_module_tu
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;source : &lt;a href=&#34;https://thepythoncodingbook.com/2022/05/08/do-you-really-know-what-sines-and-cosines-are-visualising-maths-using-python-and-turtle&#34;&gt;python coding book&lt;/a&gt;&lt;/p&gt;
 </description>
       <author></author>
-      <guid>https://amit-node.github.io/posts/python-turtle/</guid>
+      <guid>http://localhost:1313/posts/python-turtle/</guid>
       <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>Intro to DL and Gen AI</title>
-      <link>https://amit-node.github.io/posts/intro-to-dl-and-gen-ai/</link>
+      <link>http://localhost:1313/posts/intro-to-dl-and-gen-ai/</link>
       <description>&lt;blockquote&gt;
 &lt;p&gt;IITM BS degree, Intro to DL and Gen AI (&lt;a href=&#34;https://youtube.com/playlist?list=PLZ2ps__7DhBa9hqi20allqocTSUUt3nWX&amp;amp;feature=shared&#34;&gt;link of YT playlist&lt;/a&gt;)&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -277,13 +277,13 @@ explicitly programmed.&amp;rdquo;&lt;/p&gt;
 &lt;h1 id=&#34;week2&#34;&gt;Week 2&lt;/h1&gt;
 </description>
       <author></author>
-      <guid>https://amit-node.github.io/posts/intro-to-dl-and-gen-ai/</guid>
+      <guid>http://localhost:1313/posts/intro-to-dl-and-gen-ai/</guid>
       <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>Marcus Aurelius Meditations by Prof. Michael Sugrue</title>
-      <link>https://amit-node.github.io/posts/marcus-aurelius-meditations-by-prof.-michael-sugrue/</link>
+      <link>http://localhost:1313/posts/marcus-aurelius-meditations-by-prof.-michael-sugrue/</link>
       <description>&lt;p&gt;A very engaging and thought provoking lecture on Stoicism and about &lt;a href=&#34;https://en.wikipedia.org/wiki/Marcus_Aurelius&#34;&gt;Marcus Aurelius&lt;/a&gt; by Prof. &lt;a href=&#34;https://en.wikipedia.org/wiki/Michael_Sugrue&#34;&gt;Michael Sugrue&lt;/a&gt; (Ph.D., Princeton University).&lt;br&gt;
 You can watch it on YouTube, where it is freely available. Here is &lt;a href=&#34;https://www.youtube.com/watch/Auuk1y4DRgk&#34;&gt;video link&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;These are my notes on his lecture. More like an edited transcript with my comments.&lt;/p&gt;
@@ -364,13 +364,13 @@ Either the world is atoms in the void, nothing to worry about. If the gods are t
 &lt;p&gt;This quote was in the YouTube description of this video&lt;/p&gt;
 </description>
       <author></author>
-      <guid>https://amit-node.github.io/posts/marcus-aurelius-meditations-by-prof.-michael-sugrue/</guid>
+      <guid>http://localhost:1313/posts/marcus-aurelius-meditations-by-prof.-michael-sugrue/</guid>
       <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>Resources to study Deep Learning</title>
-      <link>https://amit-node.github.io/posts/resources-to-study-deep-learning/</link>
+      <link>http://localhost:1313/posts/resources-to-study-deep-learning/</link>
       <description>&lt;p&gt;Here are some free resources which will help you to study deep learning.&lt;br&gt;
 This is a tentative plan.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Pre requisite&lt;/strong&gt; : Basic Linear Algebra, Basic Python&lt;/p&gt;
@@ -478,13 +478,13 @@ You can find playlist here : &lt;a href=&#34;https://youtube.com/playlist?list=P
 &lt;/ul&gt;
 </description>
       <author></author>
-      <guid>https://amit-node.github.io/posts/resources-to-study-deep-learning/</guid>
+      <guid>http://localhost:1313/posts/resources-to-study-deep-learning/</guid>
       <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>Bash Commands</title>
-      <link>https://amit-node.github.io/posts/bash-commands/</link>
+      <link>http://localhost:1313/posts/bash-commands/</link>
       <description>&lt;ol&gt;
 &lt;li&gt;&lt;code&gt;echo&lt;/code&gt; is like print command in python&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;cd&lt;/code&gt; change directory.
@@ -617,13 +617,13 @@ You can find playlist here : &lt;a href=&#34;https://youtube.com/playlist?list=P
 &lt;/blockquote&gt;
 </description>
       <author></author>
-      <guid>https://amit-node.github.io/posts/bash-commands/</guid>
+      <guid>http://localhost:1313/posts/bash-commands/</guid>
       <pubDate>Wed, 02 Apr 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>Some Really Good Pieces</title>
-      <link>https://amit-node.github.io/posts/some-really-good-pieces/</link>
+      <link>http://localhost:1313/posts/some-really-good-pieces/</link>
       <description>&lt;p&gt;Some great pieces from internet, which gives me inspiration.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&#34;#Colin&#34;&gt;Colin Powell&amp;rsquo;s 13 Rules of Leadership&lt;/a&gt;&lt;/li&gt;
@@ -842,13 +842,13 @@ I am the captain of my soul.&lt;/p&gt;
 The poet himself had the unconquerable spirit which he wrote about. When he was 12, Henley developed tuberculous in the bone. He had to have his leg amputated to the knee and doctors told him he would have to have the other one amputated if he were to survive. Henley told the docs that they were full of hogwash and let them amputate just one leg. He ended up keeping the other. He led an active life with one leg and had a  successful career as a poet and literary critic. Henley was truly the captain of his soul.&lt;/p&gt;
 </description>
       <author></author>
-      <guid>https://amit-node.github.io/posts/some-really-good-pieces/</guid>
+      <guid>http://localhost:1313/posts/some-really-good-pieces/</guid>
       <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>PC commands and short cuts (WIP)</title>
-      <link>https://amit-node.github.io/posts/pc-commands-and-short-cuts/</link>
+      <link>http://localhost:1313/posts/pc-commands-and-short-cuts/</link>
       <description>&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Google colab&lt;/strong&gt; short-cuts&lt;/p&gt;
@@ -898,13 +898,13 @@ exit
 &lt;/ol&gt;
 </description>
       <author></author>
-      <guid>https://amit-node.github.io/posts/pc-commands-and-short-cuts/</guid>
+      <guid>http://localhost:1313/posts/pc-commands-and-short-cuts/</guid>
       <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>Why I Ride a Bicycle ?? (part-1 : Freedom)</title>
-      <link>https://amit-node.github.io/posts/why-i-ride-a-bicycle/</link>
+      <link>http://localhost:1313/posts/why-i-ride-a-bicycle/</link>
       <description>&lt;h3 id=&#34;part-1--freedom&#34;&gt;Part 1 : Freedom&lt;/h3&gt;
 &lt;p&gt;Why I Ride a Bicycle ??&lt;/p&gt;
 &lt;p&gt;I encounter this question a lot. And most of the time, I’m not able to give a convincing answer. It’s not that I don’t have an answer; it’s more like I cannot summarize it in a single line.&lt;/p&gt;
@@ -919,15 +919,16 @@ exit
 &lt;p&gt;Sometimes, you hear a strange bird call and stop to find its source. Sometimes, you’re just tired, stop for a break, stretch your neck upwards and notice stars above you. And you ask yourself: when was the last time you looked at the night sky? Maybe it was during your last ride.&lt;/p&gt;
 &lt;p&gt;When you’re away from the city, you feel like part of nature. When you’re in the city, you become part of its culture. You are a silent observer, absorbing everything around you, riding forward, toward your destination.&lt;/p&gt;
 &lt;h6 id=&#34;cont&#34;&gt;Cont&amp;hellip;&lt;/h6&gt;
+&lt;p&gt;part 2 : Strength (work in progress)&lt;/p&gt;
 </description>
       <author></author>
-      <guid>https://amit-node.github.io/posts/why-i-ride-a-bicycle/</guid>
+      <guid>http://localhost:1313/posts/why-i-ride-a-bicycle/</guid>
       <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>MAD-1 Project Resources</title>
-      <link>https://amit-node.github.io/posts/mad-1-project-resources/</link>
+      <link>http://localhost:1313/posts/mad-1-project-resources/</link>
       <description>&lt;p&gt;Making MAD-1 project is not so easy when you are totally new to HTML, CSS and Flask. Here are some resources which will help to build your project. These resources are not some &amp;ldquo;ready made tutorials&amp;rdquo;. They are really good for learning perspective too.  Don&amp;rsquo;t just watch them, code with them.&lt;/p&gt;
 &lt;p&gt;Kindly follow all resources in sequence.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Note :&lt;/strong&gt; Some of these resources are in Hindi. But on YouTube you can find respective resources in English too.&lt;/p&gt;
@@ -969,16 +970,16 @@ Other videos you can watch if you want but not necessary.&lt;/li&gt;
 &lt;/ol&gt;
 </description>
       <author></author>
-      <guid>https://amit-node.github.io/posts/mad-1-project-resources/</guid>
+      <guid>http://localhost:1313/posts/mad-1-project-resources/</guid>
       <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>Family tree of Changej, Taimur and Babur</title>
-      <link>https://amit-node.github.io/posts/family-tree-of-changej-taimur-and-babur/</link>
+      <link>http://localhost:1313/posts/family-tree-of-changej-taimur-and-babur/</link>
       <description>&lt;p&gt;I made this family tree based of articles available on internet. I am not an historian, I can&amp;rsquo;t take guarantee of any accuracy.&lt;/p&gt;
 &lt;p&gt;&lt;img
-  src=&#34;https://amit-node.github.io/family_tree.svg&#34;
+  src=&#34;http://localhost:1313/family_tree.svg&#34;
   alt=&#34;svg&#34;
   loading=&#34;lazy&#34;
   decoding=&#34;async&#34;
@@ -988,13 +989,13 @@ Other videos you can watch if you want but not necessary.&lt;/li&gt;
 &lt;/p&gt;
 </description>
       <author></author>
-      <guid>https://amit-node.github.io/posts/family-tree-of-changej-taimur-and-babur/</guid>
+      <guid>http://localhost:1313/posts/family-tree-of-changej-taimur-and-babur/</guid>
       <pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     
     <item>
       <title>Site on Pelican and Netily</title>
-      <link>https://amit-node.github.io/posts/site-on-pelican-and-netily/</link>
+      <link>http://localhost:1313/posts/site-on-pelican-and-netily/</link>
       <description>&lt;p&gt;helpful blog : &lt;a href=&#34;https://iwanttoreadmore.com/blog/create-minimal-static-website-pelican/&#34;&gt;https://iwanttoreadmore.com/blog/create-minimal-static-website-pelican/&lt;/a&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -1089,7 +1090,7 @@ Other videos you can watch if you want but not necessary.&lt;/li&gt;
 &lt;/ol&gt;
 </description>
       <author></author>
-      <guid>https://amit-node.github.io/posts/site-on-pelican-and-netily/</guid>
+      <guid>http://localhost:1313/posts/site-on-pelican-and-netily/</guid>
       <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
     </item>
     

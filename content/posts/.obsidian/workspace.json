@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "194356f84cab898f",
+        "id": "f3133a30712373f2",
         "type": "tabs",
         "children": [
           {
-            "id": "24a61ed43a84fa2b",
+            "id": "46978c3d8f16ce11",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "My Cycling Records (wip).md",
+                "file": "Why I Ride a Bicycle.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "My Cycling Records (wip).md",
+                "file": "Why I Ride a Bicycle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "My Cycling Records (wip).md",
+                "file": "Why I Ride a Bicycle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "My Cycling Records (wip).md"
+                "file": "Why I Ride a Bicycle.md"
               }
             }
           }
@@ -147,8 +147,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "24a61ed43a84fa2b",
+  "active": "46978c3d8f16ce11",
   "lastOpenFiles": [
+    "My Cycling Records (wip).md",
     "Intro to DL and Gen AI.md",
     "Marcus Aurelius Meditations by Prof. Michael Sugrue.md",
     "Resources to study Deep Learning.md",
@@ -162,7 +163,6 @@
     "Site on Pelican and Netily.md",
     "Family tree of Changej, Taimur and Babur.md",
     "Python Turtle.md",
-    "My Cycling Records (wip).md",
     "demo.md",
     "Java self study - Theory.md",
     "Java self study - Coding.md",
