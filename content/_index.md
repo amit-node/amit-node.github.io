@@ -13,3 +13,5 @@ Contact : [guptamit43@gmail.com](mailto:guptamit43@gmail.com)
 
 Other sites:  
 [Python codes](https://github.com/amithtic/python_codes)
+
+[the-final-manga-classroom | my wikia about Saigo no Manga Kyōshitsu by Naoki Urasawa](https://amit-node.github.io/the-final-manga-classroom/)
