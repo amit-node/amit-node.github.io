@@ -6,8 +6,15 @@
     <description>Recent content in Posts on amit-node</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>demo file</title>
+      <link>http://localhost:1313/posts/folder_1/demo_folder_1/</link>
+      <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/folder_1/demo_folder_1/</guid>
+      <description>&lt;p&gt;Demo file to check if folder works properly or not ?&lt;/p&gt;</description>
+    </item>
     <item>
       <title>My Cycling Records (wip)</title>
       <link>http://localhost:1313/posts/my-cycling-records-wip/</link>

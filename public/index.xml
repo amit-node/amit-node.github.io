@@ -7,11 +7,21 @@
     
     <language>en</language>
     <copyright>Copyright 2026, Calvin Tran</copyright>
-    <lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Mar 2026 00:00:00 +0000</lastBuildDate>
     <generator>Hugo - gohugo.io</generator>
     <docs>http://cyber.harvard.edu/rss/rss.html</docs>
     <atom:link href="http://localhost:1313//atom.xml" rel="self" type="application/atom+xml"/>
     
+    
+    <item>
+      <title>demo file</title>
+      <link>http://localhost:1313/posts/folder_1/demo_folder_1/</link>
+      <description>&lt;p&gt;Demo file to check if folder works properly or not ?&lt;/p&gt;
+</description>
+      <author></author>
+      <guid>http://localhost:1313/posts/folder_1/demo_folder_1/</guid>
+      <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
     
     <item>
       <title>My Cycling Records (wip)</title>

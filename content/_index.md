@@ -12,5 +12,4 @@ I like cycling, reading and sketching.
 Contact : [guptamit43@gmail.com](mailto:guptamit43@gmail.com)
 
 Other sites:  
-[Python utility codes](https://amithtic.github.io/python_utility_codes)  
-[Absolute Batman Notes](https://amit-node.github.io/absolute_batman)
+[Python utility codes](https://github.com/amithtic/python_utility_codes)
