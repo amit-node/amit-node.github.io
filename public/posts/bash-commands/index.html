@@ -1,13 +1,13 @@
 <!doctype html>
 <html lang="en">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Liste - http://localhost:1313/">
+    <meta name="author" content="Liste - https://amit-node.github.io/">
     <title>Bash Commands | amit-node</title>
     <meta name="description" content="">
-    <meta property="og:url" content="http://localhost:1313/posts/bash-commands/">
+    <meta property="og:url" content="https://amit-node.github.io/posts/bash-commands/">
   <meta property="og:site_name" content="amit-node">
   <meta property="og:title" content="Bash Commands">
   <meta property="og:description" content="echo is like print command in python cd change directory. cd .. parent directory cd ~ Home directory cd - previous directory Renaming a file mv a b check the number of files &#43; folders inside a folder ls /path/to/your/folder | wc -l wc -l command in Bash is used to count the number of lines in a file or output wc -l filename.txt for only files, excluding subfolders find path/to/folder -type f | wc -l for everything find path/to/folder | wc -l Count Files in the Current Directory (Non-Recursively) : ls -1 | wc -l delete all the files which contains specific “string” in their name.rm *string* to remove directories you need to use rm -r *string* , in fact this command will remove all folder and files with this string. use above command with caution. better first check it by using ls *string* Checking Disk Usage df -h df : Disk Filesystem -h : human readable form, MB, GB Space occupied du -h find size of all folders in the current folder ? du -sh */ some specific folder du -sh /path/to/folder find size one specific file du -h filename.txt Create a virtual environment: python -m venv venv or python3 Activating on windows venv\Scripts\activate Activating on Linux source venv/bin/activate deactivating deactivate Copy a folder with all content inside it. cp -r path/to/source_folder path/to/destination_folder How to copy 3 folders from one directory to another directory. these folders have many subfolders and files. cp -r /source_directory/folder1 /source_directory/folder2 /source_directory/folder3 /destination_directory/ Stopping an ongoing process in terminal ctrl &#43; c If Ctrl &#43; C doesn’t work (some processes ignore this signal), Use ps aux | grep process_name to find the PID of the process you want to stop. Replace process_name with the name of your command or script. Once you have the PID, you can use the kill PID command. If it still doesn’t terminate, try forcing it with: kill -9 PID This -9 option sends a SIGKILL signal, forcing the process to stop immediately. Removing a non-empty directory forcefully rm -rf /path/to/directory Clearing cache in python pip cache purge to check past commands history to check past n commands history n zip a folder as .zip zip -r output.zip folder_name Zip a tar file tar -czvf archive_name.tar.gz directory_name -c Creates a new archive. -z Compresses the archive using gzip. -v Shows the progress of the archiving (optional). -f Specifies the filename of the archive. Exclude certain files tar --exclude=&#34;*.log&#34; -czvf my_directory.tar.gz my_directory unzip a .tar.gz filetar -xzvf file.tar.gz If you want to extract the contents to a specific directory, use the -C option tar -xzvf file.tar.gz -C /path/to/directory To read a text file in Bash Displays the entire content of the file.cat filename.txt Allows you to scroll through the file one screen at a time.less filename.txt, more filename.txt Displays the first few lines (default is 10 lines).head filename.txt. To specify a different number of lines, use head -n 5 filename.txt Displays the last few lines tail -n 5 filename.txt Reading binary file in bash, first few lines hexdump -C your_file.ext | head Check all running processes in the server ps aux checking the task manager in bash top press q to exit jobs for background tasks Large transfer and Synchronization rsync -avz username@server:/path/to/remote/folder /path/to/local/folder rsync is efficient for transferring large or complex directory structures as it only transfers changes. a: Archive mode (preserves permissions and timestamps). v: Verbose (shows detailed output). z: Compresses the data during transfer. I have a txt file. that txt file have many lines. I want to print each 6th line. like 1, 7, 13. how to do it in bash. single command awk &#39;NR % 6 == 1&#39; yourfile.txt Git commands clone `` Finding a specific folder inside a folder recursively. find &lt;search_directory&gt; -type d -name &lt;target_folder_name&gt; Limit Search Depth: To search only up to a certain depth: find /path/to/search -type d -name &#34;target_folder&#34; -maxdepth 3 List all installed package by pip pip list 2024 done from chatgpt">
@@ -46,12 +46,12 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 	<link rel="manifest" href="/site.webmanifest">
 	
-    <link rel="canonical" href="http://localhost:1313/posts/bash-commands/">
-    <link rel="icon" href="http://localhost:1313//assets/favicon.ico">
+    <link rel="canonical" href="https://amit-node.github.io/posts/bash-commands/">
+    <link rel="icon" href="https://amit-node.github.io//assets/favicon.ico">
     <link rel="dns-prefetch" href="https://www.google-analytics.com">
     <link href="https://www.google-analytics.com" rel="preconnect" crossorigin>
-    <link rel="alternate" type="application/atom+xml" title="amit-node" href="http://localhost:1313//atom.xml" />
-    <link rel="alternate" type="application/json" title="amit-node" href="http://localhost:1313//feed.json" />
+    <link rel="alternate" type="application/atom+xml" title="amit-node" href="https://amit-node.github.io//atom.xml" />
+    <link rel="alternate" type="application/json" title="amit-node" href="https://amit-node.github.io//feed.json" />
     <link rel="shortcut icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bricolage+Grotesque">
     
@@ -74,7 +74,7 @@
       "isFamilyFriendly": "true",
       "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "http:\/\/localhost:1313\/posts\/bash-commands\/"
+          "@id": "https:\/\/amit-node.github.io\/posts\/bash-commands\/"
       },
       "author" : {
           "@type": "Person",
@@ -96,16 +96,16 @@
       "publisher":{
           "@type":"Organization",
           "name": "amit-node",
-          "url": "http://localhost:1313/",
+          "url": "https://amit-node.github.io/",
           "logo": {
               "@type": "ImageObject",
-              "url": "http:\/\/localhost:1313\/",
+              "url": "https:\/\/amit-node.github.io\/",
               "width":"32",
               "height":"32"
           }
       },
-      "image": "http://localhost:1313/",
-      "url" : "http:\/\/localhost:1313\/posts\/bash-commands\/",
+      "image": "https://amit-node.github.io/",
+      "url" : "https:\/\/amit-node.github.io\/posts\/bash-commands\/",
       "wordCount" : "662",
       "genre" : [ "tech" ],
       "keywords" : [ "tech" ]
@@ -155,7 +155,7 @@
   <div class="content">
     <header>
 <p style="padding: 0;margin: 0;">
-  <a href="http://localhost:1313/">
+  <a href="https://amit-node.github.io/">
     <b>amit-node</b>
     <span class="text-stone-500 animate-blink">▮</span>
   </a>
@@ -320,7 +320,7 @@
       <div class="post-date">
         <span class="g time">April 2, 2025 </span> &#8729;
          
-         <a href="http://localhost:1313/tags/tech/">tech</a>
+         <a href="https://amit-node.github.io/tags/tech/">tech</a>
       </div>
       
     </section>

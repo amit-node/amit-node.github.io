@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cycling on amit-node</title>
-    <link>http://localhost:1313/tags/cycling/</link>
+    <link>https://amit-node.github.io/tags/cycling/</link>
     <description>Recent content in Cycling on amit-node</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/cycling/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://amit-node.github.io/tags/cycling/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Cycling Records (wip)</title>
-      <link>http://localhost:1313/posts/my-cycling-records-wip/</link>
+      <link>https://amit-node.github.io/posts/my-cycling-records-wip/</link>
       <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/my-cycling-records-wip/</guid>
-      <description>&lt;p&gt;&lt;img&#xD;&#xA;  src=&#34;http://localhost:1313/mahabalipuram_cycling.jpg&#34;&#xD;&#xA;  alt=&#34;mahabalipuram on cycle&#34;&#xD;&#xA;  loading=&#34;lazy&#34;&#xD;&#xA;  decoding=&#34;async&#34;&#xD;&#xA;  class=&#34;full-width&#34;&#xD;&#xA;/&gt;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;5 Jan 2025 :&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Taramani, Chennai to Mahabalipuram and return&lt;/li&gt;&#xA;&lt;li&gt;100 km in 6 hr 24 min. ( moving time 5 hr 26 min.)&lt;/li&gt;&#xA;&lt;li&gt;Avg speed 15.6 kmph, moving avg 18.4 kmph.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;22 Mar 2025 :&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Taramani to Kovalam and return&lt;/li&gt;&#xA;&lt;li&gt;53.3 km in 2 hr 45 min. (moving time 2 hr 33 min)&lt;/li&gt;&#xA;&lt;li&gt;Avg speed 19.4 kmph, moving avg 20.8 kmph.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;1 Jan 2026 :&lt;/strong&gt;&lt;/p&gt;</description>
+      <guid>https://amit-node.github.io/posts/my-cycling-records-wip/</guid>
+      <description>&lt;p&gt;&lt;img&#xD;&#xA;  src=&#34;https://amit-node.github.io/mahabalipuram_cycling.jpg&#34;&#xD;&#xA;  alt=&#34;mahabalipuram on cycle&#34;&#xD;&#xA;  loading=&#34;lazy&#34;&#xD;&#xA;  decoding=&#34;async&#34;&#xD;&#xA;  class=&#34;full-width&#34;&#xD;&#xA;/&gt;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;5 Jan 2025 :&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Taramani, Chennai to Mahabalipuram and return&lt;/li&gt;&#xA;&lt;li&gt;100 km in 6 hr 24 min. ( moving time 5 hr 26 min.)&lt;/li&gt;&#xA;&lt;li&gt;Avg speed 15.6 kmph, moving avg 18.4 kmph.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;22 Mar 2025 :&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Taramani to Kovalam and return&lt;/li&gt;&#xA;&lt;li&gt;53.3 km in 2 hr 45 min. (moving time 2 hr 33 min)&lt;/li&gt;&#xA;&lt;li&gt;Avg speed 19.4 kmph, moving avg 20.8 kmph.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;1 Jan 2026 :&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Why I Ride a Bicycle ?? (part-1 : Freedom)</title>
-      <link>http://localhost:1313/posts/why-i-ride-a-bicycle/</link>
+      <link>https://amit-node.github.io/posts/why-i-ride-a-bicycle/</link>
       <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/why-i-ride-a-bicycle/</guid>
+      <guid>https://amit-node.github.io/posts/why-i-ride-a-bicycle/</guid>
       <description>&lt;h3 id=&#34;part-1--freedom&#34;&gt;Part 1 : Freedom&lt;/h3&gt;&#xA;&lt;p&gt;Why I Ride a Bicycle ??&lt;/p&gt;&#xA;&lt;p&gt;I encounter this question a lot. And most of the time, I’m not able to give a convincing answer. It’s not that I don’t have an answer; it’s more like I cannot summarize it in a single line.&lt;/p&gt;&#xA;&lt;p&gt;So why do I ride a bicycle? Indeed, why? Do I even need a reason? There are tons of texts available on the benefits of cycling. Are those benefits my reason? I don’t think so. Those &amp;ldquo;beneficial reasons&amp;rdquo; don’t really come to my mind when I ride my bicycle.&lt;/p&gt;</description>
     </item>
   </channel>
